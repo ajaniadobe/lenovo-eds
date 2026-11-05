@@ -1,0 +1,112 @@
+#0 container services_support_container [80,2947,1280,728]
+  T p.pre-headline [96,3011,1248,22] 20/22/700/rgb(0,255,255) «OUR PROMISE TO YOU»
+  T p.headline [96,3037,1248,42] 36/42/700/rgb(255,255,255) «Lenovo Services»
+  IMG  [263,3160,60,60] //p2-ofp.static.pub//fes/cms/2023/12/29/bwmakcxxsps5ckdpr4mbpspl7htmb3683602.png alt=""
+  T div.name [117,3240,353,48] 24/24/700/rgb(255,255,255) «Smarter support & security for your PC»
+  T span. [117,3300,352,216] 18/24/400/rgba(255,255,255,0.8) «With Lenovo Premium Care Plus, worrying is a thing of the past! You’ll enjoy 24/7 priority support with accide»
+  T a.primary [234,3540,119,23] 16/0/700/rgb(0,255,255) «Learn more > >» href=/us/en/legion-support/
+  IMG  [690,3160,60,60] //p1-ofp.static.pub//fes/cms/2023/12/29/wo2niw4n986g2ul9845siyjmnjw957274840.png alt=""
+  T div.name [544,3240,353,24] 24/24/700/rgb(255,255,255) «Because life happens»
+  T span. [545,3276,350,48] 18/24/400/rgba(255,255,255,0.8) «Laptops drop, coffee spills, power surges. With»
+  T strong. [550,3300,329,48] 18/24/700/rgba(255,255,255,0.8) «Accidental Damage Protection (ADP)»
+  T span. [545,3324,351,144] 18/24/400/rgba(255,255,255,0.8) «you won’t need to bat an eye. This fixed-cost, fixed-term, optional protection plan minimizes the cost of unex»
+  T a.primary [661,3540,119,23] 16/0/700/rgb(0,255,255) «Learn more > >» href=https://www.lenovo.com/content/dam/lenovo/pcsd/global/en/services/service-offerings/lifecycle-servic
+  IMG  [1117,3160,60,60] //p2-ofp.static.pub//fes/cms/2023/12/29/lfaw4z0vm3vr9z1i5g3gyvj0r5fmju724836.svg alt=""
+  T div.name [970,3240,353,24] 24/24/700/rgb(255,255,255) «Smart Performance»
+  T span. [973,3276,348,168] 18/24/400/rgba(255,255,255,0.8) «Nobody can tune your PC better than the people who made it! Lenovo Smart Performance within Vantage will diagn»
+  T a.primary [1087,3540,119,23] 16/0/700/rgb(0,255,255) «Learn more > >» href=/us/en/software/lenovo-smart-performance-services/
+#0 nav_container [0,2890,1440,57]
+  T a. [325,2891,65,56] 16/19/400/rgb(255,255,255) «Features» href=#features
+  T a. [463,2891,82,56] 16/19/400/rgb(255,255,255) «Tech Specs» href=#tech_specs
+  T a. [618,2891,95,56] 16/19/400/rgb(255,255,255) «Ports & Slots» href=#ports_slots
+  T a. [786,2891,195,56] 16/19/400/rgb(255,255,255) «Compare Similar Products» href=#similar_products
+  T a. [1055,2891,60,56] 16/19/400/rgb(0,255,255) «Reviews» href=#reviews
+#0 container tech_specs_container expanded [80,17596,1280,3758]
+  T div.headline [96,17686,170,42] 32/42/700/rgb(255,255,255) «Tech Specs»
+  T div.group-headline [96,17768,1248,44] 24/24/700/rgb(255,255,255) «Performance»
+  T div.spec-title [96,17830,87,329] 18/24/700/rgb(255,255,255) «Processor»
+  T p. [546,17830,778,54] 18/24/400/rgb(255,255,255) «14th Generation Intel® Core™ i7-14650HX Processor (E-Core Max 3.70 GHz, P-Core Max 5.20 GHz with Turbo Boost, »
+  T p. [546,17892,778,54] 18/24/400/rgb(255,255,255) «14th Generation Intel® Core™ i9-14900HX Processor (E-Core Max 4.10 GHz, P-Core Max 5.80 GHz with Turbo Boost, »
+  T p. [546,17954,778,54] 18/24/400/rgb(255,255,255) «Intel® Core™ Ultra 7 251HX Processor (E-cores up to 4.50 GHz P-cores up to 5.10 GHz with Turbo Boost, 18 Cores»
+  T p. [546,18016,778,54] 18/24/400/rgb(255,255,255) «Intel® Core™ Ultra 7 255HX Processor (E-cores up to 4.50 GHz P-cores up to 5.20 GHz with Turbo Boost, 20 Cores»
+  T p. [546,18078,778,54] 18/24/400/rgb(255,255,255) «Intel® Core™ Ultra 9 275HX Processor (E-cores up to 4.60 GHz P-cores up to 5.40 GHz with Turbo Boost, 24 Cores»
+  T div.spec-title [96,18177,161,83] 18/24/700/rgb(255,255,255) «Operating System»
+  T p. [546,18177,778,24] 18/24/400/rgb(255,255,255) «Windows 11 Home»
+  T p. [546,18209,778,24] 18/24/400/rgb(255,255,255) «Windows 11 Pro»
+  T div.spec-title [96,18278,79,237] 18/24/700/rgb(255,255,255) «Graphics»
+  T p. [546,18278,778,54] 18/24/400/rgb(255,255,255) «NVIDIA® GeForce RTX™ 5060 Laptop GPU (8GB GDDR7, 115W incl. 15W boost, Up to 572 AI TOPS, 3328 CUDA Cores)»
+  T p. [546,18340,778,54] 18/24/400/rgb(255,255,255) «NVIDIA® GeForce RTX™ 5070 Laptop GPU (8GB GDDR7, 115W incl. 15W boost, Up to 798 AI TOPS, 4608 CUDA Cores)»
+  T p. [546,18402,778,54] 18/24/400/rgb(255,255,255) «NVIDIA® GeForce RTX™ 5070 Ti Laptop GPU (12GB GDDR7, 192-bit, 140W incl. 25W boost, Up to 992 AI TOPS, 5888 CU»
+  T p. [546,18464,778,24] 18/24/400/rgb(255,255,255) «MUX Supported»
+  T div.spec-title [96,18533,19,83] 18/24/700/rgb(255,255,255) «AI»
+  T p. [546,18533,778,24] 18/24/400/rgb(255,255,255) «Lenovo AI Engine+ Support»
+  T p. [546,18565,778,24] 18/24/400/rgb(255,255,255) «LA1 + LA3»
+  T div.spec-title [96,18634,75,83] 18/24/700/rgb(255,255,255) «Memory»
+  T p. [546,18634,778,24] 18/24/400/rgb(255,255,255) «Up to 32GB (2 X 16GB) 5600Mhz DDR5»
+  T p. [546,18666,778,24] 18/24/400/rgb(255,255,255) «Up to 32GB (2 X 16GB) 6400Mhz DDR5»
+  T div.spec-title [96,18735,70,43] 18/24/700/rgb(255,255,255) «Storage»
+  T p. [528,18735,796,24] 18/24/400/rgb(255,255,255) «Up to 2TB (2 X 1TB) M.2 2242 PCIe SSD (Gen 4)»
+  T div.spec-title [96,18796,68,83] 18/24/700/rgb(255,255,255) «Battery»
+  T p. [546,18796,778,24] 18/24/400/rgb(255,255,255) «80Whr»
+  T p. [546,18828,778,24] 18/24/400/rgb(255,255,255) «Super Rapid Charge (30min Charge 0-80%, 60min Charge 0-100% capacity)»
+  T div.spec-title [96,18897,52,43] 18/24/700/rgb(255,255,255) «Audio»
+  T p. [528,18897,796,24] 18/24/400/rgb(255,255,255) «Harman Dual Speaker System with Nahimic Audio»
+  T div.spec-title [96,18958,69,83] 18/24/700/rgb(255,255,255) «Camera»
+  T p. [546,18958,778,24] 18/24/400/rgb(255,255,255) «Built-in Webcam 5MP»
+  T p. [546,18990,778,24] 18/24/400/rgb(255,255,255) «E-Shutter»
+  T div.group-headline [96,19074,1248,44] 24/24/700/rgb(255,255,255) «Connectivity»
+  T div.spec-title [96,19136,98,427] 18/24/700/rgb(255,255,255) «Ports/Slots»
+  T strong. [528,19136,82,24] 18/24/700/rgb(255,255,255) «Left side:»
+  T p. [546,19184,778,24] 18/24/400/rgb(255,255,255) «DC-IN»
+  T p. [546,19216,778,24] 18/24/400/rgb(255,255,255) «HDMI 2.1»
+  T p. [546,19248,778,24] 18/24/400/rgb(255,255,255) «USB-C (PD 140W, DP 2.1)»
+  T p. [546,19280,778,24] 18/24/400/rgb(255,255,255) «Thunderbolt™ 4 (40Gb/s, DP 2.1 40Gbps)»
+  T p. [546,19312,778,24] 18/24/400/rgb(255,255,255) «USB-A (10Gb/s, 5V2A)»
+  T strong. [528,19368,96,24] 18/24/700/rgb(255,255,255) «Right Side:»
+  T p. [546,19416,778,24] 18/24/400/rgb(255,255,255) «2x USB-A (5Gb/s transfer rate)»
+  T p. [546,19448,778,24] 18/24/400/rgb(255,255,255) «Headphone/mic combo»
+  T p. [546,19480,778,24] 18/24/400/rgb(255,255,255) «RJ45»
+  T p. [546,19512,778,24] 18/24/400/rgb(255,255,255) «eShutter Button»
+  T div.spec-title [96,19581,75,89] 18/24/700/rgb(255,255,255) «Wireless»
+  T p. [546,19581,778,24] 18/24/400/rgb(255,255,255) «Wi-Fi 7 802.11BE (2 x 2)»
+  T p. [546,19613,778,30] 18/24/400/rgb(255,255,255) «Bluetooth® 5.4»
+  T div.group-headline [96,19703,1248,44] 24/24/700/rgb(255,255,255) «Design»
+  T div.spec-title [96,19765,66,187] 18/24/700/rgb(255,255,255) «Display»
+  T p. [546,19765,778,48] 18/24/400/rgb(255,255,255) «16" WQXGA (2560 x 1600), OLED, Glare, Non-Touch, HDR 1000 True Black, 100%DCI-P3, 500 nits, 165Hz, Low Blue Li»
+  T p. [546,19821,778,48] 18/24/400/rgb(255,255,255) «16" WQXGA (2560 x 1600), OLED, Glare, Non-Touch, HDR 1000 True Black, 100%DCI-P3, 500 nits, 240Hz, Low Blue Li»
+  T p. [546,19877,778,48] 18/24/400/rgb(255,255,255) «16" WQXGA (2560 x 1600), IPS, Anti-Glare, Non-Touch, HDR 400, 100%DCI-P3, 500 nits, 240Hz, Low Blue Light»
+  T div.spec-title [96,19970,206,43] 18/24/700/rgb(255,255,255) «Dimensions (H x W x D)»
+  T p. [528,19970,796,24] 18/24/400/rgb(255,255,255) «21.6mm-25.9mm x 364.3mm x 268mm / 0.85" - 1.01" x 14.34" x 10.55"»
+  T div.spec-title [96,20031,64,43] 18/24/700/rgb(255,255,255) «Weight»
+  T p. [528,20031,796,24] 18/24/400/rgb(255,255,255) «Starting at < 2.52kg/5.56lbs»
+  T div.spec-title [96,20092,85,211] 18/24/700/rgb(255,255,255) «Keyboard»
+  T p. [546,20092,778,24] 18/24/400/rgb(255,255,255) «1.6mm»
+  T p. [546,20124,778,24] 18/24/400/rgb(255,255,255) «.3mm Ditch»
+  T p. [546,20156,778,24] 18/24/400/rgb(255,255,255) «24-Zone RGB»
+  T p. [546,20188,778,24] 18/24/400/rgb(255,255,255) «100% Anti-Ghosting»
+  T p. [546,20220,778,24] 18/24/400/rgb(255,255,255) «Optional: Swappable Key Cap Set (4 Key Caps)»
+  T p. [546,20252,778,24] 18/24/400/rgb(255,255,255) «Legion Spectrum RGB Software Support»
+  T div.spec-title [96,20321,47,43] 18/24/700/rgb(255,255,255) «Color»
+  T p. [528,20321,796,24] 18/24/400/rgb(255,255,255) «Eclipse Black»
+  T div.group-headline [96,20397,1248,44] 24/24/700/rgb(255,255,255) «Sustainability»
+  T div.spec-title [96,20459,76,43] 18/24/700/rgb(255,255,255) «Material»
+  T p. [528,20459,796,24] 18/24/400/rgb(255,255,255) «Aluminum»
+  T div.group-headline [96,20535,1248,44] 24/24/700/rgb(255,255,255) «Other Information»
+  T div.spec-title [96,20597,176,133] 18/24/700/rgb(255,255,255) «Preloaded Software»
+  T p. [546,20597,778,24] 18/24/400/rgb(255,255,255) «Legion Space»
+  T p. [546,20629,778,24] 18/24/400/rgb(255,255,255) «Xbox Game Pass*»
+  T span. [528,20689,662,19] 14/24/400/rgb(255,255,255) «*Game catalogue varies. Terms and conditions apply. See xbox.com/subscriptionterms for full details»
+  T div.spec-title [96,20748,156,147] 18/24/700/rgb(255,255,255) «What’s in the Box»
+  T p. [546,20748,778,24] 18/24/400/rgb(255,255,255) «Legion Pro 5i Gen 10 (16” Intel)»
+  T p. [546,20780,778,24] 18/24/400/rgb(255,255,255) «80Whr Internal Battery»
+  T p. [546,20812,778,24] 18/24/400/rgb(255,255,255) «245W or 300W AC Adapter»
+  T p. [546,20844,778,24] 18/24/400/rgb(255,255,255) «Quick Start Guide»
+  T div.spec-title [96,20913,161,283] 18/24/700/rgb(255,255,255) «More Information»
+  T a. [528,20913,464,24] 18/24/400/rgb(0,255,255) «Explore Product Documentation, User Guides & More *» href=https://psref.lenovo.com/product/Legion/Legion_Pro_5_16IAX10
+  T span. [528,20993,531,24] 18/24/400/rgb(0,255,255) «Full spec list for part numbers starting with 83F3 available here»
+  IMG  [1064,20961,43,51] //p3-ofp.static.pub//fes/cms/2025/05/26/oexdegcbakbvwf7353jmhwxfjuih1g787774.png alt="oexdegcbakbvwf7353jmhwxfjuih1g787774.png"
+  T span. [528,21073,534,24] 18/24/400/rgb(0,255,255) «Full spec list for part numbers starting with 83LU available here»
+  IMG  [1066,21041,43,51] //p4-ofp.static.pub//fes/cms/2025/05/26/mrz1nmsl8jckzb8ssq9ci1yiiafbu7354269.png alt="mrz1nmsl8jckzb8ssq9ci1yiiafbu7354269.png"
+  T span. [528,21153,539,24] 18/24/400/rgb(0,255,255) «Full spec list for part numbers starting with 83NN available here»
+  IMG  [1071,21121,43,51] //p4-ofp.static.pub//fes/cms/2025/07/03/jgwmi0nzeivkr61hgethzqy9pkbbvh968651.png alt="jgwmi0nzeivkr61hgethzqy9pkbbvh968651.png"
+  T div.disclaimer [96,21229,1248,77] 12/24/400/rgb(255,255,255) «*Specs may vary depending on region/model. Not all models, specs, accessories and services are available on le»

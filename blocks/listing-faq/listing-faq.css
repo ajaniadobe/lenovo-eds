@@ -1,0 +1,70 @@
+/* listing-faq — live x-cms-ai-ofp-fe-2c-accordion on the black deals DLP (gaming accessories) */
+.listing-faq {
+  padding: 48px 0;
+  background: #000;
+  color: #171717;
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+
+.listing-faq .listing-faq-list {
+  max-width: 1184px;
+  margin: 0 auto 20px;
+}
+
+.listing-faq .listing-faq-item {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.listing-faq .listing-faq-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.listing-faq .listing-faq-question {
+  width: 90%;
+}
+
+.listing-faq .listing-faq-question :is(p, h2, h3, h4) {
+  color: inherit;
+  font: 400 16px/24px var(--font-body);
+}
+
+.listing-faq .listing-faq-toggle {
+  flex: 0 0 16px;
+  height: 24px;
+  margin-inline-end: 12px;
+  border: 0;
+  background: none;
+  color: #171717;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.listing-faq .listing-faq-toggle::before {
+  content: "+";
+}
+
+.listing-faq .listing-faq-toggle[aria-expanded="true"]::before {
+  content: "\2212";
+}
+
+.listing-faq .listing-faq-answer {
+  padding: 0 40px 16px 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.listing-faq .listing-faq-answer a:any-link {
+  color: #294e95;
+  text-decoration: underline;
+}
+
+@media (width <= 1279px) {
+  .listing-faq {
+    padding: 24px;
+  }
+}

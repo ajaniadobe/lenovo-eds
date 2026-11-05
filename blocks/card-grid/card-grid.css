@@ -1,0 +1,420 @@
+/* card-grid — values from stardust/prototypes/index.css (card-grid, cards, rails) */
+
+/* home-body container: 1440 cap, 48px gutter, 96px divider rhythm between modules */
+.card-grid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1440px;
+  margin: 0 auto 96px;
+  padding: 24px 48px;
+}
+
+/* first module of the home body (+48 body padding), then the 1px rule (hr.divider--line) */
+.card-grid.categories {
+  margin-bottom: 97px;
+  padding-top: 72px;
+}
+
+.card-grid.categories::after {
+  position: absolute;
+  right: 48px;
+  bottom: -49px;
+  left: 48px;
+  height: 1px;
+  background: #aba8b1;
+  content: "";
+}
+
+/* section titles (cmp-title) */
+.card-grid .section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 1100px;
+}
+
+.card-grid .title-text :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--c-plum-ink);
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+}
+
+.card-grid .title-desc p {
+  color: var(--c-plum-ink);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  letter-spacing: -0.2px;
+}
+
+/* rails */
+.card-grid .card-rail {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  overflow: hidden;
+}
+
+.card-grid .cards {
+  display: flex;
+  margin-left: -16px;
+}
+
+.card-grid .cards > div {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 0 0 16px 16px;
+}
+
+.card-grid .cards-rail {
+  transition: transform 0.4s ease;
+}
+
+.card-grid .cards-rail > .img-card {
+  flex: 0 0 calc(100% / 3.3);
+}
+
+.card-grid .rail-controls {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.card-grid .card-rail-rows > .rail-controls {
+  display: none;
+}
+
+.card-grid .arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.card-grid .bar {
+  position: relative;
+  flex: 1 1 auto;
+  height: 2px;
+  background: var(--c-mauve);
+}
+
+.card-grid .bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--c-red);
+}
+
+.card-grid .rail-controls .len-icon-image {
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+}
+
+/* image slots: authored <p>/<picture> wrappers do not take part in layout */
+.card-grid :is(.card-bg, .cat-asset) :is(p, picture) {
+  display: contents;
+}
+
+/* category tiles */
+.card-grid .cat-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 159px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.card-grid .cat-card a {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 150px;
+  max-width: 150px;
+  color: var(--c-ink);
+  transition: color 0.2s;
+}
+
+.card-grid .cat-asset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.card-grid .cat-asset img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-grid .cat-title {
+  width: 150px;
+  max-width: 150px;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25.6px;
+  text-align: center;
+}
+
+/* image cards */
+.card-grid .img-card a {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 12px;
+  color: var(--c-ink);
+  transition: color 0.2s;
+}
+
+.card-grid .card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+}
+
+.card-grid .card-bg img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-grid .card-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  margin: 24px;
+  padding: 24px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.card-grid .title-row {
+  display: flex;
+}
+
+.card-grid .card-title {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.card-grid .card-title :is(h2, h3, h4, h5) {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.4px;
+  letter-spacing: -0.45px;
+}
+
+.card-grid .title-row .len-icon-image {
+  flex: 0 0 16px;
+  background-color: var(--c-ink);
+}
+
+.card-grid .card-text {
+  height: 0;
+  overflow: hidden;
+}
+
+.card-grid .card-text p {
+  padding-top: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.card-grid :is(.cat-card, .img-card) a:hover {
+  color: var(--c-purple);
+}
+
+.card-grid .cat-card a:hover img,
+.card-grid .img-card a:hover .card-bg img {
+  transform: scale(1.0668);
+}
+
+/* icon cards */
+.card-grid .icon-card {
+  display: flex;
+}
+
+.card-grid .icon-card-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  background: rgb(255 255 255 / 25%);
+}
+
+.card-grid .card-icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+  background-color: var(--c-red);
+}
+
+.card-grid .icon-card-title {
+  align-self: stretch;
+  margin-bottom: 16px;
+  padding-bottom: 19px;
+}
+
+.card-grid .icon-card-title :is(h2, h3, h4, h5) {
+  color: var(--c-plum-ink);
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.2px;
+  letter-spacing: -0.6px;
+}
+
+.card-grid .icon-card-text {
+  align-self: stretch;
+  margin-bottom: 1px;
+  padding-bottom: 24px;
+}
+
+.card-grid .icon-card-text p {
+  color: var(--c-plum-ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: -0.16px;
+}
+
+.card-grid .icon-card-link a:any-link {
+  display: inline-block;
+  color: var(--c-plum-ink);
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: underline;
+  text-decoration-color: var(--c-red);
+  text-underline-offset: 4px;
+}
+
+.card-grid .icon-card-link a:any-link:hover {
+  color: var(--c-red);
+}
+
+@media (width <= 749px) {
+  .card-grid {
+    gap: 32px;
+    padding: 24px 16px;
+  }
+
+  .card-grid.categories {
+    padding-top: 40px;
+  }
+
+  .card-grid.categories::after {
+    right: 16px;
+    left: 16px;
+  }
+
+  .card-grid .title-text :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 28px;
+    line-height: 36.4px;
+    letter-spacing: -0.7px;
+  }
+
+  .card-grid .title-desc p {
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: -0.16px;
+  }
+
+  /* rows become carousels on phones */
+  .card-grid .card-rail {
+    gap: 6px;
+  }
+
+  .card-grid .card-rail-rows > .rail-controls {
+    display: flex;
+  }
+
+  .card-grid .cards {
+    flex-wrap: nowrap;
+  }
+
+  .card-grid .cards-categories > .cat-card {
+    flex: 0 0 calc(100% / 2.5);
+  }
+
+  .card-grid .cat-box {
+    height: 149px;
+  }
+
+  .card-grid .cat-title {
+    font-size: 12.8px;
+    line-height: 20.48px;
+  }
+
+  .card-grid .cards-icons > .icon-card,
+  .card-grid .cards-rail > .img-card {
+    flex: 0 0 calc(100% / 1.25);
+  }
+
+  .card-grid .cards-images {
+    flex-direction: column;
+  }
+
+  .card-grid .cards-images > .img-card {
+    flex: 0 0 auto;
+  }
+
+  .card-grid .card-content {
+    margin: 16px;
+    padding: 16px;
+  }
+
+  .card-grid .card-title :is(h2, h3, h4, h5) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+  }
+
+  .card-grid .card-text {
+    height: auto;
+    overflow: visible;
+  }
+
+  .card-grid .card-text p {
+    padding-top: 16px;
+  }
+
+  .card-grid .icon-card-title :is(h2, h3, h4, h5) {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+  }
+}

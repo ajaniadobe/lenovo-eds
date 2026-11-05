@@ -1,91 +1,120 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * Lenovo US replica — foundation layer (lifted from stardust/prototypes/canon.css).
+ * Tokens, metric-matched fallback faces, document reset, base type, icon
+ * utilities, the button system and the section scaffold. Header / footer chrome
+ * lives in blocks/header and blocks/footer; brand @font-face in styles/fonts.css.
  */
 
 :root {
+  /* fonts — live serves Noto Sans files under BOTH family names "Lato" and "Noto Sans" */
+  --font-body: "Noto Sans", noto-sans-fallback, "Helvetica Neue", helvetica, arial, sans-serif;
+  --font-ui: lato, noto-sans-fallback, helvetica, arial, sans-serif;
+  --font-display: montserrat, montserrat-fallback, "Helvetica Neue", helvetica, arial, sans-serif;
+  --body-font-family: var(--font-body);
+  --heading-font-family: var(--font-display);
+
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --c-black: #000;
+  --c-ink: #171717;
+  --c-plum-ink: #1e0013;
+  --c-mauve: #4e444e;
+  --c-purple: #7a126b;
+  --c-red: #e1251b;
+  --c-gray-bg: #ededed;
+  --c-line: #ccc;
+  --c-line-soft: #e4e4e4;
+  --c-promo: #e6f4fa;
+  --c-hero: #f1e1ed;
+  --c-card-blue: #f2f5f9;
+  --c-footer-link: #3a3a3a;
+  --background-color: #fff;
+  --text-color: var(--c-black);
+  --link-color: var(--c-ink);
+  --link-hover-color: var(--c-purple);
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* radii */
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --radius-xl: 16px;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* chrome reservation: utility 38 + masthead 67 + nav 55 + promo 68 (home, desktop) */
+  --nav-height: 228px;
 }
 
-/* fallback fonts */
+/* metric-matched fallback faces (available at first paint; brand faces load via fonts.css) */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+  font-family: noto-sans-fallback;
+  src: local("Arial");
+  size-adjust: 105.03%;
+  ascent-override: 101.78%;
+  descent-override: 27.9%;
+  line-gap-override: 0%;
 }
 
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+  font-family: montserrat-fallback;
+  src: local("Arial");
+  size-adjust: 107.43%;
+  ascent-override: 90.1%;
+  descent-override: 23.36%;
+  line-gap-override: 0%;
 }
 
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
+/* ---------- reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+html {
+  text-size-adjust: 100%;
 }
 
 body {
   display: none;
+  max-width: 100%;
   margin: 0;
-  background-color: var(--background-color);
+  overflow-x: hidden;
+  background: var(--background-color);
   color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
 }
 
 body.appear {
   display: block;
 }
 
-header {
+/* non-home templates render in Lato 400 (home: Noto Sans 500) */
+body.tpl-site {
+  /* site templates: + 56px tier-2 row */
+  --nav-height: 284px;
+
+  font-family: var(--font-ui);
+  font-weight: 400;
+}
+
+@media (width <= 749px) {
+  :root {
+    /* utility 38 + masthead 67 + nav 188 + promo 74 */
+    --nav-height: 367px;
+  }
+
+  body.tpl-site {
+    /* utility 38 + masthead 67 + nav 68 + tier-2 56 + promo 74 */
+    --nav-height: 303px;
+  }
+}
+
+body > header {
+  display: block;
   height: var(--nav-height);
+  background: #fff;
 }
 
 header .header,
@@ -98,96 +127,256 @@ footer .footer[data-block-status="loaded"] {
   visibility: visible;
 }
 
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
   font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
   scroll-margin: 40px;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
 ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+ol {
+  list-style: none;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-main > div {
-  margin: 40px 16px;
-}
-
-input,
-textarea,
-select,
-button {
-  font: inherit;
-}
-
-/* links */
 a:any-link {
-  color: var(--link-color);
+  color: inherit;
   text-decoration: none;
   overflow-wrap: break-word;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  font-size: 12px;
+  line-height: 18px;
 }
 
-/* buttons */
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/* ---------- icons ---------- */
+
+/* EDS :icon: spans */
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+}
+
+/* icon font (icomoon) — codepoints from the live census */
+[class^="iconfont-"],
+[class*=" iconfont-"] {
+  font-family: icomoon, sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.iconfont-accessibility::before {
+  content: "\e905";
+}
+
+.iconfont-account-white::before {
+  content: "\e9bf";
+}
+
+.iconfont-arrow-down::before {
+  content: "\e91c";
+}
+
+.iconfont-cart::before {
+  content: "\e94d";
+}
+
+.iconfont-contact-us-pc::before {
+  content: "\e9c6";
+}
+
+.iconfont-homehero-left-arrow::before {
+  content: "\e926";
+}
+
+.iconfont-homehero-right-arrow::before {
+  content: "\e925";
+}
+
+.iconfont-rewards::before {
+  content: "\e992";
+}
+
+/* mask icons (len-icon) — rehosted SVGs under /icons, painted with currentcolor */
+.len-icon-image {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: currentcolor;
+  mask: var(--icon) center / contain no-repeat;
+}
+
+.ic-ai { --icon: url("../icons/lenovo-icon-ai.svg"); }
+.ic-around-globe { --icon: url("../icons/lenovo-icon-around-globe.svg"); }
+.ic-arrow-down { --icon: url("../icons/lenovo-icon-arrow-down.svg"); }
+.ic-arrow-left { --icon: url("../icons/lenovo-icon-arrow-left.svg"); }
+.ic-arrow-right { --icon: url("../icons/lenovo-icon-arrow-right.svg"); }
+.ic-cares { --icon: url("../icons/lenovo-icon-cares.svg"); }
+.ic-cart { --icon: url("../icons/lenovo-icon-cart.svg"); }
+.ic-case { --icon: url("../icons/lenovo-icon-case.svg"); }
+.ic-close { --icon: url("../icons/lenovo-icon-close.svg"); }
+.ic-community { --icon: url("../icons/lenovo-icon-community.svg"); }
+.ic-contact-us { --icon: url("../icons/lenovo-icon-contact-us.svg"); }
+.ic-dashboard { --icon: url("../icons/lenovo-icon-dashboard.svg"); }
+.ic-data-center { --icon: url("../icons/lenovo-icon-data-center.svg"); }
+.ic-discount { --icon: url("../icons/lenovo-icon-discount.svg"); }
+.ic-innovation { --icon: url("../icons/lenovo-icon-innovation.svg"); }
+.ic-lock { --icon: url("../icons/lenovo-icon-lock.svg"); }
+.ic-pause { --icon: url("../icons/lenovo-icon-pause.svg"); }
+.ic-play { --icon: url("../icons/lenovo-icon-play.svg"); }
+.ic-products { --icon: url("../icons/lenovo-icon-products.svg"); }
+.ic-refresh { --icon: url("../icons/lenovo-icon-refresh.svg"); }
+.ic-server { --icon: url("../icons/lenovo-icon-server.svg"); }
+.ic-server-options { --icon: url("../icons/lenovo-icon-server-options.svg"); }
+.ic-smart-performance { --icon: url("../icons/lenovo-icon-smart-performance.svg"); }
+.ic-smartphone { --icon: url("../icons/lenovo-icon-smartphone.svg"); }
+.ic-storage { --icon: url("../icons/lenovo-icon-storage.svg"); }
+.ic-thinkpad-laptop { --icon: url("../icons/lenovo-icon-thinkpad-laptop.svg"); }
+.ic-tower { --icon: url("../icons/lenovo-icon-tower.svg"); }
+.ic-weekly-deals { --icon: url("../icons/lenovo-icon-weekly-deals.svg"); }
+.ic-workstations { --icon: url("../icons/lenovo-icon-workstations.svg"); }
+
+/* ---------- buttons (live cta-button) ---------- */
+
+/* primary = purple filled .cta-btn; secondary = red-underlined .cta-link; accent = large .cta-btn */
 p.button-wrapper {
-  margin: 12px 0;
+  margin: 0;
 }
 
 a.button:any-link,
-button.button {
-  box-sizing: border-box;
+button.button,
+.cta-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 8px;
   max-width: 100%;
   margin: 0;
+  padding: 7px 16px;
   border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
+  border-radius: var(--radius-m);
+  background: var(--c-purple);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
   text-decoration: none;
+  white-space: nowrap;
   cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+a.button.accent,
+button.button.accent,
+.cta-btn-lg {
+  padding: 5px 24px;
+  line-height: 25.6px;
+}
+
+.cta-btn-sm {
+  font-size: 14px;
+}
+
+a.button.secondary,
+button.button.secondary,
+.cta-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--c-ink);
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-decoration: underline;
+  text-decoration-color: var(--c-red);
+  text-underline-offset: 4px;
   white-space: nowrap;
 }
 
@@ -197,129 +386,81 @@ button.button:disabled {
   pointer-events: none;
 }
 
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 10px 0;
+  border: 1px solid var(--c-line-soft);
+  border-radius: var(--radius-m);
+  background: #fff;
+  color: #000;
 }
 
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
+/* ---------- sections ---------- */
 
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
-
-.icon {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
-}
-
-.icon img {
-  height: 100%;
-  width: 100%;
-}
-
-/* sections */
+/* blocks own their containers (all captured caps are module caps); default content gets a cap */
 main > .section {
-  margin: 40px 0;
+  margin: 0;
 }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
-}
-
-main > .section:first-of-type {
-  margin-top: 0;
-}
-
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
-}
-
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
   margin: 0;
-  padding: 40px 0;
+  padding: 0;
 }
+
+main > .section > .default-content-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+main .section:empty {
+  display: none;
+}
+
+/* ---------- Experience Workspace edit mode (EW3 / EW6) ---------- */
+/* stylelint-disable no-descending-specificity */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  padding: 7px 16px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-m);
+  background: var(--c-purple);
+  color: #fff;
+  text-decoration: none;
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  color: var(--c-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--c-red);
+  text-underline-offset: 4px;
+}
+
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
+}
+/* stylelint-enable no-descending-specificity */

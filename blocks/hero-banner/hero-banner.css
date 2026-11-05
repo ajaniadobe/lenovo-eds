@@ -1,0 +1,168 @@
+/* hero-banner — live heroType1 commonHero (500px image banner, overlaid text) */
+.hero-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 500px;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-banner .hero-banner-media,
+.hero-banner :is(.hero-banner-bg, .hero-banner-bg-mobile) {
+  position: absolute;
+  inset: 0;
+}
+
+.hero-banner .hero-banner-media picture {
+  display: contents;
+}
+
+.hero-banner .hero-banner-media img {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-banner .hero-banner-bg-mobile {
+  display: none;
+}
+
+.hero-banner .hero-banner-content {
+  position: relative;
+  z-index: 1;
+  width: 538px;
+  padding-left: 100px;
+}
+
+.hero-banner .hero-banner-title :is(h1, h2, h3) {
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+}
+
+.hero-banner .hero-banner-desc {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.hero-banner .hero-banner-cta {
+  display: flex;
+  margin-top: 20px;
+}
+
+.hero-banner .hero-banner-cta a:any-link {
+  display: inline-block;
+  height: 44px;
+  margin: 0;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 100px;
+  background: #fff;
+  color: #000;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.hero-banner .hero-banner-cta a:any-link:hover,
+.hero-banner .hero-banner-cta a:any-link:focus-visible {
+  text-decoration: underline;
+}
+
+/* centred brand banner (e.g. Aura Edition on the Yoga series page) */
+.hero-banner.is-center .hero-banner-content {
+  width: 100%;
+  padding: 0 120px;
+  text-align: center;
+}
+
+.hero-banner.is-center .hero-banner-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-banner.is-center .hero-banner-logo picture {
+  display: contents;
+}
+
+.hero-banner.is-center .hero-banner-logo img {
+  width: 252px;
+  height: auto;
+}
+
+.hero-banner.is-center .hero-banner-title :is(h1, h2, h3) {
+  margin-top: -8px;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 84px;
+  letter-spacing: -0.8px;
+}
+
+.hero-banner.is-center .hero-banner-desc {
+  line-height: 24px;
+}
+
+.hero-banner.is-center .hero-banner-cta {
+  justify-content: center;
+}
+
+.hero-banner.is-center .hero-banner-cta a:any-link {
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+@media (width <= 767px) {
+  .hero-banner {
+    align-items: flex-end;
+  }
+
+  .hero-banner .hero-banner-media.has-mobile .hero-banner-bg {
+    display: none;
+  }
+
+  .hero-banner .hero-banner-media.has-mobile .hero-banner-bg-mobile {
+    display: block;
+  }
+
+  .hero-banner .hero-banner-content {
+    width: 100%;
+    padding: 0 16px 62px;
+  }
+
+  .hero-banner .hero-banner-title :is(h1, h2, h3) {
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  .hero-banner.is-center {
+    align-items: center;
+  }
+
+  .hero-banner.is-center .hero-banner-content {
+    padding: 0;
+  }
+
+  .hero-banner.is-center .hero-banner-logo img {
+    width: 180px;
+  }
+
+  .hero-banner.is-center .hero-banner-title :is(h1, h2, h3) {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .hero-banner.is-center .hero-banner-desc {
+    line-height: 22.6px;
+  }
+}

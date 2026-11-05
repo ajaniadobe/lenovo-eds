@@ -1,0 +1,2338 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--b3b47bf7--aemcoder.aem.live/",
+ "at": "2026-11-03T14:16:05.858Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Join Lenovo Pro Business Store",
+     "key": "join lenovo pro business store",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://www.lenovo.com/us/en/business/benefits/",
+     "expanded": null,
+     "rect": [
+      104,
+      10,
+      178,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Use Enter key to expand Join Lenovo Pro Business Store",
+     "key": "use enter key to expand join lenovo pro business store",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(1)>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      281,
+      6,
+      26,
+      26
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In / Sign Up",
+          "href": "https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Community",
+          "href": "https://smbcommunity.lenovo.com/us/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         92,
+         38,
+         195,
+         136
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-Use-Enter-key-to-expand-Join-Lenovo-Pro-.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In / Sign Up",
+          "href": "https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Community",
+          "href": "https://smbcommunity.lenovo.com/us/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         92,
+         38,
+         195,
+         136
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-Use-Enter-key-to-expand-Join-Lenovo-Pro-.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Accessibility",
+     "key": "accessibility",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(2)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      326,
+      10,
+      16,
+      20
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Contact Us",
+     "key": "contact us",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(3)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      361,
+      10,
+      16,
+      20
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "1-855-253-6686",
+          "href": "tel:1-855-253-6686"
+         },
+         {
+          "text": "1-866-426-0110",
+          "href": "tel:1-866-426-0110"
+         },
+         {
+          "text": "Chat Now >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         },
+         {
+          "text": "Visit Sales Support Page >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         },
+         {
+          "text": "Order Lookup >",
+          "href": "https://www.lenovo.com/us/en/trackmyorder"
+         },
+         {
+          "text": "Visit Order Support Page >",
+          "href": "https://www.lenovo.com/us/en/contact/order-support/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         150,
+         38,
+         234,
+         376
+        ]
+       },
+       "expanded": null,
+       "focus": "elsewhere",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-003-Contact-Us-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "1-855-253-6686",
+          "href": "tel:1-855-253-6686"
+         },
+         {
+          "text": "1-866-426-0110",
+          "href": "tel:1-866-426-0110"
+         },
+         {
+          "text": "Chat Now >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         },
+         {
+          "text": "Visit Sales Support Page >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         },
+         {
+          "text": "Order Lookup >",
+          "href": "https://www.lenovo.com/us/en/trackmyorder"
+         },
+         {
+          "text": "Visit Order Support Page >",
+          "href": "https://www.lenovo.com/us/en/contact/order-support/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         150,
+         38,
+         234,
+         376
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-004-Contact-Us-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Go to Home",
+     "key": "go to home",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://main--b3b47bf7--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      16,
+      61,
+      120,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "All",
+     "key": "all",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(2)>div>div>form>div:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      183,
+      59,
+      58,
+      44
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 6,
+        "rect": [
+         183,
+         103,
+         190,
+         444
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-005-All-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 6,
+        "rect": [
+         183,
+         103,
+         190,
+         444
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-006-All-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Search Lenovo products",
+     "key": "search lenovo products",
+     "role": "input",
+     "kind": "search",
+     "sel": "#common-header-search",
+     "expanded": null,
+     "rect": [
+      241,
+      70,
+      243,
+      22
+     ],
+     "actions": {},
+     "search": {
+      "probe": "please",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "https://www.lenovo.com/us/en/search?fq=&text={q}&rows=20"
+     }
+    },
+    {
+     "name": "nav expand menu",
+     "key": "nav expand menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(1)>button",
+     "expanded": "true",
+     "rect": [
+      16,
+      121,
+      24,
+      24
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Artificial Intelligence",
+     "key": "artificial intelligence",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+     "href": "https://www.lenovo.com/us/en/ai/",
+     "expanded": null,
+     "rect": [
+      64,
+      121,
+      42,
+      124
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Products",
+     "key": "products",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+     "href": "https://www.lenovo.com/us/en/pc/",
+     "expanded": null,
+     "rect": [
+      130,
+      121,
+      18,
+      124
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Business Solutions",
+     "key": "business solutions",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(4)>a",
+     "href": "https://www.lenovo.com/us/en/solutions/",
+     "expanded": null,
+     "rect": [
+      172,
+      124,
+      30,
+      76
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(5)>a",
+     "href": "https://www.lenovo.com/us/en/contact/",
+     "expanded": null,
+     "rect": [
+      226,
+      121,
+      16,
+      148
+     ],
+     "actions": {}
+    },
+    {
+     "name": "About Lenovo",
+     "key": "about lenovo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(6)>a",
+     "href": "https://www.lenovo.com/us/en/about/",
+     "expanded": null,
+     "rect": [
+      267,
+      121,
+      28,
+      100
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Deals",
+     "key": "deals",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(7)>a",
+     "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/",
+     "expanded": null,
+     "rect": [
+      319,
+      121,
+      12,
+      124
+     ],
+     "actions": {}
+    },
+    {
+     "name": "nav collapse segment",
+     "key": "nav collapse segment",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      350,
+      121,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Business",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Student",
+          "href": "https://www.lenovo.com/us/en/student/"
+         },
+         {
+          "text": "Gaming",
+          "href": "https://www.lenovo.com/us/en/gaming/store/"
+         },
+         {
+          "text": "Creator",
+          "href": "https://www.lenovo.com/us/en/creator/store/?IPromoID=LEN653911"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         57,
+         121,
+         317,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-007-nav-collapse-segment-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Business",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Student",
+          "href": "https://www.lenovo.com/us/en/student/"
+         },
+         {
+          "text": "Gaming",
+          "href": "https://www.lenovo.com/us/en/gaming/store/"
+         },
+         {
+          "text": "Creator",
+          "href": "https://www.lenovo.com/us/en/creator/store/?IPromoID=LEN653911"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         57,
+         121,
+         317,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-008-nav-collapse-segment-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Previous information, currently displaying item 2 of 5",
+     "key": "previous information currently displaying item 2 of 5",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div>section>div>div>button:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      32,
+      318,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         },
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         293,
+         358,
+         74
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "390-009-Previous-information-currently-displayin.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         },
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         293,
+         358,
+         74
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "390-010-Previous-information-currently-displayin.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Next information, currently displaying item 2 of 5",
+     "key": "next information currently displaying item 2 of 5",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div>section>div>div>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      334,
+      318,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         293,
+         358,
+         74
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "390-011-Next-information-currently-displaying-it.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         293,
+         358,
+         74
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "390-012-Next-information-currently-displaying-it.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Learn More",
+     "key": "learn more",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>section>div>div>div>article:nth-of-type(2)>a",
+     "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab",
+     "expanded": null,
+     "rect": [
+      32,
+      301,
+      326,
+      58
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Learn More",
+     "key": "learn more",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>section>div>div>div>article:nth-of-type(2)>div>p>strong>a",
+     "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab",
+     "expanded": null,
+     "rect": [
+      208,
+      335,
+      73,
+      18
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 367,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 367,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 367,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 367,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 12,
+   "truncated": null,
+   "loads": 26
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Join Lenovo Pro Business Store",
+     "key": "join lenovo pro business store",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://www.lenovo.com/us/en/business/benefits/",
+     "expanded": null,
+     "rect": [
+      1123,
+      10,
+      208,
+      19
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In / Sign Up",
+          "href": "https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Community",
+          "href": "https://smbcommunity.lenovo.com/us/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1111,
+         38,
+         195,
+         136
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Join-Lenovo-Pro-Business-Store-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Use Enter key to expand Join Lenovo Pro Business Store",
+     "key": "use enter key to expand join lenovo pro business store",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(1)>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      1331,
+      6,
+      26,
+      26
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In / Sign Up",
+          "href": "https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Community",
+          "href": "https://smbcommunity.lenovo.com/us/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1111,
+         38,
+         195,
+         136
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-Use-Enter-key-to-expand-Join-Lenovo-Pro-.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In / Sign Up",
+          "href": "https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Community",
+          "href": "https://smbcommunity.lenovo.com/us/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1111,
+         38,
+         195,
+         136
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-Use-Enter-key-to-expand-Join-Lenovo-Pro-.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Log In / Sign Up",
+          "href": "https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/business/benefits/"
+         },
+         {
+          "text": "Community",
+          "href": "https://smbcommunity.lenovo.com/us/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1111,
+         38,
+         195,
+         136
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-004-Use-Enter-key-to-expand-Join-Lenovo-Pro-.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Accessibility",
+     "key": "accessibility",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(2)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      1376,
+      10,
+      16,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1440,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-005-Accessibility-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Contact Us",
+     "key": "contact us",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(1)>div>div>ul>li:nth-of-type(3)>div:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      1411,
+      10,
+      16,
+      20
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "1-855-253-6686",
+          "href": "tel:1-855-253-6686"
+         },
+         {
+          "text": "1-866-426-0110",
+          "href": "tel:1-866-426-0110"
+         },
+         {
+          "text": "Chat Now >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         },
+         {
+          "text": "Visit Sales Support Page >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1200,
+         38,
+         234,
+         376
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-006-Contact-Us-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "1-855-253-6686",
+          "href": "tel:1-855-253-6686"
+         },
+         {
+          "text": "1-866-426-0110",
+          "href": "tel:1-866-426-0110"
+         },
+         {
+          "text": "Chat Now >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         },
+         {
+          "text": "Visit Sales Support Page >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1200,
+         38,
+         234,
+         376
+        ]
+       },
+       "expanded": null,
+       "focus": "elsewhere",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-007-Contact-Us-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "1-855-253-6686",
+          "href": "tel:1-855-253-6686"
+         },
+         {
+          "text": "1-866-426-0110",
+          "href": "tel:1-866-426-0110"
+         },
+         {
+          "text": "Chat Now >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         },
+         {
+          "text": "Visit Sales Support Page >",
+          "href": "https://www.lenovo.com/us/en/contact/sales-support/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1200,
+         38,
+         234,
+         376
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-008-Contact-Us-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Go to Home",
+     "key": "go to home",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://main--b3b47bf7--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      16,
+      61,
+      124,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "All",
+     "key": "all",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(2)>div>div>form>div:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      247,
+      59,
+      58,
+      44
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 3,
+        "rect": [
+         247,
+         103,
+         190,
+         444
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-009-All-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 3,
+        "rect": [
+         247,
+         103,
+         190,
+         444
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-010-All-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Search Lenovo products",
+     "key": "search lenovo products",
+     "role": "input",
+     "kind": "search",
+     "sel": "#common-header-search",
+     "expanded": null,
+     "rect": [
+      306,
+      70,
+      635,
+      22
+     ],
+     "actions": {},
+     "search": {
+      "probe": "please",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "https://www.lenovo.com/us/en/search?fq=&text={q}&rows=20"
+     }
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(2)>div>div>form>div:nth-of-type(4)",
+     "expanded": null,
+     "rect": [
+      940,
+      66,
+      35,
+      30
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "My Lenovo Rewards",
+     "key": "my lenovo rewards",
+     "role": "link",
+     "kind": "account",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(3)>ul>li:nth-of-type(2)>a",
+     "href": "https://www.lenovo.com/us/en/rewards/",
+     "expanded": null,
+     "rect": [
+      1344,
+      65,
+      24,
+      40
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "My Lenovo Rewards",
+          "href": "https://www.lenovo.com/us/en/rewards/?IPromoID=LEN518571"
+         },
+         {
+          "text": "My Account",
+          "href": "https://account.lenovo.com/us/en/account/rewards/?IPromoID=LEN341830"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1044,
+         105,
+         340,
+         176
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-011-My-Lenovo-Rewards-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Cart",
+     "key": "cart",
+     "role": "link",
+     "kind": "cart",
+     "sel": "#nav>div:nth-of-type(2)>div:nth-of-type(3)>ul>li:nth-of-type(3)>a",
+     "href": "https://www.lenovo.com/us/en/cart",
+     "expanded": null,
+     "rect": [
+      1400,
+      65,
+      24,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Artificial Intelligence",
+     "key": "artificial intelligence",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+     "href": "https://www.lenovo.com/us/en/ai/",
+     "expanded": null,
+     "rect": [
+      16,
+      121,
+      153,
+      28
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Hybrid AI Solutions",
+          "href": "https://www.lenovo.com/us/en/servers-storage/lenovo-hybrid-ai-advantage/"
+         },
+         {
+          "text": "AI Servers & Storage",
+          "href": "https://www.lenovo.com/us/en/servers-storage/solutions/enterprise-ai/"
+         },
+         {
+          "text": "AI Laptops & Workstations",
+          "href": "https://main--b3b47bf7--aemcoder.aem.live/us/en/ai-pcs"
+         },
+         {
+          "text": "Hybrid AI Services",
+          "href": "https://www.lenovo.com/us/en/ai/hybrid-ai-services/"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         1440,
+         228
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        }
+       ],
+       "shot": "1440-012-Artificial-Intelligence-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Products",
+     "key": "products",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+     "href": "https://www.lenovo.com/us/en/pc/",
+     "expanded": null,
+     "rect": [
+      193,
+      121,
+      67,
+      28
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Laptops",
+          "href": "https://www.lenovo.com/us/en/laptops/"
+         },
+         {
+          "text": "Desktops",
+          "href": "https://www.lenovo.com/us/en/desktops/"
+         },
+         {
+          "text": "Workstations",
+          "href": "https://www.lenovo.com/us/en/workstations/"
+         },
+         {
+          "text": "Accessories",
+          "href": "https://www.lenovo.com/us/en/accessories-and-software/"
+         },
+         {
+          "text": "Software",
+          "href": "https://www.lenovo.com/us/en/software-standalone/"
+         },
+         {
+          "text": "Monitors",
+          "href": "https://www.lenovo.com/us/en/d/accessories-and-monitors/monitors/monitor-buying-guide/"
+         },
+         {
+          "text": "Tablets & Phones",
+          "href": "https://www.lenovo.com/us/en/tablets/"
+         },
+         {
+          "text": "Servers & Storage",
+          "href": "https://www.lenovo.com/us/en/servers-storage/"
+         },
+         {
+          "text": "Home & Office",
+          "href": "https://www.lenovo.com/us/en/smart-devices/"
+         },
+         {
+          "text": "AI",
+          "href": "https://www.lenovo.com/us/en/d/deals/laptops/?sortBy=Recommended&visibleDatas=13084%3ACopilot%252B%2520PC%2CAI%2520PC%2CAI-Powered%2520Gaming%2520PCs%2CAI-Ready%2520Workstations"
+         },
+         {
+          "text": "Deals",
+          "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/"
+         },
+         {
+          "text": "Outlet",
+          "href": "https://www.lenovo.com/us/outletus/en/?IPromoID=LEN385145"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1440,
+         56
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        }
+       ],
+       "shot": "1440-013-Products-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": false,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Business Solutions",
+     "key": "business solutions",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+     "href": "https://www.lenovo.com/us/en/solutions/",
+     "expanded": null,
+     "rect": [
+      284,
+      121,
+      140,
+      26
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(4)>a",
+     "href": "https://www.lenovo.com/us/en/contact/",
+     "expanded": null,
+     "rect": [
+      448,
+      121,
+      60,
+      28
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1440,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "left",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "li.nav-item"
+        }
+       ],
+       "shot": "1440-014-Support-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "About Lenovo",
+     "key": "about lenovo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(5)>a",
+     "href": "https://www.lenovo.com/us/en/about/",
+     "expanded": null,
+     "rect": [
+      532,
+      121,
+      104,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Deals",
+     "key": "deals",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(1)>ul>li:nth-of-type(6)>a",
+     "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/",
+     "expanded": null,
+     "rect": [
+      660,
+      121,
+      41,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Business",
+     "key": "business",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(2)>ul>li:nth-of-type(1)>a",
+     "href": "https://www.lenovo.com/us/en/business/benefits/",
+     "expanded": null,
+     "rect": [
+      1107,
+      121,
+      88,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Student",
+     "key": "student",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(2)>ul>li:nth-of-type(2)>a",
+     "href": "https://www.lenovo.com/us/en/student/",
+     "expanded": null,
+     "rect": [
+      1195,
+      121,
+      81,
+      24
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1440,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "1440-015-Student-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Gaming",
+     "key": "gaming",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(2)>ul>li:nth-of-type(3)>a",
+     "href": "https://www.lenovo.com/us/en/gaming/store/",
+     "expanded": null,
+     "rect": [
+      1276,
+      121,
+      81,
+      24
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1440,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-016-Gaming-hover.png"
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "Creator",
+     "key": "creator",
+     "role": "link",
+     "kind": "link",
+     "sel": "#nav>div:nth-of-type(3)>div:nth-of-type(2)>ul>li:nth-of-type(4)>a",
+     "href": "https://www.lenovo.com/us/en/creator/store/?IPromoID=LEN653911",
+     "expanded": null,
+     "rect": [
+      1358,
+      121,
+      66,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Previous information, currently displaying item 2 of 5",
+     "key": "previous information currently displaying item 2 of 5",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div>section>div>div>button:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      48,
+      182,
+      24,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         },
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1392,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "1440-017-Previous-information-currently-displayin.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         },
+         {
+          "text": "Learn More >",
+          "href": "https://www.lenovo.com/us/en/business/benefits/?PromoID=LEN818484"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1392,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "1440-018-Previous-information-currently-displayin.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Next information, currently displaying item 2 of 5",
+     "key": "next information currently displaying item 2 of 5",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>div>section>div>div>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      1368,
+      182,
+      24,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1392,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "1440-019-Next-information-currently-displaying-it.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 2,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         160,
+         1392,
+         68
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.swiper-wrapper"
+        }
+       ],
+       "shot": "1440-020-Next-information-currently-displaying-it.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Learn More",
+     "key": "learn more",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>section>div>div>div>article:nth-of-type(2)>a",
+     "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab",
+     "expanded": null,
+     "rect": [
+      48,
+      169,
+      1344,
+      50
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 4,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         48,
+         169,
+         1344,
+         50
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-021-Learn-More-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "leave": false
+     },
+     "children": []
+    },
+    {
+     "name": "Learn More",
+     "key": "learn more",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>section>div>div>div>article:nth-of-type(2)>div>p>strong>a",
+     "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab",
+     "expanded": null,
+     "rect": [
+      1011,
+      183,
+      92,
+      22
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 3,
+       "panel": {
+        "links": [
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         },
+         {
+          "text": "Learn More",
+          "href": "https://www.lenovo.com/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         338,
+         169,
+         1102,
+         50
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-022-Learn-More-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "leave": false
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 228,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 228,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 228,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 228,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 22,
+   "truncated": null,
+   "loads": 42
+  }
+ },
+ "probe": "please"
+}

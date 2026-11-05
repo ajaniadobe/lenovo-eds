@@ -1,0 +1,35 @@
+/* ai-explore — live commonTextOne section head (us-en-ai-pcs prototype § explore) */
+.ai-explore {
+  position: relative;
+  padding: 40px;
+  color: #000;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.ai-explore .common-text-one {
+  padding-bottom: 15px;
+}
+
+.ai-explore .headline :is(h1, h2, h3, h4) {
+  margin: 0 0 15px;
+  font-family: var(--font-ui);
+  font-size: 45px;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.ai-explore .text-desc p {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (width <= 767px) {
+  .ai-explore .headline :is(h1, h2, h3, h4) {
+    overflow-wrap: break-word;
+  }
+}

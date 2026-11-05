@@ -1,0 +1,213 @@
+body.pc_httl.gaming-theme-black.Q26893ExpA.Q28297ExpA.ui-terminal-pc.Q21379ExpB.no-focus-outline.Q22712ExpB.Q28018ExpA.INDlangdirLTR.INDpositionLeft.INDDesktop.INDChrome.INDhasDragTooltip.Q26181ExpB
+  div
+    div.INDhiddenText «Please note: This website includes an ac»
+    div
+      button.INDcircle-btn.INDoutline-btn
+    div
+    div
+      div
+    div
+    div
+      ul
+  div.popup-win-wrapper.special_offer.special_offer_pc
+    div.popup-win-overlay
+    div.popup-win-container
+      div.popup-win-header «Special Offers»
+      div.popup-win-content
+      button.close.closewithoutbackground
+  div.loading
+    div.center
+      span.image
+      p.txt «One moment please...»
+  h1
+  div.page_config_info
+    div.pageConfigTooltipStyle
+    div.pageConfigHighlightToggle
+    div.pageConfigExpandToggle
+    div.pageConfigFpsToggle
+  div.page_body
+    button.ui-toggle.ui-toggle-top «☰»
+    meta
+    meta
+    link
+    link
+    div
+      div.container9999.cms_background_layout_color_15602ffd-6f2f-4858-9995-3dcde4ac4f91
+      div.container9999.cms_background_layout_color_f15b958a-505e-4216-99f4-70db85d165fc
+      div.container9999.cms_background_layout_color_f01113d1-b457-439a-9879-a9e0d7f40758
+    main.main_content
+      div.container9999.cms_background_layout_color_3668c32fu085b-4c29-85c2-a82a4b82255c
+      div.container9999.cms_background_layout_color_0807e1fdu9f0f-4506-bcc3-4e596616ff04
+      div.container9999.cms_background_layout_color_b87bc3aeu48d5-487d-bac0-e0bcd1213fb1
+      div.comp_lazyload
+      div.container9999.cms_background_layout_color_23e5ae6eucfb3-484d-9ba5-607337771277
+      div.comp_lazyload
+      div.comp_lazyload
+      div.comp_lazyload
+      div.comp_lazyload
+      div.comp_lazyload
+      div.comp_lazyload
+      div.comp_lazyload
+      div.container9999.cms_background_layout_color_08867fbfu44a3-4a21-bead-dc780f8dad25
+    meta
+    meta
+    link
+    div
+      div.container9999.cms_background_layout_color_1c4f176f-dd68-4c92-a7b9-6609419594a0
+  div.sticky-bar
+    div.sticky-bar-content
+      div.bar-left
+      div.bar-right
+  div.popup-win-wrapper.hero-media-popup
+    div.popup-win-overlay
+    div.popup-win-container
+      div.popup-win-content
+      button.close.closewithoutbackground
+  div.loading
+    div.center
+      span.image
+      p.txt «One moment please...»
+  div.popup.common-compare-popup
+    div.triangle-before
+    div.bubble
+      p.compare-pop-title «Great choice!»
+      a.compare-pop-link href= «Compare Now»
+    div.triangle-after
+  div.popup.tool-tip-popup
+    div.triangle-before
+    div.bubble
+      section.headline «Processor»
+      section.description
+    div.triangle-after
+  div.popup.tool-tip-popup
+    div.triangle-before
+    div.bubble
+      section.headline «Operating System»
+      section.description
+    div.triangle-after
+  div.popup.tool-tip-popup
+    div.triangle-before
+    div.bubble
+      section.headline «Graphics»
+      section.description
+    div.triangle-after
+  div.popup.tool-tip-popup
+    div.triangle-before
+    div.bubble
+      section.headline «Memory»
+      section.description
+    div.triangle-after
+  div.popup.tool-tip-popup
+    div.triangle-before
+    div.bubble
+      section.headline «Storage»
+      section.description
+    div.triangle-after
+  div.popup.tool-tip-popup
+    div.triangle-before
+    div.bubble
+      section.headline «Display»
+      section.description
+    div.triangle-after
+  div
+  style «.bottomStickyDock{position:fixed;bottom:»
+  div.bottomStickyDock
+    button.back2top
+    div.compareDockContainer
+      div.checkapp.content.flexBetween
+  style «/* Toggle button (only appears when heig»
+  button.ui-toggle.ui-toggle-bottom «☰»
+  style «.snackbar {
+        visibility: hidden;
+»
+  div.snackbar
+    span.message
+    span.link
+  div.rbkey_content_none
+    div «You will be automatically signed in and »
+    div «seconds or click the “Continue” button t»
+    div «Continue»
+    div «Success!»
+    div «Success!»
+    div «You now have a verified Lenovo Education»
+    div «Close»
+    div «We Have Updated our Lenovo Pro Terms And»
+    div «Select the links to review the updated d»
+    div «I have read and accept and»
+      a.lazy_href href=https://www.lenovo.com/us/en/rewards/terms/ «the Lenovo Pro Terms and Conditions»
+      a.lazy_href href=https://www.lenovo.com/us/en/rewards/terms/ «Lenovo Pro Communities»
+    div «Accept»
+    div «My Lenovo Rewards»
+    div «Join My Lenovo Rewards For Free»
+    div «Join Rewards»
+    div «By joining, you agree to the and and you»
+      a.mlr_term.lazy_href href=https://www.lenovo.com/us/en/rewards/terms/ «Terms of Use»
+      a.mlr_policy.lazy_href href=https://www.lenovo.com/us/en/privacy/ «Privacy Policy»
+  div.sheer-id-popup
+    div.sucessparentContainer
+      div.sucesstitlepanel
+      div.sucessNewOtpSection
+    div.sheerIDsuccess
+      div.success
+  div.universesnackbar
+    span.universesnackbar-message «Welcome to lenovo snack»
+    button.universesnackbar-btn «Discover More»
+  style «.Pro-Store-popup {
+  display: flex;
+  po»
+  div
+  link
+  div.public-store-alert
+  style «.snackbar {
+        visibility: hidden;
+»
+  div.snackbar
+    span.message
+    span.link
+  iframe
+  div.popup-win-wrapper.add-cart-popup
+    div.popup-win-overlay
+    div.popup-win-container
+      div.popup-win-content
+      button.close.closewithoutbackground
+  div.loading
+    div.center
+      span.image
+      p.txt «One moment please...»
+  div.popup-win-wrapper.add-cart-popup
+    div.popup-win-overlay
+    div.popup-win-container
+      div.popup-win-content
+      button.close.closewithoutbackground
+  div.loading
+    div.center
+      span.image
+      p.txt «One moment please...»
+  div
+  div
+    div
+    iframe
+  style «.slideron {background-color: #285d50 !im»
+  div.Pro-Store-popup
+    div.Pro-Store-popup-modal
+      div.Pro-Store-popup-title «We Have Updated our Lenovo Pro Terms And»
+      div.Pro-Store-popup-desc «Select the links to review the updated d»
+      label.Pro-Store-popup-checkbox-label
+      div.Pro-Store-popup-button-container
+  iframe
+  iframe.braintree-dispatch-frame
+  iframe
+  iframe
+  div
+    img src=https://bat.bing.com/action/0?ti=5612701&Ver=2&mid=b5bfb258-0f73-4967-9f52-a94353d129fe&bo alt=""
+    img src=https://bat.bing.com/action/0?ti=5612701&Ver=2&mid=b5bfb258-0f73-4967-9f52-a94353d129fe&bo alt=""
+  style.bluecoreApiCss «.bluecoreInlinePreferenceCenter,.bluecor»
+  div.bluecoreRecomInline
+    style «[referenceid="92610570-b516-4149-89e0-e9»
+    span
+  style «#lenovoSurveyWidget.lenovoSurveyWidget-l»
+  div
+    div
+    div
+  b
+    iframe

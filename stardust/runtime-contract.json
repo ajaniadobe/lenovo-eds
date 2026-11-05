@@ -1,0 +1,15 @@
+{
+  "runtime": "vanilla-eds",
+  "source": "scripts/scripts.js + scripts/aem.js (read 2026-11-03, C0 foundation)",
+  "blockWrapperClass": "block",
+  "blockWrapper": "div.<name>-wrapper > div.<name>.block[data-block-name]; section gains .<name>-container",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionMetadataClientSide": false,
+  "trustedTypes": "head.html CSP require-trusted-types-for 'script'; scripts.js installs a passthrough 'default' policy",
+  "autoBlocks": ["fragment (a[href*='/fragments/'])", "widget (a[href*='/widgets/'])"],
+  "fonts": "styles/fonts.css via loadFonts() (eager >= 900px or fonts-loaded flag; always in loadLazy)",
+  "chrome": "header/footer blocks load /nav and /footer via loadFragment (nav/footer metadata override)"
+}

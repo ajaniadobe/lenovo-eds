@@ -1,0 +1,713 @@
+/* legion-products — live .pc_new_dlp grouped DLP, gaming-theme-black (legion brand page).
+   Card row heights are the live page's JS-equalised values, frozen per breakpoint. */
+.legion-products {
+  --row-image: 280px;
+
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-bottom: 3px;
+  overflow-x: clip;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: normal;
+}
+
+.legion-products .legion-products-inner {
+  display: flex;
+  padding: 0 20px;
+}
+
+/* ---------- facets ---------- */
+.legion-products .legion-products-facets {
+  flex: 0 0 238px;
+  width: 238px;
+  padding-top: 27px;
+}
+
+.legion-products .legion-products-filter-top {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  margin-bottom: 39px;
+}
+
+.legion-products .legion-products-filter-title {
+  margin-right: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.legion-products .legion-products-collapse {
+  color: #0ff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.legion-products .legion-products-facet {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.legion-products .legion-products-facet:last-child {
+  border: 0;
+}
+
+.legion-products .legion-products-facet-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 22px;
+  cursor: pointer;
+}
+
+.legion-products .legion-products-facet-name p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.legion-products .legion-products-facet-arrow {
+  width: 12px;
+  height: 12px;
+  margin: 6px 4px 0 0;
+  border-top: 2px solid #0ff;
+  border-left: 2px solid #0ff;
+  transform: rotate(45deg);
+}
+
+.legion-products .legion-products-facet.collapsed .legion-products-facet-arrow {
+  margin-top: -4px;
+  transform: rotate(225deg);
+}
+
+.legion-products .legion-products-facet.collapsed .legion-products-facet-body {
+  display: none;
+}
+
+.legion-products .legion-products-search {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  margin-top: 9px;
+  padding: 0 16px 0 40px;
+  border-radius: 10px;
+  background: #333;
+  font-size: 14px;
+  position: relative;
+}
+
+.legion-products .legion-products-search::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.legion-products .legion-products-search em {
+  font-style: normal;
+}
+
+.legion-products .legion-products-options li {
+  display: flex;
+  align-items: flex-start;
+  min-height: 24px;
+  margin-top: 20px;
+  padding-top: 3px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.legion-products .legion-products-search + .legion-products-options li:first-child {
+  margin-top: 12px;
+}
+
+.legion-products .legion-products-check {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: -3px 8px 0 0;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.legion-products .legion-products-more {
+  display: block;
+  margin-top: 20px;
+  color: #0ff;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.legion-products .legion-products-range {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.legion-products .legion-products-slider {
+  height: 4px;
+  margin: 24px 8px 8px;
+  border-radius: 2px;
+  background: #fff;
+}
+
+/* ---------- results header + groups ---------- */
+.legion-products .legion-products-list {
+  flex: 1;
+  min-width: 0;
+  padding-left: 30px;
+}
+
+.legion-products .legion-products-query {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 92px;
+}
+
+.legion-products .legion-products-count {
+  padding: 15px 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.legion-products .legion-products-sort {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 45px;
+  margin: 12px 20px 0 0;
+  padding: 0 12px;
+  border: 1px solid #45525d;
+  border-radius: 4px;
+  background: #333f48;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.legion-products .legion-products-group {
+  margin-bottom: 15px;
+}
+
+.legion-products .legion-products-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 48px;
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 4px;
+  background: rgb(230 244 250);
+  color: #000;
+}
+
+.legion-products .legion-products-banner h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.legion-products a.legion-products-shopall:any-link {
+  color: #0d5c91;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* live equalises each card row's slot heights in JS; a subgrid does the same declaratively */
+.legion-products .legion-products-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  /* no row gap: a parent row gap leaks into every subgrid track (empty slots grew 15px);
+     the 15px between card rows is the card's own margin, the last one cancelled */
+  gap: 0 15px;
+  margin-bottom: -15px;
+}
+
+.legion-products .legion-products-footer {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0 45px;
+}
+
+.legion-products a.legion-products-footer-btn:any-link {
+  display: inline-block;
+  max-width: 600px;
+  height: 45px;
+  padding: 0 20px;
+  border: 1px solid #0d5c91;
+  border-radius: 4px;
+  background: #fff;
+  color: #0d5c91;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: center;
+}
+
+/* ---------- product card ---------- */
+.legion-products .legion-products-card {
+  display: grid;
+  grid-row: span 10;
+  grid-template-rows: subgrid;
+  row-gap: 0;
+  min-width: 0;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #4a5863;
+  border-radius: 4px;
+  background: #333f48;
+  font-size: 14px;
+}
+
+.legion-products .legion-products-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 52px;
+}
+
+.legion-products .legion-products-compare {
+  display: inline-flex;
+  align-items: center;
+  height: 36px;
+  padding: 8px 8px 8px 29px;
+  border-radius: 3px;
+  background: #171717;
+  font-size: 13px;
+  position: relative;
+}
+
+.legion-products .legion-products-compare::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.legion-products .legion-products-wish {
+  width: 20px;
+  height: 18px;
+  margin: 9px 6px 0 0;
+  border: 2px solid #fff;
+  border-radius: 50% 50% 0;
+  transform: rotate(45deg) scale(0.8);
+}
+
+.legion-products .legion-products-card-body {
+  display: contents;
+}
+
+.legion-products .legion-products-flag {
+  width: fit-content;
+  font-family: var(--font-display);
+  margin-bottom: 16px;
+  padding: 7px 15px 6px;
+  border-radius: 2px;
+  background: rgb(241 225 237);
+  color: #171717;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.legion-products .legion-products-flag strong {
+  font-weight: 700;
+}
+
+.legion-products .legion-products-flag[data-flag="ready-to-ship"] {
+  background: rgb(248 233 222);
+}
+
+.legion-products .legion-products-flag[data-flag="featured-deal"] {
+  background: rgb(240 199 191);
+}
+
+.legion-products .legion-products-title {
+  padding-bottom: 12px;
+}
+
+.legion-products .legion-products-title :is(h2, h3, h4) {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.legion-products .legion-products-title a:any-link {
+  color: #0ff;
+}
+
+.legion-products .legion-products-badge {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.legion-products .legion-products-badge em {
+  font-style: normal;
+}
+
+.legion-products .legion-products-rating {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  min-height: 24px;
+  font-size: 16px;
+}
+
+.legion-products .legion-products-rating p {
+  min-width: 0;
+}
+
+.legion-products .legion-products-rating a:any-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3px 8px;
+  min-height: 24px;
+  color: inherit;
+}
+
+.legion-products .legion-products-stars {
+  display: flex;
+  gap: 1px;
+}
+
+.legion-products .legion-products-star {
+  --fill: 100%;
+
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(90deg, #fff var(--fill), #6b7680 var(--fill));
+  clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.legion-products .legion-products-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--row-image);
+  padding: 16px 0;
+}
+
+.legion-products .legion-products-image :is(picture, img) {
+  display: block;
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
+
+.legion-products .legion-products-price {
+  /* live: 16px between the image box and the price stack; the stack is frozen at the JS-equalised
+     height (260px) and the rewards line overflows towards the CTA, as on live */
+  position: relative;
+  z-index: 1;
+  height: 237px;
+}
+
+.legion-products .legion-products-est-row:not(:empty) {
+  padding-top: 16px;
+}
+
+.legion-products .legion-products-query + .legion-products-group .legion-products-card:nth-child(-n+4)
+  .legion-products-price {
+  height: 283px;
+}
+
+.legion-products .legion-products-est {
+  padding-top: 6px;
+  line-height: 17px;
+}
+
+.legion-products .legion-products-price-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 37px;
+}
+
+.legion-products .legion-products-amount {
+  font-family: var(--font-ui);
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+.legion-products .legion-products-save {
+  padding: 1px 4px 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background: #444d51;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.legion-products .legion-products-edu {
+  height: 91px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  line-height: 17px;
+}
+
+.legion-products .legion-products-edu-label {
+  display: block;
+}
+
+.legion-products .legion-products-edu-price {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 28px;
+}
+
+.legion-products .legion-products-edu-verified {
+  flex: 1;
+  height: 22px;
+  border-radius: 4px;
+  background: #222;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+
+.legion-products .legion-products-edu-save {
+  font-size: 13px;
+}
+
+.legion-products .legion-products-edu-verify {
+  color: #0ff;
+  text-decoration: underline;
+}
+
+.legion-products .legion-products-katapult {
+  height: 46px;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.legion-products .legion-products-katapult-logo {
+  display: inline-block;
+  margin-right: 5px;
+  color: #f25b78;
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 18px;
+  vertical-align: bottom;
+}
+
+/* the Katapult wordmark (an image on live) — brand chrome, not authored text */
+.legion-products .legion-products-katapult-logo::before {
+  content: "Katapult";
+}
+
+.legion-products a.legion-products-learn:any-link {
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.legion-products .legion-products-rewards {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.legion-products .legion-products-rewards em {
+  color: #0ff;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.legion-products a.legion-products-join:any-link {
+  display: inline-block;
+  margin: 4px 0 0 6px;
+  color: #0ff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.legion-products .legion-products-note {
+  margin-top: 16px;
+  line-height: 24px;
+  color: #ff9d47;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.legion-products .legion-products-note.legion-products-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 34px;
+  padding: 0 0 4px;
+  line-height: 18px;
+  border-bottom: 1px solid #d9d9d9;
+  color: #0ff;
+  font-size: 14px;
+}
+
+.legion-products .legion-products-box::before {
+  content: "";
+  flex: none;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #fff;
+  border-radius: 2px;
+}
+
+.legion-products .legion-products-cta {
+  margin-top: 16px;
+}
+
+.legion-products a.legion-products-cta-link:any-link {
+  display: block;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background: #fff;
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+}
+
+.legion-products a.legion-products-cta-link.cto:any-link {
+  border-color: #fff;
+  background: #000;
+  color: #fff;
+}
+
+.legion-products .legion-products-seemore {
+  display: flex;
+  font-family: var(--font-display);
+  font-weight: 700;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  color: #0ff;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+}
+
+.legion-products .legion-products-seemore::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin-top: -4px;
+  border-right: 2px solid #0ff;
+  border-bottom: 2px solid #0ff;
+  transform: rotate(45deg);
+}
+
+/* ≤767: live serves the desktop (terminal-pc) DLP; the page is wider than the viewport */
+@media (width <= 767px) {
+  .legion-products {
+    --row-image: 232px;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .legion-products .legion-products-inner {
+    width: 673px;
+  }
+
+  .legion-products .legion-products-query {
+    height: 112px;
+  }
+
+  .legion-products .legion-products-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .legion-products .legion-products-banner {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 48px;
+  }
+
+  /* live 360 slot heights in the 143px card column: the first row's price stack is 432px, the
+     JS-frozen later rows are 66px shorter (the rewards line overflows towards the CTA) */
+  .legion-products .legion-products-price,
+  .legion-products .legion-products-query + .legion-products-group
+    .legion-products-card:nth-child(-n+4) .legion-products-price {
+    height: 326px;
+  }
+
+  .legion-products .legion-products-query + .legion-products-group
+    .legion-products-card:nth-child(-n+2) .legion-products-price {
+    height: 392px;
+  }
+
+  /* live puts a tooltip icon between "Est Value" and the price: a 4-digit value wraps to a
+     second line in the 143px column, a 2–3-digit one stays on the first */
+  .legion-products .legion-products-est {
+    padding-right: 20px;
+  }
+
+  .legion-products .legion-products-price-line {
+    flex-wrap: wrap;
+    row-gap: 4px;
+    height: auto;
+    min-height: 66px;
+  }
+
+  .legion-products .legion-products-edu {
+    height: 125px;
+  }
+
+  .legion-products .legion-products-katapult {
+    height: 64px;
+  }
+
+  .legion-products .legion-products-rewards {
+    min-height: 93px;
+  }
+
+  .legion-products a.legion-products-join:any-link {
+    display: block;
+    height: 24px;
+    margin: 0;
+  }
+}
+
+.legion-products .legion-products-details {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.legion-products .legion-products-details a:any-link {
+  color: #0ff;
+  text-decoration: underline;
+}

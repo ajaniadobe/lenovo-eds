@@ -1,0 +1,17 @@
+#0 container services_support_container [0,5074,360,1380]
+  T p.pre-headline [16,5122,328,22] 20/22/700/rgb(0,255,255) «OUR PROMISE TO YOU»
+  T p.headline [16,5148,328,42] 36/42/700/rgb(255,255,255) «Lenovo Services»
+  IMG  [23,5271,55,60] //p2-ofp.static.pub//fes/cms/2023/12/29/bwmakcxxsps5ckdpr4mbpspl7htmb3683602.png alt=""
+  T div.name [23,5351,55,168] 24/24/700/rgb(255,255,255) «Smarter support & security for your PC»
+  T span. [-4,5531,110,720] 18/24/400/rgba(255,255,255,0.8) «With Lenovo Premium Care Plus, worrying is a thing of the past! You’ll enjoy 24/7 priority support with accide»
+  T a.primary [28,6275,46,67] 16/0/700/rgb(0,255,255) «Learn more > >» href=/us/en/legion-support/
+  IMG  [152,5271,55,60] //p1-ofp.static.pub//fes/cms/2023/12/29/wo2niw4n986g2ul9845siyjmnjw957274840.png alt=""
+  T div.name [152,5351,55,72] 24/24/700/rgb(255,255,255) «Because life happens»
+  T span. [111,5435,129,96] 18/24/400/rgba(255,255,255,0.8) «Laptops drop, coffee spills, power surges. With»
+  T strong. [112,5507,137,96] 18/24/700/rgba(255,255,255,0.8) «Accidental Damage Protection (ADP)»
+  T span. [112,5579,137,408] 18/24/400/rgba(255,255,255,0.8) «you won’t need to bat an eye. This fixed-cost, fixed-term, optional protection plan minimizes the cost of unex»
+  T a.primary [157,6275,46,67] 16/0/700/rgb(0,255,255) «Learn more > >» href=https://www.lenovo.com/content/dam/lenovo/pcsd/global/en/services/service-offerings/lifecycle-servic
+  IMG  [282,5271,55,60] //p2-ofp.static.pub//fes/cms/2023/12/29/lfaw4z0vm3vr9z1i5g3gyvj0r5fmju724836.svg alt=""
+  T div.name [282,5351,55,48] 24/24/700/rgb(255,255,255) «Smart Performance»
+  T span. [252,5411,115,528] 18/24/400/rgba(255,255,255,0.8) «Nobody can tune your PC better than the people who made it! Lenovo Smart Performance within Vantage will diagn»
+  T a.primary [286,6275,46,67] 16/0/700/rgb(0,255,255) «Learn more > >» href=/us/en/software/lenovo-smart-performance-services/

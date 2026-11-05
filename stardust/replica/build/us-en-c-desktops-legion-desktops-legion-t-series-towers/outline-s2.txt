@@ -1,0 +1,11 @@
+div.slot_content.slot_content_c0d8347as4d28-4b70-98db-226700d8bdfb.slot_clsc0d8347as4d28-4b70-98db-226700d8bdfb
+  div
+    section.series-blade2.opaque-area-position-right.terminal-pc
+      div.bg-type-image.blade-background
+        img.bg-image src=//p2-ofp.static.pub//fes/cms/2026/05/28/msilkjpf41x0dntwje3i8l6ieudm6r257577.jpg alt="Gaming PC with vibrant blue and red lighting, showcasing internal components of the Lenovo Legion T-Series. "
+      article.blade-panel
+        div.product-headline
+          h2.h-title «Whisper-Quiet Performance»
+        div.product-desc
+          p «These towers are the epitome of staying cool under pressure. Employing an innovative thermal architecture with streamlined air intake (and optional liquid cooling on some models), Lenovo Legion towers»
+        span.sr-only «open in new tab»

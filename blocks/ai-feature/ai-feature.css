@@ -1,0 +1,89 @@
+/* ai-feature — live horizontal-default-pc bands (us-en-ai-pcs prototype § features) */
+.ai-feature {
+  position: relative;
+  padding: 40px;
+  color: #000;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.ai-feature.blue {
+  background: #eaeef5;
+}
+
+.ai-feature.pink {
+  background: #faeceb;
+}
+
+.ai-feature .feature-pc {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ai-feature.reverse .feature-pc {
+  flex-direction: row-reverse;
+}
+
+.ai-feature .feature-image {
+  flex: 0 0 640px;
+  width: 640px;
+}
+
+.ai-feature .feature-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.ai-feature .feature-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 40px 40px 56px;
+  overflow-wrap: break-word;
+}
+
+.ai-feature.blue .feature-content {
+  background: #eaeff5;
+}
+
+.ai-feature.pink .feature-content {
+  padding-bottom: 60px;
+}
+
+.ai-feature .feature-title :is(h1, h2, h3, h4) {
+  font-family: var(--font-ui);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ai-feature .feature-subtitle {
+  margin-top: 16px;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.ai-feature .feature-body {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.ai-feature .feature-body p {
+  min-height: 22px;
+}
+
+.ai-feature .feature-actions {
+  margin-top: 10px;
+}
+
+@media (width <= 767px) {
+  .ai-feature .feature-image {
+    flex: 0 0 100px;
+    width: 100px;
+  }
+}

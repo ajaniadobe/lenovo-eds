@@ -1,0 +1,245 @@
+/* home-hero — values from stardust/prototypes/index.css (hero carousel) */
+/* stylelint-disable no-descending-specificity -- descendant selectors on authored elements (EW2) */
+.home-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 0 30px;
+  overflow: hidden;
+  background: var(--c-hero);
+}
+
+.home-hero .hero-track {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.home-hero .hero-slide {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 48px;
+}
+
+.home-hero .hero-inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1344px;
+  padding: 24px 0;
+}
+
+.home-hero .hero-copy {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  min-width: 0;
+}
+
+.home-hero .wordmark {
+  display: flex;
+}
+
+.home-hero .wordmark.wordmark-empty {
+  display: block;
+  height: 0;
+}
+
+.home-hero .wordmark :is(p, picture) {
+  display: block;
+  line-height: 0;
+}
+
+.home-hero .wordmark img {
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  max-height: 81px;
+}
+
+.home-hero .wordmark.wordmark-tall img {
+  height: 81px;
+  margin-bottom: 6px;
+}
+
+.home-hero .titles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+}
+
+.home-hero .headline :is(h1, h2, h3) {
+  color: #000;
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -1.4px;
+}
+
+.home-hero .body p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.home-hero .actions {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.home-hero .actions a.button:any-link {
+  height: 40px;
+  padding: 0 24px;
+  line-height: 25.6px;
+}
+
+.home-hero .actions a.button.secondary:any-link {
+  padding: 0;
+  text-decoration-color: var(--c-ink);
+  text-underline-offset: auto;
+}
+
+.home-hero .media {
+  display: flex;
+  flex: 0 0 800px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.home-hero .media :is(p, picture) {
+  display: block;
+  line-height: 0;
+}
+
+.home-hero .media img {
+  width: 800px;
+  height: 450px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* carousel controls */
+.home-hero .hero-controls {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 652px;
+}
+
+.home-hero .arrows {
+  display: flex;
+  gap: 8px;
+}
+
+.home-hero .bar {
+  position: relative;
+  flex: 1 1 auto;
+  height: 2px;
+  background: var(--c-mauve);
+}
+
+.home-hero .bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--c-red);
+}
+
+.home-hero .hero-controls .len-icon-image {
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+}
+
+@media (width <= 749px) {
+  .home-hero {
+    justify-content: flex-start;
+    padding: 0 0 24px;
+  }
+
+  .home-hero .hero-track {
+    align-items: flex-start;
+  }
+
+  .home-hero .hero-slide {
+    padding: 0 16px;
+  }
+
+  .home-hero .hero-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0;
+  }
+
+  .home-hero .hero-copy {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .home-hero .wordmark.wordmark-tall img {
+    max-width: 150px;
+  }
+
+  .home-hero .titles {
+    gap: 20px;
+  }
+
+  .home-hero .headline :is(h1, h2, h3) {
+    font-size: 34px;
+    line-height: 40.8px;
+    letter-spacing: -0.34px;
+  }
+
+  .home-hero .body p {
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: -0.16px;
+  }
+
+  .home-hero .actions {
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .home-hero .actions a.button:any-link {
+    height: 32px;
+  }
+
+  .home-hero .media {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .home-hero .media img {
+    width: 100%;
+    height: 185px;
+  }
+
+  .home-hero .hero-controls {
+    max-width: none;
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,161 @@
+/* pdp-services — service promise cards with their section head (default content) */
+/* stylelint-disable no-descending-specificity -- cascade order ported from the gated prototype */
+main .section.pdp-services-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 16px 76px;
+  background: #171717;
+  color: #fff;
+  font-family: var(--font-ui);
+  line-height: normal;
+}
+
+main .section.pdp-services-container .default-content-wrapper {
+  max-width: none;
+  padding: 0;
+  text-align: center;
+}
+
+main .section.pdp-services-container .default-content-wrapper p {
+  margin: 0;
+  color: #0ff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+main .section.pdp-services-container .default-content-wrapper h2 {
+  margin: 0;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.pdp-services .svc-list {
+  display: flex;
+  gap: 32px;
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pdp-services .svc {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  height: 484px;
+  padding: 41px 21px;
+  text-align: center;
+}
+
+.pdp-services p {
+  margin: 0;
+}
+
+.pdp-services .svc-icon {
+  line-height: 0;
+}
+
+.pdp-services .svc-icon img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.pdp-services .svc-title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pdp-services .svc-title :is(h2, h3, h4) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.pdp-services .svc-desc {
+  margin-top: 12px;
+  color: rgb(255 255 255 / 80%);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pdp-services .svc-link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 41px;
+  color: #0ff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.pdp-services .svc-link a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (width <= 1023px) {
+  main .section.pdp-services-container {
+    padding-top: 48px;
+    padding-bottom: 101px;
+  }
+
+  .pdp-services .svc-list {
+    margin: 40px -14px 0;
+  }
+
+  /* live 360: 55px columns; titles overflow word by word, the copy widens to its longest word */
+  .pdp-services .svc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1152px;
+    padding: 40px 21px;
+  }
+
+  .pdp-services .svc-icon,
+  .pdp-services .svc-title {
+    align-self: stretch;
+  }
+
+  .pdp-services .svc-link {
+    left: 21px;
+    right: 21px;
+    bottom: 40px;
+  }
+}
+
+/* ---------- light (white series page palette; generated from the dark rules) ---------- */
+main .section.pdp-services-container:has(.pdp-services.light) {
+  background: #fff;
+  color: #000;
+}
+
+/* live pre-headline "OUR PROMISE TO YOU": rgb(78 68 78) */
+main .section.pdp-services-container:has(.pdp-services.light) .default-content-wrapper p {
+  color: #4e444e;
+}
+
+main .section.pdp-services-container:has(.pdp-services.light) .default-content-wrapper h2 {
+  color: #000;
+}
+
+.pdp-services.light .svc-desc {
+  color: #4e444e;
+}
+
+.pdp-services.light .svc-link {
+  color: #294e95;
+}
+
+/* black: the dark tower series page (live #000) */
+main .section.pdp-services-container:has(.pdp-services.black) {
+  background: #000;
+}

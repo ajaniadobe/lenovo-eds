@@ -1,0 +1,425 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout",
+    "writtenAt": "2026-11-03T09:25:30Z",
+    "stardustVersion": "0.36.0"
+  },
+  "site": {
+    "originUrl": "https://www.lenovo.com",
+    "deployUrl": "https://main--b3b47bf7--aemcoder.aem.page/",
+    "extractedAt": "2026-11-02T21:53:52.850Z",
+    "pageCap": null,
+    "totalDiscovered": 10,
+    "crawled": 10,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-11-02T22:01:55Z",
+    "phrase": "replica (preserve)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-02T21:53:52.850Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.lenovo.com/",
+      "title": "Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T23:07:51Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T23:07:51Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-legion",
+      "url": "https://www.lenovo.com/us/en/legion/",
+      "title": "Lenovo Legion | Reach Your Impossible | Lenovo US",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-legion.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+      "title": "Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US",
+      "type": "product",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T01:01:49Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus.json",
+      "prototypePath": "stardust/prototypes/us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-d-accessories-and-software-gaming-accessories",
+      "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+      "title": "Gaming Accessories for PC & Console | Keyboards, Mice & Headsets | Lenovo US",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-d-accessories-and-software-gaming-accessories.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-ai-pcs",
+      "url": "https://www.lenovo.com/us/en/ai-pcs/",
+      "title": "Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-02T23:24:23Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T23:24:23Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-ai-pcs.json",
+      "prototypePath": "stardust/prototypes/us-en-ai-pcs-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-education-futureyou",
+      "url": "https://www.lenovo.com/us/en/education/futureyou/",
+      "title": "The Future Needs You | Technology for College & Beyond | Lenovo US",
+      "type": "campaign",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-education-futureyou.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-c-laptops-yoga-yoga-slim-series",
+      "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+      "title": "Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-c-laptops-yoga-yoga-slim-series.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+      "url": "https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+      "title": "Yoga Slim 7x (14\" Snapdragon) | Lenovo US",
+      "type": "product",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+      "title": "Legion T Series | Power Unleased | Lenovo US",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-02T23:58:09Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-c-desktops-legion-desktops-legion-t-series-towers.json",
+      "prototypePath": "stardust/prototypes/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+      "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+      "title": "Legion Tower 5i Gen 10 (Intel) | Extreme Gaming & Streaming PC | Lenovo US",
+      "type": "product",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-02T21:53:52.850Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-03T09:25:30Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-03T06:10:23Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/legion/",
+        "outputPath": "us/en/legion/index.html",
+        "slug": "us-en-legion",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+        "outputPath": "us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus/index.html",
+        "slug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/us/en/d/accessories-and-software/gaming-accessories/",
+        "outputPath": "us/en/d/accessories-and-software/gaming-accessories/index.html",
+        "slug": "us-en-d-accessories-and-software-gaming-accessories",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/ai-pcs/",
+        "outputPath": "us/en/ai-pcs/index.html",
+        "slug": "us-en-ai-pcs",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/education/futureyou/",
+        "outputPath": "us/en/education/futureyou/index.html",
+        "slug": "us-en-education-futureyou",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/c/laptops/yoga/yoga-slim-series/",
+        "outputPath": "us/en/c/laptops/yoga/yoga-slim-series/index.html",
+        "slug": "us-en-c-laptops-yoga-yoga-slim-series",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+        "outputPath": "us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066/index.html",
+        "slug": "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+        "outputPath": "us/en/c/desktops/legion-desktops/legion-t-series-towers/index.html",
+        "slug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+        "outputPath": "us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009/index.html",
+        "slug": "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 45,
+    "bundledAssets": [
+      "canon.css",
+      "canon.js",
+      "favicon.ico",
+      "fonts/Montserrat-Latin.woff2",
+      "fonts/NotoSans-Latin-Bold.woff2",
+      "fonts/NotoSans-Latin-Regular.woff2",
+      "fonts/icomoon.woff2",
+      "icons/lenovo-icon-ai.svg",
+      "icons/lenovo-icon-around-globe.svg",
+      "icons/lenovo-icon-arrow-down.svg",
+      "icons/lenovo-icon-arrow-left.svg",
+      "icons/lenovo-icon-arrow-right.svg",
+      "icons/lenovo-icon-cares.svg",
+      "icons/lenovo-icon-cart.svg",
+      "icons/lenovo-icon-case.svg",
+      "icons/lenovo-icon-close.svg",
+      "icons/lenovo-icon-community.svg",
+      "icons/lenovo-icon-contact-us.svg",
+      "icons/lenovo-icon-dashboard.svg",
+      "icons/lenovo-icon-data-center.svg",
+      "icons/lenovo-icon-discount.svg",
+      "icons/lenovo-icon-innovation.svg",
+      "icons/lenovo-icon-lock.svg",
+      "icons/lenovo-icon-pause.svg",
+      "icons/lenovo-icon-play.svg",
+      "icons/lenovo-icon-products.svg",
+      "icons/lenovo-icon-refresh.svg",
+      "icons/lenovo-icon-server-options.svg",
+      "icons/lenovo-icon-server.svg",
+      "icons/lenovo-icon-smart-performance.svg",
+      "icons/lenovo-icon-smartphone.svg",
+      "icons/lenovo-icon-storage.svg",
+      "icons/lenovo-icon-thinkpad-laptop.svg",
+      "icons/lenovo-icon-tower.svg",
+      "icons/lenovo-icon-weekly-deals.svg",
+      "icons/lenovo-icon-workstations.svg",
+      "icons/search.svg",
+      "icons/select-arrow.jpg",
+      "index.css",
+      "us-en-ai-pcs.css",
+      "us-en-ai-pcs.js",
+      "us-en-c-desktops-legion-desktops-legion-t-series-towers.css",
+      "us-en-c-desktops-legion-desktops-legion-t-series-towers.js",
+      "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus.css",
+      "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus.js"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 39
+      },
+      {
+        "slug": "us-en-ai-pcs",
+        "file": "stardust/migrated/us/en/ai-pcs/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+        "file": "stardust/migrated/us/en/c/desktops/legion-desktops/legion-t-series-towers/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+        "file": "stardust/migrated/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus/index.html",
+        "assetsBundled": 7
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-03T06:10:23Z",
+      "rendered": [],
+      "unchanged": [],
+      "refused": [
+        "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+        "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+      ],
+      "passthrough": []
+    }
+  }
+}

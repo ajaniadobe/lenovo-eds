@@ -1,0 +1,152 @@
+/* ==========================================================================
+   us-en-c-desktops-legion-desktops-legion-t-series-towers — listing archetype
+   (https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/)
+   Imports canon.css (fonts, tokens, header, footer). Values lifted from
+   files.20260819040944395790.css (series hero), files.20260819085539694840.css
+   (series-blade2), the page's inline listing styles (gaming-theme-black DLP) and
+   the live measure run (replica/build/<slug>/measure-live.json). The product
+   grid is a hydrated commerce widget: replicated as captured, including the
+   JS-equalised card row heights and the desktop layout the live serves at 360.
+   ========================================================================== */
+.tpl-listing { font-family: var(--font-ui); font-weight: 400; line-height: normal; color: #000; }
+.tpl-listing img { max-width: 100%; }
+
+/* ---------- series hero (hero-rectangle-content) ---------- */
+.series-hero { position: relative; overflow: hidden; color: #fff; }
+.series-hero .banner-container { position: relative; display: flex; min-height: 540px; overflow: hidden; }
+.series-hero__background { position: absolute; inset: 0; z-index: 1; }
+.series-hero__background img { width: 100%; height: 100%; object-fit: cover; }
+.series-hero .wrap-left { position: relative; z-index: 3; display: flex; flex-direction: column; width: 610px; padding: 20px 50px 34px 20px; }
+.series-hero .breadcrumbs { margin-bottom: 20px; font-size: 12px; line-height: 15px; }
+.series-hero .breadcrumbs ol { display: flex; flex-wrap: wrap; }
+.series-hero .breadcrumb, .series-hero .breadcrumb-current-page { position: relative; display: inline-block; padding-inline-end: 20px; }
+.series-hero .breadcrumb::after { content: ""; position: absolute; top: 5px; inset-inline-end: 8px; width: 5px; height: 5px; border: solid currentColor; border-width: 0 1px 1px 0; transform: rotate(-45deg); }
+.series-hero .product-logo { min-height: 50px; }
+.series-hero .product-logo img { display: inline; width: auto; height: auto; max-width: 250px; max-height: 70px; }
+.series-hero .product-name { margin-bottom: 20px; line-height: 44px; }
+.series-hero .h-name { font-size: 36px; font-weight: 400; line-height: 44px; }
+.series-hero .product-title { margin-bottom: 20px; line-height: 34px; }
+.series-hero .h-title { font-size: 28px; font-weight: 700; line-height: 34px; }
+.series-hero .product-desc { margin-bottom: 40px; font-size: 18px; line-height: 28px; word-break: break-word; }
+.series-hero .hero-bottom-group { margin-top: auto; }
+.series-hero .product-btn { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 32px; }
+.series-hero__cta { display: inline-flex; align-items: center; justify-content: center; min-width: 225px; padding: 11px 24px; border: 1px solid currentColor; border-radius: 4px; background: #000; color: #fff; font-size: 14px; font-weight: 700; line-height: 21px; text-align: center; }
+.series-hero__cta:hover, .series-hero__cta:focus-visible { background: #fff; border-color: #000; color: #000; }
+
+/* ---------- series-blade2 (alternating image / colour panel) ---------- */
+.series-blade2 { position: relative; display: flex; width: 100%; min-height: 660px; margin: 0 auto; overflow: hidden; background-color: #efefef; }
+.series-blade2.is-left { flex-direction: row-reverse; }
+.series-blade2 .blade-background { position: relative; flex: 1; min-height: 660px; background-color: #eee; }
+.series-blade2 .bg-image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.series-blade2 .blade-panel { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: center; width: 640px; min-height: 660px; padding: 75px; color: #fff; }
+.series-blade2.tone-navy .blade-panel { background-color: #11184f; }
+.series-blade2.tone-plum .blade-panel { background-color: #1e0013; }
+.series-blade2.tone-wine .blade-panel { background-color: #64131e; }
+.series-blade2 .product-logo { min-height: 50px; margin-bottom: 20px; }
+.series-blade2 .product-logo img { display: inline; width: auto; height: auto; max-width: 250px; max-height: 70px; }
+.series-blade2 .product-headline { min-height: 32px; margin-bottom: 20px; line-height: 34px; }
+.series-blade2 .h-title { font-size: 28px; font-weight: 700; line-height: 34px; }
+.series-blade2 .product-desc { margin-bottom: 20px; font-size: 18px; line-height: 28px; word-break: break-word; }
+.series-blade2 .product-btn { display: flex; align-items: center; }
+.series-blade2 .blade-cta { display: inline-block; min-width: 225px; color: #7fd4ec; font-size: 16px; font-weight: 700; line-height: 20px; text-align: left; }
+
+/* ---------- DLP listing (gaming-theme-black) ---------- */
+.dlp { position: relative; max-width: 1920px; margin: 0 auto; padding-bottom: 3px; background: #000; color: #fff; }
+.dlp .sub_header { padding: 20px 0 14px; font-size: 36px; font-weight: 700; line-height: 44px; text-align: center; }
+.dlp_scroll { position: relative; overflow-x: auto; scrollbar-width: none; }
+.dlp_scroll::-webkit-scrollbar { display: none; }
+.dlp .pc_content { display: flex; padding: 0 20px; }
+.dlp .pc_left_facets { position: relative; flex: 0 0 238px; width: 238px; padding-top: 27px; }
+.dlp .skip-link { position: absolute; top: 0; left: 0; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.dlp .skip-link:focus { width: auto; height: auto; clip: auto; color: #0ff; }
+.dlp .filter_action_top { display: flex; align-items: center; height: 22px; margin-bottom: 39px; }
+.dlp .filter_action_title { margin-right: 24px; font-family: var(--font-body); font-size: 16px; font-weight: 700; line-height: normal; }
+.dlp .collapse_filters { cursor: pointer; color: #0ff; font-family: var(--font-body); font-size: 14px; line-height: 18px; letter-spacing: -0.14px; }
+.dlp .facets-list { position: relative; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #fff; }
+.dlp .facets-list:last-child { border: 0; }
+.dlp .facets-name { display: flex; justify-content: space-between; align-items: flex-start; height: 22px; font-size: 14px; line-height: 17px; }
+.dlp .facets-name .flex { display: flex; align-items: center; height: 22px; min-width: 0; padding-right: 8px; }
+.dlp .facets-name b { font-weight: 700; }
+.dlp .positioned-tooltip { position: absolute; top: 0; left: 0; display: flex; align-items: center; height: 22px; font-size: 14px; line-height: 17px; }
+.dlp .anchor-facet-name { visibility: hidden; font-weight: 700; }
+.dlp .iconfont-arrows::before { content: "\e9e4"; }
+.dlp .facets-tooltip { display: inline-flex; margin-left: 5px; color: #0ff; font-size: 14px; line-height: 14px; }
+.dlp .iconfont-tooltipIcon::before { content: "\e936"; }
+.dlp .upArrow { width: 17px; height: 17px; margin-top: 5px; background: url("https://p2-ofp.static.pub/fes/cms/2021/06/04/1hgez9mg9o2nzsp68yls43ci2xx483363275.svg") center / contain no-repeat; }
+.dlp .item-lists-group { margin-top: 20px; }
+.dlp .item-lists-group[hidden] { display: none; }
+.dlp .item-lists-group label { display: flex; align-items: flex-start; min-height: 25px; cursor: pointer; }
+.dlp .item-lists-group input { flex: none; width: 20px; height: 20px; margin: 0 8px 0 0; border: 1px solid #fff; border-radius: 3px; background: transparent; -webkit-appearance: none; appearance: none; cursor: pointer; }
+.dlp .items { padding-top: 3px; font-size: 14px; line-height: 19px; }
+.dlp .learn-more { display: block; cursor: pointer; width: 100%; margin-top: 20px; color: #0ff; font-size: 14px; line-height: 19px; text-align: left; }
+
+.dlp .pc_product_list { flex: 1; padding-left: 30px; }
+.dlp .query_view { display: flex; justify-content: space-between; align-items: center; padding: 12px 0 19px; }
+.dlp .matching_header { display: flex; padding: 15px 20px 15px 0; font-size: 14px; font-weight: 700; line-height: 17px; }
+.dlp .matching_header .total { font-weight: 900; }
+.dlp .matching_header i { font-style: normal; }
+.dlp .price_sort { display: flex; align-items: center; margin-top: 12px; padding-right: 20px; border-top: 2px solid #000; border-left: 2px solid #000; }
+.dlp .price_sort_select { position: relative; min-width: 250px; max-width: 400px; line-height: 45px; }
+.dlp .default_select { display: flex; align-items: center; width: 100%; padding: 0 12px; border: 1px solid #45525d; border-radius: 4px; background: #333f48; color: #fff; font-size: 16px; line-height: 45px; text-align: left; cursor: pointer; }
+.dlp .default_select_sortby { flex: 1; overflow: hidden; padding-right: 21px; white-space: nowrap; text-overflow: ellipsis; }
+.dlp .default_select_sortby i { font-style: normal; }
+.dlp .default_select_sortby span { margin-left: 5px; }
+.dlp .default_select .arrow { width: 13px; height: 13px; border-top: 2px solid #fff; border-left: 2px solid #fff; transform: rotate(225deg); }
+.dlp .select_list { position: absolute; z-index: 5; top: 100%; left: 0; right: 0; padding: 0 12px; border: 1px solid #45525d; border-radius: 4px; background: #333f48; }
+
+/* product cards — row heights are the live page's JS-equalised values, frozen per breakpoint */
+.dlp { --row-title: 52px; --row-rating: 26px; --row-image: 280px; --row-price: 199px; --row-details: 169px; }
+.dlp .product-group-list { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px; }
+.dlp .product_item { flex: 0 0 calc((100% - 45px) / 4); min-width: 0; padding: 15px; border: 1px solid #4a5863; border-radius: 4px; background: #333f48; color: #fff; }
+.dlp .card-merch { height: 44px; }
+.dlp .common-compare { display: inline-flex; align-items: center; height: 36px; margin-bottom: 8px; padding: 8px; border-radius: 3px; background: #171717; box-shadow: 0 8px 10px #00000029; cursor: pointer; }
+.dlp .common-compare input { width: 16px; height: 16px; margin: 0 5px 0 0; border: 1px solid #fff; border-radius: 3px; background: #171717; -webkit-appearance: none; appearance: none; }
+.dlp .compare-text { font-size: 13px; line-height: 20px; letter-spacing: -0.13px; }
+.dlp .card-title { height: var(--row-title); }
+.dlp .product_title { font-size: 16px; font-weight: 700; line-height: 20px; }
+.dlp .product_title a { color: #0ff; }
+.dlp .card-rating { height: var(--row-rating); }
+.dlp .rating { display: flex; flex-wrap: wrap; align-items: flex-start; row-gap: 5px; }
+.dlp .stars { display: flex; margin-top: 5px; }
+.dlp .star-icon-box { position: relative; width: 16px; height: 16px; margin-right: 1px; }
+.dlp .star-icon { position: absolute; top: 0; left: 0; width: 16px; height: 16px; background: url("https://p4-ofp.static.pub/fes/cms/2023/02/15/iyxntur2wscag0a4lek1rw7s5tk82e383786.svg") 0 0 / 16px 16px no-repeat; }
+.dlp .star-icon.gray-icon { background-image: url("https://p4-ofp.static.pub/fes/cms/2023/02/15/q5kfy9k5c9owr2yeitaxd3q4rj4pcd697562.svg"); }
+.dlp .number_box { display: flex; gap: 4px; margin: 4px 0 0 4px; font-size: 16px; line-height: 19px; }
+.dlp .card-image { display: flex; align-items: center; height: var(--row-image); padding: 16px 0; }
+.dlp .card-image .normal_image { display: block; width: 100%; }
+.dlp .card-image img { width: 100%; height: auto; }
+.dlp .price-stack { height: var(--row-price); margin-top: 16px; }
+.dlp .starting-at { font-size: 18px; line-height: 18px; }
+.dlp .price-title { height: 36px; font-size: 26px; line-height: 32px; letter-spacing: -1px; }
+.dlp .katapult { margin-top: 15px; font-family: var(--font-body); font-size: 12px; line-height: 18px; letter-spacing: -0.12px; }
+.dlp .katapult-logo { display: inline-flex; vertical-align: middle; width: 65px; height: 16px; margin: -2px 5px 0 0; background: url("https://www.katapult.com/plugin/img/katapult-logo.svg") left center / contain no-repeat; }
+.dlp .katapult b { font-weight: 700; }
+.dlp .k-price { margin-right: 3px; }
+.dlp .k-learn { font-size: 11px; font-weight: 700; text-decoration: underline; }
+.dlp .loyalty { margin-top: 5px; padding: 13px 0; border-bottom: 1px solid #fff; font-size: 12px; line-height: 14px; }
+.dlp .rewards-text { margin-right: 3px; font-family: var(--font-display); font-weight: 700; }
+.dlp .popup-activation { display: inline-block; min-width: 24px; height: 24px; color: #0ff; font-weight: 700; line-height: 24px; text-decoration: underline; }
+.dlp .join-now { margin-left: 4px; }
+.dlp .join-now a { display: inline-block; height: 24px; margin-left: 2px; color: #0ff; font-weight: 700; line-height: 24px; text-decoration: underline; }
+.dlp .card-details { height: var(--row-details); padding-top: 10px; font-size: 13px; line-height: 20px; }
+.dlp .features { list-style: disc; }
+.dlp .features li { margin-left: 16px; }
+.dlp .card-cta { margin-top: 16px; }
+.dlp .cta-button { display: block; height: 45px; padding: 10px; border: 1px solid #000; border-radius: 4px; background: #fff; color: #000; font-size: 16px; font-weight: 700; line-height: 23px; text-align: center; }
+.dlp .cta-button:hover, .dlp .cta-button:focus-visible { background: #000; color: #fff; border-color: #fff; }
+.dlp .pc_footer_page { display: flex; flex-direction: column; align-items: center; margin-top: 37px; padding: 25px 0 65px; font-size: 16px; line-height: 17px; }
+
+/* ---------- ≤767: hero mobile rules; blades + DLP keep the desktop (terminal-pc) layout the live serves ---------- */
+@media (max-width: 767px) {
+  .series-hero .banner-container { display: block; min-height: 549px; }
+  .series-hero .wrap-left { width: 100%; min-height: 549px; padding: 20px 10px 0; }
+  .series-hero .breadcrumbs, .series-hero .product-desc { display: none; }
+  .series-hero .product-logo img { max-width: 170px; max-height: 50px; }
+  .series-hero .product-btn { flex-direction: column; align-items: stretch; gap: 4px; margin-bottom: 20px; }
+  .series-hero__cta { width: fit-content; max-width: 100%; margin: 0 auto; }
+  .dlp { --row-title: 72px; --row-rating: 45px; --row-image: 232px; --row-price: 231px; --row-details: 258px; }
+  .dlp .product_item { flex-basis: calc((100% - 15px) / 2); }
+  .dlp .number_box { margin: 0; }
+  /* live row 2 (cards 3–4) is equalised short at 360: price stack 167, details 249 (loyalty overlaps details — as captured) */
+  .dlp .product_item:nth-child(n+3) { --row-price: 167px; --row-details: 249px; }
+}

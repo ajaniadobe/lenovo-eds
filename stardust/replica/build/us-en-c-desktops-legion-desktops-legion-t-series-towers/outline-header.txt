@@ -1,0 +1,431 @@
+nav.commonHeader
+  div.masthead.flex.top_masthead
+    div.top_masthead_container.flex
+      div.header_right
+        ul.utility_nav
+          li.utility_nav_item.utility_nav_item_store.relative
+            div
+              div.utility_nav_item_icon.utility_nav_item_store_icon.relative
+                a.lazy_href href=https://www.lenovo.com/us/en/business/benefits/
+                  p «Lenovo Pro Business Store»
+                    strong «Join»
+                button.store_arrow.iconfont-arrowDown
+            div.popover
+              div.popoverContent
+                p
+                  a href=https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage
+                    strong «Log In / Sign Up»
+                p
+                  a href=https://www.lenovo.com/us/en/business/benefits/
+                    strong «Learn More»
+                p
+                  a href=https://smbcommunity.lenovo.com/us/
+                    strong «Community»
+                p.nav-smb-store
+                  br
+          li.utility_nav_item.relative
+            div.utility_nav_item_icon.relative.flex
+              div.utility-content
+                span.normal_icon.icon-picker-container.font-16
+                  span.iconfont-accessibility
+                span.active_icon.icon-picker-container.font-16
+                  span.iconfont-accessibility
+            div.popover.popover_title «Accessibility»
+          li.utility_nav_item.relative
+            div.utility_nav_item_icon.relative.flex
+              div.utility-content
+                span.normal_icon.icon-picker-container.font-16
+                  span.iconfont-contact-us-pc.iconfont-color-web-black-01
+                span.active_icon.icon-picker-container.font-16
+                  span.iconfont-contact-us-pc.iconfont-color-web-black-01
+            div.accessibilityIcon
+              span.iconfont-arrowDown
+            div.popover
+              div.popoverContent
+                div.SalesNumber
+                  p
+                    strong «Sales:»
+                  div.wpc-menu-contact-display-adapt-margin-height
+                    div.wpc-menu-contact-display-adapt-height
+                      p.wpc-menu-contact-display-adapt «Home:»
+                      p.wpc-menu-contact-display-adapt
+                        a href=tel:1-855-253-6686 «1-855-253-6686»
+                    div
+                      p.wpc-menu-contact-display-adapt «Business:»
+                      p.wpc-menu-contact-display-adapt
+                        a href=tel:1-866-426-0110 «1-866-426-0110»
+                    p.wpc-menu-contact-display-adapt
+                      a href=https://www.lenovo.com/us/en/contact/sales-support/ «Chat Now >»
+                    p.wpc-menu-contact-display-adapt
+                      a href=https://www.lenovo.com/us/en/contact/sales-support/ «Visit Sales Support Page >»
+                    p.wpc-menu-contact-display-adapt
+                      br
+                div.SmallBusinessNumber
+                  p
+                    strong «Order Support:»
+                  div.wpc-menu-contact-display-adapt-margin-height
+                    p.wpc-menu-contact-display-adapt
+                      a href=https://www.lenovo.com/us/en/trackmyorder «Order Lookup >»
+                    p.wpc-menu-contact-display-adapt
+                      a href=https://www.lenovo.com/us/en/contact/order-support/ «Visit Order Support Page >»
+                p.wpc-menu-contact-display-adapt
+                  a href=https://support.lenovo.com/us/en
+                    strong «Technical Support >»
+  div.masthead.flex
+    div.header_left.flex
+      a.header_lenovoLogo.logo.lazy_href.item href=https://www.lenovo.com/us/en/?Redirect=False
+        img src=https://p3-ofp.static.pub/fes/cms/2023/03/22/8hjmcte754uauw07ypikjkjtx0m5ib450914.svg alt="homepage"
+      button.header_skip_main «skip to main content»
+    div.miniCartPlaceholder
+    div.search-box.flex
+      div.searchbox_container
+        div.search
+          form.search_view.flex
+            div.category_container.category_pc
+              div.category_selected «All»
+              div.arrow_container
+                svg
+                  defs
+                    clippath
+                      path
+                  g
+                    g
+                      g
+                        g
+                          g
+                            path
+            div.category_dialog.category_pc
+              ul
+                li.category_item.item_active.active-option «All»
+                li.category_item «Laptops»
+                li.category_item «Desktops»
+                li.category_item «Workstations»
+                li.category_item «Monitors»
+                li.category_item «PC Accessories & Electronics»
+                li.category_item «Tablets»
+                li.category_item «Servers & Storage»
+                li.category_item «Servers Accessories»
+            div.input-wrapper
+              input
+            svg
+              g
+                path
+            div.searchIcon
+    div.header_right
+      ul.utility_nav.second_utility_list
+        li.utility_nav_item.relative
+          div.utility_nav_item_icon.relative.flex
+            div.utility-content
+              span.normal_icon.icon-picker-container.font-24
+                span.iconfont-account-white.iconfont-color-web-black-01
+              span.active_icon.icon-picker-container.font-24
+                span.iconfont-account-white.iconfont-color-web-black-01
+              span «Sign In / Create Account»
+          button.accessibilityIcon
+            span.iconfont-arrowDown
+          div.popover
+            div.popoverContent
+              div.account-menu-masthead
+                div.login_button
+                  div
+                    div
+                      div
+                        div «My Lenovo Account»
+                    div «Keep track of your wishlist, orders, and rewards all in one place»
+                  span.login_button
+                    div
+                      span.lazy_href «Sign In / Create Account»
+                div.account_button
+                  div
+                    div
+                      div
+                        div «Welcome Back!»
+                    div «Access your order, subscriptions, saved carts, rewards balance, and profile»
+                  a.view_account_btn-hover href=https://www.lenovo.com/us/en/account/home
+                    div
+                      span.lazy_href «View My Account»
+                div
+                  div
+                  div
+                    a href=https://www.lenovo.com/us/en/account/order/list.html
+                      div
+                        div
+                          svg
+                            path
+                            path
+                            path
+                            path
+                        div
+                          span.account-menu-masthead-item-text «Orders»
+                      div
+                        div «View & track your orders»
+                    a.lazy_href.link_account_btn-hover href=https://www.lenovo.com/us/en/account/rewards/
+                      div
+                        div
+                          svg
+                            g
+                              path
+                              path
+                              path
+                              path
+                            defs
+                              clippath
+                                rect
+                        div
+                          span.account-menu-masthead-item-text «Rewards»
+                      div
+                        div «Earn & redeem Rewards»
+                    a.lazy_href.link_account_btn-hover href=https://www.lenovo.com/us/en/account/myprofile.html
+                      div
+                        div
+                          svg
+                            path
+                            path
+                        div
+                          span.account-menu-masthead-item-text «Profile»
+                      div
+                        div «Edit name, password, and account settings»
+                    a.lazy_href.link_account_btn-hover href=https://www.lenovo.com/us/en/account/wishlist/home
+                      div
+                        div
+                          svg
+                            path
+                        div
+                          span.account-menu-masthead-item-text «Wishlist»
+                      div
+                        div «Manage a wishlist of your favorite products»
+                    a.lazy_href.link_account_btn-hover href=https://support.lenovo.com/us/en/account/myproducts
+                      div
+                        div
+                          svg
+                            path
+                            path
+                            path
+                            path
+                        div
+                          span.account-menu-masthead-item-text «Products»
+                      div
+                        div «Manage your devices, accessories»
+                    a.lazy_href.link_account_btn-hover href=https://support.lenovo.com/us/en/productregistration
+                      div
+                        div
+                          svg
+                            path
+                            path
+                            path
+                        div
+                          span.account-menu-masthead-item-text «Product Registration»
+                      div
+                        div «Register your product and/or update your warranty dates»
+                    a.lazy_href.link_account_btn-hover href=https://www.lenovo.com/us/en/familyhub
+                      div
+                        div
+                          svg
+                            g
+                              g
+                                g
+                                  g
+                                    g
+                                      g
+                                        path
+                                      g
+                                        path
+                              g
+                                g
+                                  g
+                                    g
+                                      g
+                                        path
+                                      g
+                                        path
+                              g
+                                g
+                                  g
+                                    g
+                                      g
+                                        path
+                                      g
+                                        path
+                        div
+                          span.account-menu-masthead-item-text «Lenovo Family Hub»
+                      div
+                        div «Manage your family's orders all in one place»
+                  div.logout_button
+                    div
+                      div «Sign Out»
+        li.utility_nav_item.relative
+          a.utility_nav_item_icon.relative.flex.utilityLink.lazy_href href=https://www.lenovo.com/us/en/rewards/
+            div.utility-content
+              span.normal_icon.icon-picker-container.font-24
+                span.iconfont-rewards.iconfont-color-web-black-01
+              span.active_icon.icon-picker-container.font-24
+                span.iconfont-rewards.iconfont-color-web-black-01
+          button.accessibilityIcon
+            span.iconfont-arrowDown
+          div.popover
+            div.popoverContent
+              div
+                a.login_button.wpc-mh-popover-section href=
+                  p.account-img
+                    br
+                a.wpc-mh-popover-section href=https://www.lenovo.com/us/en/rewards/?IPromoID=LEN518571
+                  p.account-img
+                    img src=https://p1-ofp.static.pub/fes/cms/2022/02/11/hsk128zkbplawpswj39kkilycso2qu518818.svg alt=""
+                  div
+                    p.account-title.item-rewards «My Lenovo Rewards»
+                    p «Discover how to earn and redeem points, current offers and more.»
+                a.wpc-mh-popover-section href=https://account.lenovo.com/us/en/account/rewards/?IPromoID=LEN341830
+                  p.account-img
+                    img src=https://p1-ofp.static.pub//fes/cms/2025/06/20/6l6o31ixsi2mr7jb089njjjj7033be548514.svg alt=""
+                  div
+                    p.account-title «My Account»
+                    p.account-des «View your profile, track your points, and enjoy your perks.»
+        li.utility_nav_item.relative
+          a.utility_nav_item_icon.relative.flex.utilityLink.lazy_href href=https://www.lenovo.com/us/en/cart
+            div.utility-content
+              span.normal_icon.icon-picker-container.font-24
+                span.iconfont-cart.iconfont-color-web-black-01
+              span.active_icon.icon-picker-container.font-24
+                span.iconfont-cart.iconfont-color-web-black-01
+          div.popover
+            div.popoverContent
+              p «Cart»
+  div.flex.nav_view
+    div
+      ul.sup_nav
+        li.normal_nav_item.nav_item
+          a.lazy_href href=https://www.lenovo.com/us/en/ai/
+            div.nav_item_title
+              div.text
+                span «Artificial Intelligence»
+        li.sup_nav_active.nav_item
+          a.lazy_href href=https://www.lenovo.com/us/en/pc/
+            div.nav_item_title
+              div.text
+                span «Products»
+        li.normal_nav_item.nav_item
+          a.lazy_href href=https://www.lenovo.com/us/en/solutions/
+            div.nav_item_title
+              div.text
+                span
+                  p «Business Solutions»
+        li.normal_nav_item.nav_item
+          a.lazy_href href=https://www.lenovo.com/us/en/contact/
+            div.nav_item_title
+              div.text
+                span «Support»
+        li.normal_nav_item.nav_item
+          a.lazy_href href=https://www.lenovo.com/us/en/about/
+            div.nav_item_title
+              div.text
+                span «About Lenovo»
+        li.normal_nav_item.nav_item
+          a.lazy_href href=https://www.lenovo.com/us/en/d/deals/doorbusters/
+            div.nav_item_title
+              div.text
+                span «Deals»
+    div.segment_nav_wrapper
+      ul.segment_nav_container
+        li.show-label
+        li.nav_item.segmentItem.second_list_item.hasMegaMenu
+          a.lazy_href.segment_item_a.segmentItemLink href=https://www.lenovo.com/us/en/gaming/store/
+            div.nav_item_title
+              div.text
+                span «Gaming»
+          div.accessibilityIconSegment
+            button.iconfont-arrowDown.segmentArrowIcon
+        li.nav_item.segmentItem.second_list_item.hasMegaMenu
+          a.lazy_href.segment_item_a.segmentItemLink href=https://www.lenovo.com/us/en/business/benefits/
+            div.nav_item_title
+              div.text
+                span «Business»
+          div.accessibilityIconSegment
+            button.iconfont-arrowDown.segmentArrowIcon
+        li.nav_item.segmentItem.second_list_item.hasMegaMenu
+          a.lazy_href.segment_item_a.segmentItemLink href=https://www.lenovo.com/us/en/student/
+            div.nav_item_title
+              div.text
+                span «Student»
+          div.accessibilityIconSegment
+            button.iconfont-arrowDown.segmentArrowIcon
+        li.nav_item.segmentItem.second_list_item.hasMegaMenu
+          a.lazy_href.segment_item_a.segmentItemLink href=https://www.lenovo.com/us/en/creator/store/?IPromoID=LEN653911
+            div.nav_item_title
+              div.text
+                span «Creator»
+          div.accessibilityIconSegment
+            button.iconfont-arrowDown.segmentArrowIcon
+  div.second_view
+    div.second_list
+      ul.second_list_ul.appmenu
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/laptops/
+            div.seccond_list_title
+              span.text «Laptops»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/desktops/
+            div.seccond_list_title
+              span.text «Desktops»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/workstations/
+            div.seccond_list_title
+              span.text «Workstations»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/accessories-and-software/
+            div.seccond_list_title
+              span.text «Accessories»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/software-standalone/
+            div.seccond_list_title
+              span.text «Software»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/d/accessories-and-monitors/monitors/monitor-buying-guide/
+            div.seccond_list_title
+              span.text «Monitors»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/tablets/
+            div.seccond_list_title
+              span.text «Tablets & Phones»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/servers-storage/
+            div.seccond_list_title
+              span.text «Servers & Storage»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/smart-devices/
+            div.seccond_list_title
+              span.text «Home & Office»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/d/deals/laptops/?sortBy=Recommended&visibleDatas=13084%3ACopi
+            div.seccond_list_title
+              span.text «AI»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item.hasMegaMenu
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/en/d/deals/doorbusters/
+            div.seccond_list_title
+              span.text «Deals»
+          div.tierThreeArrowIconContainer
+            button.iconfont-arrowDown.tierThreeArrowIcon
+        li.second_list_item
+          a.lazy_href.second_list_item_a href=https://www.lenovo.com/us/outletus/en/?IPromoID=LEN385145
+            div.seccond_list_title
+              span.text «Outlet»
+          div.tierThreeArrowIconContainer

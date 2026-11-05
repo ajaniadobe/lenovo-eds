@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11426" data-name="Rectangle 11426" width="30" height="30" transform="translate(-0.158)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="lenovo-youtube-30-alternate-med" transform="translate(0.158)">
+    <g id="Group_27170" data-name="Group 27170" transform="translate(0)">
+      <g id="Group_27169" data-name="Group 27169" transform="translate(0)" clip-path="url(#clip-path)">
+        <path id="Path_36918" data-name="Path 36918" d="M29.921,14.961A14.961,14.961,0,1,1,14.961,0,14.961,14.961,0,0,1,29.921,14.961" transform="translate(0.004)" fill="#294e95"/>
+        <path id="Path_36919" data-name="Path 36919" d="M42.03,38.18a2.5,2.5,0,0,0-1.764-1.764C38.711,36,32.474,36,32.474,36s-6.238,0-7.793.417a2.5,2.5,0,0,0-1.764,1.764,27.854,27.854,0,0,0,0,9.6,2.5,2.5,0,0,0,1.764,1.764c1.555.417,7.793.417,7.793.417s6.238,0,7.793-.417a2.5,2.5,0,0,0,1.764-1.764,27.854,27.854,0,0,0,0-9.6M30.479,45.974V39.989l5.182,2.992Z" transform="translate(-17.509 -28.021)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

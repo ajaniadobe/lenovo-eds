@@ -1,0 +1,1191 @@
+/* blade — PDP feature bands (ported from the product prototype, scoped to .blade) */
+/* stylelint-disable no-descending-specificity -- cascade order ported from the gated prototype */
+main .section.blade-container {
+  padding-top: 48px;
+  overflow: hidden;
+  background: #171717;
+  color: #fff;
+}
+
+main .section.blade-container > .blade-wrapper + .blade-wrapper {
+  margin-top: 72px;
+}
+
+.blade {
+  position: relative;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.blade img {
+  max-width: none;
+}
+
+.blade p {
+  margin: 0;
+}
+
+.blade sup {
+  font-size: 0.83em;
+  vertical-align: super;
+}
+
+.blade a {
+  color: inherit;
+}
+
+.blade .eyebrow {
+  color: #0ff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+
+.blade .blade-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.blade .eyebrow :is(h2, h3, h4),
+.blade .blade-title :is(h2, h3),
+.blade .col-title :is(h2, h3),
+.blade .acc-card-title :is(h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.blade .blade-desc {
+  margin-top: 12px;
+  color: rgb(255 255 255 / 80%);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blade :is(.blade-desc, .col-desc) em {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.blade :is(.blade-desc, .col-desc) p:has(em) {
+  margin-top: 24px;
+}
+
+/* ---------- stack ---------- */
+.blade.stack {
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.blade.stack .blade-text {
+  width: 45%;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.blade.stack .eyebrow + .blade-title {
+  margin-top: 4px;
+}
+
+.blade .blade-media {
+  margin: 0;
+  text-align: center;
+}
+
+.blade .blade-media p:has(picture, img) {
+  line-height: 0;
+}
+
+.blade.stack .blade-media img {
+  width: 1280px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.blade.stack .blade-media:not(:has(figcaption)) {
+  padding-bottom: 76px;
+}
+
+.blade.stack.full {
+  padding-top: 96px;
+}
+
+.blade.stack.full .blade-media img {
+  width: 100%;
+}
+
+.blade .blade-caption {
+  margin-top: 56px;
+  color: #e6e2e4;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* ---------- split ---------- */
+.blade.split {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-left: 48px;
+}
+
+.blade.split.is-media-left {
+  flex-direction: row-reverse;
+  padding-left: 0;
+  padding-right: 48px;
+}
+
+.blade.split .blade-text {
+  box-sizing: border-box;
+  flex: 0 0 688px;
+  padding: 48px 0 48px 64px;
+}
+
+.blade.split .blade-media {
+  flex: 0 0 688px;
+  align-self: flex-start;
+  padding: 48px 0;
+}
+
+.blade.split .blade-media img {
+  width: auto;
+  max-width: 650px;
+  height: 400px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.blade.split .blade-caption {
+  margin-top: 24px;
+}
+
+.blade.split .eyebrow {
+  text-align: left;
+}
+
+.blade .blade-cta {
+  display: inline-block;
+  margin-top: 12px;
+  color: #0ff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.blade .blade-cta a {
+  text-decoration: none;
+}
+
+/* ---------- cols / slider ---------- */
+.blade.cols {
+  padding-bottom: 39px;
+}
+
+.blade.cols:not(:has(.blade-text)) {
+  display: flow-root;
+  padding-bottom: 30px;
+}
+
+.blade.cols.cols-3 {
+  padding-bottom: 15px;
+}
+
+.blade.slider {
+  padding-bottom: 16px;
+}
+
+.blade:is(.cols, .slider) .blade-text {
+  padding: 48px 64px 0;
+  text-align: center;
+}
+
+.blade.cols .blade-title {
+  line-height: 40px;
+}
+
+.blade .cols-view {
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.blade.cols:not(:has(.blade-text)) .cols-view {
+  margin-top: 48px;
+}
+
+.blade .cols-track {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blade.cols.is-offset .cols-track {
+  transform: translateX(-182px);
+}
+
+.blade .col {
+  flex: 0 0 348px;
+  text-align: center;
+}
+
+.blade .col-media {
+  position: relative;
+  height: 277px;
+  margin: 0;
+}
+
+.blade .col-media p:has(picture, img) {
+  line-height: 0;
+}
+
+.blade .col-media img {
+  width: 348px;
+  height: 272px;
+  object-fit: cover;
+}
+
+.blade.cols .col-media .blade-caption {
+  position: absolute;
+  top: 301px;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.blade .col-title {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.blade.has-cap .col-title {
+  margin-top: 61px;
+}
+
+.blade .col-title.is-sm {
+  font-size: 20px;
+}
+
+.blade .col-desc {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blade.cols-3 .cols-track {
+  gap: 25px;
+  padding-left: 5px;
+}
+
+.blade.cols-3 .col {
+  flex-basis: 460px;
+}
+
+.blade.cols-3 .col-media {
+  height: 360px;
+}
+
+.blade.cols-3 .col-media img {
+  width: 460px;
+  height: 360px;
+}
+
+.blade.cols-3 .col-title {
+  margin-top: 22px;
+  font-size: 20px;
+}
+
+.blade .dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.blade .dots button {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #666;
+}
+
+.blade .dots .is-active {
+  background: #fff;
+}
+
+.blade.slider .cols-view {
+  margin-top: 0;
+  padding-top: 226px;
+}
+
+.blade.slider .cols-track {
+  transform: translateX(-689px);
+}
+
+.blade.slider .col {
+  position: relative;
+  flex: 0 0 929px;
+}
+
+.blade.slider .col-media {
+  height: 520px;
+}
+
+.blade.slider .col-media img {
+  width: 929px;
+  height: 520px;
+}
+
+.blade.slider .col-text {
+  position: absolute;
+  top: -181px;
+  left: 50%;
+  width: 1184px;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.blade.slider .col.is-current .col-text {
+  opacity: 1;
+}
+
+.blade.slider .blade-title {
+  line-height: 44px;
+}
+
+/* ---------- accessory cards ---------- */
+.blade.cards {
+  padding: 0 32px;
+  overflow: hidden;
+}
+
+.blade .acc-cards {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blade .acc-card {
+  position: relative;
+  flex: 0 0 382px;
+  height: 750px;
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #2a2a2a;
+}
+
+.blade .acc-card-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.blade .acc-card-bg p {
+  height: 100%;
+  line-height: 0;
+}
+
+.blade .acc-card-bg picture {
+  display: block;
+  height: 100%;
+}
+
+.blade .acc-card-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blade .acc-card-text {
+  position: relative;
+}
+
+.blade .acc-card-eyebrow {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.blade .acc-card-title {
+  margin-top: 25px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.blade .acc-card-desc {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.blade .acc-card-cta {
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
+}
+
+.blade .acc-card-cta a,
+.blade .acc-card-cta a.button {
+  display: inline-block;
+  margin: 0;
+  padding: 13px 24px;
+  border: 0;
+  border-radius: 4px;
+  background: #294e95;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.blade .acc-next {
+  position: absolute;
+  top: 337px;
+  right: 42px;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #f5f5f5;
+}
+
+.blade .acc-next::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  border: solid #007aff;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg);
+}
+
+/* ---------- 360: the live squeezes its desktop components (mirrored as captured) ---------- */
+@media (width >= 1024px) {
+  main .section.blade-container {
+    padding-top: 96px;
+    padding-bottom: 48px;
+  }
+
+  .blade.split.is-media-left .blade-text {
+    padding: 48px 64px 48px 0;
+  }
+
+  .blade.split .eyebrow + .blade-title,
+  .blade.split .blade-text > .blade-title:first-child {
+    margin-top: 4px;
+  }
+
+  .blade.cols .eyebrow + .blade-title {
+    margin-top: 5px;
+  }
+
+  .blade.cols:not(:has(.blade-text)).is-offset,
+  .blade.cols.has-cap {
+    padding-bottom: 3px;
+  }
+
+  .blade.has-cap .col-title {
+    margin-top: 64px;
+  }
+
+  .blade:is(.cols, .slider) .dots {
+    gap: 16px;
+    margin-top: 39px;
+  }
+
+  .blade.slider .dots {
+    margin-top: 25px;
+  }
+
+  .blade.slider {
+    padding-bottom: 3px;
+  }
+
+  .blade.slider .col-text {
+    top: -178px;
+  }
+
+  .blade:is(.cols, .slider) .dots button {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #aaa;
+    background: transparent;
+  }
+
+  .blade:is(.cols, .slider) .dots .is-active {
+    border-color: #fff;
+    background: #fff;
+  }
+}
+
+@media (width <= 1023px) {
+  .blade.stack {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .blade.stack.text {
+    padding-bottom: 41px;
+  }
+
+  .blade.stack.full {
+    padding-top: 0;
+    padding-bottom: 112px;
+  }
+
+  .blade.stack .blade-media {
+    order: -1;
+  }
+
+  .blade.stack .blade-media img,
+  .blade.stack.full .blade-media img {
+    width: 100%;
+  }
+
+  .blade.stack .blade-media:not(:has(figcaption)) {
+    padding-bottom: 72px;
+  }
+
+  .blade.stack .blade-text {
+    padding-top: 64px;
+  }
+
+  .blade.split,
+  .blade.split.is-media-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 48px 0 48px 130px;
+  }
+
+  .blade.split.is-media-left {
+    padding-left: 82px;
+  }
+
+  .blade.split .blade-text,
+  .blade.split .blade-media {
+    flex: none;
+    width: 148px;
+    padding: 0;
+  }
+
+  /* live 360 stacks every split media-first: media, then the text with 48px above and below */
+  .blade.split .blade-media {
+    order: -1;
+  }
+
+  .blade.split .blade-media img {
+    width: 148px;
+    height: auto;
+  }
+
+  .blade.split .blade-text {
+    padding: 48px 0;
+    overflow-wrap: anywhere;
+  }
+
+  .blade.split .blade-title {
+    margin-top: 4px;
+  }
+
+  .blade.slider .blade-text {
+    padding: 48px 16px 0;
+  }
+
+  .blade.cols .blade-text {
+    padding: 48px 48px 0;
+  }
+
+  .blade.cols .eyebrow {
+    margin-bottom: 5px;
+  }
+
+  /* 248px measure: the fallback face wraps like the live 232px one */
+  .blade.cols .blade-title {
+    padding: 0 8px;
+  }
+
+  .blade.cols,
+  .blade.cols:not(:has(.blade-text)),
+  .blade.cols.cols-3 {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  /* a headless cols keeps its 48px top inside the block (no collapse into the section gap) */
+  .blade.cols:not(:has(.blade-text)) {
+    display: flow-root;
+  }
+
+  .blade.cols.is-offset:not(:has(.blade-text)) {
+    padding-bottom: 20px;
+  }
+
+  .blade .cols-view {
+    padding: 0 16px;
+  }
+
+  .blade .cols-track {
+    gap: 16px;
+    transform: none;
+  }
+
+  .blade.cols.is-offset .cols-track {
+    transform: translateX(-43px);
+  }
+
+  /* live 360: 70px slides whose content overflows at the min-content width of its widest word */
+  .blade .col,
+  .blade.cols-3 .col {
+    display: grid;
+    flex: 0 0 calc((100% - 48px) / 4);
+    grid-template-columns: min-content;
+    align-content: start;
+    min-width: 0;
+  }
+
+  .blade.cols-3 .cols-track {
+    gap: 16px;
+    padding-left: 0;
+  }
+
+  .blade.cols-3 .col {
+    flex-basis: calc((100% - 32px) / 3);
+  }
+
+  .blade .col-media,
+  .blade.cols-3 .col-media {
+    display: block;
+    height: 105px;
+  }
+
+  .blade.has-cap .col-media {
+    height: 173px;
+  }
+
+  .blade .col-media img,
+  .blade.cols-3 .col-media img {
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
+
+  .blade .col-title,
+  .blade.cols-3 .col-title,
+  .blade .col-title.is-sm {
+    font-size: 20px;
+  }
+
+  .blade.cols .col-media .blade-caption {
+    top: 130px;
+  }
+
+  .blade.has-cap .col-title {
+    margin-top: 20px;
+  }
+
+  .blade .col-desc {
+    font-size: 14px;
+  }
+
+  .blade.cards {
+    padding: 0 16px;
+  }
+
+  .blade .acc-card {
+    flex-basis: 82px;
+    min-width: 0;
+    height: 3031px;
+    overflow: visible;
+  }
+
+  .blade .acc-card-title,
+  .blade .acc-card-eyebrow,
+  .blade .acc-card-desc {
+    word-break: break-all;
+  }
+
+  /* live 360: the card does not clip (overflow visible above); its 86px CTA overhangs it */
+  .blade .acc-card-bg {
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .blade .acc-card-cta a,
+  .blade .acc-card-cta a.button {
+    width: 86px;
+    padding: 11px 22px;
+    line-height: 16px;
+    white-space: normal;
+  }
+
+  .blade .acc-next {
+    top: 1500px;
+    right: 8px;
+  }
+
+  .blade.slider .cols-view {
+    padding: 342px 0 0;
+  }
+
+  .blade.slider .cols-track {
+    transform: translateX(-376px);
+  }
+
+  .blade.slider .col {
+    flex-basis: 360px;
+  }
+
+  .blade.slider .col-media {
+    height: 308px;
+  }
+
+  .blade.slider .col-media img {
+    width: 360px;
+    height: 308px;
+    object-fit: cover;
+  }
+
+  .blade.slider .col-text {
+    top: -297px;
+    width: 320px;
+  }
+}
+
+/* ---------- light (white series page palette; generated from the dark rules) ---------- */
+main .section.blade-container:has(.blade.light) {
+  background: #fff;
+  color: #000;
+}
+
+.blade.light {
+  color: #000;
+}
+
+.blade.light .eyebrow,
+.blade.light .col-eyebrow {
+  color: #7a126b;
+}
+
+.blade.light .blade-desc {
+  color: #000;
+}
+
+.blade.light .blade-caption {
+  color: #4e444e;
+}
+
+.blade.light .blade-cta {
+  color: #294e95;
+}
+
+.blade.light .dots .is-active {
+  background: #000;
+}
+
+.blade.light .acc-card {
+  background: #f5f5f5;
+}
+
+.blade.light .acc-card-cta a,
+.blade.light .acc-card-cta a.button {
+  color: #000;
+}
+
+/* ---------- unit kicker (cols / slider) + video band ---------- */
+.blade .col-eyebrow {
+  margin-top: 16px;
+  color: #0ff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+}
+
+.blade .col-eyebrow :is(h3, h4, h5) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.blade .col-eyebrow + .col-title {
+  margin-top: 4px;
+}
+
+.blade.video .blade-media {
+  position: relative;
+}
+
+.blade.video .blade-media img {
+  width: 742px;
+  height: 416px;
+  object-fit: cover;
+}
+
+.blade.video .blade-play {
+  position: absolute;
+  top: 192px;
+  left: 50%;
+  padding: 4px 14px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  transform: translateX(-50%);
+}
+
+.blade.video .blade-caption {
+  margin-top: 4px;
+}
+
+/* unit heading carrying its kicker (<h3><em>KICKER</em> Title</h3>) and badge-only headings */
+.blade :is(.col-title, .blade-title) :is(h2, h3) em {
+  display: block;
+  margin-bottom: 4px;
+  color: #0ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.blade.light :is(.col-title, .blade-title) :is(h2, h3) em {
+  color: #7a126b;
+}
+
+.blade .blade-badge {
+  margin-top: 24px;
+  line-height: 0;
+}
+
+.blade .blade-badge :is(h2, h3, h4) {
+  margin: 0;
+}
+
+.blade .blade-badge img {
+  width: auto;
+  height: 64px;
+}
+
+.blade .blade-desc p:has(img) img {
+  width: auto;
+  height: 64px;
+  margin: 24px 16px 0 0;
+}
+
+/* ---------- logo strip after the CTA (sustainability certifications) ----------
+   live: 100px badges, 7px margins, on 18px/24px lines, 32px under the CTA */
+.blade .blade-logos {
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blade .blade-logos p {
+  margin: 0;
+}
+
+.blade .blade-logos img {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  vertical-align: baseline;
+}
+
+/* ---------- is-wide: a split whose picture runs the full 688px column at its own ratio ---------- */
+@media (width >= 1024px) {
+  /* live: the band is 422px tall around a 296px picture (63px above and below it) */
+  .blade.split.is-wide .blade-media {
+    align-self: center;
+    padding: 63px 0;
+  }
+
+  .blade.split.is-wide .blade-media img {
+    width: 688px;
+    max-width: none;
+    height: auto;
+  }
+}
+
+/* light series: consecutive disclaimers share one 24px lead (live: one blank line, then the notes) */
+.blade.light .blade-desc p:has(em) + p:has(em) {
+  margin-top: 0;
+}
+
+/* video band at 360 (live): a 186 x 104 poster centred, caption 8px under it, the copy 20px on */
+@media (width <= 1023px) {
+  .blade.video .blade-media {
+    width: 186px;
+    margin: 0 auto;
+  }
+
+  .blade.video .blade-media img {
+    width: 186px;
+    height: 104px;
+    margin: 0;
+  }
+
+  .blade.video .blade-play {
+    top: 36px;
+    white-space: nowrap;
+  }
+
+  .blade.video .blade-caption {
+    margin-top: 8px;
+  }
+
+  .blade.video .blade-text {
+    padding-top: 20px;
+  }
+}
+
+/* ---------- black: the dark tower series page runs its bands on #000 (live) ----------
+   sustainability band: CTA 36px under the copy, 100px CO2 badge 41px under the CTA;
+   the last band ends 70px above the specs */
+main .section.blade-container:has(.blade.black) {
+  padding-bottom: 70px;
+  background: #000;
+}
+
+.blade.split.black .blade-cta {
+  margin-top: 36px;
+}
+
+.blade.black .blade-badge {
+  margin-top: 41px;
+}
+
+.blade.black .blade-badge img {
+  height: 100px;
+}
+
+/* 360: the sustainability band opens 24px lower (72px rail) and the last band ends 29px above the specs */
+@media (width <= 1023px) {
+  main .section.blade-container:has(.blade.black) {
+    padding-bottom: 29px;
+  }
+
+  .blade.split.black:has(.blade-badge) {
+    padding-top: 72px;
+  }
+}
+
+/* desktop: the sustainability band opens 45px lower and the last band ends 121px above the specs */
+@media (width >= 1024px) {
+  main .section.blade-container:has(.blade.black) {
+    padding-bottom: 121px;
+  }
+
+  .blade.split.black:has(.blade-badge) {
+    padding-top: 45px;
+  }
+}
+
+/* ---------- light has-cap (Yoga ecosystem row, live desktop): 194px pictures, caption 29px
+   under them, 36/45 unit titles under a 22px kicker 69px below the picture, small notes,
+   bold "Shop Now" 15px under the note ---------- */
+@media (width >= 1024px) {
+  .blade.light.has-cap .col-media {
+    height: 194px;
+  }
+
+  .blade.light.has-cap .col-media img {
+    height: 194px;
+  }
+
+  .blade.light.has-cap .col-media .blade-caption {
+    top: 223px;
+  }
+
+  .blade.light.has-cap .col-title {
+    margin-top: 69px;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .blade.light.has-cap .col-title :is(h2, h3) em {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .blade.light.has-cap .col-desc a {
+    color: #294e95;
+  }
+
+  .blade.light.has-cap .col-desc p:last-child:has(> a) {
+    margin-top: 15px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+}
+
+/* ---------- light desktop geometry (Yoga series page, live) ----------
+   sliders: picture 19px lower, the current slide's title 200px above it; ecosystem row 12px
+   under the previous row, 74px foot; gap-*: the extra space a live band leaves under itself (padding: a margin would collapse into the 72px rail) */
+@media (width >= 1024px) {
+  .blade.slider.light .cols-view {
+    padding-top: 245px;
+  }
+
+  .blade.slider.light .col-text {
+    top: -197px;
+  }
+
+  .blade.slider.light .col-title :is(h2, h3) em {
+    margin-bottom: 22px;
+    line-height: 22px;
+  }
+
+  /* the video band ends 34px nearer the slider under it (collapses with the 72px rail) */
+  .blade.video.light {
+    margin-bottom: -34px;
+  }
+
+  .blade.light.cols.has-cap {
+    padding-bottom: 74px;
+  }
+
+  .blade.light.has-cap .cols-view {
+    margin-top: 12px;
+  }
+
+  .blade.cols.light .blade-text:has(.blade-desc em) .blade-desc {
+    margin-top: 21px;
+  }
+
+  .blade.cols.light .blade-text:has(.blade-desc em) {
+    padding-top: 9px;
+  }
+
+  .blade.cols.light .blade-text .blade-desc p:has(em) {
+    margin-top: 31px;
+  }
+
+  .blade.gap-20 {
+    padding-bottom: 20px;
+  }
+
+  .blade.stack.gap-20 {
+    padding-bottom: 32px;
+  }
+
+  .blade.gap-40 {
+    padding-bottom: 40px;
+  }
+
+  .blade.gap-70 {
+    padding-bottom: 70px;
+  }
+}
+
+/* a light cols head carrying a small-print note (Qira, live): 16/22 copy, 12/14 note */
+.blade.cols.light .blade-text:has(.blade-desc em) .blade-desc {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.blade.cols.light .blade-text .blade-desc p:has(em) {
+  line-height: 14px;
+}
+
+.blade.cols.light .blade-text .blade-desc em {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* ---------- light 360 (Yoga, live) ----------
+   sliders: the copy box sits 45px under the slide top and runs 328px wide, the picture 443px
+   (tall-copy: 491px) under the block top; 12px dots 28px apart 25px under the picture.
+   Qira head: 232px measure, airy 37.5px copy lines and 36.5px note lines. Ecosystem row: 36/45 titles set the min-content tiles, 145px pictures */
+@media (width <= 1023px) {
+  .blade.slider.light .cols-view {
+    padding-top: 443px;
+  }
+
+  .blade.slider.light.tall-copy .cols-view {
+    padding-top: 491px;
+  }
+
+  .blade.slider.light .col-text {
+    top: -398px;
+    width: 328px;
+  }
+
+  .blade.slider.light.tall-copy .col-text {
+    top: -446px;
+  }
+
+  .blade.slider.light .col-title :is(h2, h3) em {
+    margin-bottom: 22px;
+    line-height: 22px;
+  }
+
+  .blade.slider.light .dots {
+    gap: 16px;
+    margin-top: 25px;
+  }
+
+  .blade.slider.light .dots button {
+    width: 12px;
+    height: 12px;
+  }
+
+  .blade.cols.light .blade-text:has(.blade-desc em) {
+    padding: 48px 64px 0;
+  }
+
+  .blade.cols.light .blade-text:has(.blade-desc em) .blade-desc {
+    line-height: 37.5px;
+  }
+
+  .blade.cols.light .blade-text .blade-desc p:has(em) {
+    line-height: 36.5px;
+  }
+
+  .blade.light.has-cap .col-media {
+    height: 170px;
+  }
+
+  .blade.light.has-cap .col-media img {
+    height: 145px;
+  }
+
+  .blade.light.has-cap .col-media .blade-caption {
+    top: 174px;
+  }
+
+  .blade.light.has-cap .col-title {
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .blade.light.has-cap .col-title :is(h2, h3) em {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

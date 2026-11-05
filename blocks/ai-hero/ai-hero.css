@@ -1,0 +1,93 @@
+/* ai-hero — live heroTypeOne (us-en-ai-pcs prototype § hero) */
+.ai-hero {
+  position: relative;
+  color: #000;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.ai-hero .hero-type-one {
+  position: relative;
+  height: 600px;
+  overflow: visible;
+}
+
+.ai-hero .hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.ai-hero .hero-bg picture {
+  display: contents;
+}
+
+.ai-hero .hero-bg img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 600px;
+  object-fit: cover;
+}
+
+.ai-hero .hero-breadcrumbs {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  z-index: 2;
+  color: #fff;
+  font-size: 16px;
+}
+
+.ai-hero .hero-breadcrumbs a:any-link {
+  color: #fff;
+}
+
+.ai-hero .hero-content {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.ai-hero .hero-text-content {
+  width: 35%;
+  padding: 0 0 0 50px;
+  color: #fff;
+  text-align: left;
+}
+
+.ai-hero .headline :is(h1, h2, h3) {
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 64px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.ai-hero .hero-desc {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+
+@media (width <= 767px) {
+  .ai-hero .hero-breadcrumbs {
+    display: none;
+  }
+
+  .ai-hero .hero-text-content {
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  .ai-hero .headline :is(h1, h2, h3) {
+    font-size: 36px;
+    overflow-wrap: break-word;
+  }
+}

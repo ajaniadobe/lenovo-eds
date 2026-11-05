@@ -1,0 +1,212 @@
+/* legion-ecosystem — live #blade-4 (1300–1500: 720px tall) + .ttip hotspots */
+/* stylelint-disable no-descending-specificity */
+.legion-ecosystem {
+  max-width: 1920px;
+  margin: auto;
+  color: #fff;
+  font-family: var(--font-display);
+  line-height: normal; /* live legion-brand body value */
+}
+
+.legion-ecosystem .legion-ecosystem-stage {
+  position: relative;
+  height: 720px;
+}
+
+.legion-ecosystem .legion-ecosystem-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.legion-ecosystem .legion-ecosystem-bg :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.legion-ecosystem .legion-ecosystem-bg img {
+  object-fit: cover;
+}
+
+.legion-ecosystem .legion-ecosystem-head {
+  position: relative;
+  padding: 16px;
+  text-align: center;
+}
+
+.legion-ecosystem .legion-ecosystem-head :is(h2, h3) {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legion-ecosystem .legion-ecosystem-head p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.legion-ecosystem .legion-ecosystem-spot {
+  position: absolute;
+  width: 25px;
+}
+
+.legion-ecosystem .legion-ecosystem-trigger {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  animation: legion-ecosystem-pulse 1s infinite ease-in-out alternate;
+}
+
+.legion-ecosystem .legion-ecosystem-trigger::before {
+  content: "i";
+  display: block;
+  color: #fff;
+  font: 700 13px/20px var(--font-display);
+  text-align: center;
+}
+
+@keyframes legion-ecosystem-pulse {
+  from { transform: scale(0.95); }
+  to { transform: scale(1.05); }
+}
+
+.legion-ecosystem .legion-ecosystem-tip {
+  position: absolute;
+  right: -20px;
+  bottom: 150%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 324px;
+  padding: 16px;
+  border: 1px solid rgb(255 255 255 / 12.5%);
+  border-radius: 6px;
+  background-color: rgb(0 0 0 / 70%);
+  color: #faeceb;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  backdrop-filter: blur(16px) saturate(180%);
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.legion-ecosystem .legion-ecosystem-spot:hover .legion-ecosystem-tip,
+.legion-ecosystem .legion-ecosystem-spot:focus-within .legion-ecosystem-tip,
+.legion-ecosystem .legion-ecosystem-spot.open .legion-ecosystem-tip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.legion-ecosystem .legion-ecosystem-tip :is(h3, h4, h5) {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.legion-ecosystem .legion-ecosystem-tip p {
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.legion-ecosystem .legion-ecosystem-tip a:any-link {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.legion-ecosystem :is(.spot-legion-laptops, .spot-gaming-monitors, .spot-legion-go-series,
+  .spot-lg-backpack, .spot-lg-go) .legion-ecosystem-tip {
+  inset: 150% auto auto -20px;
+}
+
+.legion-ecosystem .spot-legion-laptops {
+  left: 15%;
+  bottom: 20%;
+}
+
+.legion-ecosystem .spot-lg-go {
+  left: 18%;
+  bottom: 8%;
+}
+
+.legion-ecosystem .spot-gaming-monitors {
+  right: 40%;
+  top: 30%;
+}
+
+.legion-ecosystem .spot-rgb-mouse {
+  right: 32%;
+  bottom: 10%;
+}
+
+.legion-ecosystem .spot-lg-headset {
+  right: 22%;
+  bottom: 32%;
+}
+
+.legion-ecosystem .spot-rgb-keyboard {
+  left: 50%;
+  bottom: 5%;
+}
+
+.legion-ecosystem .spot-legion-glasses {
+  right: 22%;
+  bottom: 6%;
+}
+
+.legion-ecosystem .spot-lg-backpack {
+  left: 5%;
+  top: 45%;
+}
+
+.legion-ecosystem .spot-legion-go-series {
+  left: 58%;
+  bottom: 22%;
+}
+
+
+.legion-ecosystem .legion-ecosystem-mobile {
+  display: none;
+}
+
+@media (width <= 768px) {
+  .legion-ecosystem {
+    background-color: #11184f;
+  }
+
+  .legion-ecosystem .legion-ecosystem-stage {
+    height: auto;
+  }
+
+  .legion-ecosystem .legion-ecosystem-bg,
+  .legion-ecosystem .legion-ecosystem-spots {
+    display: none;
+  }
+
+  .legion-ecosystem .legion-ecosystem-head {
+    padding: 32px;
+  }
+
+  .legion-ecosystem .legion-ecosystem-head :is(h2, h3) {
+    font-size: 28px;
+  }
+
+  .legion-ecosystem .legion-ecosystem-head p {
+    font-size: 18px;
+  }
+
+  .legion-ecosystem .legion-ecosystem-mobile {
+    display: block;
+    overflow: hidden;
+  }
+
+  .legion-ecosystem .legion-ecosystem-mobile img {
+    width: 100%;
+  }
+}

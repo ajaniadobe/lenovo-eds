@@ -1,0 +1,973 @@
+section.container.features_container [0,3723,1440,13826]
+  div.feature-blade.blade_2.feature-align-center [0,3771,1440,179]
+    div.feature-gallery.content-top.feature-gallery-pc [0,3771,1440,179]
+      div.content-wrapper.content-wrapperNA-Accessories-Header [396,3771,648,179]
+        div.gallery-content [396,3819,648,71]
+          div.headline [396,3819,648,22] 20/22/700/rgb(0,255,255)
+            p [396,3819,648,22] 20/22/700/rgb(0,255,255)
+              span [677,3816,86,27] 20/22/700/rgb(0,255,255) «GEAR UP»
+          div.subHeadline [396,3845,648,45] 36/45/700/rgb(255,255,255)
+            p [396,3845,648,45] 36/45/700/rgb(255,255,255)
+              span [420,3843,600,49] 36/45/700/rgb(255,255,255) «Build Your Ultimate Battlestation»
+  div.feature-blade.blade_8.mediaClass [0,4022,1440,750]
+    div [0,4022,1440,750]
+      div.smallCoontainer.multip.has-small [32,4022,1376,750]
+        div.swiper.swiper-container.swiper-initialized [32,4022,1376,750]
+          div.swiper-wrapper [32,4022,1376,750]
+            div.swiper-slide.swiper-slide-active [32,4022,382,750]
+              div.small_content [32,4022,382,750]
+                div [32,4022,382,750]
+                  div.small_content_container.small_content_container_left.small_content_container_Pdc1hK0OXRa [32,4022,382,750] 16/0/400/rgb(255,255,255)/rgb(42,42,42)
+                    div.small_content_container_uper [32,4054,382,281]
+                      div.background-image-container [32,4022,382,750]
+                      div [32,4054,382,281]
+                        div.small_content_container_text [32,4054,382,281]
+                          div.small_content_container_text_sub_heading [64,4054,318,49] 16/24/700/rgb(255,255,255)
+                            p [64,4054,318,24] 16/24/700/rgb(255,255,255)
+                              span [64,4055,146,22] 16/24/700/rgb(255,255,255) «LEGION HEADSETS»
+                          div.small_content_container_text_title [64,4103,318,136] 48/56/700/rgb(255,255,255)
+                            p [64,4103,318,112] 48/56/700/rgb(255,255,255)
+                              span [64,4098,286,121] 48/56/700/rgb(255,255,255) «Sound Like a Pro.»
+                          div.small_content_container_text_desc [64,4239,318,96] 16/24/400/rgb(255,255,255)
+                            p [64,4239,318,72] 16/24/400/rgb(255,255,255) «Immerse yourself in every battle with powerful audio and clear communi»
+                    div.small_content_container--cta [32,4359,382,413]
+                      div.small_content_container-cta [32,4359,187,381]
+                        div.small_content_cta_btn_item [64,4692,123,48]
+                          div.small_content_container-cta-btn.small_content_container-cta-_blank [64,4692,123,48] 16/16/400/rgb(23,23,23)/rgb(41,78,149)
+                            a [88,4703,75,22] 16/16/400/rgb(255,255,255) «Shop Now»
+            div.swiper-slide.swiper-slide-next [430,4022,382,750]
+              div.small_content [430,4022,382,750]
+                div [430,4022,382,750]
+                  div.small_content_container.small_content_container_left.small_content_container_6eag29TNnTa [430,4022,382,750] 16/0/400/rgb(255,255,255)/rgb(42,42,42)
+                    div.small_content_container_uper [430,4054,382,281]
+                      div.background-image-container [430,4022,382,750]
+                      div [430,4054,382,281]
+                        div.small_content_container_text [430,4054,382,281]
+                          div.small_content_container_text_sub_heading [462,4054,318,49] 16/24/700/rgb(255,255,255)
+                            p [462,4054,318,24] 16/24/700/rgb(255,255,255)
+                              span [462,4055,161,22] 16/24/700/rgb(255,255,255) «LEGION KEYBOARDS»
+                          div.small_content_container_text_title [462,4103,318,136] 48/56/700/rgb(255,255,255)
+                            p [462,4103,318,112] 48/56/700/rgb(255,255,255)
+                              span [462,4098,252,121] 48/56/700/rgb(255,255,255) «Play Faster. Win More.»
+                          div.small_content_container_text_desc [462,4239,318,96] 16/24/400/rgb(255,255,255)
+                            p [462,4239,318,72] 16/24/400/rgb(255,255,255) «Responsive switches and reliable performance built to keep up with eve»
+                    div.small_content_container--cta [430,4359,382,413]
+                      div.small_content_container-cta [430,4359,187,381]
+                        div.small_content_cta_btn_item [462,4692,123,48]
+                          div.small_content_container-cta-btn.small_content_container-cta-_blank [462,4692,123,48] 16/16/400/rgb(23,23,23)/rgb(41,78,149)
+                            a [486,4703,75,22] 16/16/400/rgb(255,255,255) «Shop Now»
+            div.swiper-slide [827,4022,382,750]
+              div.small_content [827,4022,382,750]
+                div [827,4022,382,750]
+                  div.small_content_container.small_content_container_left.small_content_container_Se0KuvDYSy3 [827,4022,382,750] 16/0/400/rgb(255,255,255)/rgb(42,42,42)
+                    div.small_content_container_uper [827,4054,382,281]
+                      div.background-image-container [827,4022,382,750]
+                      div [827,4054,382,281]
+                        div.small_content_container_text [827,4054,382,281]
+                          div.small_content_container_text_sub_heading [859,4054,318,49] 16/24/700/rgb(255,255,255)
+                            p [859,4054,318,24] 16/24/700/rgb(255,255,255)
+                              span [859,4055,106,22] 16/24/700/rgb(255,255,255) «LEGION MICE»
+                          div.small_content_container_text_title [859,4103,318,136] 48/56/700/rgb(255,255,255)
+                            p [859,4103,318,112] 48/56/700/rgb(255,255,255)
+                              span [859,4098,243,121] 48/56/700/rgb(255,255,255) «Every Click Counts.»
+                          div.small_content_container_text_desc [859,4239,318,96] 16/24/400/rgb(255,255,255)
+                            p [859,4239,318,72] 16/24/400/rgb(255,255,255) «Precision tracking and customizable controls give you the confidence t»
+                    div.small_content_container--cta [827,4359,382,413]
+                      div.small_content_container-cta [827,4359,187,381]
+                        div.small_content_cta_btn_item [859,4692,123,48]
+                          div.small_content_container-cta-btn.small_content_container-cta-_blank [859,4692,123,48] 16/16/400/rgb(23,23,23)/rgb(41,78,149)
+                            a [883,4703,75,22] 16/16/400/rgb(255,255,255) «Shop Now»
+            div.swiper-slide [1225,4022,382,750]
+              div.small_content [1225,4022,382,750]
+                div [1225,4022,382,750]
+                  div.small_content_container.small_content_container_left.small_content_container_1tYeDDrENo3 [1225,4022,382,750] 16/0/400/rgb(255,255,255)/rgb(42,42,42)
+                    div.small_content_container_uper [1225,4054,382,281]
+                      div.background-image-container [1225,4022,382,750]
+                      div [1225,4054,382,281]
+                        div.small_content_container_text [1225,4054,382,281]
+                          div.small_content_container_text_sub_heading [1257,4054,318,49] 16/24/700/rgb(255,255,255)
+                            p [1257,4054,318,24] 16/24/700/rgb(255,255,255)
+                              span [1257,4055,158,22] 16/24/700/rgb(255,255,255) «LEGION BACKPACKS»
+                          div.small_content_container_text_title [1257,4103,318,136] 48/56/700/rgb(255,255,255)
+                            p [1257,4103,318,112] 48/56/700/rgb(255,255,255)
+                              span [1257,4098,281,121] 48/56/700/rgb(255,255,255) «Gear Up and Go.»
+                          div.small_content_container_text_desc [1257,4239,318,96] 16/24/400/rgb(255,255,255)
+                            p [1257,4239,318,72] 16/24/400/rgb(255,255,255) «Carry your Legion setup safely with storage and protection built for g»
+                    div.small_content_container--cta [1225,4359,382,413]
+                      div.small_content_container-cta [1225,4359,187,381]
+                        div.small_content_cta_btn_item [1257,4692,123,48]
+                          div.small_content_container-cta-btn.small_content_container-cta-_blank [1257,4692,123,48] 16/16/400/rgb(23,23,23)/rgb(41,78,149)
+                            a [1281,4703,75,22] 16/16/400/rgb(255,255,255) «Shop Now»
+        button.nextBtn.swiper-button-next.swiper-EPR9qG4mcaJ [1363,4359,35,35] 16/0/400/rgb(0,122,255)/rgb(245,245,245)
+          span.iconfont-homehero-right-arrow [1373,4369,16,16] 16/16/400/rgb(0,122,255)
+  div.feature-blade.blade_2.mediaClass [0,4844,1440,1211]
+    div.feature-gallery.content-top.feature-gallery-pc [0,4844,1440,1211]
+      div.blade-media.image [0,5166,1440,848]
+        img [80,5166,1280,800] 12/0/400/rgb(255,255,255)
+        div.media_caption_wrapper [0,6022,1440,20] 12/20/400/rgb(230,226,228) «Monitor and laptop stand sold separately»
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-01 [396,4844,648,323]
+        div.gallery-content [396,4892,648,227]
+          div.headline [396,4892,648,29] 20/22/700/rgb(0,255,255)
+            span [546,4895,58,27] 20/22/700/rgb(0,255,255) «INTEL»
+            sup [604,4891,14,23] 17/22/700/rgb(0,255,255) «®»
+            span [618,4895,276,27] 20/22/700/rgb(0,255,255) «CORE™ ULTRA PROCESSORS»
+          div.subHeadline [396,4924,648,56] 36/45/700/rgb(255,255,255)
+            span [421,4933,598,49] 36/45/700/rgb(255,255,255) «That's The Power Of Inside»
+              span [788,4933,86,49] 36/45/700/rgb(255,255,255) «Intel»
+              sup [874,4926,25,41] 30/45/700/rgb(255,255,255) «®»
+          div.description [396,4992,648,126] 18/24/400/rgba(255,255,255,0.8)
+            span [424,4998,475,24] 18/24/400/rgba(255,255,255,0.8) «Experience next-level gaming and productivity with Intel»
+            sup [899,4994,12,20] 15/24/400/rgba(255,255,255,0.8) «®»
+            span [399,4998,642,120] 18/24/400/rgba(255,255,255,0.8) «Core™ Ultra processors. Enjoy ultra-smooth gameplay, seamless multitas»
+  div.feature-blade.blade_6.mediaClass [0,6126,1440,695]
+    div.headline [48,6174,1344,29] 20/22/700/rgb(0,255,255)
+      p [48,6174,1344,29] 20/22/700/rgb(0,255,255)
+        span [488,6178,72,27] 20/22/700/rgb(0,255,255) «NVIDIA»
+        sup [561,6173,14,23] 17/22/700/rgb(0,255,255) «®»
+        span [575,6178,377,27] 20/22/700/rgb(0,255,255) «GEFORCE RTX™ 50 SERIES LAPTOP GPU»
+    div.subHeadline [64,6208,1312,40] 36/40/700/rgb(255,255,255)
+      p [64,6208,1312,40] 36/40/700/rgb(255,255,255)
+        span [593,6203,255,49] 36/40/700/rgb(255,255,255) «Game Changer»
+    div.swiper.swiper-initialized.swiper-horizontal [0,6288,1440,533]
+      div.swiper-wrapper [0,6288,1440,499]
+        div.swiper-slide.swiper-slide-active.feature-gallery [0,6288,348,499]
+          div.swiperBlade [0,6288,348,499]
+            div.blade-media.image.mediaClass [0,6288,348,277]
+              img [0,6288,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-02 [0,6565,348,222]
+              div.gallery-content [0,6585,348,222]
+                div.headline [0,6585,348,22] 24/22/700/rgb(255,255,255)
+                  p [0,6585,348,22] 24/22/700/rgb(255,255,255)
+                    span [89,6579,170,33] 24/22/700/rgb(255,255,255) «NVIDIA DLSS 4»
+                div.description [0,6619,348,168] 18/24/400/rgb(255,255,255)
+                  p [0,6619,348,168] 18/24/400/rgb(255,255,255)
+                    span [1,6619,346,168] 18/24/400/rgb(255,255,255) «A suite of neural rendering technologies that uses AI to boost FPS, re»
+        div.swiper-slide.swiper-slide-next.feature-gallery [364,6288,348,499]
+          div.swiperBlade [364,6288,348,499]
+            div.blade-media.image.mediaClass [364,6288,348,277]
+              img [364,6288,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-02 [364,6565,348,186]
+              div.gallery-content [364,6585,348,186]
+                div.headline [364,6585,348,22] 24/22/700/rgb(255,255,255)
+                  p [364,6585,348,22] 24/22/700/rgb(255,255,255)
+                    span [470,6579,137,33] 24/22/700/rgb(255,255,255) «Ray Tracing»
+                div.description [364,6619,348,132] 18/24/400/rgb(255,255,255)
+                  p [364,6619,348,132] 18/24/400/rgb(255,255,255)
+                    span [388,6619,293,78] 18/24/400/rgb(255,255,255) «Cinematic quality visuals at unprecedented speed, enabled by 4»
+                    sup [399,6669,15,20] 15/24/400/rgb(255,255,255) «th»
+                    span [377,6673,310,78] 18/24/400/rgb(255,255,255) «gen RT Cores and breakthrough neural rendering technologies accelerate»
+                    sup [531,6723,15,20] 15/24/400/rgb(255,255,255) «th»
+                    span [545,6727,154,24] 18/24/400/rgb(255,255,255) «gen Tensor cores.»
+        div.swiper-slide.feature-gallery.content-left [728,6288,348,499]
+          div.swiperBlade [728,6288,348,499]
+            div.blade-media.image.mediaClass [728,6288,348,277]
+              img [728,6288,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-02 [728,6565,348,200]
+              div.gallery-content [728,6585,348,200]
+                div.headline [728,6585,348,22] 24/22/700/rgb(255,255,255)
+                  p [728,6585,348,22] 24/22/700/rgb(255,255,255)
+                    span [809,6579,186,33] 24/22/700/rgb(255,255,255) «NVIDIA Reflex 2»
+                div.description [728,6619,348,146] 18/24/400/rgb(255,255,255)
+                  p [728,6619,348,96] 18/24/400/rgb(255,255,255)
+                    span [728,6619,348,96] 18/24/400/rgb(255,255,255) «Reflex 2 with Frame Warp gives you the ultimate responsiveness, enhanc»
+                  p [728,6715,348,24] 18/24/400/rgb(255,255,255)
+                    br [902,6715,0,24] 18/24/400/rgb(255,255,255)
+                  p [728,6739,348,26] 18/24/400/rgb(255,255,255)
+                    span [785,6743,234,19] 14/24/400/rgb(255,255,255) «*Accessories shown sold separately»
+        div.swiper-slide.feature-gallery.content-left [1092,6288,348,499]
+          div.swiperBlade [1092,6288,348,499]
+            div.blade-media.image.mediaClass [1092,6288,348,277]
+              img [1092,6288,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-02 [1092,6565,348,150]
+              div.gallery-content [1092,6585,348,150]
+                div.headline [1092,6585,348,22] 24/22/700/rgb(255,255,255) «Optimized Performance»
+                div.description [1092,6619,348,96] 18/24/400/rgb(255,255,255) «Designed from the ground up for maximum efficiency, delivering a massi»
+  div.feature-blade.blade_1.mediaClass [0,6893,1440,540]
+    div.feature-gallery.content-left.feature-gallery-pc [0,6893,1440,540]
+      div.blade-media.image [752,6941,688,444]
+        img [771,6941,650,400] 12/0/400/rgb(255,255,255)
+        div.media_caption_wrapper [752,7365,688,20] 12/20/400/rgb(230,226,228) «Accessories sold separately»
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-03 [48,7000,688,326]
+        div.gallery-content [112,7052,624,226]
+          div.subHeadline [112,7052,624,90] 36/45/700/rgb(255,255,255)
+            p [112,7052,624,90] 36/45/700/rgb(255,255,255)
+              span [112,7050,0,49] 36/45/700/rgb(255,255,255)
+              span [112,7050,544,94] 36/45/700/rgb(255,255,255) «Try Xbox Game Pass With Your Lenovo Legion/LOQ Device»
+          div.description [112,7154,624,124] 18/24/400/rgba(255,255,255,0.8)
+            p [112,7154,624,48] 18/24/400/rgba(255,255,255,0.8) «Play Starfield, Palworld and 200+ more games on Lenovo Legion/LOQ devi»
+            p [112,7202,624,24] 18/24/400/rgba(255,255,255,0.8)
+              br [112,7202,0,24] 18/24/400/rgba(255,255,255,0.8)
+            p [112,7226,624,52] 18/24/400/rgba(255,255,255,0.8)
+              span [112,7230,585,45] 14/24/400/rgba(255,255,255,0.8) «*Game catalogue varies over time, by region and device. Terms and cond»
+  div.feature-blade.blade_1.mediaClass [0,7505,1440,540]
+    div.feature-gallery.content-right.feature-gallery-pc [0,7505,1440,540]
+      div.blade-media.image [0,7553,688,444]
+        img [19,7553,650,400] 12/0/400/rgb(255,255,255)
+        div.media_caption_wrapper [0,7977,688,20] 12/20/400/rgb(230,226,228) «Accessories shown sold separately»
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-04 [704,7625,688,299]
+        div.gallery-content [704,7673,624,203]
+          div.headline [704,7673,624,22] 20/22/700/rgb(0,255,255)
+            p [704,7673,624,22] 20/22/700/rgb(0,255,255)
+              span [704,7670,204,27] 20/22/700/rgb(0,255,255) «LENOVO AI ENGINE+»
+          div.subHeadline [704,7699,624,45] 36/45/700/rgb(255,255,255)
+            p [704,7699,624,45] 36/45/700/rgb(255,255,255)
+              span [704,7697,537,49] 36/45/700/rgb(255,255,255) «Achieve Platinum Rank Faster»
+          div.description [704,7756,624,120] 18/24/400/rgba(255,255,255,0.8)
+            p [704,7756,624,120] 18/24/400/rgba(255,255,255,0.8)
+              span [704,7756,596,120] 18/24/400/rgba(255,255,255,0.8) «Lenovo AI Engine+ gives aspiring esports gamers the edge to win with r»
+  div.feature-blade.blade_6.mediaClass [0,8117,1440,640]
+    div.headline [48,8165,1344,22] 20/22/700/rgb(0,255,255)
+      p [48,8165,1344,22] 20/22/700/rgb(0,255,255)
+        span [499,8162,443,27] 20/22/700/rgb(0,255,255) «LENOVO PURESIGHT OLED GAMING DISPLAYS»
+    div.subHeadline [64,8192,1312,40] 36/40/700/rgb(255,255,255)
+      p [64,8192,1312,40] 36/40/700/rgb(255,255,255)
+        span [454,8187,531,49] 36/40/700/rgb(255,255,255) «Spot Enemies & Rank Up Faster»
+    div.swiper.swiper-initialized.swiper-horizontal [0,8272,1440,485]
+      div.swiper-wrapper [0,8272,1440,451]
+        div.swiper-slide.swiper-slide-active.feature-gallery [0,8272,348,451]
+          div.swiperBlade [0,8272,348,451]
+            div.blade-media.image.mediaClass [0,8272,348,277]
+              img [0,8272,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-05 [0,8549,348,126]
+              div.gallery-content [0,8569,348,126]
+                div.headline [0,8569,348,22] 24/22/700/rgb(255,255,255)
+                  p [0,8569,348,22] 24/22/700/rgb(255,255,255)
+                    span [13,8563,322,33] 24/22/700/rgb(255,255,255) «Unmatched Gaming Clarity»
+                div.description [0,8603,348,72] 18/24/400/rgb(255,255,255)
+                  p [0,8603,348,72] 18/24/400/rgb(255,255,255)
+                    span [15,8603,318,72] 18/24/400/rgb(255,255,255) «Provides clarity and precision for fast-paced, competitive gaming with»
+        div.swiper-slide.swiper-slide-next.feature-gallery [364,8272,348,451]
+          div.swiperBlade [364,8272,348,451]
+            div.blade-media.image.mediaClass [364,8272,348,277]
+              img [364,8272,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-05 [364,8549,348,148]
+              div.gallery-content [364,8569,348,148]
+                div.headline [364,8569,348,44] 20/22/700/rgb(255,255,255)
+                  p [364,8569,348,44] 20/22/700/rgb(255,255,255)
+                    span [378,8566,320,49] 20/22/700/rgb(255,255,255) «Sub-1ms Response Time & Smart FPS»
+                div.description [364,8625,348,72] 18/24/400/rgb(255,255,255)
+                  p [364,8625,348,72] 18/24/400/rgb(255,255,255)
+                    span [381,8625,314,72] 18/24/400/rgb(255,255,255) «Enables instant reactions and adjusts FPS for smooth, high-performance»
+        div.swiper-slide.feature-gallery.content-left [728,8272,348,451]
+          div.swiperBlade [728,8272,348,451]
+            div.blade-media.image.mediaClass [728,8272,348,277]
+              img [728,8272,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-05 [728,8549,348,172]
+              div.gallery-content [728,8569,348,172]
+                div.headline [728,8569,348,44] 20/22/700/rgb(255,255,255)
+                  p [728,8569,348,44] 20/22/700/rgb(255,255,255)
+                    span [729,8566,345,49] 20/22/700/rgb(255,255,255) «Crystal-Clear Resolution & Superior Contrast»
+                div.description [728,8625,348,96] 18/24/400/rgb(255,255,255)
+                  p [728,8625,348,96] 18/24/400/rgb(255,255,255)
+                    span [731,8625,342,96] 18/24/400/rgb(255,255,255) «Spot hidden opponents in dark areas for a tactical advantage in any ga»
+        div.swiper-slide.feature-gallery.content-left [1092,8272,348,451]
+          div.swiperBlade [1092,8272,348,451]
+            div.blade-media.image.mediaClass [1092,8272,348,277]
+              img [1092,8272,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-05 [1092,8549,348,174]
+              div.gallery-content [1092,8569,348,174]
+                div.headline [1092,8569,348,22] 24/22/700/rgb(255,255,255)
+                  p [1092,8569,348,22] 24/22/700/rgb(255,255,255)
+                    span [1122,8563,288,33] 24/22/700/rgb(255,255,255) «Anti-Burn-In Technology»
+                div.description [1092,8603,348,120] 18/24/400/rgb(255,255,255)
+                  p [1092,8603,348,120] 18/24/400/rgb(255,255,255) «Prevents screen burn-in during long gaming sessions, ensuring lasting »
+  div.feature-blade.blade_2.mediaClass [0,8829,1440,1232]
+    div.feature-gallery.content-top.feature-gallery-pc [0,8829,1440,1232]
+      div.blade-media.image [0,9173,1440,848]
+        img [80,9173,1280,800] 12/0/400/rgb(255,255,255)
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-06 [396,8829,648,344]
+        div.gallery-content [396,8877,648,248]
+          div.headline [396,8877,648,22] 20/22/700/rgb(0,255,255)
+            p [396,8877,648,22] 20/22/700/rgb(0,255,255)
+              span [580,8874,280,27] 20/22/700/rgb(0,255,255) «LEGION COLDFRONT: HYPER»
+          div.subHeadline [396,8903,648,90] 36/45/700/rgb(255,255,255)
+            p [396,8903,648,90] 36/45/700/rgb(255,255,255)
+              span [406,8901,629,94] 36/45/700/rgb(255,255,255) «Stay Cool, Play Silent, Take Control. Climb the Ranks.»
+          div.description [396,9005,648,120] 18/24/400/rgba(255,255,255,0.8)
+            p [396,9005,648,120] 18/24/400/rgba(255,255,255,0.8)
+              span [405,9005,630,120] 18/24/400/rgba(255,255,255,0.8) «Stay cool and quiet with turbo-charged fans and 3D copper heat pipes t»
+  div.feature-blade.blade_6.mediaClass [0,10133,1440,601]
+    div.swiper.swiper-initialized.swiper-horizontal [0,10181,1440,533]
+      div.swiper-wrapper [-1274,10181,1440,499]
+        div.swiper-slide.feature-gallery.fake-slide [-1274,10181,348,499]
+          div.swiperBlade [-1274,10181,348,499]
+            div.blade-media.image.mediaClass [-1274,10181,348,277]
+              img [-1274,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [-1274,10458,348,174]
+              div.gallery-content [-1274,10478,348,174]
+                div.headline [-1274,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [-1274,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [-1132,10472,65,33] 24/22/700/rgb(255,255,255) «FN+Q»
+                div.description [-1274,10512,348,120] 18/24/400/rgb(255,255,255)
+                  p [-1274,10512,348,120] 18/24/400/rgb(255,255,255)
+                    span [-1269,10512,338,120] 18/24/400/rgb(255,255,255) «Effortlessly switch between Quiet, Balance, Performance or Extreme mod»
+        div.swiper-slide.feature-gallery.fake-slide [-910,10181,348,499]
+          div.swiperBlade [-910,10181,348,499]
+            div.blade-media.image.mediaClass [-910,10181,348,277]
+              img [-910,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [-910,10458,348,150]
+              div.gallery-content [-910,10478,348,150]
+                div.headline [-910,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [-910,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [-895,10472,318,33] 24/22/700/rgb(255,255,255) «Lenovo AI Engine+ Support»
+                div.description [-910,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [-910,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [-901,10512,331,96] 18/24/400/rgb(255,255,255) «Expanding from Balance Mode to Performance Mode, the Lenovo AI Engine+»
+        div.swiper-slide.feature-gallery.fake-slide [-546,10181,348,499]
+          div.swiperBlade [-546,10181,348,499]
+            div.blade-media.image.mediaClass [-546,10181,348,277]
+              img [-546,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [-546,10458,348,150]
+              div.gallery-content [-546,10478,348,150]
+                div.headline [-546,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [-546,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [-530,10472,317,33] 24/22/700/rgb(255,255,255) «Turbo-Charged Fan System»
+                div.description [-546,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [-546,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [-546,10512,348,96] 18/24/400/rgb(255,255,255) «3D-printed and engineered with laser-precision, these fans effectively»
+        div.swiper-slide.feature-gallery.fake-slide [-182,10181,348,499]
+          div.swiperBlade [-182,10181,348,499]
+            div.blade-media.image.mediaClass [-182,10181,348,277]
+              img [-182,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [-182,10458,348,172]
+              div.gallery-content [-182,10478,348,172]
+                div.headline [-182,10478,348,44] 20/22/700/rgb(255,255,255)
+                  p [-182,10478,348,44] 20/22/700/rgb(255,255,255)
+                    span [-162,10475,309,49] 20/22/700/rgb(255,255,255) «High Performance Heat Pipes & Sinks»
+                div.description [-182,10534,348,96] 18/24/400/rgb(255,255,255)
+                  p [-182,10534,348,96] 18/24/400/rgb(255,255,255)
+                    span [-182,10534,347,96] 18/24/400/rgb(255,255,255) «Impressively robust copper heat pipes and aluminum heat sinks on key c»
+        div.swiper-slide.swiper-slide-prev.feature-gallery [182,10181,348,499]
+          div.swiperBlade [182,10181,348,499]
+            div.blade-media.image.mediaClass [182,10181,348,277]
+              img [182,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [182,10458,348,150]
+              div.gallery-content [182,10478,348,150]
+                div.headline [182,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [182,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [260,10472,192,33] 24/22/700/rgb(255,255,255) «Acoustic AI Sync»
+                div.description [182,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [182,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [186,10512,340,96] 18/24/400/rgb(255,255,255) «Detects the sound energy over speakers or headphones then adjust fan s»
+        div.swiper-slide.swiper-slide-active.feature-gallery [546,10181,348,499]
+          div.swiperBlade [546,10181,348,499]
+            div.blade-media.image.mediaClass [546,10181,348,277]
+              img [546,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [546,10458,348,222]
+              div.gallery-content [546,10478,348,222]
+                div.headline [546,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [546,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [579,10472,282,33] 24/22/700/rgb(255,255,255) «Legion Coldfront: Hyper»
+                div.description [546,10512,348,168] 18/24/400/rgb(255,255,255)
+                  p [546,10512,348,168] 18/24/400/rgb(255,255,255)
+                    span [547,10512,346,168] 18/24/400/rgb(255,255,255) «A combination of turbo-charged fans, massive 3D copper heat pipes, all»
+        div.swiper-slide.swiper-slide-next.feature-gallery [910,10181,348,499]
+          div.swiperBlade [910,10181,348,499]
+            div.blade-media.image.mediaClass [910,10181,348,277]
+              img [910,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [910,10458,348,174]
+              div.gallery-content [910,10478,348,174]
+                div.headline [910,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [910,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [1052,10472,65,33] 24/22/700/rgb(255,255,255) «FN+Q»
+                div.description [910,10512,348,120] 18/24/400/rgb(255,255,255)
+                  p [910,10512,348,120] 18/24/400/rgb(255,255,255)
+                    span [915,10512,338,120] 18/24/400/rgb(255,255,255) «Effortlessly switch between Quiet, Balance, Performance or Extreme mod»
+        div.swiper-slide.feature-gallery.content-left [1274,10181,348,499]
+          div.swiperBlade [1274,10181,348,499]
+            div.blade-media.image.mediaClass [1274,10181,348,277]
+              img [1274,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [1274,10458,348,150]
+              div.gallery-content [1274,10478,348,150]
+                div.headline [1274,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [1274,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [1289,10472,318,33] 24/22/700/rgb(255,255,255) «Lenovo AI Engine+ Support»
+                div.description [1274,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [1274,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [1283,10512,331,96] 18/24/400/rgb(255,255,255) «Expanding from Balance Mode to Performance Mode, the Lenovo AI Engine+»
+        div.swiper-slide.feature-gallery.content-left [1638,10181,348,499]
+          div.swiperBlade [1638,10181,348,499]
+            div.blade-media.image.mediaClass [1638,10181,348,277]
+              img [1638,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [1638,10458,348,150]
+              div.gallery-content [1638,10478,348,150]
+                div.headline [1638,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [1638,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [1654,10472,317,33] 24/22/700/rgb(255,255,255) «Turbo-Charged Fan System»
+                div.description [1638,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [1638,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [1638,10512,348,96] 18/24/400/rgb(255,255,255) «3D-printed and engineered with laser-precision, these fans effectively»
+        div.swiper-slide.feature-gallery.content-left [2002,10181,348,499]
+          div.swiperBlade [2002,10181,348,499]
+            div.blade-media.image.mediaClass [2002,10181,348,277]
+              img [2002,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [2002,10458,348,172]
+              div.gallery-content [2002,10478,348,172]
+                div.headline [2002,10478,348,44] 20/22/700/rgb(255,255,255)
+                  p [2002,10478,348,44] 20/22/700/rgb(255,255,255)
+                    span [2022,10475,309,49] 20/22/700/rgb(255,255,255) «High Performance Heat Pipes & Sinks»
+                div.description [2002,10534,348,96] 18/24/400/rgb(255,255,255)
+                  p [2002,10534,348,96] 18/24/400/rgb(255,255,255)
+                    span [2002,10534,347,96] 18/24/400/rgb(255,255,255) «Impressively robust copper heat pipes and aluminum heat sinks on key c»
+        div.swiper-slide.feature-gallery.content-left [2366,10181,348,499]
+          div.swiperBlade [2366,10181,348,499]
+            div.blade-media.image.mediaClass [2366,10181,348,277]
+              img [2366,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [2366,10458,348,150]
+              div.gallery-content [2366,10478,348,150]
+                div.headline [2366,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [2366,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [2444,10472,192,33] 24/22/700/rgb(255,255,255) «Acoustic AI Sync»
+                div.description [2366,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [2366,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [2370,10512,340,96] 18/24/400/rgb(255,255,255) «Detects the sound energy over speakers or headphones then adjust fan s»
+        div.swiper-slide.feature-gallery.fake-slide [2730,10181,348,499]
+          div.swiperBlade [2730,10181,348,499]
+            div.blade-media.image.mediaClass [2730,10181,348,277]
+              img [2730,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [2730,10458,348,222]
+              div.gallery-content [2730,10478,348,222]
+                div.headline [2730,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [2730,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [2763,10472,282,33] 24/22/700/rgb(255,255,255) «Legion Coldfront: Hyper»
+                div.description [2730,10512,348,168] 18/24/400/rgb(255,255,255)
+                  p [2730,10512,348,168] 18/24/400/rgb(255,255,255)
+                    span [2731,10512,346,168] 18/24/400/rgb(255,255,255) «A combination of turbo-charged fans, massive 3D copper heat pipes, all»
+        div.swiper-slide.feature-gallery.fake-slide [3094,10181,348,499]
+          div.swiperBlade [3094,10181,348,499]
+            div.blade-media.image.mediaClass [3094,10181,348,277]
+              img [3094,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [3094,10458,348,174]
+              div.gallery-content [3094,10478,348,174]
+                div.headline [3094,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [3094,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [3236,10472,65,33] 24/22/700/rgb(255,255,255) «FN+Q»
+                div.description [3094,10512,348,120] 18/24/400/rgb(255,255,255)
+                  p [3094,10512,348,120] 18/24/400/rgb(255,255,255)
+                    span [3099,10512,338,120] 18/24/400/rgb(255,255,255) «Effortlessly switch between Quiet, Balance, Performance or Extreme mod»
+        div.swiper-slide.feature-gallery.fake-slide [3458,10181,348,499]
+          div.swiperBlade [3458,10181,348,499]
+            div.blade-media.image.mediaClass [3458,10181,348,277]
+              img [3458,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [3458,10458,348,150]
+              div.gallery-content [3458,10478,348,150]
+                div.headline [3458,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [3458,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [3473,10472,318,33] 24/22/700/rgb(255,255,255) «Lenovo AI Engine+ Support»
+                div.description [3458,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [3458,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [3467,10512,331,96] 18/24/400/rgb(255,255,255) «Expanding from Balance Mode to Performance Mode, the Lenovo AI Engine+»
+        div.swiper-slide.feature-gallery.fake-slide [3822,10181,348,499]
+          div.swiperBlade [3822,10181,348,499]
+            div.blade-media.image.mediaClass [3822,10181,348,277]
+              img [3822,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [3822,10458,348,150]
+              div.gallery-content [3822,10478,348,150]
+                div.headline [3822,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [3822,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [3838,10472,317,33] 24/22/700/rgb(255,255,255) «Turbo-Charged Fan System»
+                div.description [3822,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [3822,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [3822,10512,348,96] 18/24/400/rgb(255,255,255) «3D-printed and engineered with laser-precision, these fans effectively»
+        div.swiper-slide.feature-gallery.fake-slide [4186,10181,348,499]
+          div.swiperBlade [4186,10181,348,499]
+            div.blade-media.image.mediaClass [4186,10181,348,277]
+              img [4186,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [4186,10458,348,172]
+              div.gallery-content [4186,10478,348,172]
+                div.headline [4186,10478,348,44] 20/22/700/rgb(255,255,255)
+                  p [4186,10478,348,44] 20/22/700/rgb(255,255,255)
+                    span [4206,10475,309,49] 20/22/700/rgb(255,255,255) «High Performance Heat Pipes & Sinks»
+                div.description [4186,10534,348,96] 18/24/400/rgb(255,255,255)
+                  p [4186,10534,348,96] 18/24/400/rgb(255,255,255)
+                    span [4186,10534,347,96] 18/24/400/rgb(255,255,255) «Impressively robust copper heat pipes and aluminum heat sinks on key c»
+        div.swiper-slide.feature-gallery.fake-slide [4550,10181,348,499]
+          div.swiperBlade [4550,10181,348,499]
+            div.blade-media.image.mediaClass [4550,10181,348,277]
+              img [4550,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [4550,10458,348,150]
+              div.gallery-content [4550,10478,348,150]
+                div.headline [4550,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [4550,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [4628,10472,192,33] 24/22/700/rgb(255,255,255) «Acoustic AI Sync»
+                div.description [4550,10512,348,96] 18/24/400/rgb(255,255,255)
+                  p [4550,10512,348,96] 18/24/400/rgb(255,255,255)
+                    span [4554,10512,340,96] 18/24/400/rgb(255,255,255) «Detects the sound energy over speakers or headphones then adjust fan s»
+        div.swiper-slide.feature-gallery.fake-slide [4914,10181,348,499]
+          div.swiperBlade [4914,10181,348,499]
+            div.blade-media.image.mediaClass [4914,10181,348,277]
+              img [4914,10181,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-07 [4914,10458,348,222]
+              div.gallery-content [4914,10478,348,222]
+                div.headline [4914,10478,348,22] 24/22/700/rgb(255,255,255)
+                  p [4914,10478,348,22] 24/22/700/rgb(255,255,255)
+                    span [4947,10472,282,33] 24/22/700/rgb(255,255,255) «Legion Coldfront: Hyper»
+                div.description [4914,10512,348,168] 18/24/400/rgb(255,255,255)
+                  p [4914,10512,348,168] 18/24/400/rgb(255,255,255)
+                    span [4915,10512,346,168] 18/24/400/rgb(255,255,255) «A combination of turbo-charged fans, massive 3D copper heat pipes, all»
+    div.swiper-pagination-custom [0,10714,1440,20]
+      div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal [0,10714,1440,22]
+        span.swiper-pagination-bullet.swiper-pagination-bullet-active [644,10719,12,12] 16/0/400/rgb(255,255,255)/rgb(255,255,255)
+        span.swiper-pagination-bullet [672,10719,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [700,10719,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [728,10719,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [756,10719,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [784,10719,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+  div.feature-blade.blade_2.mediaClass [0,10806,1440,1165]
+    div.feature-gallery.content-top.feature-gallery-pc [0,10806,1440,1165]
+      div.blade-media.image [0,11083,1440,848]
+        img [80,11083,1280,800] 12/0/400/rgb(255,255,255)
+        div.media_caption_wrapper [0,11939,1440,20] 12/20/400/rgb(230,226,228) «Accessories shown sold separately»
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-08 [396,10806,648,277]
+        div.gallery-content [396,10858,648,177]
+          div.subHeadline [396,10858,648,45] 36/45/700/rgb(255,255,255)
+            p [396,10858,648,45] 36/45/700/rgb(255,255,255)
+              span [477,10856,486,49] 36/45/700/rgb(255,255,255) «Climb with Comfort & Style»
+          div.description [396,10915,648,120] 18/24/400/rgba(255,255,255,0.8)
+            p [396,10915,648,120] 18/24/400/rgba(255,255,255,0.8)
+              span [408,10915,623,120] 18/24/400/rgba(255,255,255,0.8) «The Legion Pro 5i keeps cool with massive rear vents, ensuring optimal»
+  div.feature-blade.blade_6.mediaClass [0,12043,1440,702]
+    div.headline [48,12091,1344,22] 20/22/700/rgb(0,255,255)
+      p [48,12091,1344,22] 20/22/700/rgb(0,255,255)
+        span [517,12088,406,27] 20/22/700/rgb(0,255,255) «PEAK PERFORMANCE, COMFORT, & FOCUS»
+    div.subHeadline [64,12118,1312,40] 36/40/700/rgb(255,255,255)
+      p [64,12118,1312,40] 36/40/700/rgb(255,255,255)
+        span [499,12113,442,49] 36/40/700/rgb(255,255,255) «Intelligent esports Design»
+    div.swiper.swiper-initialized.swiper-horizontal [0,12198,1440,527]
+      div.swiper-wrapper [-1274,12198,1440,493]
+        div.swiper-slide.feature-gallery.fake-slide [-1274,12198,348,493]
+          div.swiperBlade [-1274,12198,348,493]
+            div.blade-media.image.mediaClass [-1274,12198,348,321]
+              img [-1274,12198,348,272] 12/0/400/rgb(255,255,255)
+              div.media_caption_wrapper [-1274,12499,348,20] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [-1274,12519,348,172]
+              div.gallery-content [-1274,12539,348,172]
+                div.headline [-1274,12539,348,44] 20/22/700/rgb(255,255,255)
+                  p [-1274,12539,348,44] 20/22/700/rgb(255,255,255)
+                    span [-1257,12536,313,49] 20/22/700/rgb(255,255,255) «Aggressive Design with Massive Vents»
+                div.description [-1274,12595,348,96] 18/24/400/rgb(255,255,255)
+                  p [-1274,12595,348,96] 18/24/400/rgb(255,255,255)
+                    span [-1266,12595,332,96] 18/24/400/rgb(255,255,255) «Large rear vents optimize airflow, keeping your system cool and ensuri»
+        div.swiper-slide.feature-gallery.fake-slide [-910,12198,348,493]
+          div.swiperBlade [-910,12198,348,493]
+            div.blade-media.image.mediaClass [-910,12198,348,321]
+              img [-910,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [-910,12519,348,126]
+              div.gallery-content [-910,12539,348,126]
+                div.headline [-910,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [-910,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [-895,12536,318,27] 20/22/700/rgb(255,255,255) «Optimized Port & Airflow Layout»
+                div.description [-910,12573,348,72] 18/24/400/rgb(255,255,255)
+                  p [-910,12573,348,72] 18/24/400/rgb(255,255,255) «.»
+                    span [-900,12573,327,72] 18/24/400/rgb(255,255,255) «Heat is directed out the back, keeping your keyboard, mouse, and hands»
+        div.swiper-slide.feature-gallery.fake-slide [-546,12198,348,493]
+          div.swiperBlade [-546,12198,348,493]
+            div.blade-media.image.mediaClass [-546,12198,348,321]
+              img [-546,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [-546,12519,348,172]
+              div.gallery-content [-546,12539,348,172]
+                div.headline [-546,12539,348,44] 20/22/700/rgb(255,255,255)
+                  p [-546,12539,348,44] 20/22/700/rgb(255,255,255)
+                    span [-533,12536,323,49] 20/22/700/rgb(255,255,255) «Eclipse Black with AI-Synced RGB Keyboard»
+                div.description [-546,12595,348,96] 18/24/400/rgb(255,255,255)
+                  p [-546,12595,348,96] 18/24/400/rgb(255,255,255)
+                    span [-534,12595,324,96] 18/24/400/rgb(255,255,255) «Sleek design with AI-powered RGB keyboard lighting, syncing effects wi»
+        div.swiper-slide.feature-gallery.fake-slide [-182,12198,348,493]
+          div.swiperBlade [-182,12198,348,493]
+            div.blade-media.image.mediaClass [-182,12198,348,321]
+              img [-182,12198,348,272] 12/0/400/rgb(255,255,255)
+              div.media_caption_wrapper [-182,12499,348,20] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [-182,12519,348,126]
+              div.gallery-content [-182,12539,348,126]
+                div.headline [-182,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [-182,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [-177,12536,339,27] 20/22/700/rgb(255,255,255) «An Amazing Desktop Replacement»
+                div.description [-182,12573,348,72] 18/24/400/rgb(255,255,255)
+                  p [-182,12573,348,72] 18/24/400/rgb(255,255,255)
+                    span [-176,12573,337,72] 18/24/400/rgb(255,255,255) «Full speed 2.5G ethernet, HDMI 2.1, and more make this a gaming deskto»
+        div.swiper-slide.swiper-slide-prev.feature-gallery [182,12198,348,493]
+          div.swiperBlade [182,12198,348,493]
+            div.blade-media.image.mediaClass [182,12198,348,321]
+              img [182,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [182,12519,348,150]
+              div.gallery-content [182,12539,348,150]
+                div.headline [182,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [182,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [209,12536,294,27] 20/22/700/rgb(255,255,255) «Game Smart & Save the World»
+                div.description [182,12573,348,96] 18/24/400/rgb(255,255,255)
+                  p [182,12573,348,96] 18/24/400/rgb(255,255,255)
+                    span [183,12573,347,96] 18/24/400/rgb(255,255,255) «Constructed with sustainable materials and eco-friendly packaging, bal»
+        div.swiper-slide.swiper-slide-active.feature-gallery [546,12198,348,493]
+          div.swiperBlade [546,12198,348,493]
+            div.blade-media.image.mediaClass [546,12198,348,321]
+              img [546,12198,348,272] 12/0/400/rgb(255,255,255)
+              div.media_caption_wrapper [546,12499,348,20] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [546,12519,348,172]
+              div.gallery-content [546,12539,348,172]
+                div.headline [546,12539,348,44] 20/22/700/rgb(255,255,255)
+                  p [546,12539,348,44] 20/22/700/rgb(255,255,255)
+                    span [563,12536,313,49] 20/22/700/rgb(255,255,255) «Aggressive Design with Massive Vents»
+                div.description [546,12595,348,96] 18/24/400/rgb(255,255,255)
+                  p [546,12595,348,96] 18/24/400/rgb(255,255,255)
+                    span [554,12595,332,96] 18/24/400/rgb(255,255,255) «Large rear vents optimize airflow, keeping your system cool and ensuri»
+        div.swiper-slide.swiper-slide-next.feature-gallery [910,12198,348,493]
+          div.swiperBlade [910,12198,348,493]
+            div.blade-media.image.mediaClass [910,12198,348,321]
+              img [910,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [910,12519,348,126]
+              div.gallery-content [910,12539,348,126]
+                div.headline [910,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [910,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [925,12536,318,27] 20/22/700/rgb(255,255,255) «Optimized Port & Airflow Layout»
+                div.description [910,12573,348,72] 18/24/400/rgb(255,255,255)
+                  p [910,12573,348,72] 18/24/400/rgb(255,255,255) «.»
+                    span [920,12573,327,72] 18/24/400/rgb(255,255,255) «Heat is directed out the back, keeping your keyboard, mouse, and hands»
+        div.swiper-slide.feature-gallery.content-left [1274,12198,348,493]
+          div.swiperBlade [1274,12198,348,493]
+            div.blade-media.image.mediaClass [1274,12198,348,321]
+              img [1274,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [1274,12519,348,172]
+              div.gallery-content [1274,12539,348,172]
+                div.headline [1274,12539,348,44] 20/22/700/rgb(255,255,255)
+                  p [1274,12539,348,44] 20/22/700/rgb(255,255,255)
+                    span [1287,12536,323,49] 20/22/700/rgb(255,255,255) «Eclipse Black with AI-Synced RGB Keyboard»
+                div.description [1274,12595,348,96] 18/24/400/rgb(255,255,255)
+                  p [1274,12595,348,96] 18/24/400/rgb(255,255,255)
+                    span [1286,12595,324,96] 18/24/400/rgb(255,255,255) «Sleek design with AI-powered RGB keyboard lighting, syncing effects wi»
+        div.swiper-slide.feature-gallery.content-left [1638,12198,348,493]
+          div.swiperBlade [1638,12198,348,493]
+            div.blade-media.image.mediaClass [1638,12198,348,321]
+              img [1638,12198,348,272] 12/0/400/rgb(255,255,255)
+              div.media_caption_wrapper [1638,12499,348,20] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [1638,12519,348,126]
+              div.gallery-content [1638,12539,348,126]
+                div.headline [1638,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [1638,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [1643,12536,339,27] 20/22/700/rgb(255,255,255) «An Amazing Desktop Replacement»
+                div.description [1638,12573,348,72] 18/24/400/rgb(255,255,255)
+                  p [1638,12573,348,72] 18/24/400/rgb(255,255,255)
+                    span [1644,12573,337,72] 18/24/400/rgb(255,255,255) «Full speed 2.5G ethernet, HDMI 2.1, and more make this a gaming deskto»
+        div.swiper-slide.feature-gallery.content-left [2002,12198,348,493]
+          div.swiperBlade [2002,12198,348,493]
+            div.blade-media.image.mediaClass [2002,12198,348,321]
+              img [2002,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [2002,12519,348,150]
+              div.gallery-content [2002,12539,348,150]
+                div.headline [2002,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [2002,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [2029,12536,294,27] 20/22/700/rgb(255,255,255) «Game Smart & Save the World»
+                div.description [2002,12573,348,96] 18/24/400/rgb(255,255,255)
+                  p [2002,12573,348,96] 18/24/400/rgb(255,255,255)
+                    span [2003,12573,347,96] 18/24/400/rgb(255,255,255) «Constructed with sustainable materials and eco-friendly packaging, bal»
+        div.swiper-slide.feature-gallery.fake-slide [2366,12198,348,493]
+          div.swiperBlade [2366,12198,348,493]
+            div.blade-media.image.mediaClass [2366,12198,348,321]
+              img [2366,12198,348,272] 12/0/400/rgb(255,255,255)
+              div.media_caption_wrapper [2366,12499,348,20] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [2366,12519,348,172]
+              div.gallery-content [2366,12539,348,172]
+                div.headline [2366,12539,348,44] 20/22/700/rgb(255,255,255)
+                  p [2366,12539,348,44] 20/22/700/rgb(255,255,255)
+                    span [2383,12536,313,49] 20/22/700/rgb(255,255,255) «Aggressive Design with Massive Vents»
+                div.description [2366,12595,348,96] 18/24/400/rgb(255,255,255)
+                  p [2366,12595,348,96] 18/24/400/rgb(255,255,255)
+                    span [2374,12595,332,96] 18/24/400/rgb(255,255,255) «Large rear vents optimize airflow, keeping your system cool and ensuri»
+        div.swiper-slide.feature-gallery.fake-slide [2730,12198,348,493]
+          div.swiperBlade [2730,12198,348,493]
+            div.blade-media.image.mediaClass [2730,12198,348,321]
+              img [2730,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [2730,12519,348,126]
+              div.gallery-content [2730,12539,348,126]
+                div.headline [2730,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [2730,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [2745,12536,318,27] 20/22/700/rgb(255,255,255) «Optimized Port & Airflow Layout»
+                div.description [2730,12573,348,72] 18/24/400/rgb(255,255,255)
+                  p [2730,12573,348,72] 18/24/400/rgb(255,255,255) «.»
+                    span [2740,12573,327,72] 18/24/400/rgb(255,255,255) «Heat is directed out the back, keeping your keyboard, mouse, and hands»
+        div.swiper-slide.feature-gallery.fake-slide [3094,12198,348,493]
+          div.swiperBlade [3094,12198,348,493]
+            div.blade-media.image.mediaClass [3094,12198,348,321]
+              img [3094,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [3094,12519,348,172]
+              div.gallery-content [3094,12539,348,172]
+                div.headline [3094,12539,348,44] 20/22/700/rgb(255,255,255)
+                  p [3094,12539,348,44] 20/22/700/rgb(255,255,255)
+                    span [3107,12536,323,49] 20/22/700/rgb(255,255,255) «Eclipse Black with AI-Synced RGB Keyboard»
+                div.description [3094,12595,348,96] 18/24/400/rgb(255,255,255)
+                  p [3094,12595,348,96] 18/24/400/rgb(255,255,255)
+                    span [3106,12595,324,96] 18/24/400/rgb(255,255,255) «Sleek design with AI-powered RGB keyboard lighting, syncing effects wi»
+        div.swiper-slide.feature-gallery.fake-slide [3458,12198,348,493]
+          div.swiperBlade [3458,12198,348,493]
+            div.blade-media.image.mediaClass [3458,12198,348,321]
+              img [3458,12198,348,272] 12/0/400/rgb(255,255,255)
+              div.media_caption_wrapper [3458,12499,348,20] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [3458,12519,348,126]
+              div.gallery-content [3458,12539,348,126]
+                div.headline [3458,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [3458,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [3463,12536,339,27] 20/22/700/rgb(255,255,255) «An Amazing Desktop Replacement»
+                div.description [3458,12573,348,72] 18/24/400/rgb(255,255,255)
+                  p [3458,12573,348,72] 18/24/400/rgb(255,255,255)
+                    span [3464,12573,337,72] 18/24/400/rgb(255,255,255) «Full speed 2.5G ethernet, HDMI 2.1, and more make this a gaming deskto»
+        div.swiper-slide.feature-gallery.fake-slide [3822,12198,348,493]
+          div.swiperBlade [3822,12198,348,493]
+            div.blade-media.image.mediaClass [3822,12198,348,321]
+              img [3822,12198,348,272] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-09 [3822,12519,348,150]
+              div.gallery-content [3822,12539,348,150]
+                div.headline [3822,12539,348,22] 20/22/700/rgb(255,255,255)
+                  p [3822,12539,348,22] 20/22/700/rgb(255,255,255)
+                    span [3849,12536,294,27] 20/22/700/rgb(255,255,255) «Game Smart & Save the World»
+                div.description [3822,12573,348,96] 18/24/400/rgb(255,255,255)
+                  p [3822,12573,348,96] 18/24/400/rgb(255,255,255)
+                    span [3823,12573,347,96] 18/24/400/rgb(255,255,255) «Constructed with sustainable materials and eco-friendly packaging, bal»
+    div.swiper-pagination-custom [0,12725,1440,20]
+      div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal [0,12725,1440,22]
+        span.swiper-pagination-bullet.swiper-pagination-bullet-active [658,12730,12,12] 16/0/400/rgb(255,255,255)/rgb(255,255,255)
+        span.swiper-pagination-bullet [686,12730,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [714,12730,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [742,12730,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [770,12730,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+  div.feature-blade.blade_6.mediaClass [0,12817,1440,743]
+    div.swiper.swiper-initialized.swiper-horizontal [0,12865,1440,695]
+      div.swiper-wrapper [0,12865,1440,661]
+        div.swiper-slide.swiper-slide-active.feature-gallery [0,12865,469,661]
+          div.swiperBlade [0,12865,469,661]
+            div.blade-media.image.mediaClass [0,12865,469,365]
+              img [5,12865,460,360] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-10 [0,13230,469,246]
+              div.gallery-content [0,13250,469,246]
+                div.headline [0,13250,469,44] 20/22/700/rgb(255,255,255)
+                  p [0,13250,469,44] 20/22/700/rgb(255,255,255)
+                    span [20,13247,430,49] 20/22/700/rgb(255,255,255) «Nahimic by SteelSeries Audio for Games. AI-Powered Immersive 3D Audio.»
+                div.description [0,13306,469,170] 18/24/400/rgb(255,255,255)
+                  p [0,13306,469,120] 18/24/400/rgb(255,255,255)
+                    span [1,13306,468,120] 18/24/400/rgb(255,255,255) «Nahimic by SteelSeries leverages AI technology to deliver immersive 3D»
+                  p [0,13426,469,24] 18/24/400/rgb(255,255,255)
+                    br [235,13426,0,24] 18/24/400/rgb(255,255,255)
+                  p [0,13450,469,26] 18/24/400/rgb(255,255,255)
+                    span [118,13454,234,19] 14/24/400/rgb(255,255,255) «*Accessories shown sold separately»
+        div.swiper-slide.swiper-slide-next.feature-gallery [485,12865,469,661]
+          div.swiperBlade [485,12865,469,661]
+            div.blade-media.image.mediaClass [485,12865,469,365]
+              img [490,12865,460,360] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-10 [485,13230,469,296]
+              div.gallery-content [485,13250,469,296]
+                div.headline [485,13250,469,22] 20/22/700/rgb(255,255,255)
+                  p [485,13250,469,22] 20/22/700/rgb(255,255,255)
+                    span [494,13247,453,27] 20/22/700/rgb(255,255,255) «Precision Keystrokes for the Competitive Edge»
+                div.description [485,13284,469,242] 18/24/400/rgb(255,255,255)
+                  p [485,13284,469,192] 18/24/400/rgb(255,255,255)
+                    span [486,13284,468,192] 18/24/400/rgb(255,255,255) «Master precision with the Legion TrueStrike keyboard—designed for comp»
+                  p [485,13476,469,24] 18/24/400/rgb(255,255,255)
+                    br [720,13476,0,24] 18/24/400/rgb(255,255,255)
+                  p [485,13500,469,26] 18/24/400/rgb(255,255,255)
+                    span [603,13504,234,19] 14/24/400/rgb(255,255,255) «*Accessories shown sold separately»
+        div.swiper-slide.feature-gallery.content-left [971,12865,469,661]
+          div.swiperBlade [971,12865,469,661]
+            div.blade-media.image.mediaClass [971,12865,469,365]
+              img [975,12865,460,360] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-10 [971,13230,469,296]
+              div.gallery-content [971,13250,469,296]
+                div.headline [971,13250,469,22] 20/22/700/rgb(255,255,255)
+                  p [971,13250,469,22] 20/22/700/rgb(255,255,255)
+                    span [1007,13247,397,27] 20/22/700/rgb(255,255,255) «Unleash Performance All Across Campus»
+                div.description [971,13284,469,242] 18/24/400/rgb(255,255,255)
+                  p [971,13284,469,192] 18/24/400/rgb(255,255,255)
+                    span [980,13284,451,192] 18/24/400/rgb(255,255,255) «Take your battlestation anywhere with the Legion Pro 5i, featuring up »
+                  p [971,13476,469,24] 18/24/400/rgb(255,255,255)
+                    br [1205,13476,0,24] 18/24/400/rgb(255,255,255)
+                  p [971,13500,469,26] 18/24/400/rgb(255,255,255)
+                    span [1071,13504,268,19] 14/24/400/rgb(255,255,255) «*140W USB-C AC adapter sold separately»
+  div.feature-blade.blade_5.mediaClass [0,13632,1440,786]
+    div.swiper.swiper-initialized.swiper-horizontal [0,13680,1440,718]
+      div.swiper-wrapper [-1634,13680,1440,698]
+        div.swiper-slide.feature-gallery.fake-slide [-1634,13680,929,698]
+          div.swiperBlade [-1762,13680,1184,698]
+            div.blade-media.image.mediaClass [-1635,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [-1635,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [-1635,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [-1762,13680,1184,130]
+              div.gallery-content.hiddenContent [-1762,13680,1184,130]
+                div.headline [-1762,13680,1184,44] 36/44/700/rgb(255,255,255)
+                  p [-1746,13680,1152,44] 36/44/700/rgb(255,255,255)
+                    span [-1490,13677,640,49] 36/44/700/rgb(255,255,255) «Designed For The Legion Ecosystem»
+                div.description [-1762,13736,1184,74] 18/24/400/rgba(255,255,255,0.8)
+                  p [-1762,13736,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    span [-1688,13736,1036,24] 18/24/400/rgba(255,255,255,0.8) «Binds all your Legion ecosystem devices in one portal for effortless s»
+                  p [-1762,13760,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    br [-1170,13760,0,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [-1762,13784,1184,26] 18/24/400/rgba(255,255,255,0.8)
+                    span [-1276,13788,212,19] 14/24/400/rgba(255,255,255,0.8) «*Legion monitor sold separately»
+        div.swiper-slide.swiper-slide-prev.feature-gallery [-689,13680,929,698]
+          div.swiperBlade [-817,13680,1184,698]
+            div.blade-media.image.mediaClass [-690,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [-690,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [-690,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [-817,13688,1184,80]
+              div.gallery-content.hiddenContent [-817,13688,1184,80]
+                div.headline [-817,13688,1184,44] 36/44/700/rgb(255,255,255)
+                  p [-801,13688,1152,44] 36/44/700/rgb(255,255,255)
+                    span [-344,13685,238,49] 36/44/700/rgb(255,255,255) «Gaming Zone»
+                div.description [-817,13744,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [-817,13744,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    span [-761,13744,1072,24] 18/24/400/rgba(255,255,255,0.8) «A suite of AI experiences. Game Coach for esports, Game Clip Master fo»
+        div.swiper-slide.swiper-slide-active.feature-gallery [256,13680,929,698]
+          div.swiperBlade [128,13680,1184,698]
+            div.blade-media.image.mediaClass [255,13858,929,520] 0/0/400/rgb(255,255,255)
+              img [255,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [128,13680,1184,130]
+              div.gallery-content [128,13680,1184,130]
+                div.headline [128,13680,1184,44] 36/44/700/rgb(255,255,255)
+                  p [144,13680,1152,44] 36/44/700/rgb(255,255,255)
+                    span [491,13677,458,49] 36/44/700/rgb(255,255,255) «Introducing Legion Space»
+                div.description [128,13736,1184,74] 18/24/400/rgba(255,255,255,0.8)
+                  p [128,13736,1184,24] 18/24/400/rgba(255,255,255,0.8) «*»
+                    span [350,13736,730,24] 18/24/400/rgba(255,255,255,0.8) «Customize system settings, get exclusive deals and more in easy-to-use»
+                  p [128,13760,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    br [720,13760,0,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [128,13784,1184,26] 18/24/400/rgba(255,255,255,0.8)
+                    span [603,13788,234,19] 14/24/400/rgba(255,255,255,0.8) «*Accessories shown sold separately»
+        div.swiper-slide.swiper-slide-next.feature-gallery [1201,13680,929,698]
+          div.swiperBlade [1073,13680,1184,698]
+            div.blade-media.image.mediaClass [1200,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [1200,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [1200,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [1073,13680,1184,130]
+              div.gallery-content.hiddenContent [1073,13680,1184,130]
+                div.headline [1073,13680,1184,44] 36/44/700/rgb(255,255,255)
+                  p [1089,13680,1152,44] 36/44/700/rgb(255,255,255)
+                    span [1345,13677,640,49] 36/44/700/rgb(255,255,255) «Designed For The Legion Ecosystem»
+                div.description [1073,13736,1184,74] 18/24/400/rgba(255,255,255,0.8)
+                  p [1073,13736,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    span [1147,13736,1036,24] 18/24/400/rgba(255,255,255,0.8) «Binds all your Legion ecosystem devices in one portal for effortless s»
+                  p [1073,13760,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    br [1665,13760,0,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [1073,13784,1184,26] 18/24/400/rgba(255,255,255,0.8)
+                    span [1559,13788,212,19] 14/24/400/rgba(255,255,255,0.8) «*Legion monitor sold separately»
+        div.swiper-slide.feature-gallery.content-left [2146,13680,929,698]
+          div.swiperBlade [2018,13680,1184,698]
+            div.blade-media.image.mediaClass [2145,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [2145,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [2145,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [2018,13688,1184,80]
+              div.gallery-content.hiddenContent [2018,13688,1184,80]
+                div.headline [2018,13688,1184,44] 36/44/700/rgb(255,255,255)
+                  p [2034,13688,1152,44] 36/44/700/rgb(255,255,255)
+                    span [2491,13685,238,49] 36/44/700/rgb(255,255,255) «Gaming Zone»
+                div.description [2018,13744,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [2018,13744,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    span [2074,13744,1072,24] 18/24/400/rgba(255,255,255,0.8) «A suite of AI experiences. Game Coach for esports, Game Clip Master fo»
+        div.swiper-slide.feature-gallery.fake-slide [3091,13680,929,698]
+          div.swiperBlade [2963,13680,1184,698]
+            div.blade-media.image.mediaClass [3090,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [3090,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [3090,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [2963,13680,1184,130]
+              div.gallery-content [2963,13680,1184,130]
+                div.headline [2963,13680,1184,44] 36/44/700/rgb(255,255,255)
+                  p [2979,13680,1152,44] 36/44/700/rgb(255,255,255)
+                    span [3326,13677,458,49] 36/44/700/rgb(255,255,255) «Introducing Legion Space»
+                div.description [2963,13736,1184,74] 18/24/400/rgba(255,255,255,0.8)
+                  p [2963,13736,1184,24] 18/24/400/rgba(255,255,255,0.8) «*»
+                    span [3185,13736,730,24] 18/24/400/rgba(255,255,255,0.8) «Customize system settings, get exclusive deals and more in easy-to-use»
+                  p [2963,13760,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    br [3555,13760,0,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [2963,13784,1184,26] 18/24/400/rgba(255,255,255,0.8)
+                    span [3438,13788,234,19] 14/24/400/rgba(255,255,255,0.8) «*Accessories shown sold separately»
+        div.swiper-slide.feature-gallery.fake-slide [4036,13680,929,698]
+          div.swiperBlade [3908,13680,1184,698]
+            div.blade-media.image.mediaClass [4035,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [4035,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [4035,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [3908,13680,1184,130]
+              div.gallery-content.hiddenContent [3908,13680,1184,130]
+                div.headline [3908,13680,1184,44] 36/44/700/rgb(255,255,255)
+                  p [3924,13680,1152,44] 36/44/700/rgb(255,255,255)
+                    span [4180,13677,640,49] 36/44/700/rgb(255,255,255) «Designed For The Legion Ecosystem»
+                div.description [3908,13736,1184,74] 18/24/400/rgba(255,255,255,0.8)
+                  p [3908,13736,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    span [3982,13736,1036,24] 18/24/400/rgba(255,255,255,0.8) «Binds all your Legion ecosystem devices in one portal for effortless s»
+                  p [3908,13760,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    br [4500,13760,0,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [3908,13784,1184,26] 18/24/400/rgba(255,255,255,0.8)
+                    span [4394,13788,212,19] 14/24/400/rgba(255,255,255,0.8) «*Legion monitor sold separately»
+        div.swiper-slide.feature-gallery.fake-slide [4981,13680,929,698]
+          div.swiperBlade [4853,13680,1184,698]
+            div.blade-media.image.mediaClass [4980,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [4980,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [4980,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [4853,13688,1184,80]
+              div.gallery-content.hiddenContent [4853,13688,1184,80]
+                div.headline [4853,13688,1184,44] 36/44/700/rgb(255,255,255)
+                  p [4869,13688,1152,44] 36/44/700/rgb(255,255,255)
+                    span [5326,13685,238,49] 36/44/700/rgb(255,255,255) «Gaming Zone»
+                div.description [4853,13744,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [4853,13744,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    span [4909,13744,1072,24] 18/24/400/rgba(255,255,255,0.8) «A suite of AI experiences. Game Coach for esports, Game Clip Master fo»
+        div.swiper-slide.feature-gallery.fake-slide [5926,13680,929,698]
+          div.swiperBlade [5798,13680,1184,698]
+            div.blade-media.image.mediaClass [5925,13858,929,520] 0/0/400/rgb(255,255,255)
+              div.mask [5925,13858,929,520] 0/0/400/rgb(255,255,255)/rgba(0,0,0,0.5)
+              img [5925,13858,929,520] 12/0/400/rgb(255,255,255)
+            div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-11 [5798,13680,1184,130]
+              div.gallery-content [5798,13680,1184,130]
+                div.headline [5798,13680,1184,44] 36/44/700/rgb(255,255,255)
+                  p [5814,13680,1152,44] 36/44/700/rgb(255,255,255)
+                    span [6161,13677,458,49] 36/44/700/rgb(255,255,255) «Introducing Legion Space»
+                div.description [5798,13736,1184,74] 18/24/400/rgba(255,255,255,0.8)
+                  p [5798,13736,1184,24] 18/24/400/rgba(255,255,255,0.8) «*»
+                    span [6020,13736,730,24] 18/24/400/rgba(255,255,255,0.8) «Customize system settings, get exclusive deals and more in easy-to-use»
+                  p [5798,13760,1184,24] 18/24/400/rgba(255,255,255,0.8)
+                    br [6390,13760,0,24] 18/24/400/rgba(255,255,255,0.8)
+                  p [5798,13784,1184,26] 18/24/400/rgba(255,255,255,0.8)
+                    span [6273,13788,234,19] 14/24/400/rgba(255,255,255,0.8) «*Accessories shown sold separately»
+    div.swiper-pagination-custom [0,14398,1440,20]
+      div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal [0,14398,1440,22]
+        span.swiper-pagination-bullet.swiper-pagination-bullet-active [686,14403,12,12] 16/0/400/rgb(255,255,255)/rgb(255,255,255)
+        span.swiper-pagination-bullet [714,14403,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+        span.swiper-pagination-bullet [742,14403,12,12] 16/0/400/rgb(255,255,255)/rgba(255,255,255,0)
+  div.feature-blade.blade_2.mediaClass [0,14490,1440,989]
+    div.feature-gallery.content-top.feature-gallery-pc [0,14490,1440,989]
+      div.blade-media.image [0,14586,1440,853]
+        img [0,14586,1440,805] 12/0/400/rgb(255,255,255)
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-14A [396,14490,648,96]
+  div.feature-blade.blade_1.mediaClass [0,15551,1440,540]
+    div.feature-gallery.content-left.feature-gallery-pc [0,15551,1440,540]
+      div.blade-media.image [752,15599,688,444]
+        img [771,15599,650,400] 12/0/400/rgb(255,255,255)
+        div.media_caption_wrapper [752,16023,688,20] 12/20/400/rgb(230,226,228) «Accessories shown sold separately»
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-12 [48,15660,688,322]
+        div.gallery-content [112,15712,624,222]
+          div.subHeadline [112,15712,624,90] 36/45/700/rgb(255,255,255)
+            p [112,15712,624,90] 36/45/700/rgb(255,255,255)
+              span [112,15710,407,94] 36/45/700/rgb(255,255,255) «Exceptional Ecosystem Experiences»
+          div.description [112,15814,624,120] 18/24/400/rgba(255,255,255,0.8)
+            p [112,15814,624,120] 18/24/400/rgba(255,255,255,0.8)
+              span [112,15814,612,120] 18/24/400/rgba(255,255,255,0.8) «The Legion ecosystem offers a unified design across PCs, handhelds, ta»
+  div.feature-blade.blade_2.mediaClass [0,16163,1440,769]
+    div.feature-gallery.content-top.feature-gallery-pc [0,16163,1440,769]
+      div.blade-media.image [0,16344,1440,548]
+        img [80,16344,1280,500] 12/0/400/rgb(255,255,255)
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-14 [396,16163,648,181]
+        div.gallery-content [396,16215,648,81]
+          div.subHeadline [396,16215,648,45] 36/45/700/rgb(255,255,255)
+            span [568,16213,305,49] 36/45/700/rgb(255,255,255) «Claim Your Stage»
+          div.description [396,16272,648,24] 18/24/400/rgba(255,255,255,0.8)
+            span [419,16272,602,24] 18/24/400/rgba(255,255,255,0.8) «Built for competitive players ready to level up at the Esports World C»
+  div.feature-blade.blade_1.mediaClass [0,17004,1440,496]
+    div.feature-gallery.content-right.feature-gallery-pc [0,17004,1440,496]
+      div.blade-media.image [0,17052,688,400]
+        img [49,17052,590,400] 12/0/400/rgb(255,255,255)
+      div.content-wrapper.content-wrapperNA-Legion-Pro-5i-Gen-10-16-inch-Intel-feature-13 [704,17086,688,333]
+        div.gallery-content [704,17134,624,237]
+          div.headline [704,17134,624,22] 20/22/700/rgb(0,255,255)
+            p [704,17134,624,22] 20/22/700/rgb(0,255,255)
+              span [704,17131,321,27] 20/22/700/rgb(0,255,255) «CREDIBILITY & COLLABORATION»
+          div.subHeadline [704,17160,624,45] 36/45/700/rgb(255,255,255)
+            p [704,17160,624,45] 36/45/700/rgb(255,255,255)
+              span [704,17158,236,49] 36/45/700/rgb(255,255,255) «Sustainabilty»
+          div.description [704,17217,624,120] 18/24/400/rgba(255,255,255,0.8)
+            p [704,17217,624,120] 18/24/400/rgba(255,255,255,0.8)
+              span [704,17217,622,120] 18/24/400/rgba(255,255,255,0.8) «Our goal is to provide smarter technology that builds a brighter, more»
+          a.gallery-content-cta.lazy_href [704,17349,624,20] 18/20/700/rgb(0,255,255) «Learn more about our sustainability programs >»

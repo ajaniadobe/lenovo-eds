@@ -1,0 +1,53 @@
+/* legion-headline — live .blade-3-title (+ #blade-3 backdrop texture) */
+.section.legion-headline-backdrop-section {
+  position: relative;
+  isolation: isolate;
+  max-width: 1920px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.section.legion-headline-backdrop-section > .legion-headline-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.section.legion-headline-backdrop-section > .legion-headline-backdrop :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.section.legion-headline-backdrop-section > .legion-headline-backdrop img {
+  object-fit: cover;
+}
+
+.legion-headline {
+  color: #fff;
+  font-family: var(--font-display);
+}
+
+.legion-headline .legion-headline-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 32px 0;
+  text-align: center;
+}
+
+.legion-headline .legion-headline-title :is(h1, h2, h3) {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legion-headline .legion-headline-title p {
+  font-size: 20px;
+}
+
+@media (width <= 768px) {
+  .legion-headline .legion-headline-title :is(h1, h2, h3) {
+    font-size: 28px;
+  }
+}

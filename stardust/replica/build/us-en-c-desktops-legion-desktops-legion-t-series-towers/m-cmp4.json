@@ -1,0 +1,437 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-02T23:45:57.501Z",
+    "urls": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+      "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      "nav.commonHeader",
+      ".merchandizingBanner",
+      "main.main_content",
+      ".pc_left_facets",
+      ".product-group-list-pc",
+      ".pc_footer_page",
+      "footer.commonFooter"
+    ],
+    "props": [
+      "height"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/ @360: horizontal overflow +346px (scrollWidth 706 > viewport 360)"
+    ]
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    "nav.commonHeader",
+    ".merchandizingBanner",
+    "main.main_content",
+    ".pc_left_facets",
+    ".product-group-list-pc",
+    ".pc_footer_page",
+    "footer.commonFooter"
+  ],
+  "root": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 706,
+        "scrollHeight": 7645,
+        "overflowX": 346
+      }
+    },
+    "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 7644,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        "nav.commonHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 229
+            },
+            "visible": true,
+            "text": "Lenovo Pro Business Store skip to main …",
+            "props": {
+              "height": "229px"
+            }
+          }
+        ],
+        ".merchandizingBanner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 229,
+              "w": 360,
+              "h": 73
+            },
+            "visible": true,
+            "text": "Black Friday Deal Days! Unbeatable deal…",
+            "props": {
+              "height": "73px"
+            }
+          }
+        ],
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 302,
+              "w": 360,
+              "h": 4834
+            },
+            "visible": true,
+            "text": "T Series Towers Power, Unleashed View T…",
+            "props": {
+              "height": "4834px"
+            }
+          }
+        ],
+        ".pc_left_facets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2953,
+              "w": 238,
+              "h": 2180
+            },
+            "visible": true,
+            "text": "skip to product list Filters Collapse A…",
+            "props": {
+              "height": "2180px"
+            }
+          }
+        ],
+        ".product-group-list-pc": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 288,
+              "y": 3065,
+              "w": 358,
+              "h": 991
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5i Gen 10 (Intel) …",
+            "props": {
+              "height": "991px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 288,
+              "y": 4071,
+              "w": 358,
+              "h": 918
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5a Gen 10 (30L AMD…",
+            "props": {
+              "height": "918px"
+            }
+          }
+        ],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 5026,
+              "w": 358,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5136,
+              "w": 360,
+              "h": 2509
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "height": "2509px"
+            }
+          }
+        ]
+      }
+    },
+    "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html": {
+      "360": {
+        "nav.commonHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 229
+            },
+            "visible": true,
+            "text": "Lenovo Pro Business Store skip to main …",
+            "props": {
+              "height": "229px"
+            }
+          }
+        ],
+        ".merchandizingBanner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 229,
+              "w": 360,
+              "h": 74
+            },
+            "visible": true,
+            "text": "Black Friday Deal Days! Unbeatable deal…",
+            "props": {
+              "height": "74px"
+            }
+          }
+        ],
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 303,
+              "w": 360,
+              "h": 4834
+            },
+            "visible": true,
+            "text": "T Series Towers Power, Unleashed View T…",
+            "props": {
+              "height": "4834px"
+            }
+          }
+        ],
+        ".pc_left_facets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2954,
+              "w": 238,
+              "h": 2180
+            },
+            "visible": true,
+            "text": "skip to product list Filters Collapse A…",
+            "props": {
+              "height": "2180px"
+            }
+          }
+        ],
+        ".product-group-list-pc": [],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 5027,
+              "w": 358,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5137,
+              "w": 360,
+              "h": 2507
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "height": "2507px"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "deltas": {
+    "360": {
+      "nav.commonHeader": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".merchandizingBanner": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 1
+            },
+            "props": {
+              "height": [
+                "73px",
+                "74px"
+              ]
+            }
+          }
+        ]
+      },
+      "main.main_content": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".pc_left_facets": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".product-group-list-pc": {
+        "status": "missing-b",
+        "countA": 2,
+        "countB": 0,
+        "pairs": []
+      },
+      ".pc_footer_page": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "footer.commonFooter": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": -2
+            },
+            "props": {
+              "height": [
+                "2509px",
+                "2507px"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rootDeltas": {
+    "360": {
+      "scrollWidth": -346,
+      "scrollHeight": -1
+    }
+  }
+}

@@ -1,0 +1,337 @@
+div.product-singlePdpHero [0,308,1440,2582]
+  nav.breadcrumb_common_container.clearfix [80,308,1280,18] 14/18/400/rgb(0,0,0)
+    ol.breadcrumb_list [128,308,1184,18] 14/18/400/rgb(0,0,0)
+      li.breadcrumb_item [128,308,40,18] 14/18/400/rgb(0,0,0)
+        a.breadcrumb_link [128,307,40,19] 14/18/400/rgb(255,255,255) «Home»
+      li.breadcrumb_item [168,308,70,18] 14/18/400/rgb(0,0,0)
+        i.breadcrumb_separator [169,307,15,19] 14/18/400/rgb(255,255,255) «>»
+        a.breadcrumb_link [185,307,53,19] 14/18/400/rgb(255,255,255) «Laptops»
+      li.breadcrumb_item [238,308,62,18] 14/18/400/rgb(0,0,0)
+        i.breadcrumb_separator [239,307,15,19] 14/18/400/rgb(255,255,255) «>»
+        a.breadcrumb_link [255,307,45,19] 14/18/400/rgb(255,255,255) «Legion»
+      li.breadcrumb_item [300,308,131,18] 14/18/400/rgb(0,0,0)
+        i.breadcrumb_separator [301,307,15,19] 14/18/400/rgb(255,255,255) «>»
+        a.breadcrumb_link [317,307,114,19] 14/18/400/rgb(255,255,255) «Legion Pro Series»
+      li.breadcrumb_item [431,308,221,18] 14/18/400/rgb(0,0,0)
+        i.breadcrumb_separator [432,307,15,19] 14/18/400/rgb(255,255,255) «>»
+        a.breadcrumb_link [448,307,203,19] 14/18/400/rgb(255,255,255) «Legion Pro 5i Gen 10 (16″ Intel)»
+      li.breadcrumb_item [651,308,332,18] 14/18/400/rgb(0,0,0)
+        i.breadcrumb_separator [652,307,15,19] 14/18/400/rgb(255,255,255) «>»
+        span.breadcrumb_current [669,307,315,19] 14/18/700/rgb(255,255,255) «Legion Pro 5i Gen 10 Intel (16") with RTX 5070»
+  div.flash_pdp_hero [0,338,1440,2552]
+    div.single_model_PDP [0,338,1440,2552]
+      div.hero-container.single_model_PDP_container [80,338,1280,2552] 16/0/400/rgb(0,0,0)/rgb(23,23,23)
+        div.single_model_PDP_container_main [128,338,1184,2504]
+          div.single_model_PDP_container_main_left [128,338,584,2504]
+            div.stick_container [128,338,584,684]
+              div.gallery-container [128,338,584,684]
+                ul.gallery-canvas [128,338,584,584]
+                  li.canvas-item [128,338,584,584]
+                    div.image-zoom.image-zoom__hq [128,338,584,576]
+                      img [132,338,576,576] 12/0/400/rgb(0,0,0)
+                div.gallery-bottom [139,962,558,60]
+                  div.gallery-swiper-button-prev [139,976,32,32]
+                  div.swiper.swiper-initialized.swiper-horizontal [179,962,462,60]
+                    div.swiper-wrapper [-291,962,462,60]
+                      div.swiper-slide.swiper-slide-duplicate [-291,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [-277,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate [-197,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [-183,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate [-103,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [-89,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate [-9,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [5,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate.swiper-slide-prev [85,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        div.gallery-video [108,972,40,40]
+                          span.iconfont-playVideo [108,972,40,40] 40/40/400/rgb(0,0,0)
+                      div.swiper-slide.active.swiper-slide-active [179,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [193,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-next [273,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [287,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [367,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [381,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [461,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [475,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [555,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [569,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [649,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [663,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [743,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [757,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [837,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [851,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [931,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [945,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [1025,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [1039,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide [1119,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [1133,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate-prev [1213,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        div.gallery-video [1236,972,40,40]
+                          span.iconfont-playVideo [1236,972,40,40] 40/40/400/rgb(0,0,0)
+                      div.swiper-slide.active.swiper-slide-duplicate [1307,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [1321,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate.swiper-slide-duplicate-next [1401,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [1415,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate [1495,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [1509,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate [1589,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [1603,963,58,58] 12/0/400/rgb(0,0,0)
+                      div.swiper-slide.swiper-slide-duplicate [1683,962,86,60] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                        img.gallery-image [1697,963,58,58] 12/0/400/rgb(0,0,0)
+                  div.gallery-swiper-button-next [649,976,32,32]
+          div.single_model_PDP_container_main_right [728,338,584,2504]
+            div [728,330,584,69]
+              div.partner-icon-wrapper [728,330,584,69]
+                a.second-icon.hide-click-events [1188,330,76,69]
+                  img [1188,330,76,64] 12/0/400/rgb(0,0,0)
+            div.mainContent [728,395,584,2447]
+              div.pc-merchandising_flag.merchandising_flag.indirectContentHidden [776,443,488,29]
+                span.merchandising_flag_normal [776,443,140,29] 14/16/700/rgb(23,23,23)/rgb(240,199,191) «FEATURED DEAL»
+              h1.product_summary [776,480,488,168] 48/56/700/rgb(255,255,255) «Legion Pro 5i Gen 10 Intel (16") with RTX 5070»
+              div.fps_review_container [776,656,488,90]
+                div.card-rating-container.yellow-rating-style.card-rating-container_83F300BBUS [776,656,185,29]
+                  div.card-review-inline [776,656,185,29]
+                    a.bv_main_container.bv_hover [776,656,185,29]
+                      div.bv_stars_component_container [776,656,104,29]
+                        div.bv_stars_button_container [776,660,104,25]
+                          span.bv_stars_svg_no_wrap [776,663,104,22]
+                            div.star-icon-box [776,660,20,20]
+                              div.yellow-icon.star-icon [776,660,20,20]
+                            div.star-icon-box [797,660,20,20]
+                              div.yellow-icon.star-icon [797,660,20,20]
+                            div.star-icon-box [818,660,20,20]
+                              div.yellow-icon.star-icon [818,660,20,20]
+                            div.star-icon-box [839,660,20,20]
+                              div.yellow-icon.star-icon [839,660,20,20]
+                            div.star-icon-box [860,660,20,20]
+                              div.gray-icon.star-icon [860,660,20,20]
+                              div.star-icon.yellow-icon [860,660,10,20]
+                      div.number_box [885,661,76,19]
+                        div.bv_averageRating_component_container [885,661,27,19]
+                          div.bv_text [885,661,27,19] 19/19/700/rgb(255,255,255) «4.5»
+                        div.bv_numReviews_component_container [917,661,44,19]
+                          div.bv_text [917,661,44,19] 19/19/400/rgb(255,255,255) «(573)»
+                span.q25614SVC.Subseries.Q25614ExpBIcon [776,685,275,35] 12/15/400/rgb(255,255,255) «100+ gamers made the switch, why not you?»
+                  span.icon [772,691,24,20] 12/15/400/rgb(255,255,255)
+              div.single_pdp_price_container [776,746,488,284]
+                div.strike-through-price.strike-through-price-pc.style-auto-gaming [776,762,488,21] 14/17/400/rgb(255,255,255)
+                  span.web-price-label [776,762,59,17] 14/17/400/rgb(255,255,255) «Est Value»
+                  div.tooltipV2.style-auto-gaming [835,763,23,15] 14/17/400/rgb(255,255,255)
+                    div.tooltipV2-slot [835,763,23,14] 14/17/400/rgb(255,255,255)
+                      div.tooltipV2-slotWrapper [835,763,23,14] 14/17/400/rgb(255,255,255)
+                        span.iconfont-tooltipIcon.pop-icon-btn.btn-icon-image [840,763,14,14] 14/14/400/rgb(255,255,255)
+                  del.price [858,762,64,17] 14/17/400/rgb(255,255,255) «$3,465.99»
+                div.card-edu-label.hide-icon.style-auto-gaming [776,795,488,48]
+                  div.collapse-container.price-saving-collapse-pc.style-auto-gaming [776,795,488,48]
+                    div.title.is-close [776,797,488,30] 20/24/700/rgb(255,255,255)
+                      div.price-summary-info.style-auto-gaming.price-summary-info-pc [776,797,167,28] 20/24/700/rgb(255,255,255)
+                        span.price-title [776,797,101,24] 24/24/700/rgb(255,255,255) «$2,299.99»
+                        span.price-save-mt.price-save-pc [885,799,58,22] 20/24/700/rgb(255,255,255)/rgb(68,77,81)
+                          span [891,800,46,20] 12/20/700/rgb(0,255,255) «33%  off»
+                div.katapult_container_pdp [776,851,488,37]
+                  div.katapult-price-calculator.katapult-wrapper-MT.v3-katapult-container [776,851,488,28] 12/18/400/rgb(255,255,255)
+                    div.katapult-content [776,856,488,18] 12/18/400/rgb(255,255,255)
+                      div.katapult-price-calculator-logo [776,858,65,16] 12/18/400/rgb(255,255,255)
+                      span.katapult-price-calculator-lease [846,856,79,17] 12/18/400/rgb(255,255,255) «Lease to own.»
+                      span.katapult-price-calculator-pay [925,856,57,17] 12/18/700/rgb(255,255,255) «As low as»
+                      span.katapult-price-calculator-price.btn-katapult-price-calculator [981,856,57,17] 12/18/700/rgb(255,255,255) «$74/week»
+                      a.katapult-price-calculator-learn-more.btn-katapult-price-calculator [1041,857,62,15] 11/18/700/rgb(255,255,255) «Learn More»
+                div.paypal_container_pdp [776,898,488,31]
+                  div.card_paypal-wrapper.card_paypal-wrapper_83F300BBUS.auto-gaming-style [776,898,488,30]
+                    div.card_pp-message_83F300BBUS [776,898,488,28]
+                      span [776,904,488,22]
+                        iframe [776,898,488,23]
+                div.loyalty_wrapper [776,929,488,73]
+                  div.loyalty-container.loyalty-container-MT.loyalty-reward-style [776,929,488,72] 13/0/400/rgb(255,255,255)
+                    section [776,942,488,46] 13/0/400/rgb(255,255,255)
+                      span.rewards-text [776,945,129,18] 13/0/700/rgb(255,255,255) «My Lenovo Rewards»
+                      span [908,945,0,18] 13/0/400/rgb(255,255,255)
+                      section [908,945,182,18] 13/0/400/rgb(255,255,255)
+                        span [908,945,142,18] 13/0/400/rgb(255,255,255)
+                          span [908,945,142,18] 13/0/400/rgb(255,255,255) «Earn Double Rewards=»
+                        span.le-popover-wrapper.le-popover-wrapper_screen.auto-gaming-style [1049,945,37,18] 13/0/400/rgb(255,255,255)
+                          span [1049,945,37,18] 13/0/400/rgb(255,255,255)
+                            span.loyalty-price-color [1049,945,37,18] 13/0/400/rgb(255,255,255)
+                              button.popup-activation [1049,942,37,22] 16/0/700/rgb(0,255,255) «$137»
+                        span [1086,945,3,18] 13/0/400/rgb(255,255,255)
+                      span.loyaltys-message [1089,945,153,18] 13/0/400/rgb(255,255,255) «+ Free expedited delivery»
+                      div.join-now [780,964,63,24] 13/0/400/rgb(255,255,255)
+                        a.lazy_href [782,964,61,24] 13/24/700/rgb(0,255,255) «Join Now!»
+                div.card-eCoupon.card-eCoupon-pc [776,1002,488,12] 14/15/400/rgb(255,255,255)
+              div.cta_btns [776,1030,488,108]
+                div.cta_container.pc-cta_container.indirectContentHidden [776,1030,488,48]
+                  div.pc-card-cta-wrapper.card-cta-wrapper.cta-wrapper [776,1030,286,48]
+                div.card-wish-container_83F300BBUS.wish_wrapper [776,1100,32,32]
+                  div.tooltipV2.style-auto-gaming.card-wish_popover [776,1100,32,32]
+                    div.tooltipV2-slot [776,1100,32,32]
+                      div.tooltipV2-slotWrapper [776,1100,32,32]
+                        div.card-wish-container.card-wish-container_83F300BBUS100006.wish-cursor [776,1100,32,32]
+                          div.card-heart-content.card-wish-open-btn [776,1100,32,32]
+                            div.card-wish-btn.card-heart-icon [779,1103,26,26] 26/0/400/rgb(0,0,0)
+                              span.iconfont-cardHeart [779,1103,26,26] 26/26/400/rgb(0,0,0)
+                  div.sr-only [728,395,1,1]
+                div.common-compare-container.common-compare-PC.indirectContentHidden [820,1094,92,36] 16/0/400/rgb(0,0,0)/rgb(23,23,23)
+                  input [828,1104,16,16] 13/0/400/rgb(0,0,0)/rgb(23,23,23)
+                  span.compare-text [849,1102,55,20] 13/20/400/rgb(255,255,255) «Compare»
+              div.pickup_delivery_container [776,1154,488,55]
+                div.pickupAndDelivery-container.pickup-delivery-pdpHero.pickup-delivery-Pc [776,1154,488,55]
+                  span.delivery-container.delivery-container-MT [776,1154,267,22] 16/19/400/rgb(255,255,255)
+                    span.delivery-mr-5 [776,1154,36,22] 16/19/400/rgb(255,255,255) «FREE»
+                    span.delivery-text.delivery-mr-5 [815,1154,66,22] 16/19/700/rgb(255,255,255) «Delivery»
+                    span.delivery-mr-5 [884,1154,156,22] 16/19/400/rgb(255,255,255) «Get it by Thu. Nov 05»
+              div.system_specs_container [776,1209,488,1113]
+                p.text.one.Q26893-copy [776,1242,488,22] 16/0/700/rgb(255,255,255) «Windows is fast, powerful & more secure than ever.»
+                p.text.two.Q26893-copy [776,1264,488,22] 16/0/700/rgb(255,255,255) «Meet the computer you can talk to.»
+                div.specs_top [776,1306,488,29]
+                  div.specs_title [776,1306,160,29] 24/29/700/rgb(255,255,255) «System Specs»
+                  div.view_all_models [1126,1309,138,22]
+                    a.primary.interactive-link.lazy_href [1126,1309,138,22] 16/20/700/rgb(255,255,255) «View All  Models >»
+                div.specs_list.groups [776,1339,488,953]
+                  div.group_wrapper [776,1364,488,404]
+                    div.specs_group [776,1364,488,20] 18/20/700/rgb(255,255,255)
+                      p [776,1364,488,20] 18/20/700/rgb(255,255,255) «Performance»
+                    div.specs_line [776,1389,488,1] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                    div.specs_item [776,1395,488,55]
+                      div.normal_specs [776,1395,488,55]
+                        div.tool_tip_item.flex [776,1395,488,19]
+                          div.item_name [776,1395,78,18] 16/18/700/rgb(230,226,228) «Processor»
+                          button.tool-tip.icon [854,1395,21,19] 14/22/400/rgb(0,255,255)
+                            span.iconfont-tooltipIcon [859,1395,16,16] 16/16/400/rgb(255,255,255)
+                        div.item_content [776,1414,488,36] 16/18/400/rgb(230,226,228) «Intel® Core™ Ultra 7 251HX Processor (E-cores up t»
+                    div.specs_item [776,1466,488,37]
+                      div.normal_specs [776,1466,488,37]
+                        div.tool_tip_item.flex [776,1466,488,19]
+                          div.item_name [776,1466,144,18] 16/18/700/rgb(230,226,228) «Operating System»
+                          button.tool-tip.icon [920,1466,21,19] 14/22/400/rgb(0,255,255)
+                            span.iconfont-tooltipIcon [925,1466,16,16] 16/16/400/rgb(255,255,255)
+                        div.item_content [776,1485,488,18] 16/18/400/rgb(230,226,228) «Windows 11 Home 64»
+                    div.specs_item [776,1519,488,37]
+                      div.normal_specs [776,1519,488,37]
+                        div.tool_tip_item.flex [776,1519,488,19]
+                          div.item_name [776,1519,103,18] 16/18/700/rgb(230,226,228) «Graphic Card»
+                          button.tool-tip.icon [879,1519,21,19] 14/22/400/rgb(0,255,255)
+                            span.iconfont-tooltipIcon [884,1519,16,16] 16/16/400/rgb(255,255,255)
+                        div.item_content [776,1538,488,18] 16/18/400/rgb(230,226,228) «NVIDIA® GeForce RTX™ 5070 Laptop GPU 12GB GDDR7»
+                    div.specs_item [776,1572,488,37]
+                      div.normal_specs [776,1572,488,37]
+                        div.tool_tip_item.flex [776,1572,488,19]
+                          div.item_name [776,1572,67,18] 16/18/700/rgb(230,226,228) «Memory»
+                          button.tool-tip.icon [843,1572,21,19] 14/22/400/rgb(0,255,255)
+                            span.iconfont-tooltipIcon [848,1572,16,16] 16/16/400/rgb(255,255,255)
+                        div.item_content [776,1591,488,18] 16/18/400/rgb(230,226,228) «32 GB DDR5-5600MT/s (SODIMM)(2 x 16 GB)»
+                    div.specs_item [776,1625,488,37]
+                      div.normal_specs [776,1625,488,37]
+                        div.tool_tip_item.flex [776,1625,488,19]
+                          div.item_name [776,1625,62,18] 16/18/700/rgb(230,226,228) «Storage»
+                          button.tool-tip.icon [838,1625,21,19] 14/22/400/rgb(0,255,255)
+                            span.iconfont-tooltipIcon [843,1625,16,16] 16/16/400/rgb(255,255,255)
+                        div.item_content [776,1644,488,18] 16/18/400/rgb(230,226,228) «1 TB SSD M.2 2242 PCIe Gen4 TLC»
+                    div.specs_item [776,1678,488,37]
+                      div.normal_specs [776,1678,488,37]
+                        div.item_name [776,1678,488,18] 16/18/700/rgb(230,226,228) «Battery»
+                        div.item_content [776,1697,488,18] 16/18/400/rgb(230,226,228) «4 Cell Rechargeable Li-ion 80 Wh»
+                    div.specs_item [776,1731,488,37]
+                      div.normal_specs [776,1731,488,37]
+                        div.item_name [776,1731,488,18] 16/18/700/rgb(230,226,228) «Camera»
+                        div.item_content [776,1750,488,18] 16/18/400/rgb(230,226,228) «5MP with Dual Microphone and Privacy Shutter»
+                  div.group_wrapper [776,1798,488,68]
+                    div.specs_group [776,1798,488,20] 18/20/700/rgb(255,255,255)
+                      p [776,1798,488,20] 18/20/700/rgb(255,255,255) «Connectivity»
+                    div.specs_line [776,1823,488,1] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                    div.specs_item [776,1829,488,37]
+                      div.normal_specs [776,1829,488,37]
+                        div.item_name [776,1829,488,18] 16/18/700/rgb(230,226,228) «WIFI»
+                        div.item_content [776,1848,488,18] 16/18/400/rgb(230,226,228) «Wi-Fi 7 2x2 BE 160MHz & Bluetooth® 5.4»
+                  div.group_wrapper [776,1896,488,192]
+                    div.specs_group [776,1896,488,20] 18/20/700/rgb(255,255,255)
+                      p [776,1896,488,20] 18/20/700/rgb(255,255,255) «Design»
+                    div.specs_line [776,1921,488,1] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                    div.specs_item [776,1927,488,55]
+                      div.normal_specs [776,1927,488,55]
+                        div.tool_tip_item.flex [776,1927,488,19]
+                          div.item_name [776,1927,58,18] 16/18/700/rgb(230,226,228) «Display»
+                          button.tool-tip.icon [834,1927,21,19] 14/22/400/rgb(0,255,255)
+                            span.iconfont-tooltipIcon [839,1927,16,16] 16/16/400/rgb(255,255,255)
+                        div.item_content [776,1946,488,36] 16/18/400/rgb(230,226,228) «16" WQXGA (2560 x 1600), IPS, Anti-Glare, Non-Touc»
+                    div.specs_item [776,1998,488,37]
+                      div.normal_specs [776,1998,488,37]
+                        div.item_name [776,1998,488,18] 16/18/700/rgb(230,226,228) «Keyboard»
+                        div.item_content [776,2017,488,18] 16/18/400/rgb(230,226,228) «24zone RGB Backlit, Black - English (US)»
+                    div.specs_item [776,2051,488,37]
+                      div.normal_specs [776,2051,488,37]
+                        div.item_name [776,2051,488,18] 16/18/700/rgb(230,226,228) «Color»
+                        div.item_content [776,2070,488,18] 16/18/400/rgb(230,226,228) «Eclipse Black»
+                  div.group_wrapper [776,2118,488,174]
+                    div.specs_group [776,2118,488,20] 18/20/700/rgb(255,255,255) «Others»
+                    div.specs_line [776,2143,488,1] 16/0/400/rgb(0,0,0)/rgb(59,59,59)
+                    div.specs_item [776,2149,488,37]
+                      div.normal_specs [776,2149,488,37]
+                        div.item_name [776,2149,488,18] 16/18/700/rgb(230,226,228) «Add-ons»
+                        div.item_content [776,2168,488,18] 16/18/400/rgb(230,226,228) «Xbox Game Pass»
+                    div.specs_item [776,2202,488,37]
+                      div.normal_specs [776,2202,488,37]
+                        div.item_name [776,2202,488,18] 16/18/700/rgb(230,226,228) «AC Adapter / Power Supply»
+                        div.item_content [776,2221,488,18] 16/18/400/rgb(230,226,228) «245W»
+                    div.specs_item [776,2255,488,37]
+                      div.normal_specs [776,2255,488,37]
+                        div.item_name [776,2255,488,18] 16/18/700/rgb(230,226,228) «Warranty»
+                        div.item_content [776,2274,488,18] 16/18/400/rgb(230,226,228) «1 Year Courier or Carry-in»
+                div.partNumber_wrapper [776,2308,488,14]
+                  div.part_number [776,2308,488,14] 14/14/400/rgb(171,168,177)
+                    span.part_number_title [776,2305,85,19] 14/14/400/rgb(171,168,177) «Part Number»
+                    span.part_number_content [861,2305,91,19] 14/14/400/rgb(171,168,177) «: 83F300BBUS»
+              div.bottom_divider_line [776,2354,488,150]
+                div.product-offers.product-offers_pc [776,2354,488,141]
+                  div.product_offers_headline [776,2354,488,18] 16/18/700/rgb(255,255,255)
+                    span [776,2352,114,22] 16/18/700/rgb(255,255,255) «Product Offers»
+                  div.product-offers-content [776,2384,488,111]
+                    div.item.financeMessage [776,2384,488,55] 12/0/400/rgb(255,255,255)/rgb(42,42,42)
+                      div [800,2393,326,37] 12/0/400/rgb(255,255,255)
+                        p.Q12482_content_business [800,2393,326,20] 12/0/400/rgb(255,255,255) «Members Only»
+                          strong [800,2396,92,17] 12/0/700/rgb(255,255,255) «Business Price:»
+                          img [892,2393,16,16] 12/0/400/rgb(255,255,255)
+                          a.Q12482_joinlenovopro_save.Q12482_normal_content [997,2396,129,17] 12/0/400/rgb(255,255,255) «Join Lenovo Pro & Save»
+                        p.Q12482_content_student [800,2413,326,17] 12/0/400/rgb(255,255,255) «Verify & Save»
+                          strong [800,2413,155,17] 12/0/700/rgb(255,255,255) «Student & Teachers Price:»
+                          img [955,2413,16,16] 12/0/400/rgb(255,255,255)
+                          a.Q12482_LearnMore.Q12482_normal_content [1051,2413,65,17] 12/0/400/rgb(255,255,255) «Learn More»
+                    div.item.dealsBanner [776,2447,488,48] 12/0/400/rgb(255,255,255)/rgb(42,42,42)
+                      div.item_headline [800,2462,224,17] 12/0/400/rgb(255,255,255)
+                        p [800,2462,224,17] 12/0/400/rgb(255,255,255)
+                          strong [800,2462,121,17] 12/0/700/rgb(255,255,255) «Save Now, Pay Later»
+                          img [924,2464,16,11] 12/0/400/rgb(255,255,255)
+                          a [943,2462,81,17] 12/0/400/rgb(255,255,255) «Explore Now >»
+              div.bottom_divider_line.pdp_no_bottom_line [776,2504,488,290]
+                div.promotedOption.promotedOption_83F300BBUS.promotedOption-pdpHero [776,2504,488,290]
+                  div.promotedOption_title [776,2512,488,26] 16/18/700/rgb(255,255,255) «Discounted Add-Ons»
+                  div.promotedOption_content [776,2550,488,244]
+                    div.promotedOption_list [776,2550,488,55] 16/0/400/rgb(0,0,0)/rgb(42,42,42)
+                      div.promotedOption_cont [789,2560,474,36]
+                        div.promotedOption_checkbox [789,2570,16,15]
+                          input.promotedOption_checkboxs.iconfont-check [789,2571,14,14] 0/0/400/rgb(0,0,0)
+                        div.promotedOption_price [813,2560,450,36] 14/18/400/rgb(255,255,255) «Add now for only ($69.99 if purchased separately)»
+                          span.promotedOption_summary [843,2559,263,19] 14/18/700/rgb(0,255,255) «Lenovo Legion 17" Armored Backpack»
+                          span.promotedOption_purchasePrice [1196,2559,44,19] 14/18/700/rgb(255,255,255) «$49.99»
+                    div.promotedOption_list [776,2613,488,55] 16/0/400/rgb(0,0,0)/rgb(42,42,42)
+                      div.promotedOption_cont [789,2623,474,36]
+                        div.promotedOption_checkbox [789,2633,16,15]
+                          input.promotedOption_checkboxs.iconfont-check [789,2634,14,14] 0/0/400/rgb(0,0,0)
+                        div.promotedOption_price [813,2623,450,36] 14/18/400/rgb(255,255,255) «Add now for only ($89.99 if purchased separately)»
+                          span.promotedOption_summary [843,2622,320,19] 14/18/700/rgb(0,255,255) «Lenovo Legion M600s Wireless Gaming Mouse»
+                          span.promotedOption_purchasePrice [813,2640,48,19] 14/18/700/rgb(255,255,255) «$49.99»
+                    div.promotedOption_list [776,2676,488,55] 16/0/400/rgb(0,0,0)/rgb(42,42,42)
+                      div.promotedOption_cont [789,2686,474,36]
+                        div.promotedOption_checkbox [789,2696,16,15]
+                          input.promotedOption_checkboxs.iconfont-check [789,2697,14,14] 0/0/400/rgb(0,0,0)
+                        div.promotedOption_price [813,2686,450,36] 14/18/400/rgb(255,255,255) «Add now for only ($64.99 if purchased separately)»
+                          span.promotedOption_summary [843,2685,348,19] 14/18/700/rgb(0,255,255) «Microsoft Xbox Wireless Controller – Carbon Black»
+                          span.promotedOption_purchasePrice [845,2703,48,19] 14/18/700/rgb(255,255,255) «$39.99»
+                    div.promotedOption_list [776,2739,488,55] 16/0/400/rgb(0,0,0)/rgb(42,42,42)
+                      div.promotedOption_cont [789,2749,474,36]
+                        div.promotedOption_checkbox [789,2759,16,15]
+                          input.promotedOption_checkboxs.iconfont-check [789,2760,14,14] 0/0/400/rgb(0,0,0)
+                        div.promotedOption_price [813,2749,450,36] 14/18/400/rgb(255,255,255) «Add now for only ($37.99 if purchased separately)»
+                          span.promotedOption_summary [843,2748,387,19] 14/18/700/rgb(0,255,255) «NORTON 360 FOR GAMERS 3 Device, 1-Year Subscriptio»
+                          span.promotedOption_purchasePrice [867,2766,48,19] 14/18/700/rgb(255,255,255) «$25.99»
+              div.hide_line [776,2794,488,3]

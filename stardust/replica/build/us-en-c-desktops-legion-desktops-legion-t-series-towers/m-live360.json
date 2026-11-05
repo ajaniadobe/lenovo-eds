@@ -1,0 +1,693 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-02T23:45:13.999Z",
+    "urls": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      ".merchandising_warp",
+      ".pc-copilotLabel-container",
+      ".rating-box",
+      ".pc-image-align-content",
+      ".price-stack",
+      ".katapult-content",
+      ".loyalty-container",
+      ".card-product-details",
+      ".cta_container",
+      ".product-group-list-pc"
+    ],
+    "props": [
+      "height",
+      "display"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/ @360: horizontal overflow +346px (scrollWidth 706 > viewport 360)"
+    ]
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    ".merchandising_warp",
+    ".pc-copilotLabel-container",
+    ".rating-box",
+    ".pc-image-align-content",
+    ".price-stack",
+    ".katapult-content",
+    ".loyalty-container",
+    ".card-product-details",
+    ".cta_container",
+    ".product-group-list-pc"
+  ],
+  "root": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 706,
+        "scrollHeight": 7645,
+        "overflowX": 346
+      }
+    }
+  },
+  "pages": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        ".merchandising_warp": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3081,
+              "w": 140,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Compare",
+            "props": {
+              "height": "44px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3081,
+              "w": 140,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Compare",
+            "props": {
+              "height": "44px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4087,
+              "w": 140,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Compare",
+            "props": {
+              "height": "44px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4087,
+              "w": 140,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Compare",
+            "props": {
+              "height": "44px",
+              "display": "block"
+            }
+          }
+        ],
+        ".pc-copilotLabel-container": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3125,
+              "w": 140,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Legion Tower 5i Gen 10 (Intel) Gaming D…",
+            "props": {
+              "height": "72px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3125,
+              "w": 140,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Legion Tower 5i Gen 10 (Intel)",
+            "props": {
+              "height": "72px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4131,
+              "w": 140,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Legion Tower 5a Gen 10 (30L AMD) Gaming…",
+            "props": {
+              "height": "72px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4131,
+              "w": 140,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Legion Tower 7i Gen 10 (Intel)",
+            "props": {
+              "height": "72px",
+              "display": "block"
+            }
+          }
+        ],
+        ".rating-box": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3197,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "4.6 (100)",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3197,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "4.7 (91)",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4203,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "4.7 (135)",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4203,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "4.5 (232)",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          }
+        ],
+        ".pc-image-align-content": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3242,
+              "w": 140,
+              "h": 232
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "232px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3242,
+              "w": 140,
+              "h": 232
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "232px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4248,
+              "w": 140,
+              "h": 232
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "232px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4248,
+              "w": 140,
+              "h": 232
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "232px",
+              "display": "block"
+            }
+          }
+        ],
+        ".price-stack": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3490,
+              "w": 140,
+              "h": 231
+            },
+            "visible": true,
+            "text": "Starting at $2,499.99 Lease to own. As …",
+            "props": {
+              "height": "231px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3490,
+              "w": 140,
+              "h": 231
+            },
+            "visible": true,
+            "text": "Starting at $2,799.99 Lease to own. As …",
+            "props": {
+              "height": "231px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4496,
+              "w": 140,
+              "h": 167
+            },
+            "visible": true,
+            "text": "Starting at $2,849.99 Lease to own. As …",
+            "props": {
+              "height": "167px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4496,
+              "w": 140,
+              "h": 167
+            },
+            "visible": true,
+            "text": "Starting at $3,349.99 Lease to own. As …",
+            "props": {
+              "height": "167px",
+              "display": "block"
+            }
+          }
+        ],
+        ".katapult-content": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3559,
+              "w": 140,
+              "h": 54
+            },
+            "visible": true,
+            "text": "Lease to own. As low as $80/weekLearn M…",
+            "props": {
+              "height": "54px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3559,
+              "w": 140,
+              "h": 54
+            },
+            "visible": true,
+            "text": "Lease to own. As low as $90/weekLearn M…",
+            "props": {
+              "height": "54px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4565,
+              "w": 140,
+              "h": 54
+            },
+            "visible": true,
+            "text": "Lease to own. As low as $91/weekLearn M…",
+            "props": {
+              "height": "54px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4565,
+              "w": 140,
+              "h": 54
+            },
+            "visible": true,
+            "text": "Lease to own. As low as $107/weekLearn …",
+            "props": {
+              "height": "54px",
+              "display": "block"
+            }
+          }
+        ],
+        ".loyalty-container": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3618,
+              "w": 140,
+              "h": 103
+            },
+            "visible": true,
+            "text": "My Lenovo RewardsEarn $75 in Rewards Jo…",
+            "props": {
+              "height": "103px",
+              "display": "flex"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3618,
+              "w": 140,
+              "h": 103
+            },
+            "visible": true,
+            "text": "My Lenovo RewardsEarn $84 in Rewards Jo…",
+            "props": {
+              "height": "103px",
+              "display": "flex"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4624,
+              "w": 140,
+              "h": 103
+            },
+            "visible": true,
+            "text": "My Lenovo RewardsEarn $85 in Rewards Jo…",
+            "props": {
+              "height": "103px",
+              "display": "flex"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4624,
+              "w": 140,
+              "h": 103
+            },
+            "visible": true,
+            "text": "My Lenovo RewardsEarn $100 in Rewards J…",
+            "props": {
+              "height": "103px",
+              "display": "flex"
+            }
+          }
+        ],
+        ".card-product-details": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3721,
+              "w": 140,
+              "h": 258
+            },
+            "visible": true,
+            "text": "Intel® Core™ Ultra HX processors for ex…",
+            "props": {
+              "height": "258px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3721,
+              "w": 140,
+              "h": 258
+            },
+            "visible": true,
+            "text": "Intel® Core™ Ultra processors for extre…",
+            "props": {
+              "height": "258px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4663,
+              "w": 140,
+              "h": 249
+            },
+            "visible": true,
+            "text": "Peak performance with AMD Ryzen™ proces…",
+            "props": {
+              "height": "249px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4663,
+              "w": 140,
+              "h": 249
+            },
+            "visible": true,
+            "text": "Competition-grade gaming power Seamless…",
+            "props": {
+              "height": "249px",
+              "display": "block"
+            }
+          }
+        ],
+        ".cta_container": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3995,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View 2 Models",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 3995,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View 2 Models",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 4928,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View 2 Models",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 491,
+              "y": 4928,
+              "w": 140,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View 3 Models",
+            "props": {
+              "height": "45px",
+              "display": "block"
+            }
+          }
+        ],
+        ".product-group-list-pc": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 288,
+              "y": 3065,
+              "w": 358,
+              "h": 991
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5i Gen 10 (Intel) …",
+            "props": {
+              "height": "991px",
+              "display": "flex"
+            }
+          },
+          {
+            "index": 1,
+            "of": 2,
+            "rect": {
+              "x": 288,
+              "y": 4071,
+              "w": 358,
+              "h": 918
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5a Gen 10 (30L AMD…",
+            "props": {
+              "height": "918px",
+              "display": "flex"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

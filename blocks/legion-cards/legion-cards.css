@@ -1,0 +1,243 @@
+/* legion-cards — live .lg-container / .lg-card / .cta-shop-all (+ h-carousel-3 ≤576px) */
+.legion-cards {
+  position: relative;
+  color: #fff;
+  font-family: var(--font-display);
+  text-align: center;
+}
+
+.legion-cards .legion-cards-track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1600px;
+  margin: -72px auto 0;
+}
+
+.legion-cards .legion-cards-card {
+  position: relative;
+  width: 325px;
+  max-width: 325px;
+  margin: 16px 8px;
+}
+
+.legion-cards .legion-cards-top {
+  height: 297px;
+  overflow: hidden;
+}
+
+.legion-cards .legion-cards-top :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.legion-cards .legion-cards-top img {
+  object-fit: cover;
+}
+
+.legion-cards .legion-cards-body {
+  position: relative;
+  min-height: 550px;
+  border-radius: 0 0 6px 6px;
+  background-color: rgb(36 34 153 / 50%);
+}
+
+.legion-cards .legion-cards-product {
+  position: absolute;
+  top: -170px;
+  width: 100%;
+}
+
+.legion-cards .legion-cards-product img {
+  height: 236px;
+  margin: 0 auto;
+  transition: transform 0.5s ease;
+}
+
+.legion-cards .legion-cards-card:hover .legion-cards-product img {
+  transform: scale(1.07);
+}
+
+.legion-cards .legion-cards-copy {
+  position: relative;
+  padding: 80px 24px 24px;
+  text-align: left;
+}
+
+.legion-cards .legion-cards-title {
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legion-cards .legion-cards-tag {
+  font-size: 25.6px;
+  font-weight: 600;
+}
+
+.legion-cards .legion-cards-tag strong {
+  font-weight: inherit;
+}
+
+.legion-cards .legion-cards-desc {
+  margin: 9px 0;
+  font-size: 18px;
+}
+
+.legion-cards .legion-cards-link a:any-link {
+  color: #c9d0f0;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.legion-cards :is(.legion-cards-prev, .legion-cards-next, .legion-cards-dots) {
+  display: none;
+}
+
+.legion-cards .legion-cards-actions {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+.legion-cards a.legion-cards-cta:any-link {
+  display: inline-block;
+  padding: 17px 46px;
+  border: 1px solid #294e95;
+  border-radius: 4px;
+  background-color: #294e95;
+  color: #fff;
+  font: 600 16px/1em var(--font-display);
+  text-align: center;
+}
+
+.legion-cards a.legion-cards-cta:hover {
+  background-color: #e3f2f9;
+  color: #294e95;
+}
+
+@media (width <= 992px) {
+  .legion-cards .legion-cards-card {
+    width: 351px;
+    max-width: 351px;
+    margin: 16px;
+  }
+
+  .legion-cards .legion-cards-top {
+    height: 340px;
+  }
+
+  .legion-cards .legion-cards-copy {
+    padding-top: 112px;
+  }
+
+  .legion-cards .legion-cards-tag {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 576px) {
+  .legion-cards .legion-cards-viewport {
+    position: relative;
+    min-height: 900px;
+    overflow: hidden;
+  }
+
+  .legion-cards .legion-cards-track {
+    --legion-cards-index: 0;
+
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 0;
+    transform: translateX(calc(var(--legion-cards-index) * -100%));
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .legion-cards .legion-cards-card {
+    flex: 0 0 calc(100% - 32px);
+    width: auto;
+    max-width: none;
+    margin: 16px;
+  }
+
+  .legion-cards .legion-cards-top {
+    height: 400px;
+  }
+
+  .legion-cards .legion-cards-product img {
+    height: auto;
+  }
+
+  .legion-cards :is(.legion-cards-prev, .legion-cards-next) {
+    position: absolute;
+    top: 450px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    background: #e6e2e4;
+    box-shadow: 10px 10px 15px -10px #00000080;
+    transform: translateY(-50%);
+  }
+
+  .legion-cards :is(.legion-cards-prev, .legion-cards-next)::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 7px);
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+  }
+
+  .legion-cards .legion-cards-prev::before {
+    left: calc(50% - 3px);
+    transform: rotate(-135deg);
+  }
+
+  .legion-cards .legion-cards-prev {
+    left: 2%;
+  }
+
+  .legion-cards .legion-cards-next {
+    right: 2%;
+  }
+
+  .legion-cards :is(.legion-cards-prev, .legion-cards-next).hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .legion-cards .legion-cards-dots {
+    position: absolute;
+    top: 962px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .legion-cards .legion-cards-dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #aba8b1;
+  }
+
+  .legion-cards .legion-cards-dot.active {
+    width: 18px;
+    height: 18px;
+    background-color: #e6e2e4;
+  }
+
+  .legion-cards .legion-cards-actions {
+    margin-top: 0;
+  }
+}

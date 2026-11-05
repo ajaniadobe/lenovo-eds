@@ -1,0 +1,440 @@
+/* legion-carousel — live h-carousel-2 / h-carousel-5 / le-go- / le-lp-carousel / h-carousel-4 */
+/* stylelint-disable no-descending-specificity */
+.legion-carousel {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 16px;
+  line-height: normal; /* live legion-brand body value */
+}
+
+.legion-carousel .legion-carousel-viewport {
+  overflow: hidden;
+}
+
+.legion-carousel .legion-carousel-track {
+  --legion-carousel-index: 0;
+
+  display: flex;
+  transform: translateX(calc(var(--legion-carousel-index) * -100%));
+  transition: transform 0.5s ease-in-out;
+}
+
+.legion-carousel .legion-carousel-slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.legion-carousel .legion-carousel-media :is(picture, img) {
+  display: block;
+  width: 100%;
+}
+
+.legion-carousel .legion-carousel-media .legion-carousel-mobile {
+  display: none;
+}
+
+.legion-carousel .legion-carousel-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legion-carousel .legion-carousel-copy p {
+  margin: 10px 0;
+}
+
+.legion-carousel a.legion-carousel-link:any-link {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.legion-carousel .legion-carousel-links {
+  display: flex;
+  gap: 24px;
+}
+
+.legion-carousel .legion-carousel-pill em {
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background: #871c23;
+  font-style: normal;
+}
+
+/* arrows + dots (live *-control-prev / *-control-next, dot2 … dot5) */
+.legion-carousel :is(.legion-carousel-prev, .legion-carousel-next) {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #e6e2e4;
+  box-shadow: 10px 10px 15px -10px #00000080;
+  transform: translateY(-50%);
+  transition: opacity 0.5s;
+}
+
+.legion-carousel :is(.legion-carousel-prev, .legion-carousel-next)::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 8px);
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  transform: rotate(45deg);
+}
+
+.legion-carousel .legion-carousel-prev::before {
+  left: calc(50% - 3px);
+  transform: rotate(-135deg);
+}
+
+.legion-carousel .legion-carousel-prev {
+  left: 1%;
+}
+
+.legion-carousel .legion-carousel-next {
+  right: 1%;
+}
+
+.legion-carousel :is(.legion-carousel-prev, .legion-carousel-next).hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.legion-carousel .legion-carousel-dots {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.legion-carousel .legion-carousel-dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #aba8b1;
+  transition: background-color 0.3s ease;
+}
+
+.legion-carousel .legion-carousel-dot.active {
+  width: 18px;
+  height: 18px;
+  background-color: #e6e2e4;
+}
+
+/* ---------- default: full-bleed product banner (h-carousel-2) ---------- */
+.legion-carousel:not(.partner, .showcase, .space) {
+  min-height: 530px;
+  background-color: #000;
+}
+
+.legion-carousel:not(.partner, .showcase, .space) .legion-carousel-media img {
+  height: 530px;
+  object-fit: cover;
+}
+
+.legion-carousel:not(.partner, .showcase, .space) .legion-carousel-copy {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 25%;
+  transform: translateY(-50%);
+}
+
+.legion-carousel:not(.partner, .showcase, .space) .legion-carousel-copy p:first-of-type {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+/* ---------- partner (h-carousel-5) ---------- */
+.legion-carousel.partner {
+  min-height: 400px;
+  background-color: #000;
+}
+
+.legion-carousel.partner .legion-carousel-media img {
+  height: auto;
+  min-height: 400px;
+  object-fit: cover;
+}
+
+.legion-carousel.partner .legion-carousel-copy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 45%;
+  padding-left: 96px;
+}
+
+.legion-carousel.partner .legion-carousel-title {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.legion-carousel.partner .legion-carousel-copy :is(picture, img) {
+  display: block;
+  max-width: 100%;
+}
+
+.legion-carousel.partner .legion-carousel-extra {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.legion-carousel.partner .legion-carousel-extra img {
+  width: auto;
+  max-width: 50vw;
+}
+
+/* ---------- showcase (le-go / le-lp) ---------- */
+.legion-carousel.showcase {
+  min-height: 534px;
+}
+
+.legion-carousel.showcase.tall {
+  min-height: 650px;
+}
+
+.legion-carousel.showcase .legion-carousel-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.legion-carousel.showcase .legion-carousel-media img {
+  width: auto;
+  height: 530px;
+}
+
+.legion-carousel.showcase .legion-carousel-copy {
+  flex: 0 1 50%;
+  line-height: normal;
+  align-content: center;
+  padding: 64px;
+}
+
+.legion-carousel.showcase .legion-carousel-copy p {
+  font-size: 18px;
+}
+
+.legion-carousel.showcase .legion-carousel-copy .legion-carousel-tagline {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.legion-carousel.showcase .legion-carousel-copy .legion-carousel-links {
+  font-size: 16px;
+}
+
+.legion-carousel.showcase .legion-carousel-title {
+  margin: 10px 0;
+}
+
+/* ---------- space (h-carousel-4, Legion Space) ---------- */
+.legion-carousel.space {
+  min-height: 900px;
+  background-color: #871c23;
+}
+
+.legion-carousel.space .legion-carousel-header {
+  padding: 64px 32px 0;
+  text-align: center;
+}
+
+.legion-carousel.space .legion-carousel-header :is(h2, h3) {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.legion-carousel.space .legion-carousel-header p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.legion-carousel.space .legion-carousel-viewport {
+  margin-top: 10px;
+}
+
+.legion-carousel.space .legion-carousel-track {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.legion-carousel.space .legion-carousel-viewport,
+.legion-carousel.space .legion-carousel-slide {
+  overflow: visible;
+}
+
+.legion-carousel.space .legion-carousel-slide {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.legion-carousel.space .legion-carousel-copy {
+  width: 50%;
+  height: 180px;
+  margin: auto;
+  padding: 20px 0;
+  align-content: center;
+  text-align: center;
+}
+
+.legion-carousel.space .legion-carousel-title {
+  margin-bottom: 14px;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.legion-carousel.space .legion-carousel-copy p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.legion-carousel.space .legion-carousel-media img {
+  width: 800px;
+  height: 480px;
+  padding: 12px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.legion-carousel.space :is(.legion-carousel-prev, .legion-carousel-next) {
+  top: 60%;
+}
+
+@media (width <= 992px) {
+  .legion-carousel:not(.partner, .showcase, .space) .legion-carousel-copy {
+    left: 15%;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid rgb(160 160 160 / 30%);
+    border-radius: 10px;
+    background: rgb(0 0 0 / 20%);
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    backdrop-filter: blur(10px);
+  }
+
+  .legion-carousel.partner .legion-carousel-media .legion-carousel-desktop {
+    display: none;
+  }
+
+  .legion-carousel.partner .legion-carousel-media .legion-carousel-mobile {
+    display: block;
+  }
+
+  .legion-carousel.partner .legion-carousel-copy {
+    top: 84px;
+    bottom: auto;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    padding: 32px;
+    text-align: center;
+  }
+
+  .legion-carousel.partner .legion-carousel-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .legion-carousel.partner .legion-carousel-extra img {
+    max-width: 112px;
+  }
+
+  .legion-carousel.showcase .legion-carousel-slide {
+    flex-direction: column;
+  }
+
+  /* live: the stacked image is inline — its line box leaves a 4px descender gap below it */
+  .legion-carousel.showcase .legion-carousel-media img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4px;
+  }
+
+  .legion-carousel.space {
+    min-height: 0;
+    padding-bottom: 64px;
+  }
+
+  .legion-carousel.space .legion-carousel-track {
+    width: 100%;
+  }
+
+  .legion-carousel.space .legion-carousel-viewport {
+    overflow: hidden;
+  }
+
+  .legion-carousel.space .legion-carousel-copy {
+    width: 80%;
+    height: 255px;
+  }
+
+  .legion-carousel.space .legion-carousel-media img {
+    width: 100%;
+    height: 240px;
+  }
+
+  .legion-carousel.space :is(.legion-carousel-prev, .legion-carousel-next) {
+    top: 65%;
+  }
+}
+
+@media (width <= 768px) {
+  /* live #blade-8 keeps its 900px min-height on phones; the dots sit at bottom 5% */
+  .legion-carousel.space {
+    min-height: 900px;
+  }
+
+  .legion-carousel:not(.partner, .showcase, .space) .legion-carousel-title {
+    font-size: 24px;
+  }
+
+  .legion-carousel:not(.partner, .showcase, .space) .legion-carousel-copy p:first-of-type {
+    font-size: 16px;
+  }
+}
+
+@media (width <= 576px) {
+  .legion-carousel:not(.partner, .showcase, .space) .legion-carousel-media .legion-carousel-desktop {
+    display: none;
+  }
+
+  .legion-carousel:not(.partner, .showcase, .space) .legion-carousel-media .legion-carousel-mobile {
+    display: block;
+  }
+
+  .legion-carousel :is(.legion-carousel-prev, .legion-carousel-next) {
+    width: 34px;
+    height: 34px;
+  }
+
+  .legion-carousel .legion-carousel-prev {
+    left: 2%;
+  }
+
+  .legion-carousel .legion-carousel-next {
+    right: 2%;
+  }
+}

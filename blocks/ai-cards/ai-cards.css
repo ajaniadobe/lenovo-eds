@@ -1,0 +1,62 @@
+/* ai-cards — live layouts_special_content rows (us-en-ai-pcs prototype § segment cards) */
+.ai-cards {
+  position: relative;
+  color: #000;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.ai-cards .card-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 40px;
+}
+
+.ai-cards .card {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.ai-cards .card-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.ai-cards .card-content {
+  padding: 40px;
+  overflow-wrap: break-word;
+}
+
+.ai-cards .card-title :is(h2, h3, h4) {
+  font-family: var(--font-ui);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ai-cards .card-desc p {
+  margin: 16px 0;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.ai-cards .card-actions p {
+  margin-top: 10px;
+}
+
+.ai-cards .card-actions a:any-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #294e95;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,559 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-03T01:05:07.529Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T14:14:25.068Z",
+  "blocks": [
+    {
+      "id": "ai-cards",
+      "label": "ai-cards",
+      "kind": "module",
+      "signature": "module:ai-cards",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "ai-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ai-copilot",
+      "label": "ai-copilot",
+      "kind": "module",
+      "signature": "module:ai-copilot",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "ai-copilot",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ai-explore",
+      "label": "ai-explore",
+      "kind": "module",
+      "signature": "module:ai-explore",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "ai-explore",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ai-feature",
+      "label": "ai-feature",
+      "kind": "module",
+      "signature": "module:ai-feature",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "ai-feature",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ai-hero",
+      "label": "ai-hero",
+      "kind": "module",
+      "signature": "module:ai-hero",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "ai-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ai-intro",
+      "label": "ai-intro",
+      "kind": "module",
+      "signature": "module:ai-intro",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "ai-intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ai-seo",
+      "label": "ai-seo",
+      "kind": "module",
+      "signature": "module:ai-seo",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "ai-seo",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "blade",
+      "label": "blade",
+      "kind": "module",
+      "signature": "module:blade",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "blade",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "card-grid",
+      "label": "card-grid",
+      "kind": "module",
+      "signature": "module:card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "card-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq-accordion",
+      "label": "faq-accordion",
+      "kind": "module",
+      "signature": "module:faq-accordion",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "faq-accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "home-hero",
+      "label": "home-hero",
+      "kind": "module",
+      "signature": "module:home-hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "home-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "merch-banner",
+      "label": "merch-banner",
+      "kind": "module",
+      "signature": "module:merch-banner",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "us-en-ai-pcs",
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "index",
+        "us-en-ai-pcs",
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "merch-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-hero",
+      "label": "pdp-hero",
+      "kind": "module",
+      "signature": "module:pdp-hero",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-legal",
+      "label": "pdp-legal",
+      "kind": "module",
+      "signature": "module:pdp-legal",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-legal",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-ports",
+      "label": "pdp-ports",
+      "kind": "module",
+      "signature": "module:pdp-ports",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-ports",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-reviews",
+      "label": "pdp-reviews",
+      "kind": "module",
+      "signature": "module:pdp-reviews",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-reviews",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-services",
+      "label": "pdp-services",
+      "kind": "module",
+      "signature": "module:pdp-services",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-services",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-similar",
+      "label": "pdp-similar",
+      "kind": "module",
+      "signature": "module:pdp-similar",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-similar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-specs",
+      "label": "pdp-specs",
+      "kind": "module",
+      "signature": "module:pdp-specs",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-specs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pdp-tabs",
+      "label": "pdp-tabs",
+      "kind": "module",
+      "signature": "module:pdp-tabs",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "usedByPages": [
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pdp-tabs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pilar-blade",
+      "label": "pilar-blade",
+      "kind": "module",
+      "signature": "module:pilar-blade",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-ai-pcs"
+      ],
+      "usedByPages": [
+        "us-en-ai-pcs"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "pilar-blade",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-listing",
+      "label": "product-listing",
+      "kind": "module",
+      "signature": "module:product-listing",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers"
+      ],
+      "usedByPages": [
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "product-listing",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "prompt",
+      "label": "prompt",
+      "kind": "module",
+      "signature": "module:prompt",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "prompt",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "rewards",
+      "label": "rewards",
+      "kind": "module",
+      "signature": "module:rewards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "rewards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "series-blade",
+      "label": "series-blade",
+      "kind": "module",
+      "signature": "module:series-blade",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers"
+      ],
+      "usedByPages": [
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "series-blade",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "series-hero",
+      "label": "series-hero",
+      "kind": "module",
+      "signature": "module:series-hero",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers"
+      ],
+      "usedByPages": [
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "series-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stories",
+      "label": "stories",
+      "kind": "module",
+      "signature": "module:stories",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "stories",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

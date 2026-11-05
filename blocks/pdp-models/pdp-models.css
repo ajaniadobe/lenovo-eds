@@ -1,0 +1,805 @@
+/* pdp-models — series PDP model listing (facets + cards + recommendations), live geometry */
+/* stylelint-disable no-descending-specificity -- sections ordered by layout, not specificity */
+main .section.pdp-models-container {
+  margin-top: 40px;
+  background: #000;
+  color: #fff;
+}
+
+.pdp-models {
+  padding: 40px 20px 3px;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.pdp-models p,
+.pdp-models ul,
+.pdp-models h2,
+.pdp-models h3,
+.pdp-models h4 {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  list-style: none;
+}
+
+.pdp-models a {
+  color: inherit;
+}
+
+.pdp-models img {
+  max-width: none;
+}
+
+.pdp-models .models-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+}
+
+.pdp-models .models-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.pdp-models .models-title p {
+  padding: 9.5px 0;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.pdp-models .models-content {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+/* ---------- facets ---------- */
+.pdp-models .models-facets {
+  flex: 0 0 238px;
+  padding-top: 27px;
+}
+
+.pdp-models .facets-top {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  height: 22px;
+  margin-bottom: 39px;
+}
+
+.pdp-models .facets-top p:first-child {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pdp-models .facets-top p + p {
+  color: #0ff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.pdp-models .facet {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #4a5863;
+}
+
+.pdp-models .facet:last-child {
+  border-bottom: 0;
+}
+
+.pdp-models .facet-name {
+  position: relative;
+  height: 22px;
+  padding-top: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.pdp-models .facet-name::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  right: 6px;
+  width: 7px;
+  height: 7px;
+  border: solid currentcolor;
+  border-width: 2px 2px 0 0;
+  transform: rotate(-45deg);
+}
+
+.pdp-models .facet li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 25px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.pdp-models .box {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin-right: 2px;
+  border: 1px solid currentcolor;
+  border-radius: 2px;
+}
+
+.pdp-models .facet:has(.facet-more) li:nth-child(n + 4) {
+  display: none;
+}
+
+.pdp-models .facet-more {
+  margin-top: 20px;
+  color: #0ff;
+  font-size: 14px;
+}
+
+.pdp-models .stars {
+  display: inline-flex;
+  gap: 1px;
+}
+
+.pdp-models .star {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(90deg, currentcolor var(--fill), transparent var(--fill));
+  clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  outline: 1px solid currentcolor;
+}
+
+/* ---------- list ---------- */
+.pdp-models .models-list {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pdp-models .models-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 92px;
+  padding: 12px 0 19px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.pdp-models .models-bar p + p {
+  padding: 8px 12px;
+  border: 1px solid #4a5863;
+  border-radius: 4px;
+  background: #333f48;
+  font-weight: 400;
+}
+
+.pdp-models .models-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* live li.product_item: 272px tile, 240px card inside, 287px pitch */
+.pdp-models .model-card {
+  box-sizing: border-box;
+  width: 272px;
+  padding: 16px;
+  border-radius: 4px;
+  background: #333f48;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.pdp-models .model-head {
+  display: flex;
+  justify-content: space-between;
+  height: 36px;
+  margin-bottom: 8px;
+}
+
+.pdp-models .model-head .cmp {
+  width: 92px;
+  height: 36px;
+  border-radius: 4px;
+  background: #171717;
+}
+
+.pdp-models .model-head .heart {
+  width: 22px;
+  height: 20px;
+  margin-top: 8px;
+  border: 2px solid currentcolor;
+  border-radius: 50% 50% 4px 4px;
+}
+
+.pdp-models .model-flag strong {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 7px 15px 6px;
+  background: #7a126b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 17px;
+}
+
+.pdp-models .model-name {
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.pdp-models .model-badge em {
+  font-size: 13px;
+  font-style: normal;
+}
+
+.pdp-models .model-img {
+  padding: 16px 0;
+  line-height: 0;
+}
+
+.pdp-models .model-img img {
+  width: 240px;
+  height: 240px;
+  object-fit: contain;
+}
+
+.pdp-models .model-est {
+  padding-top: 6px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.pdp-models .model-est del {
+  margin-left: 24px;
+}
+
+.pdp-models .model-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 37px;
+  margin-bottom: 10px;
+}
+
+.pdp-models .model-price strong {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.pdp-models .model-price em {
+  padding: 4px 3px 3px;
+  border-radius: 4px;
+  background: #444d51;
+  color: #0ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.pdp-models .model-lease {
+  min-height: 46px;
+  padding: 5px 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.pdp-models .k-logo {
+  display: inline-block;
+  width: 65px;
+  height: 16px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background: #fff;
+  vertical-align: -3px;
+}
+
+.pdp-models .model-lease a {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.pdp-models .model-rewards {
+  min-height: 89px;
+  padding: 13px 0;
+  border-top: 1px solid #4a5863;
+  border-bottom: 1px solid #4a5863;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.pdp-models .model-rewards em {
+  color: #0ff;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.pdp-models .model-rewards a {
+  display: block;
+  color: #0ff;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pdp-models .model-specs ul {
+  padding: 10px 0 11px;
+}
+
+.pdp-models .model-specs li {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.pdp-models .model-specs li:last-child {
+  margin-bottom: 0;
+}
+
+.pdp-models .model-specs img {
+  flex: none;
+  width: 20px;
+  height: 20px;
+}
+
+.pdp-models .model-more {
+  padding-bottom: 16px;
+  color: #0ff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.pdp-models .model-cart p {
+  margin: 16px 0 12px;
+  padding: 10px 0;
+  border-radius: 4px;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+}
+
+.pdp-models .model-stock em {
+  display: block;
+  color: #ff8c00;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.pdp-models .model-link {
+  padding: 8px 0;
+  color: #0ff;
+  font-weight: 700;
+}
+
+.pdp-models .model-delivery {
+  padding: 10px 0 10px 21px;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.pdp-models .model-addons-title {
+  padding: 10px 0 8px;
+  font-weight: 700;
+}
+
+.pdp-models .model-addons li {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.pdp-models .model-addons .box {
+  width: 14px;
+  height: 14px;
+}
+
+.pdp-models .model-part {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.pdp-models .model-less {
+  padding: 16px 0 0;
+  color: #0ff;
+  font-weight: 700;
+}
+
+/* dark series tile head (live product_item): title 51px under the tile top on 21px lines,
+   picture 19px under it, "Est Value" 42px under the picture, lease row 20px under the price */
+.pdp-models:not(.light) .models-cards {
+  margin-bottom: 0;
+}
+
+.pdp-models:not(.light) .model-head {
+  margin-bottom: 18px;
+}
+
+.pdp-models:not(.light) .model-name {
+  line-height: 21px;
+}
+
+.pdp-models:not(.light) .model-img {
+  padding-top: 19px;
+}
+
+.pdp-models:not(.light) .model-est {
+  padding-top: 26px;
+}
+
+.pdp-models:not(.light) .model-price {
+  margin-bottom: -6px;
+}
+
+/* dark series tile tail (live product_item below the key specs): 45px cart button, delivery
+   block 50px under it, ruled price-match row, 13/18 add-on lines 82px apart, ruled part number */
+.pdp-models:not(.light) .model-specs ul {
+  padding-bottom: 0;
+}
+
+.pdp-models:not(.light) .model-cart p {
+  margin: -2px 0 0;
+  padding: 11px 0;
+}
+
+.pdp-models:not(.light) .model-delivery {
+  padding: 50px 0 8px 21px;
+  border-bottom: 1px solid #4a5863;
+  line-height: 17px;
+}
+
+.pdp-models:not(.light) .model-delivery em {
+  color: #0ff;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.pdp-models:not(.light) .model-link {
+  padding: 10px 0 6px;
+  border-bottom: 1px solid #4a5863;
+  line-height: 18px;
+}
+
+.pdp-models:not(.light) .model-link u {
+  text-decoration: none;
+}
+
+.pdp-models:not(.light) .model-addons-title {
+  padding: 0 0 10px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.pdp-models:not(.light) .model-addons li {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.pdp-models:not(.light) .model-addons li:last-child {
+  margin-bottom: 0;
+}
+
+.pdp-models:not(.light) .model-addons strong {
+  color: #0ff;
+}
+
+.pdp-models:not(.light) .model-addons .box {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.pdp-models:not(.light) .model-part {
+  padding: 12px 0 14px;
+  border-top: 1px solid #4a5863;
+  border-bottom: 1px solid #4a5863;
+  line-height: 18px;
+}
+
+.pdp-models:not(.light) .model-less {
+  padding-top: 21px;
+  line-height: 17px;
+}
+
+/* ---------- recommendations ----------
+   live best_seller__container: 48px rails, 33px heading, 287 x 436 tiles (255px content at x 112) */
+.pdp-models .models-recs {
+  padding: 48px 76px 87px;
+}
+
+.pdp-models .recs-title {
+  margin-bottom: 34px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.pdp-models .recs-cards {
+  display: flex;
+  gap: 17px;
+}
+
+.pdp-models .rec-card {
+  box-sizing: border-box;
+  width: 287px;
+  height: 436px;
+  padding: 23px 16px 15px;
+  border-radius: 4px;
+  background: #333f48;
+}
+
+.pdp-models .rec-name {
+  min-height: 56px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.pdp-models .rec-name a {
+  text-decoration: none;
+}
+
+.pdp-models .rec-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 22px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.pdp-models .rec-rating .stars {
+  gap: 0;
+  margin-right: 6px;
+  color: #0ff;
+}
+
+.pdp-models .rec-rating .star {
+  width: 20px;
+  height: 20px;
+  outline: 0;
+}
+
+.pdp-models .rec-rating a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pdp-models .rec-rating strong {
+  color: #fff;
+}
+
+.pdp-models .rec-line {
+  box-sizing: border-box;
+  height: 76px;
+  padding-top: 5px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.pdp-models .rec-img {
+  height: 165px;
+  line-height: 0;
+  text-align: center;
+}
+
+.pdp-models .rec-img img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+}
+
+.pdp-models .rec-card > div:nth-last-child(2),
+.pdp-models .rec-link > div:nth-last-child(2) {
+  height: 21px;
+  padding-top: 2px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.pdp-models .rec-price strong {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+/* ---------- light (white series page) ---------- */
+main .section.pdp-models-container:has(.pdp-models.light) {
+  background: #fff;
+}
+
+.pdp-models.light {
+  color: #000;
+}
+
+.pdp-models.light .facets-top p + p,
+.pdp-models.light .facet-more,
+.pdp-models.light .model-more,
+.pdp-models.light .model-link,
+.pdp-models.light .model-less,
+.pdp-models.light .model-rewards a {
+  color: #294e95;
+}
+
+.pdp-models.light .facet,
+.pdp-models.light .model-rewards {
+  border-color: #c7c7c7;
+}
+
+/* light desktop (live): the models band opens 49px under the tabs */
+@media (width >= 1024px) {
+  main .section.pdp-models-container:has(.pdp-models.light) {
+    margin-top: 49px;
+  }
+}
+
+/* live light facets run 1px taller each */
+.pdp-models.light .facet {
+  padding-bottom: 21px;
+}
+
+.pdp-models.light .models-bar p + p {
+  border-color: #c7c7c7;
+  background: #fff;
+}
+
+.pdp-models.light .model-card {
+  border: 1px solid #c7c7c7;
+  background: #fff;
+}
+
+.pdp-models.light .model-head .cmp {
+  border: 1px solid #c7c7c7;
+  background: #fff;
+}
+
+.pdp-models.light .model-price em {
+  background: #215732;
+  color: #fff;
+}
+
+.pdp-models.light .model-rewards em {
+  color: #294e95;
+}
+
+.pdp-models.light .k-logo {
+  background: #e3e3e3;
+}
+
+.pdp-models.light .model-cart p {
+  background: #294e95;
+  color: #fff;
+}
+
+.pdp-models.light .model-stock em {
+  color: #c00;
+}
+
+.pdp-models.light .stars {
+  color: #000;
+}
+
+@media (width <= 1023px) {
+  .pdp-models {
+    padding: 40px 20px 3px;
+  }
+
+  .pdp-models .models-title {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  /* live 360: facets 238px at x 20, the list runs on at x 258 (30px inset) and overflows */
+  .pdp-models .models-content {
+    gap: 0;
+  }
+
+  .pdp-models .models-facets {
+    flex-basis: 238px;
+  }
+
+  .pdp-models .models-list {
+    flex: 0 0 auto;
+    overflow: hidden;
+    padding-left: 30px;
+  }
+
+  /* one tile per row, stacked 15px apart (live 336px tiles) */
+  .pdp-models .models-cards {
+    flex-flow: column nowrap;
+  }
+
+  .pdp-models .model-card {
+    width: 336px;
+  }
+
+  /* live 360: the Katapult "Learn More" link is a 296 x 33 box laid over the lease row,
+     its label on the second line (keeps it on-canvas at the tile's left edge) */
+  .pdp-models .model-lease {
+    position: relative;
+  }
+
+  .pdp-models .model-lease a {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    width: 296px;
+    height: 33px;
+  }
+
+  /* the live 360 page renders no "Recommended for you" row */
+  .pdp-models .models-recs {
+    display: none;
+  }
+
+  .pdp-models .recs-cards {
+    overflow-x: auto;
+  }
+
+  .pdp-models .rec-card {
+    flex: none;
+  }
+}
+
+/* authored links stay text: neutralise the foundation's auto-button styling */
+.pdp-models a.button:any-link {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: inherit;
+}
+
+/* heading carries the rewards note (one live heading) */
+.pdp-models .models-title > h2 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pdp-models .models-title h2 em {
+  padding: 9.5px 0;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.pdp-models .rec-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}

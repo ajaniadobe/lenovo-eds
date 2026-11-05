@@ -160,6 +160,7 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
+  import('./martech.js').then((m) => m.loadConsent());
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
@@ -204,6 +205,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  window.setTimeout(() => import('./delayed.js'), 3000);
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

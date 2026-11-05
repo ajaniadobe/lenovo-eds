@@ -1,0 +1,25 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.lenovo.com/",
+ "at": "2026-11-03T01:07:07.615Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": null,
+   "controls": [],
+   "scroll": [],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": null,
+   "controls": [],
+   "scroll": [],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  }
+ },
+ "probe": "please"
+}

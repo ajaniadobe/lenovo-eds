@@ -1,0 +1,55 @@
+/* ai-intro — live layout-title + vertical-default-pc (us-en-ai-pcs prototype § intro) */
+.ai-intro {
+  position: relative;
+  padding: 60px 120px;
+  color: #000;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.ai-intro .layout-title {
+  padding-bottom: 40px;
+}
+
+.ai-intro .headline :is(h1, h2, h3, h4) {
+  margin: 0 0 15px;
+  font-family: var(--font-ui);
+  font-size: 45px;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.ai-intro .lede p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.ai-intro .vertical-default-pc {
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-intro .vertical-default-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1200 / 375;
+  object-fit: cover;
+}
+
+.ai-intro .vertical-default-content {
+  padding: 40px;
+}
+
+@media (width <= 767px) {
+  .ai-intro {
+    padding: 60px 0;
+  }
+
+  .ai-intro .headline :is(h1, h2, h3, h4) {
+    overflow-wrap: break-word;
+  }
+}

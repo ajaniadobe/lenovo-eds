@@ -1,0 +1,110 @@
+{
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:05:22.519Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:05:22.519Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:05:22.519Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/ai-pcs": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:00.531Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/c/desktops/legion-desktops/legion-t-series-towers": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:00.531Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/c/laptops/yoga/yoga-slim-series": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:00.531Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:06.828Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:13.274Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:15.361Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/education/futureyou": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:07:56.061Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/d/accessories-and-software/gaming-accessories": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:06.431Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/legion": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T14:09:06.574Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

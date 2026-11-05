@@ -1,0 +1,117 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T05:50:23.766Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T14:14:25.113Z",
+  "templates": [
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "card-grid",
+        "home-hero",
+        "merch-banner",
+        "prompt",
+        "rewards",
+        "stories"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-ai-pcs",
+      "representativeSlug": "us-en-ai-pcs",
+      "pages": [
+        "us-en-ai-pcs",
+        "us-en-education-futureyou",
+        "us-en-legion"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "ai-cards",
+        "ai-copilot",
+        "ai-explore",
+        "ai-feature",
+        "ai-hero",
+        "ai-intro",
+        "ai-seo",
+        "faq-accordion",
+        "merch-banner",
+        "pilar-blade"
+      ],
+      "delivery": {
+        "verified": 3,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "representativeSlug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "pages": [
+        "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+        "us-en-c-laptops-yoga-yoga-slim-series",
+        "us-en-d-accessories-and-software-gaming-accessories"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "category-carousel",
+        "hero-banner",
+        "listing-faq",
+        "listing-seo",
+        "merch-banner",
+        "product-listing",
+        "series-blade",
+        "series-hero"
+      ],
+      "delivery": {
+        "verified": 3,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "representativeSlug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "pages": [
+        "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+        "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+        "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+      ],
+      "pageCount": 3,
+      "blocks": [
+        "blade",
+        "merch-banner",
+        "pdp-hero",
+        "pdp-legal",
+        "pdp-ports",
+        "pdp-reviews",
+        "pdp-services",
+        "pdp-similar",
+        "pdp-specs",
+        "pdp-tabs"
+      ],
+      "delivery": {
+        "verified": 3,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

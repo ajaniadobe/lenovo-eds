@@ -1,0 +1,167 @@
+#0 container reviews_container [80,24285,1280,2950]
+  T button.title [96,24333,318,75] 32/39/400/rgb(255,255,255)/rgb(51,63,72) «Ratings & Reviews»
+  T button.title [414,24333,366,75] 32/39/400/rgb(0,255,255) «Questions & Answers»
+  T h2.bv-rnr__sc-16j1lpy-1 [106,24429,75,32] 20/20/400/rgb(255,255,255)/rgb(51,63,72) «Reviews»
+  IMG  [116,24481,173,30] https://apps.bazaarvoice.com/common/images/intelligent_trustmark_icons/trustmark_en.png alt="The trustmark icon that reveals a popup describing BV authenticity"
+  T h3.bv-rnr__sc-16j1lpy-2 [106,24521,411,38] 16/18/400/rgb(255,255,255)/rgb(51,63,72) «Rating Snapshot»
+  T div.bv-rnr__sc-16dr7i1-5 [116,24559,391,38] 14/18/400/rgb(255,255,255) «Select a row below to filter reviews.»
+  T span. [116,24601,44,19] 14/0/400/rgb(255,255,255) «5 stars»
+  T span.bv-rnr__bm6gry-0 [160,24601,1,1] 14/0/400/rgb(255,255,255) «stars»
+  T span. [462,24601,24,19] 14/0/400/rgb(255,255,255) «334»
+  T span.bv-rnr__bm6gry-0 [462,24620,1,1] 14/0/400/rgb(255,255,255) «334 reviews with 5 stars.»
+  T span. [116,24627,44,19] 14/0/400/rgb(255,255,255) «4 stars»
+  T span.bv-rnr__bm6gry-0 [160,24627,1,1] 14/0/400/rgb(255,255,255) «stars»
+  T span. [462,24627,16,19] 14/0/400/rgb(255,255,255) «54»
+  T span.bv-rnr__bm6gry-0 [462,24646,1,1] 14/0/400/rgb(255,255,255) «54 reviews with 4 stars.»
+  T span. [116,24653,44,19] 14/0/400/rgb(255,255,255) «3 stars»
+  T span.bv-rnr__bm6gry-0 [160,24653,1,1] 14/0/400/rgb(255,255,255) «stars»
+  T span. [462,24653,16,19] 14/0/400/rgb(255,255,255) «10»
+  T span.bv-rnr__bm6gry-0 [462,24672,1,1] 14/0/400/rgb(255,255,255) «10 reviews with 3 stars.»
+  T span. [116,24679,44,19] 14/0/400/rgb(255,255,255) «2 stars»
+  T span.bv-rnr__bm6gry-0 [160,24679,1,1] 14/0/400/rgb(255,255,255) «stars»
+  T span. [462,24679,8,19] 14/0/400/rgb(255,255,255) «3»
+  T span.bv-rnr__bm6gry-0 [462,24698,1,1] 14/0/400/rgb(255,255,255) «3 reviews with 2 stars.»
+  T span. [116,24705,37,19] 14/0/400/rgb(255,255,255) «1 star»
+  T span.bv-rnr__bm6gry-0 [153,24705,1,1] 14/0/400/rgb(255,255,255) «stars»
+  T span. [462,24705,16,19] 14/0/400/rgb(255,255,255) «21»
+  T span.bv-rnr__bm6gry-0 [462,24724,1,1] 14/0/400/rgb(255,255,255) «21 reviews with 1 star.»
+  T h3.bv-rnr__sc-16j1lpy-2 [517,24521,411,38] 16/18/400/rgb(255,255,255)/rgb(51,63,72) «Overall Rating»
+  T div.bv-rnr__sc-157rd1w-1 [527,24564,69,60] 45/40/400/rgb(255,255,255) «4.6»
+  T div.bv-rnr__sc-157rd1w-2 [602,24569,101,50] 16/0/400/rgb(255,255,255) «422 Reviews»
+  T h3.swat-hosted-summaries-heading [116,24748,1223,18] 16/18/400/rgb(255,255,255) «Summary of Reviews»
+  T span.swat-hosted-summary-text [139,24773,565,19] 14/18/400/rgb(255,255,255) «AI-generated from customer ratings & reviews, and may include incentivized reviews.»
+  T div.swat-hosted-summary-text [116,24799,1223,36] 14/18/400/rgb(255,255,255) «Customers overwhelmingly praise this laptop for exceptional performance, stunning OLED display, and premium bu»
+  T a.swat-hosted-show-more-link [116,24840,85,18] 16/18/400/rgb(255,255,255) «Show more» href=#
+  T h3.bv-rnr__sc-16j1lpy-2 [106,24869,1233,38] 16/18/400/rgb(255,255,255)/rgb(51,63,72) «Average Customer Ratings»
+  T div.bv-rnr__di1qf-3 [313,24917,205,19] 14/0/400/rgb(255,255,255) «Performance»
+  T span.bv-rnr__bm6gry-0 [313,24936,1,1] 14/0/400/rgb(255,255,255) «Performance, 4.7 out of 5»
+  T div.bv-rnr__di1qf-6 [473,24938,30,29] 14/0/400/rgb(255,255,255) «4.7»
+  T div.bv-rnr__di1qf-3 [518,24917,205,19] 14/0/400/rgb(255,255,255) «Features»
+  T span.bv-rnr__bm6gry-0 [518,24936,1,1] 14/0/400/rgb(255,255,255) «Features, 4.6 out of 5»
+  T div.bv-rnr__di1qf-6 [678,24938,30,29] 14/0/400/rgb(255,255,255) «4.6»
+  T div.bv-rnr__di1qf-3 [723,24917,205,19] 14/0/400/rgb(255,255,255) «Value»
+  T span.bv-rnr__bm6gry-0 [723,24936,1,1] 14/0/400/rgb(255,255,255) «Value, 4.6 out of 5»
+  T div.bv-rnr__di1qf-6 [883,24938,30,29] 14/0/400/rgb(255,255,255) «4.6»
+  T div.bv-rnr__di1qf-3 [928,24917,205,19] 14/0/400/rgb(255,255,255) «Reliability»
+  T span.bv-rnr__bm6gry-0 [928,24936,1,1] 14/0/400/rgb(255,255,255) «Reliability, 4.6 out of 5»
+  T div.bv-rnr__di1qf-6 [1088,24938,30,29] 14/0/400/rgb(255,255,255) «4.6»
+  T h3.bv-rnr__sc-16j1lpy-2 [96,24996,1248,38] 16/18/400/rgb(255,255,255)/rgb(51,63,72) «Customer Images and Videos»
+  T button.tab-button [116,25039,70,42] 14/18/400/rgb(255,255,255)/rgb(51,63,72) «All»
+  T button.tab-button [191,25041,103,38] 14/18/400/rgb(255,255,255)/rgb(51,63,72) «Images»
+  T button.tab-button [299,25041,98,38] 14/18/400/rgb(255,255,255)/rgb(51,63,72) «Videos»
+  IMG bv-rnr__sc-1qec6v5-3 [98,25084,171,171] https://photos-us.bazaarvoice.com/photo/2/cGhvdG86bGVub3Zv/a6e27fc3-6c18-5510-a2b5-b4814a635e3e alt="Review photo 1."
+  IMG bv-rnr__sc-1qec6v5-3 [273,25084,171,171] https://photos-us.bazaarvoice.com/photo/2/cGhvdG86bGVub3Zv/57dd4a5a-952e-5959-86d3-825be4bc351c alt="Setting up automations"
+  IMG bv-rnr__sc-1qec6v5-3 [448,25084,171,171] https://photos-us.bazaarvoice.com/photo/2/cGhvdG86bGVub3Zv/9b9c7486-f0c6-530a-9963-771e0a26087e alt="Review photo 3."
+  IMG bv-rnr__sc-1qec6v5-3 [623,25084,171,171] https://photos-us.bazaarvoice.com/photo/2/cGhvdG86bGVub3Zv/86f004a2-b368-5a56-b80b-5a07bd8c3139 alt="Review photo 4."
+  IMG bv-rnr__sc-1qec6v5-3 [798,25084,171,171] https://photos-us.bazaarvoice.com/photo/2/cGhvdG86bGVub3Zv/6d30d11e-1a63-5635-ac6a-0243212eac8f alt="Review photo 5."
+  IMG bv-rnr__sc-1qec6v5-3 [973,25084,171,171] https://img.youtube.com/vi/ODUJ38r5WTE/0.jpg alt=" Review video 1 "
+  IMG bv-rnr__sc-1qec6v5-3 [1148,25084,171,171] https://photos-us.bazaarvoice.com/photo/2/cGhvdG86bGVub3ZvLWF1/9d2021a1-3f16-53e8-b383-db5387d5cb42 alt="Review photo 6."
+  T span.bv-rnr__bm6gry-0 [1330,25163,1,1] 13/0/400/rgb(0,0,0) «Next»
+  T h3.bv-rnr__sc-16j1lpy-2 [106,25267,1233,38] 16/18/400/rgb(255,255,255)/rgb(51,63,72) «Filter Reviews»
+  T span.bv-rnr__bm6gry-0 [106,25321,1,1] 16/0/400/rgb(255,255,255) «Search topics and reviews search region»
+  T div.bv-rnr__u5e6fs-1 [106,25379,102,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «for gaming»
+  T div.bv-rnr__u5e6fs-1 [218,25379,104,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «satisfaction»
+  T div.bv-rnr__u5e6fs-1 [332,25379,90,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «purchase»
+  T div.bv-rnr__u5e6fs-1 [432,25379,113,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «performance»
+  T div.bv-rnr__u5e6fs-1 [555,25379,64,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «price»
+  T div.bv-rnr__u5e6fs-1 [630,25379,75,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «quality»
+  T div.bv-rnr__u5e6fs-1 [715,25379,88,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «powerful»
+  T div.bv-rnr__u5e6fs-1 [813,25379,106,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «appearance»
+  T button.bv-rnr__sc-1kdk2cf-1 [106,25431,144,42] 16/0/400/rgb(255,255,255) «Show More Filters»
+  T div.bv-rnr__sc-1wzl89g-0 [106,25478,125,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «Rating»
+  T div.bv-rnr__sc-1wzl89g-0 [252,25478,303,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «What is the Primary Use of this Product?»
+  T div.bv-rnr__sc-1wzl89g-0 [576,25478,125,42] 13/0/400/rgb(23,23,23)/rgb(255,255,255) «Locale»
+  T span.bv-rnr__sc-1jy9jb6-0 [96,25535,1,1] 16/0/400/rgb(255,255,255) «1 to 3 of 422 Reviews .»
+  T div.bv-rnr__sc-11r39gb-2 [106,25561,131,38] 14/18/400/rgb(255,255,255) «1 – 3 of 422 Reviews»
+  T span.bv-rnr__sc-13ijx62-4 [1097,25572,56,18] 13/0/400/rgb(23,23,23) «Sort by»
+  T div.bv-rnr__sc-13ijx62-8 [1155,25572,154,18] 13/0/400/rgb(23,23,23) «Highest to Lowest Rating»
+  T span.bv-rnr__bm6gry-0 [116,25666,1,1] 16/0/400/rgb(255,255,255) «5 out of 5 stars.»
+  T h3.bv-rnr__sc-16dr7i1-17 [116,25686,791,24] 20/24/400/rgb(255,255,255) «Love it»
+  T button.bv-rnr__sc-16dr7i1-6 [116,25720,68,15] 16/15/400/rgb(255,255,255) «Roro615»
+  IMG bv-rnr__sc-1aslhq8-0 [121,25748,69,22] https://apps.bazaarvoice.com/deployments/lenovo/legion/production/en_US/images/badgeImages/LoyaltyMemberYes alt=""
+  T span.bv-rnr__sc-1y8lyw5-2 [196,25751,155,14] 10/25/400/rgb(255,255,255) «My Lenovo Rewards Member»
+  T span.bv-rnr__sc-1y8lyw5-2 [149,25784,107,14] 10/25/400/rgb(255,255,255) «Verified Purchaser»
+  T span.bv-rnr__g3jej5-1 [117,25813,79,11] 14/11/400/rgb(255,255,255) «20 days ago»
+  T div.bv-rnr__sc-16dr7i1-3 [122,25836,769,36] 14/18/400/rgb(255,255,255) «Finally made the move to Lenovo after the hinges on my other laptop failed. This laptop has a superior design »
+  T span.bv-rnr__sc-1y8lyw5-3 [122,25899,281,18] 14/18/700/rgb(255,255,255) «What is the Primary Use of this Product?»
+  T span.bv-rnr__sc-1y8lyw5-2 [408,25898,39,19] 14/18/400/rgb(255,255,255) «Work»
+  T span.bv-rnr__sc-1y8lyw5-3 [122,25918,136,18] 14/18/700/rgb(255,255,255) «Sweepstakes Entry:»
+  T span.bv-rnr__sc-1y8lyw5-2 [263,25917,27,19] 14/18/400/rgb(255,255,255) «Yes»
+  T p.bv-rnr__sc-1i2zvgg-1 [147,25948,204,19] 14/0/400/rgb(255,255,255) «Yes, I recommend this product.»
+  T p.bv-rnr__sc-1grr47e-3 [133,25995,436,18] 14/18/400/rgb(255,255,255) «Originally posted on Legion Pro 5i Gen 10 Intel (16") with RTX 5060»
+  T div.bv-rnr__v2pr51-2 [122,26038,54,25] 14/0/400/rgb(255,255,255) «Helpful?»
+  T span.bv-rnr__sc-314f1h-1 [212,26041,16,19] 14/0/400/rgb(255,255,255) «(0)»
+  T span.bv-rnr__sc-1tt2trz-1 [264,26041,16,19] 14/0/400/rgb(255,255,255) «(0)»
+  T button.reportbutton [331,26034,51,32] 16/0/400/rgb(255,255,255) «Report»
+  T div.bv-rnr__di1qf-3 [927,25676,392,19] 14/0/400/rgb(255,255,255) «Performance»
+  T span.bv-rnr__bm6gry-0 [927,25695,1,1] 14/0/400/rgb(255,255,255) «Performance, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,25697,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,25729,392,19] 14/0/400/rgb(255,255,255) «Features»
+  T span.bv-rnr__bm6gry-0 [927,25748,1,1] 14/0/400/rgb(255,255,255) «Features, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,25750,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,25782,392,19] 14/0/400/rgb(255,255,255) «Value»
+  T span.bv-rnr__bm6gry-0 [927,25801,1,1] 14/0/400/rgb(255,255,255) «Value, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,25803,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,25835,392,19] 14/0/400/rgb(255,255,255) «Reliability»
+  T span.bv-rnr__bm6gry-0 [927,25854,1,1] 14/0/400/rgb(255,255,255) «Reliability, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,25856,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T span.bv-rnr__bm6gry-0 [116,26118,1,1] 16/0/400/rgb(255,255,255) «5 out of 5 stars.»
+  T h3.bv-rnr__sc-16dr7i1-17 [116,26139,791,24] 20/24/400/rgb(255,255,255) «A Powerhouse Laptop That Exceeds Expectations»
+  T button.bv-rnr__sc-16dr7i1-6 [116,26173,96,15] 16/15/400/rgb(255,255,255) «PJames3478»
+  IMG bv-rnr__sc-1aslhq8-0 [121,26200,69,22] https://apps.bazaarvoice.com/deployments/lenovo/legion/production/en_US/images/badgeImages/LoyaltyMemberYes alt=""
+  T span.bv-rnr__sc-1y8lyw5-2 [196,26203,155,14] 10/25/400/rgb(255,255,255) «My Lenovo Rewards Member»
+  T span.bv-rnr__sc-1y8lyw5-2 [149,26236,107,14] 10/25/400/rgb(255,255,255) «Verified Purchaser»
+  T span.bv-rnr__g3jej5-1 [117,26265,79,11] 14/11/400/rgb(255,255,255) «27 days ago»
+  T div.bv-rnr__sc-16dr7i1-3 [122,26288,769,162] 14/18/400/rgb(255,255,255) «I’ve been using the Legion Pro 5i Gen 10 (16") with the RTX 5070, and it has surpassed every expectation I had»
+  T span.bv-rnr__sc-1y8lyw5-3 [122,26477,281,18] 14/18/700/rgb(255,255,255) «What is the Primary Use of this Product?»
+  T span.bv-rnr__sc-1y8lyw5-2 [408,26476,140,19] 14/18/400/rgb(255,255,255) «Browsing/Streaming»
+  T span.bv-rnr__sc-1y8lyw5-3 [122,26496,136,18] 14/18/700/rgb(255,255,255) «Sweepstakes Entry:»
+  T span.bv-rnr__sc-1y8lyw5-2 [263,26495,27,19] 14/18/400/rgb(255,255,255) «Yes»
+  T p.bv-rnr__sc-1grr47e-3 [133,26541,479,19] 14/18/400/rgb(255,255,255) «Originally posted on Legion Pro 5i Gen 10 Intel (16") with RTX 5070»
+    A [270,26539,342,22] «Legion Pro 5i Gen 10 Intel (16") with RTX 5070» href=https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch
+  T div.bv-rnr__v2pr51-2 [122,26585,54,25] 14/0/400/rgb(255,255,255) «Helpful?»
+  T span.bv-rnr__sc-314f1h-1 [212,26588,16,19] 14/0/400/rgb(255,255,255) «(0)»
+  T span.bv-rnr__sc-1tt2trz-1 [264,26588,16,19] 14/0/400/rgb(255,255,255) «(0)»
+  T button.reportbutton [331,26581,51,32] 16/0/400/rgb(255,255,255) «Report»
+  T div.bv-rnr__di1qf-3 [927,26128,392,19] 14/0/400/rgb(255,255,255) «Performance»
+  T span.bv-rnr__bm6gry-0 [927,26147,1,1] 14/0/400/rgb(255,255,255) «Performance, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26150,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,26181,392,19] 14/0/400/rgb(255,255,255) «Features»
+  T span.bv-rnr__bm6gry-0 [927,26200,1,1] 14/0/400/rgb(255,255,255) «Features, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26203,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,26234,392,19] 14/0/400/rgb(255,255,255) «Value»
+  T span.bv-rnr__bm6gry-0 [927,26253,1,1] 14/0/400/rgb(255,255,255) «Value, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26256,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,26287,392,19] 14/0/400/rgb(255,255,255) «Reliability»
+  T span.bv-rnr__bm6gry-0 [927,26306,1,1] 14/0/400/rgb(255,255,255) «Reliability, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26309,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T span.bv-rnr__bm6gry-0 [116,26665,1,1] 16/0/400/rgb(255,255,255) «5 out of 5 stars.»
+  T h3.bv-rnr__sc-16dr7i1-17 [116,26686,791,24] 20/24/400/rgb(255,255,255) «Legion Pro 5i has amazing resolution and speed!»
+  T button.bv-rnr__sc-16dr7i1-6 [116,26720,89,15] 16/15/400/rgb(255,255,255) «JB Mecham»
+  IMG bv-rnr__sc-1aslhq8-0 [121,26747,69,22] https://apps.bazaarvoice.com/deployments/lenovo/legion/production/en_US/images/badgeImages/LoyaltyMemberYes alt=""
+  T span.bv-rnr__sc-1y8lyw5-2 [196,26750,155,14] 10/25/400/rgb(255,255,255) «My Lenovo Rewards Member»
+  T span.bv-rnr__sc-1y8lyw5-2 [149,26783,107,14] 10/25/400/rgb(255,255,255) «Verified Purchaser»
+  T span.bv-rnr__g3jej5-1 [117,26812,79,11] 14/11/400/rgb(255,255,255) «28 days ago»
+  T div.bv-rnr__sc-16dr7i1-3 [122,26835,769,90] 14/18/400/rgb(255,255,255) «After owning a Lenovo Yoga 14 for over a decade, I upgraded to the Lenovo Pro 5i so that I could process photo»
+  T span.bv-rnr__sc-1y8lyw5-3 [122,26952,136,18] 14/18/700/rgb(255,255,255) «Sweepstakes Entry:»
+  T span.bv-rnr__sc-1y8lyw5-2 [263,26951,27,19] 14/18/400/rgb(255,255,255) «Yes»
+  T p.bv-rnr__sc-1i2zvgg-1 [147,26982,204,19] 14/0/400/rgb(255,255,255) «Yes, I recommend this product.»
+  T p.bv-rnr__sc-1grr47e-3 [133,27029,479,19] 14/18/400/rgb(255,255,255) «Originally posted on Legion Pro 5i Gen 10 Intel (16") with RTX 5070»
+    A [270,27027,342,22] «Legion Pro 5i Gen 10 Intel (16") with RTX 5070» href=https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch
+  T div.bv-rnr__v2pr51-2 [122,27073,54,25] 14/0/400/rgb(255,255,255) «Helpful?»
+  T span.bv-rnr__sc-314f1h-1 [212,27076,16,19] 14/0/400/rgb(255,255,255) «(0)»
+  T span.bv-rnr__sc-1tt2trz-1 [264,27076,16,19] 14/0/400/rgb(255,255,255) «(0)»
+  T button.reportbutton [331,27069,51,32] 16/0/400/rgb(255,255,255) «Report»
+  T div.bv-rnr__di1qf-3 [927,26675,392,19] 14/0/400/rgb(255,255,255) «Performance»
+  T span.bv-rnr__bm6gry-0 [927,26694,1,1] 14/0/400/rgb(255,255,255) «Performance, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26697,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,26728,392,19] 14/0/400/rgb(255,255,255) «Features»
+  T span.bv-rnr__bm6gry-0 [927,26747,1,1] 14/0/400/rgb(255,255,255) «Features, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26750,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,26781,392,19] 14/0/400/rgb(255,255,255) «Value»
+  T span.bv-rnr__bm6gry-0 [927,26800,1,1] 14/0/400/rgb(255,255,255) «Value, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26803,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T div.bv-rnr__di1qf-3 [927,26834,392,19] 14/0/400/rgb(255,255,255) «Reliability»
+  T span.bv-rnr__bm6gry-0 [927,26853,1,1] 14/0/400/rgb(255,255,255) «Reliability, 5.0 out of 5»
+  T div.bv-rnr__di1qf-6 [1274,26856,30,29] 14/0/400/rgb(255,255,255) «5.0»
+  T button.bv-rnr__sc-16j1lpy-3 [615,27138,210,48] 16/0/400/rgb(23,23,23)/rgb(255,255,255) «Load More»

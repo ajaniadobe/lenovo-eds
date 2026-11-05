@@ -1,0 +1,2862 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-02T23:35:23.046Z",
+    "urls": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+      "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      "nav.commonHeader",
+      "main.main_content",
+      ".series-hero",
+      ".series-hero .product-logo img",
+      ".series-hero .h-name",
+      ".series-hero .h-title",
+      ".series-hero .product-desc p",
+      ".series-hero__cta",
+      ".series-blade2",
+      ".blade-panel .h-title",
+      ".blade-panel .product-desc p",
+      "h2.sub_header",
+      ".pc_left_facets",
+      ".filter_action_top",
+      ".facets-list",
+      ".item-lists-group",
+      ".learn-more",
+      ".pc_product_list",
+      ".query_view",
+      ".matching_header",
+      ".price_sort",
+      "li.product_item",
+      ".price-stack",
+      ".pc_footer_page",
+      "footer.commonFooter"
+    ],
+    "props": [
+      "height",
+      "width"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/ @360: horizontal overflow +346px (scrollWidth 706 > viewport 360)",
+      "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html @360: horizontal overflow +207px (scrollWidth 567 > viewport 360)"
+    ]
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    "nav.commonHeader",
+    "main.main_content",
+    ".series-hero",
+    ".series-hero .product-logo img",
+    ".series-hero .h-name",
+    ".series-hero .h-title",
+    ".series-hero .product-desc p",
+    ".series-hero__cta",
+    ".series-blade2",
+    ".blade-panel .h-title",
+    ".blade-panel .product-desc p",
+    "h2.sub_header",
+    ".pc_left_facets",
+    ".filter_action_top",
+    ".facets-list",
+    ".item-lists-group",
+    ".learn-more",
+    ".pc_product_list",
+    ".query_view",
+    ".matching_header",
+    ".price_sort",
+    "li.product_item",
+    ".price-stack",
+    ".pc_footer_page",
+    "footer.commonFooter"
+  ],
+  "root": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 706,
+        "scrollHeight": 7709,
+        "overflowX": 346
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 4985,
+        "overflowX": 0
+      }
+    },
+    "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 567,
+        "scrollHeight": 7713,
+        "overflowX": 207
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 4968,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        "nav.commonHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 229
+            },
+            "visible": true,
+            "text": "Lenovo Pro Business Store skip to main …",
+            "props": {
+              "height": "229px",
+              "width": "360px"
+            }
+          }
+        ],
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 302,
+              "w": 360,
+              "h": 4898
+            },
+            "visible": true,
+            "text": "T Series Towers Power, Unleashed View T…",
+            "props": {
+              "height": "4898px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".series-hero": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 302,
+              "w": 360,
+              "h": 549
+            },
+            "visible": true,
+            "text": "T Series Towers Power, Unleashed View T…",
+            "props": {
+              "height": "549px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".series-hero .product-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 322,
+              "w": 140,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "50px",
+              "width": "140px"
+            },
+            "img": {
+              "naturalWidth": 350,
+              "naturalHeight": 125,
+              "currentSrc": "https://p2-ofp.static.pub/fes/cms/2022/05/02/x1qso7dgehcwsnjixp2i7sszyunjqq781960.png"
+            }
+          }
+        ],
+        ".series-hero .h-name": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 377,
+              "w": 340,
+              "h": 44
+            },
+            "visible": true,
+            "text": "T Series Towers",
+            "props": {
+              "height": "44px",
+              "width": "340px"
+            }
+          }
+        ],
+        ".series-hero .h-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 441,
+              "w": 340,
+              "h": 34
+            },
+            "visible": true,
+            "text": "Power, Unleashed",
+            "props": {
+              "height": "34px",
+              "width": "340px"
+            }
+          }
+        ],
+        ".series-hero .product-desc p": [],
+        ".series-hero__cta": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 68,
+              "y": 786,
+              "w": 225,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View T Series Towers",
+            "props": {
+              "height": "45px",
+              "width": "225px"
+            }
+          }
+        ],
+        ".series-blade2": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 851,
+              "w": 360,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance These towers …",
+            "props": {
+              "height": "660px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".blade-panel .h-title": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 945,
+              "w": 210,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance",
+            "props": {
+              "height": "68px",
+              "width": "210px"
+            }
+          }
+        ],
+        ".blade-panel .product-desc p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1033,
+              "w": 210,
+              "h": 364
+            },
+            "visible": true,
+            "text": "These towers are the epitome of staying…",
+            "props": {
+              "height": "364px",
+              "width": "210px"
+            }
+          }
+        ],
+        "h2.sub_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2831,
+              "w": 360,
+              "h": 122
+            },
+            "visible": true,
+            "text": "Legion Desktops T Series Towers",
+            "props": {
+              "height": "122px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".pc_left_facets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2953,
+              "w": 238,
+              "h": 2244
+            },
+            "visible": true,
+            "text": "skip to product list Filters Collapse A…",
+            "props": {
+              "height": "2244px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".filter_action_top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2980,
+              "w": 238,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Filters Collapse All",
+            "props": {
+              "height": "22px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".facets-list": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 20,
+              "y": 3041,
+              "w": 238,
+              "h": 88
+            },
+            "visible": true,
+            "text": "Graphics NVIDIA RTX™ (4)",
+            "props": {
+              "height": "88px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".item-lists-group": [
+          {
+            "index": 0,
+            "of": 13,
+            "rect": {
+              "x": 20,
+              "y": 3083,
+              "w": 238,
+              "h": 25
+            },
+            "visible": true,
+            "text": "NVIDIA RTX™ (4)",
+            "props": {
+              "height": "25px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".learn-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 3326,
+              "w": 238,
+              "h": 19
+            },
+            "visible": true,
+            "text": "See More",
+            "props": {
+              "height": "19px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".pc_product_list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 258,
+              "y": 2953,
+              "w": 388,
+              "h": 2244
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by : Newest Com…",
+            "props": {
+              "height": "2244px",
+              "width": "388.469px"
+            }
+          }
+        ],
+        ".query_view": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2953,
+              "w": 358,
+              "h": 112
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by : Newest",
+            "props": {
+              "height": "112px",
+              "width": "358.469px"
+            }
+          }
+        ],
+        ".matching_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2965,
+              "w": 86,
+              "h": 81
+            },
+            "visible": true,
+            "text": "4 Matching results",
+            "props": {
+              "height": "81px",
+              "width": "86.4688px"
+            }
+          }
+        ],
+        ".price_sort": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 374,
+              "y": 2987,
+              "w": 272,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Sort by : Newest",
+            "props": {
+              "height": "49px",
+              "width": "272px"
+            }
+          }
+        ],
+        "li.product_item": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 288,
+              "y": 3065,
+              "w": 172,
+              "h": 991
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5i Gen 10 (Intel) …",
+            "props": {
+              "height": "991px",
+              "width": "171.734px"
+            }
+          }
+        ],
+        ".price-stack": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3490,
+              "w": 140,
+              "h": 231
+            },
+            "visible": true,
+            "text": "Starting at $2,499.99 Lease to own. As …",
+            "props": {
+              "height": "231px",
+              "width": "139.734px"
+            }
+          }
+        ],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 5090,
+              "w": 358,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px",
+              "width": "358.469px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5200,
+              "w": 360,
+              "h": 2509
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "height": "2509px",
+              "width": "360px"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "nav.commonHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 216
+            },
+            "visible": true,
+            "text": "Lenovo Pro Business Store skip to main …",
+            "props": {
+              "height": "216px",
+              "width": "1440px"
+            }
+          }
+        ],
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 3716
+            },
+            "visible": true,
+            "text": "Home Desktops and All-in-Ones Legion De…",
+            "props": {
+              "height": "3716px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".series-hero": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 540
+            },
+            "visible": true,
+            "text": "Home Desktops and All-in-Ones Legion De…",
+            "props": {
+              "height": "540px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".series-hero .product-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 339,
+              "w": 196,
+              "h": 70
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "70px",
+              "width": "196px"
+            },
+            "img": {
+              "naturalWidth": 350,
+              "naturalHeight": 125,
+              "currentSrc": "https://p2-ofp.static.pub/fes/cms/2022/05/02/x1qso7dgehcwsnjixp2i7sszyunjqq781960.png"
+            }
+          }
+        ],
+        ".series-hero .h-name": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 414,
+              "w": 540,
+              "h": 44
+            },
+            "visible": true,
+            "text": "T Series Towers",
+            "props": {
+              "height": "44px",
+              "width": "540px"
+            }
+          }
+        ],
+        ".series-hero .h-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 478,
+              "w": 540,
+              "h": 34
+            },
+            "visible": true,
+            "text": "Power, Unleashed",
+            "props": {
+              "height": "34px",
+              "width": "540px"
+            }
+          }
+        ],
+        ".series-hero .product-desc p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 532,
+              "w": 540,
+              "h": 140
+            },
+            "visible": true,
+            "text": "Lenovo Legion Towers are the pinnacle o…",
+            "props": {
+              "height": "140px",
+              "width": "540px"
+            }
+          }
+        ],
+        ".series-hero__cta": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 712,
+              "w": 225,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View T Series Towers",
+            "props": {
+              "height": "45px",
+              "width": "225px"
+            }
+          }
+        ],
+        ".series-blade2": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 824,
+              "w": 1440,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance These towers …",
+            "props": {
+              "height": "660px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".blade-panel .h-title": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 875,
+              "y": 1047,
+              "w": 490,
+              "h": 34
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance",
+            "props": {
+              "height": "34px",
+              "width": "490px"
+            }
+          }
+        ],
+        ".blade-panel .product-desc p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 875,
+              "y": 1101,
+              "w": 490,
+              "h": 140
+            },
+            "visible": true,
+            "text": "These towers are the epitome of staying…",
+            "props": {
+              "height": "140px",
+              "width": "490px"
+            }
+          }
+        ],
+        "h2.sub_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2804,
+              "w": 1440,
+              "h": 78
+            },
+            "visible": true,
+            "text": "Legion Desktops T Series Towers",
+            "props": {
+              "height": "78px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".pc_left_facets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2882,
+              "w": 238,
+              "h": 1115
+            },
+            "visible": true,
+            "text": "skip to product list Filters Collapse A…",
+            "props": {
+              "height": "1115px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".filter_action_top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2909,
+              "w": 238,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Filters Collapse All",
+            "props": {
+              "height": "22px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".facets-list": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 20,
+              "y": 2970,
+              "w": 238,
+              "h": 88
+            },
+            "visible": true,
+            "text": "Graphics NVIDIA RTX™ (4)",
+            "props": {
+              "height": "88px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".item-lists-group": [
+          {
+            "index": 0,
+            "of": 13,
+            "rect": {
+              "x": 20,
+              "y": 3012,
+              "w": 238,
+              "h": 25
+            },
+            "visible": true,
+            "text": "NVIDIA RTX™ (4)",
+            "props": {
+              "height": "25px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".learn-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 3255,
+              "w": 238,
+              "h": 19
+            },
+            "visible": true,
+            "text": "See More",
+            "props": {
+              "height": "19px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".pc_product_list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 258,
+              "y": 2882,
+              "w": 1162,
+              "h": 1115
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by : Newest Com…",
+            "props": {
+              "height": "1115px",
+              "width": "1162px"
+            }
+          }
+        ],
+        ".query_view": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2882,
+              "w": 1132,
+              "h": 92
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by : Newest",
+            "props": {
+              "height": "92px",
+              "width": "1132px"
+            }
+          }
+        ],
+        ".matching_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2901,
+              "w": 150,
+              "h": 47
+            },
+            "visible": true,
+            "text": "4 Matching results",
+            "props": {
+              "height": "47px",
+              "width": "149.578px"
+            }
+          }
+        ],
+        ".price_sort": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1148,
+              "y": 2906,
+              "w": 272,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Sort by : Newest",
+            "props": {
+              "height": "49px",
+              "width": "272px"
+            }
+          }
+        ],
+        "li.product_item": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 288,
+              "y": 2974,
+              "w": 272,
+              "h": 879
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5i Gen 10 (Intel) …",
+            "props": {
+              "height": "879px",
+              "width": "271.75px"
+            }
+          }
+        ],
+        ".price-stack": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3408,
+              "w": 240,
+              "h": 199
+            },
+            "visible": true,
+            "text": "Starting at $2,499.99 Lease to own. As …",
+            "props": {
+              "height": "199px",
+              "width": "239.75px"
+            }
+          }
+        ],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 3890,
+              "w": 1132,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px",
+              "width": "1132px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4000,
+              "w": 1440,
+              "h": 985
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "height": "985px",
+              "width": "1440px"
+            }
+          }
+        ]
+      }
+    },
+    "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html": {
+      "360": {
+        "nav.commonHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 229
+            },
+            "visible": true,
+            "text": "Join Lenovo Pro Business Store skip to …",
+            "props": {
+              "height": "229px",
+              "width": "360px"
+            }
+          }
+        ],
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 303,
+              "w": 360,
+              "h": 4903
+            },
+            "visible": true,
+            "text": "T Series Towers Power, Unleashed View T…",
+            "props": {
+              "height": "4903px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".series-hero": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 303,
+              "w": 360,
+              "h": 549
+            },
+            "visible": true,
+            "text": "T Series Towers Power, Unleashed View T…",
+            "props": {
+              "height": "549px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".series-hero .product-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 323,
+              "w": 140,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "50px",
+              "width": "140px"
+            },
+            "img": {
+              "naturalWidth": 350,
+              "naturalHeight": 125,
+              "currentSrc": "https://p2-ofp.static.pub/fes/cms/2022/05/02/x1qso7dgehcwsnjixp2i7sszyunjqq781960.png"
+            }
+          }
+        ],
+        ".series-hero .h-name": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 378,
+              "w": 340,
+              "h": 44
+            },
+            "visible": true,
+            "text": "T Series Towers",
+            "props": {
+              "height": "44px",
+              "width": "340px"
+            }
+          }
+        ],
+        ".series-hero .h-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 442,
+              "w": 340,
+              "h": 34
+            },
+            "visible": true,
+            "text": "Power, Unleashed",
+            "props": {
+              "height": "34px",
+              "width": "340px"
+            }
+          }
+        ],
+        ".series-hero .product-desc p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Lenovo Legion Towers are the pinnacle o…",
+            "props": {
+              "height": "auto",
+              "width": "auto"
+            }
+          }
+        ],
+        ".series-hero__cta": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 68,
+              "y": 787,
+              "w": 225,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View T Series Towers",
+            "props": {
+              "height": "45px",
+              "width": "225px"
+            }
+          }
+        ],
+        ".series-blade2": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 852,
+              "w": 360,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance These towers …",
+            "props": {
+              "height": "660px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".blade-panel .h-title": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 946,
+              "w": 210,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance",
+            "props": {
+              "height": "68px",
+              "width": "210px"
+            }
+          }
+        ],
+        ".blade-panel .product-desc p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1034,
+              "w": 210,
+              "h": 364
+            },
+            "visible": true,
+            "text": "These towers are the epitome of staying…",
+            "props": {
+              "height": "364px",
+              "width": "210px"
+            }
+          }
+        ],
+        "h2.sub_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2843,
+              "w": 360,
+              "h": 122
+            },
+            "visible": true,
+            "text": "Legion Desktops T Series Towers",
+            "props": {
+              "height": "122px",
+              "width": "360px"
+            }
+          }
+        ],
+        ".pc_left_facets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2965,
+              "w": 238,
+              "h": 2238
+            },
+            "visible": true,
+            "text": "skip to product list Filters Collapse A…",
+            "props": {
+              "height": "2238px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".filter_action_top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2992,
+              "w": 238,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Filters Collapse All",
+            "props": {
+              "height": "22px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".facets-list": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 20,
+              "y": 3053,
+              "w": 238,
+              "h": 88
+            },
+            "visible": true,
+            "text": "Graphics NVIDIA RTX™ (4)",
+            "props": {
+              "height": "88px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".item-lists-group": [
+          {
+            "index": 0,
+            "of": 13,
+            "rect": {
+              "x": 20,
+              "y": 3095,
+              "w": 238,
+              "h": 25
+            },
+            "visible": true,
+            "text": "NVIDIA RTX™ (4)",
+            "props": {
+              "height": "25px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".learn-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 3338,
+              "w": 238,
+              "h": 19
+            },
+            "visible": true,
+            "text": "See More",
+            "props": {
+              "height": "19px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".pc_product_list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 258,
+              "y": 2965,
+              "w": 368,
+              "h": 2238
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by :Newest Comp…",
+            "props": {
+              "height": "2238px",
+              "width": "368.469px"
+            }
+          }
+        ],
+        ".query_view": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2965,
+              "w": 338,
+              "h": 112
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by :Newest",
+            "props": {
+              "height": "112px",
+              "width": "338.469px"
+            }
+          }
+        ],
+        ".matching_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2977,
+              "w": 66,
+              "h": 81
+            },
+            "visible": true,
+            "text": "4 Matching results",
+            "props": {
+              "height": "81px",
+              "width": "66.4688px"
+            }
+          }
+        ],
+        ".price_sort": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 354,
+              "y": 2999,
+              "w": 272,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Sort by :Newest",
+            "props": {
+              "height": "49px",
+              "width": "272px"
+            }
+          }
+        ],
+        "li.product_item": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 288,
+              "y": 3077,
+              "w": 162,
+              "h": 991
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5i Gen 10 (Intel) …",
+            "props": {
+              "height": "991px",
+              "width": "161.734px"
+            }
+          }
+        ],
+        ".price-stack": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3502,
+              "w": 130,
+              "h": 231
+            },
+            "visible": true,
+            "text": "Starting at $2,499.99 Lease to own. As …",
+            "props": {
+              "height": "231px",
+              "width": "129.734px"
+            }
+          }
+        ],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 5096,
+              "w": 338,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px",
+              "width": "338.469px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5206,
+              "w": 360,
+              "h": 2507
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "height": "2507px",
+              "width": "360px"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "nav.commonHeader": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 216
+            },
+            "visible": true,
+            "text": "Join Lenovo Pro Business Store skip to …",
+            "props": {
+              "height": "216px",
+              "width": "1440px"
+            }
+          }
+        ],
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 3701
+            },
+            "visible": true,
+            "text": "Home Desktops and All-in-Ones Legion De…",
+            "props": {
+              "height": "3701px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".series-hero": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 540
+            },
+            "visible": true,
+            "text": "Home Desktops and All-in-Ones Legion De…",
+            "props": {
+              "height": "540px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".series-hero .product-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 339,
+              "w": 196,
+              "h": 70
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "70px",
+              "width": "196px"
+            },
+            "img": {
+              "naturalWidth": 350,
+              "naturalHeight": 125,
+              "currentSrc": "https://p2-ofp.static.pub/fes/cms/2022/05/02/x1qso7dgehcwsnjixp2i7sszyunjqq781960.png"
+            }
+          }
+        ],
+        ".series-hero .h-name": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 414,
+              "w": 540,
+              "h": 44
+            },
+            "visible": true,
+            "text": "T Series Towers",
+            "props": {
+              "height": "44px",
+              "width": "540px"
+            }
+          }
+        ],
+        ".series-hero .h-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 478,
+              "w": 540,
+              "h": 34
+            },
+            "visible": true,
+            "text": "Power, Unleashed",
+            "props": {
+              "height": "34px",
+              "width": "540px"
+            }
+          }
+        ],
+        ".series-hero .product-desc p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 532,
+              "w": 540,
+              "h": 140
+            },
+            "visible": true,
+            "text": "Lenovo Legion Towers are the pinnacle o…",
+            "props": {
+              "height": "140px",
+              "width": "540px"
+            }
+          }
+        ],
+        ".series-hero__cta": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 713,
+              "w": 225,
+              "h": 45
+            },
+            "visible": true,
+            "text": "View T Series Towers",
+            "props": {
+              "height": "45px",
+              "width": "225px"
+            }
+          }
+        ],
+        ".series-blade2": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 824,
+              "w": 1440,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance These towers …",
+            "props": {
+              "height": "660px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".blade-panel .h-title": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 875,
+              "y": 1047,
+              "w": 490,
+              "h": 34
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance",
+            "props": {
+              "height": "34px",
+              "width": "490px"
+            }
+          }
+        ],
+        ".blade-panel .product-desc p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 875,
+              "y": 1101,
+              "w": 490,
+              "h": 140
+            },
+            "visible": true,
+            "text": "These towers are the epitome of staying…",
+            "props": {
+              "height": "140px",
+              "width": "490px"
+            }
+          }
+        ],
+        "h2.sub_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2804,
+              "w": 1440,
+              "h": 78
+            },
+            "visible": true,
+            "text": "Legion Desktops T Series Towers",
+            "props": {
+              "height": "78px",
+              "width": "1440px"
+            }
+          }
+        ],
+        ".pc_left_facets": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2882,
+              "w": 238,
+              "h": 1100
+            },
+            "visible": true,
+            "text": "skip to product list Filters Collapse A…",
+            "props": {
+              "height": "1100px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".filter_action_top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 2909,
+              "w": 238,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Filters Collapse All",
+            "props": {
+              "height": "22px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".facets-list": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 20,
+              "y": 2970,
+              "w": 238,
+              "h": 88
+            },
+            "visible": true,
+            "text": "Graphics NVIDIA RTX™ (4)",
+            "props": {
+              "height": "88px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".item-lists-group": [
+          {
+            "index": 0,
+            "of": 13,
+            "rect": {
+              "x": 20,
+              "y": 3012,
+              "w": 238,
+              "h": 25
+            },
+            "visible": true,
+            "text": "NVIDIA RTX™ (4)",
+            "props": {
+              "height": "25px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".learn-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 3255,
+              "w": 238,
+              "h": 19
+            },
+            "visible": true,
+            "text": "See More",
+            "props": {
+              "height": "19px",
+              "width": "238px"
+            }
+          }
+        ],
+        ".pc_product_list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 258,
+              "y": 2882,
+              "w": 1162,
+              "h": 1100
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by :Newest Comp…",
+            "props": {
+              "height": "1100px",
+              "width": "1162px"
+            }
+          }
+        ],
+        ".query_view": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2882,
+              "w": 1132,
+              "h": 92
+            },
+            "visible": true,
+            "text": "4 Matching results Sort by :Newest",
+            "props": {
+              "height": "92px",
+              "width": "1132px"
+            }
+          }
+        ],
+        ".matching_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 2901,
+              "w": 130,
+              "h": 47
+            },
+            "visible": true,
+            "text": "4 Matching results",
+            "props": {
+              "height": "47px",
+              "width": "129.578px"
+            }
+          }
+        ],
+        ".price_sort": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1148,
+              "y": 2906,
+              "w": 272,
+              "h": 49
+            },
+            "visible": true,
+            "text": "Sort by :Newest",
+            "props": {
+              "height": "49px",
+              "width": "272px"
+            }
+          }
+        ],
+        "li.product_item": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 288,
+              "y": 2974,
+              "w": 272,
+              "h": 879
+            },
+            "visible": true,
+            "text": "Compare Legion Tower 5i Gen 10 (Intel) …",
+            "props": {
+              "height": "879px",
+              "width": "271.75px"
+            }
+          }
+        ],
+        ".price-stack": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 304,
+              "y": 3408,
+              "w": 240,
+              "h": 199
+            },
+            "visible": true,
+            "text": "Starting at $2,499.99 Lease to own. As …",
+            "props": {
+              "height": "199px",
+              "width": "239.75px"
+            }
+          }
+        ],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 3875,
+              "w": 1132,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px",
+              "width": "1132px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3985,
+              "w": 1440,
+              "h": 983
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "height": "983px",
+              "width": "1440px"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "deltas": {
+    "360": {
+      "nav.commonHeader": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "main.main_content": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 5
+            },
+            "props": {
+              "height": [
+                "4898px",
+                "4903px"
+              ]
+            }
+          }
+        ]
+      },
+      ".series-hero": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .product-logo img": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .h-name": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .h-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .product-desc p": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 1,
+        "pairs": []
+      },
+      ".series-hero__cta": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-blade2": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".blade-panel .h-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".blade-panel .product-desc p": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "h2.sub_header": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".pc_left_facets": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": 0,
+              "dh": -6
+            },
+            "props": {
+              "height": [
+                "2244px",
+                "2238px"
+              ]
+            }
+          }
+        ]
+      },
+      ".filter_action_top": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".facets-list": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".item-lists-group": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".learn-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".pc_product_list": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": -20,
+              "dh": -6
+            },
+            "props": {
+              "height": [
+                "2244px",
+                "2238px"
+              ],
+              "width": [
+                "388.469px",
+                "368.469px"
+              ]
+            }
+          }
+        ]
+      },
+      ".query_view": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": -20,
+              "dh": 0
+            },
+            "props": {
+              "width": [
+                "358.469px",
+                "338.469px"
+              ]
+            }
+          }
+        ]
+      },
+      ".matching_header": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": -20,
+              "dh": 0
+            },
+            "props": {
+              "width": [
+                "86.4688px",
+                "66.4688px"
+              ]
+            }
+          }
+        ]
+      },
+      ".price_sort": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": -20,
+              "dy": 12,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "li.product_item": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": -10,
+              "dh": 0
+            },
+            "props": {
+              "width": [
+                "171.734px",
+                "161.734px"
+              ]
+            }
+          }
+        ]
+      },
+      ".price-stack": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": -10,
+              "dh": 0
+            },
+            "props": {
+              "width": [
+                "139.734px",
+                "129.734px"
+              ]
+            }
+          }
+        ]
+      },
+      ".pc_footer_page": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 6,
+              "dw": -20,
+              "dh": 0
+            },
+            "props": {
+              "width": [
+                "358.469px",
+                "338.469px"
+              ]
+            }
+          }
+        ]
+      },
+      "footer.commonFooter": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 6,
+              "dw": 0,
+              "dh": -2
+            },
+            "props": {
+              "height": [
+                "2509px",
+                "2507px"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "1440": {
+      "nav.commonHeader": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "main.main_content": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": -15
+            },
+            "props": {
+              "height": [
+                "3716px",
+                "3701px"
+              ]
+            }
+          }
+        ]
+      },
+      ".series-hero": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .product-logo img": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .h-name": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .h-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero .product-desc p": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-hero__cta": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".series-blade2": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".blade-panel .h-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".blade-panel .product-desc p": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "h2.sub_header": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".pc_left_facets": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": -15
+            },
+            "props": {
+              "height": [
+                "1115px",
+                "1100px"
+              ]
+            }
+          }
+        ]
+      },
+      ".filter_action_top": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".facets-list": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".item-lists-group": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".learn-more": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".pc_product_list": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": -15
+            },
+            "props": {
+              "height": [
+                "1115px",
+                "1100px"
+              ]
+            }
+          }
+        ]
+      },
+      ".query_view": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".matching_header": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": -20,
+              "dh": 0
+            },
+            "props": {
+              "width": [
+                "149.578px",
+                "129.578px"
+              ]
+            }
+          }
+        ]
+      },
+      ".price_sort": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "li.product_item": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".price-stack": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".pc_footer_page": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -15,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "footer.commonFooter": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -15,
+              "dw": 0,
+              "dh": -2
+            },
+            "props": {
+              "height": [
+                "985px",
+                "983px"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rootDeltas": {
+    "360": {
+      "scrollWidth": -139,
+      "scrollHeight": 4
+    },
+    "1440": {
+      "scrollWidth": 0,
+      "scrollHeight": -17
+    }
+  }
+}

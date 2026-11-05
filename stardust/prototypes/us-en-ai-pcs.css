@@ -1,0 +1,134 @@
+/* ==========================================================================
+   us-en-ai-pcs — campaign archetype (https://www.lenovo.com/us/en/ai-pcs/)
+   Imports canon.css (fonts, tokens, header, footer). Values lifted from the
+   live measure run (replica/build/us-en-ai-pcs/measure-live*.json) and
+   files.20261014024915276aa7824facdf4494bae880dcb8c31840d.css (accordion).
+   ========================================================================== */
+.main_content { font-family: var(--font-ui); font-weight: 400; line-height: normal; color: #000; word-break: break-word; }
+.main_content img { max-width: 100%; }
+.main_content .container9999 { position: relative; }
+
+/* ---------- hero (heroTypeOne) ---------- */
+.ai-hero .heroTypeOne { position: relative; height: 600px; overflow: visible; }
+.ai-hero .heroBgImage { position: absolute; inset: 0; width: 100%; height: 600px; object-fit: cover; }
+.ai-hero .heroBreadcrumbs { position: absolute; top: 40px; left: 50px; z-index: 2; color: #fff; font-size: 16px; }
+.ai-hero .heroContent { position: absolute; inset: 0; z-index: 1; display: flex; align-items: center; }
+.ai-hero .heroTextContent { width: 35%; padding: 0 0 0 50px; text-align: left; color: #fff; }
+.ai-hero h1 { font-size: 64px; font-weight: 800; line-height: normal; color: #fff; }
+.ai-hero .heroDesc { margin-top: 20px; padding-bottom: 20px; font-size: 16px; color: #fff; }
+
+/* ---------- intro (layout-title + vertical image) ---------- */
+.ai-intro { padding: 60px 120px; }
+.layout-title { padding-bottom: 40px; }
+.layout-title h2, .commonTextOne h2 { margin: 0 0 15px; font-size: 45px; font-weight: 800; line-height: normal; text-align: center; }
+.layout-title p, .commonTextOne .textDesc { font-size: 16px; text-align: center; }
+.commonTextOne { padding-bottom: 15px; }
+.ai-intro .vertical-default-image img { width: 100%; height: auto; aspect-ratio: 1200 / 375; object-fit: cover; }
+.ai-intro .vertical-default-content { padding: 40px; }
+
+/* ---------- horizontal text+image features ---------- */
+.ai-feature { padding: 40px; }
+.ai-feature--blue { background: #eaeef5; }
+.ai-feature--pink { background: #faeceb; }
+.ai-feature--pink .horizontal-default-content { padding-bottom: 60px; }
+.horizontal-default-pc { display: flex; align-items: flex-start; }
+.horizontal-default-pc.is-reverse { flex-direction: row-reverse; }
+.horizontal-default-image { flex: 0 0 640px; width: 640px; }
+.horizontal-default-image img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 16px; }
+.horizontal-default-content { flex: 1 1 auto; min-width: 0; padding: 40px 40px 56px; overflow-wrap: break-word; }
+.ai-feature--blue .horizontal-default-content { background: #eaeff5; }
+.horizontal-default-content__title { font-size: 36px; font-weight: 700; line-height: normal; }
+.horizontal-default-content__subtitle { margin-top: 16px; font-size: 24px; line-height: normal; }
+.horizontal-default-content__content { margin-top: 16px; font-size: 16px; }
+.horizontal-default-content__content p { min-height: 22px; }
+
+/* ---------- explore heading + segment cards ---------- */
+.ai-explore { padding: 40px; }
+.ai-cards .layouts_special_content { display: flex; align-items: flex-start; gap: 16px; padding: 40px; }
+.vertical-default-pc { display: flex; flex-direction: column; }
+.ai-cards .vertical-default-pc { flex: 1 1 0; min-width: 0; }
+.ai-cards .vertical-default-image img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.ai-cards .vertical-default-content { padding: 40px; overflow-wrap: break-word; }
+.ai-cards .vertical-default-content h3 { font-size: 28px; font-weight: 700; line-height: normal; }
+.ai-cards .description { margin: 16px 0; font-size: 16px; line-height: 22px; }
+.ctaButton_content > div { margin-top: 10px; }
+.ctaButton_link { display: inline-block; margin-top: 10px; font-size: 16px; font-weight: 700; line-height: normal; color: #294e95; }
+.ctaButton_content > div:first-child .ctaButton_link.is-flush { margin-top: 0; color: #293e95; }
+.ctaButton_content > div:first-child:has(.is-flush) { margin-top: 0; }
+
+/* ---------- copilot band ---------- */
+.ai-copilot { padding: 40px; background: linear-gradient(90deg, #e8d3e2 0%, #e0d5e6 50%, #d5d8e7 100%); }
+.ai-copilot .horizontal-default-content { padding-bottom: 40px; }
+.ctaButton_btn { display: inline-block; padding: 13px 24px; font-size: 16px; font-weight: 400; line-height: normal; color: var(--c-ink); background: #fff; border: 1px solid #fff; border-radius: 100px; }
+
+/* ---------- pilar blade (Premier Support) ---------- */
+.pilar_blade { position: relative; display: flow-root; background: #fff; overflow: visible; }
+.pilar_blade .background_image { position: absolute; inset: 0; overflow: hidden; }
+.pilar_blade .background_img { width: 100%; height: 100%; object-fit: cover; }
+.pilar_blade .overlay_card { position: relative; z-index: 1; width: 740px; margin: -17px 48px; padding: 48px; border-radius: 12px; color: #fff; }
+.pilar_blade .overlay_pre_headline { height: 8px; }
+.pilar_blade .overlay_headline { font-size: 32px; font-weight: 700; line-height: 40px; }
+.pilar_blade .overlay_description { margin-top: 8px; font-size: 18px; line-height: 22px; }
+.pilar_blade .overlay_description strong { font-weight: 700; }
+.pilar_blade .ctaBtns { margin-top: 16px; }
+.pilar_blade .full { display: inline-block; height: 48px; margin-right: 16px; padding: 13px 24px; font-size: 16px; line-height: 16px; color: var(--c-ink); background: #fff; border: 1px solid #fff; border-radius: 100px; text-align: center; }
+
+/* ---------- SEO copy (infoList, collapsed) ---------- */
+.ai-seo { padding: 44px 0 21px; background: #f4f4f4; font-size: 12px; }
+.ai-seo .infoList { max-width: 1920px; padding: 0 145px; }
+.ai-seo h2.title { padding: 0 0 18px; font-size: 32px; font-weight: 400; line-height: 39px; }
+.ai-seo .less { height: 80px; overflow: hidden; }
+.wpc-seo-bottom-content { font-size: 16px; line-height: 22px; }
+.wpc-seo-bottom-content p, .wpc-seo-bottom-content ul { margin-bottom: 16px; }
+.wpc-seo-bottom-content h3 { margin-bottom: 16px; font-size: 16px; font-weight: 700; line-height: 22px; }
+.wpc-seo-bottom-content ul { padding-left: 20px; list-style: disc; }
+.wpc-seo-bottom-content a { color: #294e95; }
+.ai-seo .readMore { display: flex; align-items: center; justify-content: center; gap: 11px; height: 40px; margin: 0 10px 0 0; font-size: 14px; font-weight: 700; line-height: 17px; color: #000; }
+.ai-seo .readMore img { width: 12px; height: auto; }
+
+/* ---------- FAQ accordion ---------- */
+.x-cms-ai-ofp-fe-2c-accordion { width: 100%; max-width: 1424px; margin: 0 auto; color: var(--c-ink); }
+@media (min-width: 1280px) { .x-cms-ai-ofp-fe-2c-accordion { padding: 48px 0; } }
+@media (min-width: 1280px) and (max-width: 1919px) { .x-cms-ai-ofp-fe-2c-accordion { max-width: 1184px; } }
+.x-cms-ai-ofp-fe-2c-accordion__mobile-separator, .x-cms-ai-ofp-fe-2c-accordion__separator { border-bottom: 1px solid #707070; }
+.x-cms-ai-ofp-fe-2c-accordion__mobile-separator { display: none; }
+.x-cms-ai-ofp-fe-2c-accordion__list { width: 100%; margin-bottom: 20px; overflow: hidden; }
+.x-cms-ai-ofp-fe-2c-accordion__item { width: 100%; overflow: hidden; }
+.x-cms-ai-ofp-fe-2c-accordion__tab-label { display: flex; align-items: flex-start; justify-content: space-between; width: 100%; min-width: 324px; padding: 16px 0; font: 400 16px/24px "Noto Sans", Arial, sans-serif; text-align: start; color: inherit; }
+.x-cms-ai-ofp-fe-2c-accordion__label-text { width: 90%; }
+.x-cms-ai-ofp-fe-2c-accordion__icon { display: inline-flex; flex: 0 0 16px; align-items: center; justify-content: center; width: 16px; min-height: 24px; margin-inline-end: 12px; font-size: 16px; font-weight: 600; line-height: 16px; color: #000; }
+.x-cms-ai-ofp-fe-2c-accordion__icon::before { content: "\e929"; font-family: icomoon; font-weight: 400; }
+.x-cms-ai-ofp-fe-2c-accordion__tab-label[aria-expanded="true"] .x-cms-ai-ofp-fe-2c-accordion__icon::before { content: "\2212"; }
+.x-cms-ai-ofp-fe-2c-accordion__content { padding: 0 40px 16px 0; }
+.x-cms-ai-ofp-fe-2c-accordion__content a { color: #294e95; text-decoration: underline; }
+@media (min-width: 768px) and (max-width: 1279px) { .x-cms-ai-ofp-fe-2c-accordion__container { padding: 48px; } }
+
+/* ==========================================================================
+   ≤ 767 — the live page keeps its desktop flex rows at phone widths
+   (narrow columns are what the live 360 render measures; replicated as-is)
+   ========================================================================== */
+@media (max-width: 767px) {
+  .ai-hero .heroBreadcrumbs { display: none; }
+  .ai-hero .heroTextContent { padding: 0 30px; text-align: center; }
+  .ai-hero h1 { font-size: 36px; overflow-wrap: break-word; }
+  .ai-intro { padding: 60px 0; }
+  .layout-title h2, .commonTextOne h2 { overflow-wrap: break-word; }
+  .horizontal-default-image { flex: 0 0 100px; width: 100px; }
+  .ai-cards .layouts_special_content { padding: 40px; }
+  .pilar_blade { display: flex; flex-direction: column; margin: 0 16.5px; border-radius: 12px; overflow: hidden; }
+  .pilar_blade .background_image { position: relative; inset: auto; order: 2; height: 228px; }
+  .pilar_blade .overlay_pre_headline { height: 22px; }
+  .pilar_blade .overlay_headline { margin-top: 8px; }
+  .pilar_blade .overlay_card { width: auto; margin: 0; padding: 16px 46px 16px 16px; background: var(--c-ink); }
+  .pilar_blade .overlay_description { margin: 16px 0; font-size: 16px; line-height: 24px; }
+  .pilar_blade .ctaBtns { margin-top: 0; }
+  .ai-seo { padding: 40px 16px 30px; background: #f4f4f4; }
+  .ai-seo .infoList { padding: 0; }
+  .ai-seo h2.title { margin: 10px 0; padding: 0 15px 27px; font-size: 22px; line-height: 30px; }
+  .ai-seo .less { height: 85px; padding: 0 15px; }
+  .ai-seo .readMore { height: 20px; padding: 0 15px; line-height: 20px; }
+  .x-cms-ai-ofp-fe-2c-accordion__container { padding: 24px; }
+  .x-cms-ai-ofp-fe-2c-accordion__mobile-separator { display: block; }
+  .x-cms-ai-ofp-fe-2c-accordion__tab-label { min-width: 0; }
+  .x-cms-ai-ofp-fe-2c-accordion__icon { margin-inline-end: 18px; }
+}

@@ -1,273 +1,967 @@
-/* header and nav layout */
-header .nav-wrapper {
-  background-color: var(--background-color);
+/* stylelint-disable no-descending-specificity -- one flat selector list lifted from the live bundle */
+
+/* header — Lenovo commonHeader, lifted from stardust/prototypes/canon.css (kebab-cased)
+   and the live commonHeader bundle (popover / tier-2 hover rules). */
+
+.header .site-header {
   width: 100%;
-  z-index: 2;
-  position: fixed;
+  overflow-x: clip;
 }
 
-header nav {
-  box-sizing: border-box;
-  display: grid;
-  grid-template:
-    'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / auto 1fr auto;
-  align-items: center;
-  gap: 0 24px;
-  margin: auto;
-  max-width: 1248px;
-  height: var(--nav-height);
-  padding: 0 24px;
-  font-family: var(--body-font-family);
-}
-
-header nav[aria-expanded='true'] {
-  grid-template:
-    'hamburger brand' var(--nav-height)
-    'sections sections' 1fr
-    'tools tools' var(--nav-height) / auto 1fr;
-  overflow-y: auto;
-  min-height: 100dvh;
-}
-
-@media (width >= 900px) {
-  header .nav-wrapper {
-    position: relative;
-  }
-
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 0 32px;
-    max-width: 1264px;
-    padding: 0 32px;
-  }
-}
-
-header nav p {
-  margin: 0;
-  line-height: 1;
-}
-
-header nav a:any-link {
-  color: currentcolor;
-}
-
-/* hamburger */
-header nav .nav-hamburger {
-  grid-area: hamburger;
-  height: 22px;
+.header .common-header {
+  position: relative;
+  z-index: 1005;
   display: flex;
+  flex-direction: column;
+  background: #fff;
+  font-family: var(--font-body);
+  line-height: normal;
+}
+
+body.tpl-site .header .common-header {
+  font-family: var(--font-ui);
+}
+
+.header .common-header .relative {
+  position: relative;
+}
+
+/* ---------- utility bar ---------- */
+.header .common-header .top-masthead {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  height: 38px;
+  padding: 0 0 0 16px;
+  background: var(--c-gray-bg);
 }
 
-header nav .nav-hamburger button {
-  height: 22px;
-  margin: 0;
-  border: 0;
-  border-radius: 0;
-  padding: 0;
-  background-color: var(--background-color);
-  color: inherit;
-  overflow: initial;
-  text-overflow: initial;
-  white-space: initial;
+.header .common-header .top-masthead-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  margin: auto;
+  padding: 6px 6px 0 16px;
 }
 
-header nav .nav-hamburger-icon,
-header nav .nav-hamburger-icon::before,
-header nav .nav-hamburger-icon::after {
-  box-sizing: border-box;
-  display: block;
-  position: relative;
-  width: 20px;
+.header .common-header .header-right {
+  display: flex;
+  margin-inline-start: auto;
 }
 
-header nav .nav-hamburger-icon::before,
-header nav .nav-hamburger-icon::after {
-  content: '';
-  position: absolute;
-  background: currentcolor;
+.header .common-header .utility-nav {
+  display: flex;
+  height: 100%;
+  font-family: var(--font-ui);
+  font-size: 14px;
 }
 
-header nav[aria-expanded='false'] .nav-hamburger-icon,
-header nav[aria-expanded='false'] .nav-hamburger-icon::before,
-header nav[aria-expanded='false'] .nav-hamburger-icon::after {
-  height: 2px;
-  border-radius: 2px;
-  background: currentcolor;
-}
-
-header nav[aria-expanded='false'] .nav-hamburger-icon::before {
-  top: -6px;
-}
-
-header nav[aria-expanded='false'] .nav-hamburger-icon::after {
-  top: 6px;
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-icon {
-  height: 22px;
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-icon::before,
-header nav[aria-expanded='true'] .nav-hamburger-icon::after {
-  top: 3px;
-  left: 1px;
-  transform: rotate(45deg);
-  transform-origin: 2px 1px;
-  width: 24px;
-  height: 2px;
-  border-radius: 2px;
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-icon::after {
-  top: unset;
-  bottom: 3px;
-  transform: rotate(-45deg);
-}
-
-@media (width >= 900px) {
-  header nav .nav-hamburger {
-    display: none;
-    visibility: hidden;
-  }
-}
-
-/* brand */
-header .nav-brand {
-  grid-area: brand;
-  flex-basis: 128px;
-  font-size: var(--heading-font-size-s);
-  font-weight: 700;
-  line-height: 1;
-}
-
-header nav .nav-brand img {
-  width: 128px;
-  height: auto;
-}
-
-/* sections */
-header nav .nav-sections {
-  grid-area: sections;
-  flex: 1 1 auto;
-  display: none;
-  visibility: hidden;
-}
-
-header nav[aria-expanded='true'] .nav-sections {
-  display: block;
-  visibility: visible;
-  align-self: start;
-}
-
-header nav .nav-sections ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: var(--body-font-size-s);
-}
-
-header nav .nav-sections ul > li {
-  font-weight: 500;
-}
-
-header nav .nav-sections .nav-drop > button {
-  all: unset;
-  display: inline-block;
-  position: relative;
-  padding-right: 16px;
+.header .common-header .utility-nav-item {
+  display: flex;
+  align-items: flex-start;
+  height: 32px;
+  padding: 4px 7px 0 12px;
+  line-height: 19.6px;
   cursor: pointer;
 }
 
-header nav .nav-sections .nav-drop > button::after {
-  content: '';
-  position: absolute;
-  top: 0.5em;
-  right: 2px;
-  transform: rotate(135deg);
-  width: 6px;
-  height: 6px;
-  border: 2px solid currentcolor;
-  border-radius: 0 1px 0 0;
-  border-width: 2px 2px 0 0;
+.header .common-header .utility-nav-item:hover,
+.header .common-header .utility-nav-item:focus-within,
+.header .common-header .utility-nav-item.is-open {
+  border-radius: 6px 6px 0 0;
+  background-color: #fff;
 }
 
-header nav .nav-sections .nav-drop > button[aria-expanded='true']::after {
-  top: unset;
-  bottom: 0.5em;
-  transform: rotate(315deg);
+.header .common-header .utility-nav-item-icon {
+  display: flex;
+  justify-content: space-between;
 }
 
-header nav .nav-sections .nav-drop > button:focus-visible {
-  outline: 2px solid currentcolor;
-  outline-offset: 2px;
+.header .common-header .utility-nav-item-store-icon {
+  align-items: baseline;
 }
 
-header nav .nav-sections ul > li > ul {
-  margin-top: 0;
-}
-
-header nav .nav-sections ul > li > ul > li {
+.header .common-header .utility-nav-item-store-icon a {
   font-weight: 400;
+  line-height: 14px;
 }
 
-header nav .nav-sections .nav-drop > button[aria-expanded='false'] + ul {
+.header .common-header .store-label {
+  font-family: var(--font-ui);
+  line-height: normal;
+}
+
+.header .common-header .store-label strong {
+  font-weight: 700;
+}
+
+.header .common-header .store-arrow {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin-top: -9px;
+  padding: 0 7px 0 6px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.header .common-header .utility-nav-item:hover .store-arrow,
+.header .common-header .utility-nav-item.is-open .store-arrow {
+  transform: rotate(180deg);
+}
+
+.header .common-header .icon-picker-container.font-16 {
+  display: inline-block;
+  height: 20px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.header .common-header .icon-picker-container.font-24 {
+  font-size: 22.8px;
+}
+
+.header .common-header .accessibility-icon {
+  position: absolute;
+  font-size: 12px;
+  opacity: 0;
+}
+
+.header .common-header .accessibility-icon:focus-visible {
+  opacity: 1;
+}
+
+/* ---------- popovers (hover / focus / Enter) ---------- */
+.header .common-header .popover {
+  position: absolute;
+  top: 32px;
+  z-index: 1000;
+  display: none;
+  min-width: 195px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px #1e001380;
+  color: var(--c-ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  white-space: nowrap;
+  cursor: initial;
+  inset-inline-end: 0;
+}
+
+.header .common-header .utility-nav-item:hover .popover,
+.header .common-header .utility-nav-item:focus-within .popover,
+.header .common-header .utility-nav-item.is-open .popover {
+  display: block;
+}
+
+.header .common-header .second-utility-list .popover {
+  top: 48px;
+}
+
+.header .common-header .popover-content {
+  position: relative;
+  padding: 16px;
+}
+
+.header .common-header .popover-list > li + li {
+  margin-top: 24px;
+}
+
+.header .common-header .popover-list ul {
+  margin-top: 8px;
+}
+
+.header .common-header .popover-list ul li {
+  line-height: 32px;
+}
+
+.header .common-header .popover-list a:hover {
+  text-decoration: underline;
+}
+
+.header .common-header .popover-list a[href^="tel:"] {
+  text-decoration: underline;
+}
+
+.header .common-header .utility-nav-item-store .popover {
+  inset-inline: 0 auto;
+}
+
+.header .common-header .utility-nav-item-store .popover-list > li + li {
+  margin-top: 16px;
+}
+
+/* account / rewards: title link over a muted description */
+.header .common-header .popover-rich {
+  width: 340px;
+  white-space: normal;
+}
+
+.header .common-header .popover-rich .popover-list > li {
+  color: #6d656f;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.header .common-header .popover-rich .popover-list > li + li {
+  margin-top: 16px;
+}
+
+.header .common-header .popover-rich .popover-list a,
+.header .common-header .popover-rich .popover-list strong {
+  display: block;
+  color: var(--c-ink);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header .common-header .popover-rich .popover-list strong {
+  font-weight: 700;
+}
+
+/* tooltip (Accessibility) */
+.header .common-header .popover-title {
+  top: 32px;
+  width: max-content;
+  min-width: initial;
+  height: 35px;
+  padding: 5px 20px;
+  background-color: #000000bf;
+  box-shadow: none;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 21px;
+  inset-inline-end: 11px;
+}
+
+/* ---------- logo / search / account row ---------- */
+.header .common-header .main-masthead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 67px;
+  margin: auto;
+  padding: 19px 0 0 16px;
+  background: #fff;
+}
+
+.header .common-header .header-left {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header .common-header .header-left .logo {
+  display: block;
+  height: 40px;
+  margin-inline-end: 45px;
+  background: #fff;
+}
+
+.header .common-header .header-left .logo .icon {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+
+.header .common-header .header-left .logo img {
+  width: auto;
+  min-width: 120px;
+  height: 100%;
+}
+
+.header .common-header .header-skip-main {
+  position: absolute;
+  top: auto;
+  left: -128px;
+  z-index: -999;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  background: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.header .common-header .header-skip-main:focus {
+  left: 0;
+  z-index: 10;
+  width: auto;
+  height: auto;
+  padding: 4px 8px;
+}
+
+.header .common-header .search-box {
+  display: flex;
+  flex: 1;
+  width: 723px;
+  max-width: 733px;
+  margin: 0 auto;
+}
+
+.header .common-header .searchbox-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: var(--font-ui);
+}
+
+.header .common-header .search {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  border: 2px solid var(--c-ink);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.header .common-header .search-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.header .common-header .category-container {
+  display: flex;
+  align-items: center;
+  max-width: 103px;
+  height: 100%;
+  padding: 0 4px 0 12px;
+  border-radius: 10px 0 0 10px;
+  background: var(--c-gray-bg);
+  cursor: pointer;
+}
+
+.header .common-header .category-selected {
+  max-width: 60px;
+  overflow: hidden;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.header .common-header .arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+.header .common-header .category-dialog {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1001;
+  display: none;
+  width: 190px;
+  padding: 0 0 8px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 2px 4px #1e001380;
+}
+
+.header .common-header .category-dialog.is-open {
+  display: block;
+}
+
+.header .common-header .category-dialog li {
+  padding: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.header .common-header .category-dialog li:hover {
+  background: var(--c-gray-bg);
+}
+
+.header .common-header .input-wrapper {
+  position: relative;
+  flex: 1;
+  height: 22px;
+}
+
+.header .common-header .input-wrapper input {
+  display: block;
+  width: 100%;
+  height: 22px;
+  padding: 0 0 0 10px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header .common-header .search-placeholder {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  color: #7a7a7a;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.header .common-header .search-placeholder .cursor {
+  display: inline-block;
+  margin-left: 1px;
+  color: var(--c-ink);
+}
+
+.header .common-header .search-suggestions {
   display: none;
 }
 
-@media (width >= 900px) {
-  header nav .nav-sections {
-    display: block;
-    visibility: visible;
-    white-space: nowrap;
-  }
+.header .common-header .search-icon {
+  width: 35px;
+  height: 30px;
+  margin-right: 1px;
+  background: url("../../icons/lenovo-search.svg") center / 24px 24px no-repeat;
+  cursor: pointer;
+}
 
-  header nav .nav-sections ul {
-    display: flex;
-    gap: 24px;
-    margin: 0;
-  }
+.header .common-header .second-utility-list .utility-nav-item {
+  align-items: center;
+  height: 48px;
+  padding: 8px 16px 0;
+}
 
-  header nav .nav-sections .default-content-wrapper > ul > li {
-    flex: 0 1 auto;
-    position: relative;
-  }
+.header .common-header .second-utility-list .utility-nav-item-icon {
+  align-items: center;
+  height: 40px;
+  padding: 0 0 5px;
+  border-bottom: 4px solid #fff;
+  line-height: 14px;
+}
 
-  header nav .nav-sections .default-content-wrapper > ul > li > ul {
-    display: none;
-    position: relative;
-  }
+.header .common-header .second-utility-list .utility-nav-item:hover .utility-nav-item-icon,
+.header .common-header .second-utility-list .utility-nav-item:focus-within .utility-nav-item-icon {
+  border-bottom-color: #e1140a;
+}
 
-  header nav .nav-sections .default-content-wrapper > ul > li > button[aria-expanded='true'] + ul {
-    display: block;
-    position: absolute;
-    left: -24px;
-    width: 200px;
-    top: 150%;
-    padding: 16px;
-    background-color: var(--light-color);
-    white-space: initial;
-  }
+.header .common-header .second-utility-list a.utility-nav-item-icon {
+  min-width: 24px;
+  font-weight: 400;
+}
 
-  header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: 16px;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--light-color);
-  }
+.header .common-header .utility-content {
+  display: flex;
+}
 
-  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-    padding: 8px 0;
+.header .common-header .account-label {
+  font-size: 14px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.header .common-header .second-utility-list .icon-picker-container {
+  margin: 0 16px 0 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.header .common-header .second-utility-list a .icon-picker-container {
+  margin: 0;
+  line-height: 22.8px;
+}
+
+/* ---------- nav row ---------- */
+.header .common-header .nav-view {
+  position: relative;
+  z-index: 995;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1920px;
+  height: 55px;
+  margin: auto;
+  padding: 16px 0 0 16px;
+  background: #fff;
+}
+
+.header .common-header .sup-nav {
+  display: flex;
+  margin-right: 20px;
+}
+
+.header .common-header .sup-nav .nav-item {
+  position: relative;
+  margin-right: 24px;
+  line-height: 22.4px;
+}
+
+.header .common-header .sup-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.header .common-header .sup-nav a {
+  display: inline-block;
+}
+
+.header .common-header .nav-item-title {
+  font-family: var(--font-ui);
+}
+
+.header .common-header .sup-nav .text {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 4px solid #fff;
+  color: var(--c-mauve);
+  line-height: 24px;
+}
+
+/* an emphasised nav label mirrors the live item whose label sits in a <p> (Lato 400, normal leading) */
+.header .common-header .sup-nav .nav-item-plain .text span {
+  font-family: var(--font-ui);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* icon-only items keep their authored label for the DOM; the accessible name is aria-label */
+.header .common-header .label-hidden {
+  display: none;
+}
+
+.header .common-header .sup-nav .normal-nav-item::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 4px);
+  width: 50%;
+  height: 4px;
+  margin-top: -1px;
+  background-color: #fff;
+  transition: 0.3s;
+  inset-inline-start: 25%;
+}
+
+.header .common-header .sup-nav .normal-nav-item:hover .text,
+.header .common-header .sup-nav .normal-nav-item:focus-within .text {
+  color: var(--c-ink);
+}
+
+.header .common-header .sup-nav .normal-nav-item:hover::after,
+.header .common-header .sup-nav .normal-nav-item:focus-within::after {
+  width: 100%;
+  background-color: #e1140a;
+  inset-inline-start: 0;
+}
+
+.header .common-header-site .sup-nav .sup-nav-active .text {
+  color: #000;
+  font-weight: 700;
+}
+
+.header .common-header .segment-nav-wrapper {
+  max-width: 40%;
+}
+
+.header .common-header .segment-nav-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 16px 9px 0;
+}
+
+.header .common-header .segment-item {
+  display: flex;
+  font: 400 16px/24px var(--font-ui);
+}
+
+.header .common-header .segment-item a.segment-item-link {
+  display: block;
+  padding: 0 10px;
+  border-inline-end: 2px solid #dbdbdb;
+  color: var(--c-ink);
+  line-height: 24px;
+}
+
+.header .common-header .segment-item:last-child a.segment-item-link {
+  padding-right: 0;
+  border-inline-end: none;
+}
+
+.header .common-header .segment-item .text {
+  position: relative;
+}
+
+.header .common-header .accessibility-icon-segment {
+  position: relative;
+  width: 0;
+}
+
+.header .common-header .segment-arrow-icon {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 12px;
+  line-height: 12px;
+  opacity: 0;
+}
+
+.header .common-header .segment-arrow-icon:focus-visible {
+  opacity: 1;
+}
+
+/* ---------- tier-2 row (site: active item in flow; hover: overlaid under the nav row) ---------- */
+.header .common-header .second-views {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.header .common-header-site .second-views.has-active {
+  position: relative;
+  top: auto;
+}
+
+.header .common-header .second-view {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 56px;
+  height: 56px;
+  padding: 0 16px;
+  background: var(--c-gray-bg);
+  white-space: nowrap;
+}
+
+.header .common-header .second-list-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.header .common-header .second-list-item {
+  position: relative;
+  color: var(--c-mauve);
+  font: 400 14px/24px var(--font-ui);
+  white-space: nowrap;
+}
+
+.header .common-header .second-list-item a {
+  display: inline-block;
+  padding: 7px 0;
+  line-height: 24px;
+}
+
+.header .common-header .second-list-item .text {
+  position: relative;
+  display: inline-block;
+}
+
+.header .common-header .second-list-item .text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 50%;
+  height: 4px;
+  margin-top: 9px;
+  background: var(--c-gray-bg);
+  transition: 0.3s;
+  inset-inline-start: 25%;
+}
+
+.header .common-header .second-list-item:hover .text,
+.header .common-header .second-list-item:focus-within .text {
+  color: var(--c-ink);
+  text-shadow: 0 0 0.65px #171717;
+}
+
+.header .common-header .second-list-item:hover .text::after,
+.header .common-header .second-list-item:focus-within .text::after {
+  width: 100%;
+  background: #e1140a;
+  inset-inline-start: 0;
+}
+
+.header .common-header .tier-three-arrow-icon {
+  position: absolute;
+  width: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+/* ---------- promo strip (merchandizing banner) ---------- */
+.header .merchandizing-banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68px;
+  overflow: hidden;
+  background: var(--c-promo);
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body.tpl-site .header .merchandizing-banner {
+  font-family: var(--font-ui);
+  font-weight: 400;
+}
+
+.header .merchandizing-banner .content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1424px;
+  height: 100%;
+}
+
+.header .merchandizing-banner .banner-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.header .merchandizing-banner .slide-btn {
+  position: absolute;
+  top: 22px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+}
+
+.header .merchandizing-banner .pre-info-btn {
+  left: 0;
+}
+
+.header .merchandizing-banner .next-info-btn {
+  right: 0;
+}
+
+.header .merchandizing-banner .swiper-wrapper {
+  display: flex;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.header .merchandizing-banner .merchandizing-item {
+  position: relative;
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 9px 0;
+  padding: 0 24px;
+  overflow: hidden;
+  line-height: 19px;
+}
+
+.header .merchandizing-banner .carsouel-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.header .merchandizing-banner .filter-text {
+  position: relative;
+  z-index: 2;
+  padding: 0 24px;
+}
+
+.header .merchandizing-banner .filter-text p {
+  font-weight: 400;
+}
+
+.header .merchandizing-banner .filter-text a {
+  position: relative;
+  z-index: 2;
+}
+
+.header .merchandizing-banner strong {
+  font-weight: 700;
+}
+
+@media (width >= 1280px) and (width <= 1919px) {
+  .header .merchandizing-banner .content {
+    max-width: calc(100% - 96px);
   }
 }
 
-/* tools */
-header nav .nav-tools {
-  grid-area: tools;
+@media (width >= 768px) and (width <= 1279px) {
+  .header .merchandizing-banner .content {
+    max-width: calc(100% - 64px);
+  }
+}
+
+/* ---------- phone (<= 749): live renders the desktop header; JS adds expand toggles ---------- */
+@media (width <= 749px) {
+  .header .common-header .main-masthead .header-left .logo img {
+    width: 120px;
+    min-width: 120px;
+  }
+
+  .header .common-header .search-box {
+    flex: 0 0 341px;
+    width: auto;
+    min-width: 341px;
+    margin: 0;
+  }
+
+  .header .common-header .main-masthead > .header-right {
+    flex: 0 0 auto;
+    margin-left: 0;
+  }
+
+  .header .common-header .main-masthead {
+    justify-content: flex-start;
+  }
+
+  .header .common-header .account-label {
+    display: none;
+  }
+
+  /* live swaps the store label to "<b>Lenovo Pro</b> Business Store" on phones (header.js) */
+  .header .common-header .store-label .store-desktop {
+    display: none;
+  }
+
+  .header .common-header .nav-view {
+    height: auto;
+    min-height: 188px;
+  }
+
+  .header .common-header .nav-view > div:first-child {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .header .common-header .sup-nav .nav-item {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .header .common-header .sup-nav .nav-expand-item {
+    flex: none;
+  }
+
+  .header .common-header .sup-nav .text {
+    hyphens: auto;
+    overflow-wrap: anywhere;
+  }
+
+  .header .common-header .sup-nav .nav-item-plain .text span {
+    font-size: 12.8px;
+  }
+
+  .header .common-header .expand-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    transform: rotate(90deg);
+  }
+
+  .header .common-header .segment-nav-wrapper {
+    flex: 0 0 auto;
+  }
+
+  .header .common-header .segment-nav-container:not(.is-open) .segment-item:not(.segment-toggle) {
+    display: none;
+  }
+
+  .header .common-header-site .nav-view {
+    height: 68px;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  /* live: the top items keep their width, so the segment toggle runs off the right edge */
+  .header .common-header-site .nav-view > div:first-child {
+    flex: none;
+  }
+
+  .header .common-header-site .sup-nav .nav-item {
+    flex: none;
+    width: min-content;
+  }
+
+  .header .common-header-site .sup-nav .nav-expand-item {
+    width: auto;
+  }
+
+  .header .common-header-site .sup-nav .text {
+    hyphens: manual;
+    overflow-wrap: normal;
+  }
+
+  .header .common-header-site .sup-nav .nav-item-plain .text span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .header .common-header-site .second-view {
+    overflow: hidden;
+  }
+
+  .header .merchandizing-banner {
+    height: 74px;
+  }
+
+  .header .merchandizing-banner .content {
+    width: calc(100% - 64px);
+    max-width: none;
+    min-height: 66px;
+    margin: 0;
+    padding: 0 16px;
+  }
+
+  .header .merchandizing-banner .banner-carousel {
+    width: calc(100% + 32px);
+    margin: 0 -16px;
+  }
+
+  .header .merchandizing-banner .slide-btn {
+    top: 25px;
+  }
+
+  .header .merchandizing-banner .merchandizing-item {
+    margin: 8px 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .header .merchandizing-banner .filter-text {
+    padding: 0 32px;
+  }
+
+  .header .merchandizing-banner .filter-text,
+  .header .merchandizing-banner .filter-text p {
+    font-size: 12.8px;
+    line-height: 14px;
+  }
 }

@@ -1,0 +1,4208 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 6,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.lenovo.com/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 6,
+    "pagesWithSameSiteData": 6,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 6,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/dict/getdictinfobykey",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/dict/getdictinfobykey",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/auth/assign_cookie",
+        "query": [
+          "cartatcran",
+          "searchabran",
+          "wishlistpns",
+          "zipcode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/auth/assign_cookie",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ap-ss.static.pub",
+        "path": "/t_/en_us/s/SystemFragment/countryList/select_list.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ap-ss.static.pub/t_/en_us/s/SystemFragment/countryList/select_list.html",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.lenovo.com",
+        "path": "/N0ziHz/QioXM/Z54QK/ww/OYSu4pYQQ3Yutm1r/LWMgAQ/P1k/UPiENBx4",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/N0ziHz/QioXM/Z54QK/ww/OYSu4pYQQ3Yutm1r/LWMgAQ/P1k/UPiENBx4",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/ofp/search/suggest/selector",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/ofp/search/suggest/selector",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/ofp/search/dlp/cache/maxSave/get/_tsc",
+        "query": [
+          "pageFilterId",
+          "params"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/ofp/search/dlp/cache/maxSave/get/_tsc",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "s.lenovo.com",
+        "path": "/ee/or2/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://s.lenovo.com/ee/or2/v1/interact",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/pbd2_cih/{hash}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/pbd2_cih/17912211705525894162517837156340761316",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ipv6.6sc.co",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ipv6.6sc.co/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/amzn.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "sameSite": false,
+        "example": "https://c.amazon-adsystem.com/aat/amzn.js",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/allowlist/allowlist.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pixel.quantserve.com",
+        "path": "/cs",
+        "query": [
+          "a",
+          "gdpr",
+          "sf2"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pixel.quantserve.com/cs",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "s.amazon-adsystem.com",
+        "path": "/iu3",
+        "query": [
+          "event",
+          "eventSource",
+          "pid",
+          "ts",
+          "uuid"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://s.amazon-adsystem.com/iu3",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/gemets/",
+        "query": [
+          "id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/javascript",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/gemets/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aacdn.nagich.com",
+        "path": "/style/style.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://aacdn.nagich.com/style/style.css",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aacdn.nagich.com",
+        "path": "/assets/locale/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aacdn.nagich.com/assets/locale/en.json",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aacdn.nagich.com",
+        "path": "/style/btncolor.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://aacdn.nagich.com/style/btncolor.css",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aacdn.nagich.com",
+        "path": "/assets/scripts/pdf.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "sameSite": false,
+        "example": "https://aacdn.nagich.com/assets/scripts/pdf.js",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "HEAD",
+        "host": "ingest.quantummetric.com",
+        "path": "/horizon/d",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ingest.quantummetric.com/horizon/d",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.lenovo.com",
+        "path": "/gemets/ag/g/c",
+        "query": [
+          "_ee",
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_gsid",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "_uip",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.adobe_report_suite",
+          "ep.bpid_store_id",
+          "ep.coupon",
+          "ep.group_id",
+          "ep.internal_promotion",
+          "ep.page_count",
+          "ep.page_name",
+          "ep.previous_page_url",
+          "ep.site_business",
+          "ep.site_country",
+          "ep.site_language",
+          "ep.site_section",
+          "ep.store_id",
+          "ep.tracking_rep_id",
+          "ep.url",
+          "ep.user_agent",
+          "fp",
+          "frm",
+          "gaf",
+          "gap.gtb",
+          "gcd",
+          "gcs",
+          "gtb",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/gemets/ag/g/c",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.lenovo.com",
+        "path": "/gemets/g/measurement/conversion",
+        "query": [
+          "_tu",
+          "auid",
+          "cv",
+          "dma",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gacid",
+          "gcd",
+          "gcs",
+          "gl",
+          "gtm",
+          "hl",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "tid",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/gemets/g/measurement/conversion",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gap.gtb",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtb",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/971455461/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gap.gtb",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "emd",
+          "eme",
+          "en",
+          "epp",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gap.ch",
+          "gap.gtb",
+          "gcd",
+          "gcl_ctr",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "label",
+          "mt",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.googleadservices.com/pagead/conversion/971455461/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.lenovo.com",
+        "path": "/gemets/as/p/c/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "emd",
+          "eme",
+          "en",
+          "epp",
+          "ept",
+          "evjid",
+          "fmt",
+          "frm",
+          "fst",
+          "gap.ch",
+          "gap.gtb",
+          "gcd",
+          "gcl_ctr",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "label",
+          "mt",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/gemets/as/p/c/971455461/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "digitalfeedback.us.confirmit.com",
+        "path": "/api/digitalfeedback/loader/prod/program",
+        "query": [
+          "programKey",
+          "programVersion"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/measurement/1p-conversion/",
+        "query": [
+          "_tu",
+          "auid",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "dma",
+          "en",
+          "fmt",
+          "frm",
+          "fsk",
+          "fst",
+          "gacid",
+          "gcd",
+          "gcs",
+          "gl",
+          "gtm",
+          "hl",
+          "hn",
+          "npa",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "tid",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/measurement/1p-conversion/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pixel-config.reddit.com",
+        "path": "/pixels/t2_25usvnh7/config",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://pixel-config.reddit.com/pixels/t2_25usvnh7/config",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "onsitestats.bluecore.com",
+        "path": "/events",
+        "query": [
+          "device_type",
+          "distinct_id",
+          "ns",
+          "stats_type"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://onsitestats.bluecore.com/events",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "alb.reddit.com",
+        "path": "/rp",
+        "query": [
+          "event",
+          "id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://alb.reddit.com/rp",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "siteassets.bluecore.com",
+        "path": "/site_targeting/lenovo_us.json",
+        "query": [
+          "1793656673237"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/json",
+        "sameSite": false,
+        "example": "https://siteassets.bluecore.com/site_targeting/lenovo_us.json",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aacdn.nagich.com",
+        "path": "/assets/images/11.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://aacdn.nagich.com/assets/images/11.svg",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "gs.nmgassets.com",
+        "path": "/LE5J21L2U.snp",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://gs.nmgassets.com/LE5J21L2U.snp",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/viewthroughconversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cerd",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "emd",
+          "eme",
+          "en",
+          "eoid",
+          "epp",
+          "ept",
+          "evjid",
+          "fmt",
+          "frm",
+          "fsk",
+          "fst",
+          "gap.ch",
+          "gap.gtb",
+          "gcd",
+          "gcl_ctr",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "label",
+          "mt",
+          "npa",
+          "oidsrc",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/971455461/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/pagead/1p-conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cerd",
+          "cid",
+          "crd",
+          "ct_cookie_present",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "emd",
+          "eme",
+          "en",
+          "eoid",
+          "epp",
+          "ept",
+          "evjid",
+          "fmt",
+          "frm",
+          "fsk",
+          "fst",
+          "gap.ch",
+          "gap.gtb",
+          "gcd",
+          "gcl_ctr",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "is_vtc",
+          "label",
+          "mt",
+          "npa",
+          "oidsrc",
+          "pscdl",
+          "pscrd",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/pagead/1p-conversion/971455461/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "colrep.sitelabweb.com",
+        "path": "/chpdata/",
+        "query": [
+          "m"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://colrep.sitelabweb.com/chpdata/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "gs.wandzcdn.com",
+        "path": "/wandz/LEAZOHAWHW-lenovo_com-config.json",
+        "query": [
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://gs.wandzcdn.com/wandz/LEAZOHAWHW-lenovo_com-config.json",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "us3-live.inside-graph.com",
+        "path": "/config",
+        "query": [
+          "acc",
+          "c1",
+          "dev",
+          "j",
+          "pid",
+          "sid",
+          "url"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://us3-live.inside-graph.com/config",
+        "pages": 5,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ingest.quantummetric.com",
+        "path": "/horizon/lenovo",
+        "query": [
+          "N",
+          "P",
+          "S",
+          "T",
+          "b",
+          "t",
+          "u",
+          "v",
+          "z"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ingest.quantummetric.com/horizon/lenovo",
+        "pages": 5,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/api/dataCollector/getOneId",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/api/dataCollector/getOneId",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ap-ss.static.pub",
+        "path": "/t_/en_us/s/SystemFragment/global/stickybar/pc.html",
+        "query": [
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ap-ss.static.pub/t_/en_us/s/SystemFragment/global/stickybar/pc.html",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ap-ss.static.pub",
+        "path": "/t_/en_us/s/SystemFragment/setUiToggle.html",
+        "query": [
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ap-ss.static.pub/t_/en_us/s/SystemFragment/setUiToggle.html",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ap-ss.static.pub",
+        "path": "/t_/en_us/s/SystemFragment/account/sheerIdSuccess/pc.html",
+        "query": [
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ap-ss.static.pub/t_/en_us/s/SystemFragment/account/sheerIdSuccess/pc.html",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ap-ss.static.pub",
+        "path": "/t_/en_us/s/SystemFragment/account/snackBarSuccess/snackBar.html",
+        "query": [
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ap-ss.static.pub/t_/en_us/s/SystemFragment/account/snackBarSuccess/snackBar.html",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/dict/pquery",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/dict/pquery",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/proxy/batch/get_cdn",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/proxy/batch/get_cdn",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/api/v1/search/assign_cookie",
+        "query": [
+          "key",
+          "value",
+          "weight"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/api/v1/search/assign_cookie",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.lenovo.com",
+        "path": "/gemets/ga/g/c",
+        "query": [
+          "_ee",
+          "_fv",
+          "_gsid",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "_uip",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.adobe_report_suite",
+          "ep.bpid_store_id",
+          "ep.coupon",
+          "ep.group_id",
+          "ep.internal_promotion",
+          "ep.page_count",
+          "ep.page_name",
+          "ep.previous_page_url",
+          "ep.site_business",
+          "ep.site_country",
+          "ep.site_language",
+          "ep.site_section",
+          "ep.store_id",
+          "ep.tracking_rep_id",
+          "ep.url",
+          "ep.user_agent",
+          "fp",
+          "frm",
+          "gap.gtb",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/gemets/ga/g/c",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "idresolve.lenovo.com",
+        "path": "/identity/",
+        "query": [
+          "sv_cid",
+          "sv_domain",
+          "sv_px_domain_data",
+          "sv_session",
+          "vendor"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://idresolve.lenovo.com/identity/",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "us3-live.inside-graph.com",
+        "path": "/page/cf",
+        "query": [
+          "_",
+          "acc"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://us3-live.inside-graph.com/page/cf",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "siteassets.bluecore.com",
+        "path": "/site_campaigns/lenovo_us/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/json",
+        "sameSite": false,
+        "example": "https://siteassets.bluecore.com/site_campaigns/lenovo_us/92610570-b516-4149-89e0-e97b96091532.json",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "onsitestats.bluecore.com",
+        "path": "/analytics",
+        "query": [
+          "campaign_id",
+          "device_type",
+          "distinct_id",
+          "ns",
+          "stats_type"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://onsitestats.bluecore.com/analytics",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.bluecore.app",
+        "path": "/api/track/viewed_onsite",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://api.bluecore.app/api/track/viewed_onsite",
+        "pages": 4,
+        "examples": [
+          "index",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/ofp/search/dlp/product/query/get/_tsc",
+        "query": [
+          "loyalty",
+          "pageFilterId",
+          "params",
+          "subSeriesCode"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/ofp/search/dlp/product/query/get/_tsc",
+        "pages": 4,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/api/sscmssite/utility/getUtilityListById",
+        "query": [
+          "utilityId"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/api/sscmssite/utility/getUtilityListById",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/api/sscmssite/fragment/getFragmentContentBatch",
+        "query": [
+          "previewTime",
+          "terminalTypeEnum",
+          "uris"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/api/sscmssite/fragment/getFragmentContentBatch",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "adobedc.demdex.net",
+        "path": "/ee/v1/interact",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://adobedc.demdex.net/ee/v1/interact",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "s.lenovo.com",
+        "path": "/ee/or2/v1/identity/acquire",
+        "query": [
+          "configId",
+          "requestId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://s.lenovo.com/ee/or2/v1/identity/acquire",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "match.adsrvr.org",
+        "path": "/track/rid",
+        "query": [
+          "domain",
+          "fmt",
+          "ttd_pid"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://match.adsrvr.org/track/rid",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.6sc.co",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.6sc.co/",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.6sc.co",
+        "path": "/refresh",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://c.6sc.co/refresh",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "trial-eum-clienttons-s.akamaihd.net",
+        "path": "/eum/getdns.txt",
+        "query": [
+          "c"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "trial-eum-clientnsv4-s.akamaihd.net",
+        "path": "/eum/getdns.txt",
+        "query": [
+          "c"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.bluecore.app",
+        "path": "/api/track/visited_dlp",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://api.bluecore.app/api/track/visited_dlp",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "gs.nmgassets.com",
+        "path": "/nmgCommonDictionary.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://gs.nmgassets.com/nmgCommonDictionary.json",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/conversions/c/n",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/conversions/c/n",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "gs.nmgassets.com",
+        "path": "/L3LE5J21L2U.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/x-javascript",
+        "sameSite": false,
+        "example": "https://gs.nmgassets.com/L3LE5J21L2U.json",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "gs.wandzcdn.com",
+        "path": "/wandz/5kLogo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://gs.wandzcdn.com/wandz/5kLogo.png",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ingest.quantummetric.com",
+        "path": "/resource-loader/lenovo/hash-check",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://ingest.quantummetric.com/resource-loader/lenovo/hash-check",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geows.sitelabweb.com",
+        "path": "/jdldata/",
+        "query": [
+          "action",
+          "affiliate",
+          "ai_features",
+          "app_referrer",
+          "audiences",
+          "browser",
+          "category",
+          "client_attr1",
+          "client_tag",
+          "custom_ai_features",
+          "custom_audiences",
+          "cycle",
+          "cycle_timestamp",
+          "device",
+          "device_type",
+          "dom_complete",
+          "dom_contentloaded",
+          "domain",
+          "etag_session_id",
+          "etag_user_id",
+          "href",
+          "js_perf",
+          "js_version",
+          "load_time",
+          "on_load",
+          "os",
+          "page_cb",
+          "page_cb_timestamp",
+          "page_title",
+          "pv",
+          "referrer",
+          "section",
+          "session_id",
+          "snapshot_timestamp",
+          "snapshot_version",
+          "traffic_source",
+          "user_agent",
+          "user_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://geows.sitelabweb.com/jdldata/",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "glb.sitelabweb.com",
+        "path": "/jdldata/",
+        "query": [
+          "action",
+          "affiliate",
+          "ai_features",
+          "app_referrer",
+          "audiences",
+          "browser",
+          "category",
+          "client_attr1",
+          "client_tag",
+          "custom_ai_features",
+          "custom_audiences",
+          "cycle",
+          "cycle_timestamp",
+          "device",
+          "device_type",
+          "dom_complete",
+          "dom_contentloaded",
+          "domain",
+          "etag_session_id",
+          "etag_user_id",
+          "href",
+          "js_perf",
+          "js_version",
+          "load_time",
+          "on_load",
+          "os",
+          "page_cb",
+          "page_cb_timestamp",
+          "page_title",
+          "pv",
+          "referrer",
+          "section",
+          "session_id",
+          "snapshot_timestamp",
+          "snapshot_version",
+          "traffic_source",
+          "user_agent",
+          "user_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://glb.sitelabweb.com/jdldata/",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "cfs.wandzapi.com",
+        "path": "/data",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cfs.wandzapi.com/data",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/product/flag",
+        "query": [
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/product/flag",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/online/product/getHaloSubseriesFeature",
+        "query": [
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/online/product/getHaloSubseriesFeature",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/online/product/getPmiService",
+        "query": [
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/online/product/getPmiService",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/ofp/search/compatibility/recommendation",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/ofp/search/compatibility/recommendation",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/online/product/getTechSpecs",
+        "query": [
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/online/product/getTechSpecs",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/online/product/getPorts",
+        "query": [
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/online/product/getPorts",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/detail/price/batch/get",
+        "query": [
+          "configId",
+          "enteredCode",
+          "mcode",
+          "preSelect"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/detail/price/batch/get",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/online/product/getCompareSimilarProduct",
+        "query": [
+          "groupCodes",
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/online/product/getCompareSimilarProduct",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/online/product/getVenderIcons",
+        "query": [
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/online/product/getVenderIcons",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "paapi4325.d41.co",
+        "path": "/api",
+        "query": [
+          "ctver",
+          "form",
+          "req"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://paapi4325.d41.co/api",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.bluecore.app",
+        "path": "/api/track/viewed_product",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://api.bluecore.app/api/track/viewed_product",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/conversions/c/h",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/conversions/c/h",
+        "pages": 2,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "pages": 2,
+        "examples": [
+          "us-en-legion",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/cip/17912211705525894162517837156340761316&empty",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/cip/17912211705525894162517837156340761316&empty",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fie3vrlcjqiyojqacqde4aaaczvosb3a-prb7n1-b6cac9484-clienttons-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://fie3vrlcjqiyojqacqde4aaaczvosb3a-prb7n1-b6cac9484-clienttons-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "naojrgixhbw4w2xja5qa-prb7n1-6293d13b3-clientnsv4-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://naojrgixhbw4w2xja5qa-prb7n1-6293d13b3-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=homep0;cat=lenov002;rcb=3;ord=7999888949415;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_ZUqHtxHfZjNiOH9r1S7Q1Ce7HsZR2BsAwg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=homep0;cat=lenov002;rcb=3;ord=7999888949415;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_ZUqHtxHfZjNiOH9r1S7Q1Ce7HsZR2BsAwg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CL6j_Oaj6pcDFRkMhAgdyIcUQA;src=11829995;type=homep0;cat=lenov002;rcb=3;ord=7999888949415;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_ZUqHtxHfZjNiOH9r1S7Q1Ce7HsZR2BsAwg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CL6j_Oaj6pcDFRkMhAgdyIcUQA;src=11829995;type=homep0;cat=lenov002;rcb=3;ord=7999888949415;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_ZUqHtxHfZjNiOH9r1S7Q1Ce7HsZR2BsAwg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=2591759455551;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_l_KPOt7owzpFRKmSamZXZEr24p4buxdmkA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=2591759455551;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_l_KPOt7owzpFRKmSamZXZEr24p4buxdmkA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=2037672728186348696;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWuV-mV4m7Z0hNz3HNqiFh17W4OtD0q1e3MesKvbxn897Q;_dc_time=1793656673;cid=CAQS4QEAQM4h3OlQpVPvF1qXGGAXDIOSnG6SULidKi52ha1cdQiR0Nv7_JVAwkiup47vKqN0GBsmxsIEjcUsLRQDt_lEe7AJgwqjpgUuIK0y9kt6e5d9uZ-CQvqGviF5TlgAgBqpk1Lm46X5VhGs5nh8SSlJ4lghhW1-Bt5rf9cuL8g6jCooM_hMWQky68D_AoWid8chvDjlFDya32qatRmdxslEEjbD4BONFjmxvaWqlvsLIGMjzSQuw9q_k_sSydZ649gkWwiM3zDINDWbUXMdVPCK6nSvjME025JXUE-MSYtbrv8;eps=AHas8cDrSLnN1etOfQX4zSUqMQcam0VqrcBHJvKnhHUUbg7nsuAolwLnvtvw8BykhbJ-H__x8_3XxL1D7G2uT7ZWCTsvFyTpwMmctH97H05l3A95_w;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=2591759455551;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_l_KPOt7owzpFRKmSamZXZEr24p4buxdmkA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=2037672728186348696;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWuV-mV4m7Z0hNz3HNqiFh17W4OtD0q1e3MesKvbxn897Q;_dc_time=1793656673;cid=CAQS4QEAQM4h3OlQpVPvF1qXGGAXDIOSnG6SULidKi52ha1cdQiR0Nv7_JVAwkiup47vKqN0GBsmxsIEjcUsLRQDt_lEe7AJgwqjpgUuIK0y9kt6e5d9uZ-CQvqGviF5TlgAgBqpk1Lm46X5VhGs5nh8SSlJ4lghhW1-Bt5rf9cuL8g6jCooM_hMWQky68D_AoWid8chvDjlFDya32qatRmdxslEEjbD4BONFjmxvaWqlvsLIGMjzSQuw9q_k_sSydZ649gkWwiM3zDINDWbUXMdVPCK6nSvjME025JXUE-MSYtbrv8;eps=AHas8cDrSLnN1etOfQX4zSUqMQcam0VqrcBHJvKnhHUUbg7nsuAolwLnvtvw8BykhbJ-H__x8_3XxL1D7G2uT7ZWCTsvFyTpwMmctH97H05l3A95_w;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=2591759455551;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Official%20Site%20%7C%20Laptops%2C%20Desktop%20PCs%2C%20Tablets%2C%20Monitors%20%7C%20Lenovo%20US;u9=homepage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370~123814946~123820800;epver=2;gap.gtb=2;dc_random=1793656673_l_KPOt7owzpFRKmSamZXZEr24p4buxdmkA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "site.bluecore.com",
+        "path": "/location",
+        "query": [
+          "distinct_id",
+          "ns",
+          "request_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://site.bluecore.com/location",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "site.bluecore.com",
+        "path": "/audience",
+        "query": [
+          "distinct_id",
+          "ns",
+          "request_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://site.bluecore.com/audience",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/GX21L58554:us,GX41H71241:us,GY51P80851:us,GX40V10007:us,GY50X79385:us,GXH1C97872:us,GX20Z46307:us,GXD1A03963:us,GXH0W29068:us,GXY0K07131:us",
+        "query": [
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/GX21L58554:us,GX41H71241:us,GY51P80851:us,GX40V10007:us,GY50X79385:us,GXH1C97872:us,GX20Z46307:us,GXD1A03963:us,GXH0W29068:us,GXY0K07131:us",
+        "pages": 1,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fie3vrlcjqiyojqacqde4aaaczvosb27-pj556e-ffde4d0ac-clienttons-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://fie3vrlcjqiyojqacqde4aaaczvosb27-pj556e-ffde4d0ac-clienttons-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "naojrgixhbw4i2xja5pq-pj556e-75e093565-clientnsv4-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://naojrgixhbw4i2xja5pq-pj556e-75e093565-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=allpa0;cat=lenov0;rcb=19;ord=2216952614624;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Gaming%20Accessories%20for%20PC%20%26%20Console%20%7C%20Keyboards%2C%20Mice%20%26%20Headsets%20%7C%20Lenovo%20US;u9=dealspage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;gap.gtb=2;dc_random=1793656676_FxuqR4W0BNg2m5aTaBjhv3xchYU4Uz02IA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=lenov0;rcb=19;ord=2216952614624;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Gaming%20Accessories%20for%20PC%20%26%20Console%20%7C%20Keyboards%2C%20Mice%20%26%20Headsets%20%7C%20Lenovo%20US;u9=dealspage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;gap.gtb=2;dc_random=1793656676_FxuqR4W0BNg2m5aTaBjhv3xchYU4Uz02IA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F",
+        "pages": 1,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=COe7m-ij6pcDFeUNhAgd_3MnLw;src=11829995;type=allpa0;cat=lenov0;rcb=19;ord=2216952614624;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Gaming%20Accessories%20for%20PC%20%26%20Console%20%7C%20Keyboards%2C%20Mice%20%26%20Headsets%20%7C%20Lenovo%20US;u9=dealspage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;gap.gtb=2;dc_random=1793656676_FxuqR4W0BNg2m5aTaBjhv3xchYU4Uz02IA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=COe7m-ij6pcDFeUNhAgd_3MnLw;src=11829995;type=allpa0;cat=lenov0;rcb=19;ord=2216952614624;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Gaming%20Accessories%20for%20PC%20%26%20Console%20%7C%20Keyboards%2C%20Mice%20%26%20Headsets%20%7C%20Lenovo%20US;u9=dealspage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;gap.gtb=2;dc_random=1793656676_FxuqR4W0BNg2m5aTaBjhv3xchYU4Uz02IA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F",
+        "pages": 1,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=14436036361629748471;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWutQ0ZhmF7R3Bi7aBsgl0oxSraWLxw4waW0eg;_dc_time=1793656676;cid=CAQS4QEAQM4h3LH8fRAJmAitKyRBrh-0RtPvXCDwM2G6uAWiRawS-he5IvdcsLskPxMrYlPUC3zjAhqGToufGgU1B--bs1khSBeftGklIgsnEhCxgCb-3cN95UFIyG6_5qEkDZBlRyAQjSx_A7TLuWg4_a6EJ-afSFw6eycWmq2QODthLkmcKtty3jso4FtHtX69-WbODTS-z_pIzv-uGO8620JM4MKaudqXkUJPM_uq8jj1JcWNNsfvoOcIDL5px70sabERP_PGkABDDT3AAS3_obeZwZ_Nk--6mBQ8Wf4eYYBUswM;eps=AHas8cATtxpccFJWEAt5Xvr6AcTUePJeZDSWBcgGPRCNHAzyJptjvsVmOzu_GibFjIPIwGOkL_1ZOB2v1NPze521LeuomFBHe15Gyir_WXi_zoqsQQ;dc_pre=COe7m-ij6pcDFeUNhAgd_3MnLw;src=11829995;type=allpa0;cat=lenov0;rcb=19;ord=2216952614624;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Gaming%20Accessories%20for%20PC%20%26%20Console%20%7C%20Keyboards%2C%20Mice%20%26%20Headsets%20%7C%20Lenovo%20US;u9=dealspage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;gap.gtb=2;dc_random=1793656676_FxuqR4W0BNg2m5aTaBjhv3xchYU4Uz02IA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=14436036361629748471;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWutQ0ZhmF7R3Bi7aBsgl0oxSraWLxw4waW0eg;_dc_time=1793656676;cid=CAQS4QEAQM4h3LH8fRAJmAitKyRBrh-0RtPvXCDwM2G6uAWiRawS-he5IvdcsLskPxMrYlPUC3zjAhqGToufGgU1B--bs1khSBeftGklIgsnEhCxgCb-3cN95UFIyG6_5qEkDZBlRyAQjSx_A7TLuWg4_a6EJ-afSFw6eycWmq2QODthLkmcKtty3jso4FtHtX69-WbODTS-z_pIzv-uGO8620JM4MKaudqXkUJPM_uq8jj1JcWNNsfvoOcIDL5px70sabERP_PGkABDDT3AAS3_obeZwZ_Nk--6mBQ8Wf4eYYBUswM;eps=AHas8cATtxpccFJWEAt5Xvr6AcTUePJeZDSWBcgGPRCNHAzyJptjvsVmOzu_GibFjIPIwGOkL_1ZOB2v1NPze521LeuomFBHe15Gyir_WXi_zoqsQQ;dc_pre=COe7m-ij6pcDFeUNhAgd_3MnLw;src=11829995;type=allpa0;cat=lenov0;rcb=19;ord=2216952614624;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Gaming%20Accessories%20for%20PC%20%26%20Console%20%7C%20Keyboards%2C%20Mice%20%26%20Headsets%20%7C%20Lenovo%20US;u9=dealspage;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;gap.gtb=2;dc_random=1793656676_FxuqR4W0BNg2m5aTaBjhv3xchYU4Uz02IA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fd%2Faccessories-and-software%2Fgaming-accessories%2F",
+        "pages": 1,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/LEN102G0009:us",
+        "query": [
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/LEN102G0009:us",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/product/all/list/get",
+        "query": [
+          "additional",
+          "filterInventory",
+          "filterMarketingStatus",
+          "isAllwaysShow",
+          "productNumbers"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/product/all/list/get",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/90YJ0016US:us,90YJ001LUS:us",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/90YJ0016US:us,90YJ001LUS:us",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/90YE000WUS:us,90YE0014US:us",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/90YE000WUS:us,90YE0014US:us",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/90Y6001JUS:us,90Y6003HUS:us,90Y6003WUS:us",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/90Y6001JUS:us,90Y6003HUS:us,90Y6003WUS:us",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/91DF0003US:us,91DF000UUS:us,91DFCTO1WW:us",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/91DF0003US:us,91DF000UUS:us,91DFCTO1WW:us",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=6445081075205;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_Ih-YnguvNyTKv8ctNzX4XWt2eudkhjIBNQ;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=6445081075205;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_Ih-YnguvNyTKv8ctNzX4XWt2eudkhjIBNQ;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=produ0;cat=lenov0;rcb=3;ord=2266954039318;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_uukGgshcbWVq4LocYnJCAK5wswbFGhtPlA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=produ0;cat=lenov0;rcb=3;ord=2266954039318;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_uukGgshcbWVq4LocYnJCAK5wswbFGhtPlA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWuckvo0mni7sK1fcvLcr6JRIk9QlyskbXsZWw;dc_pre=CKLfoe6j6pcDFd9XhwMdvmQqww;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=6445081075205;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_Ih-YnguvNyTKv8ctNzX4XWt2eudkhjIBNQ;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWuckvo0mni7sK1fcvLcr6JRIk9QlyskbXsZWw;dc_pre=CKLfoe6j6pcDFd9XhwMdvmQqww;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=6445081075205;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_Ih-YnguvNyTKv8ctNzX4XWt2eudkhjIBNQ;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CPGuou6j6pcDFeENhAgd2W4oeQ;src=11829995;type=produ0;cat=lenov0;rcb=3;ord=2266954039318;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_uukGgshcbWVq4LocYnJCAK5wswbFGhtPlA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CPGuou6j6pcDFeENhAgd2W4oeQ;src=11829995;type=produ0;cat=lenov0;rcb=3;ord=2266954039318;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_uukGgshcbWVq4LocYnJCAK5wswbFGhtPlA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=18033745986088132192;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWv76Mu7uOslaR0RWP7Z10HClXPcthU0e8qHOHvjDaQkKA;_dc_time=1793656688;cid=CAQS4QEAQM4h3ATnolPb3czLrCwSqlP8_0kWHIoe4SNbRbsmvPvjHQIjs-4ENzzzP9cpkTZSx4jzxB0Mo7Jk2YfZf7HiHKdTPkrRUEvxtz0CPGz6FEl9Cf2v4HcRr5qYjgci_mTk0oIGnkcrAr-qu-7r17Ui-90pM8fLoXjl3Shd1PGjjU5VGBvE1Yw-ayMllBVOFj0j0G_SmCLGPvvodsnTiy-IdaBlp4gpvNXmb6nLEihx8aAs8n8EqLV9MLVQb2H6SSXk5_0F7LGsSf0VO9PlbSG0xcD9C3SftDwxqR8KsXPnmmo;eps=AHas8cCN2vrOeXnMcCSHGdWPscC_dnbKfZStos1z3GN9H34scDsVdt2sq7Y8vydPglKnUplYDGcmMXh3jWw39cZigfm-w-CNtYGLBO0tnXPVpMGZ9Q;dc_pre=CKLfoe6j6pcDFd9XhwMdvmQqww;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=6445081075205;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_Ih-YnguvNyTKv8ctNzX4XWt2eudkhjIBNQ;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=18033745986088132192;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWv76Mu7uOslaR0RWP7Z10HClXPcthU0e8qHOHvjDaQkKA;_dc_time=1793656688;cid=CAQS4QEAQM4h3ATnolPb3czLrCwSqlP8_0kWHIoe4SNbRbsmvPvjHQIjs-4ENzzzP9cpkTZSx4jzxB0Mo7Jk2YfZf7HiHKdTPkrRUEvxtz0CPGz6FEl9Cf2v4HcRr5qYjgci_mTk0oIGnkcrAr-qu-7r17Ui-90pM8fLoXjl3Shd1PGjjU5VGBvE1Yw-ayMllBVOFj0j0G_SmCLGPvvodsnTiy-IdaBlp4gpvNXmb6nLEihx8aAs8n8EqLV9MLVQb2H6SSXk5_0F7LGsSf0VO9PlbSG0xcD9C3SftDwxqR8KsXPnmmo;eps=AHas8cCN2vrOeXnMcCSHGdWPscC_dnbKfZStos1z3GN9H34scDsVdt2sq7Y8vydPglKnUplYDGcmMXh3jWw39cZigfm-w-CNtYGLBO0tnXPVpMGZ9Q;dc_pre=CKLfoe6j6pcDFd9XhwMdvmQqww;src=11829995;type=allpa0;cat=lenov0;rcb=3;ord=6445081075205;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_Ih-YnguvNyTKv8ctNzX4XWt2eudkhjIBNQ;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=16014369535136637175;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWs7nD8om3Oi27A7S2XKrP0jebXIiIx2eHVg4g;_dc_time=1793656688;cid=CAQS4QEAQM4h3AKIF1LK0FaJ4IFHUncSw1f8dlBkGVZ_m519T_S7XBp5RMriFAGItNXuS8PzaF0JDbN3B-XKyEzXzkvunppEN7rFtuF_tggq_So8gX4_L7gnm9LlIrni2XCF-FAgC1d3TgbTCI6gcNArPHeo3e6VkNbdK0ZyJGkQdQHOkJWyRXeqOqrPbMqd7e9jMuyobh4FEpw_ezdIrAwBQRTtkiQmBSAtct-jCGCX-Z__xfzF0Zrfk9DwACF9XlNCf692iI5Qa9lIykiGD_ELG8g51Md4_MkwaEa8psk-3e9aWC8;eps=AHas8cCcbBZXOe__GyxoBLETFnwK2gDMdBZI8OZ5_2kCI2b-7ztGbfrook2OxmH6e3FhORKOJ9OlZLDJ1TOuCCtETvo9Iqm4kgakIFGR-g4wiAge3A;dc_pre=CPGuou6j6pcDFeENhAgd2W4oeQ;src=11829995;type=produ0;cat=lenov0;rcb=3;ord=2266954039318;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_uukGgshcbWVq4LocYnJCAK5wswbFGhtPlA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=16014369535136637175;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWs7nD8om3Oi27A7S2XKrP0jebXIiIx2eHVg4g;_dc_time=1793656688;cid=CAQS4QEAQM4h3AKIF1LK0FaJ4IFHUncSw1f8dlBkGVZ_m519T_S7XBp5RMriFAGItNXuS8PzaF0JDbN3B-XKyEzXzkvunppEN7rFtuF_tggq_So8gX4_L7gnm9LlIrni2XCF-FAgC1d3TgbTCI6gcNArPHeo3e6VkNbdK0ZyJGkQdQHOkJWyRXeqOqrPbMqd7e9jMuyobh4FEpw_ezdIrAwBQRTtkiQmBSAtct-jCGCX-Z__xfzF0Zrfk9DwACF9XlNCf692iI5Qa9lIykiGD_ELG8g51Md4_MkwaEa8psk-3e9aWC8;eps=AHas8cCcbBZXOe__GyxoBLETFnwK2gDMdBZI8OZ5_2kCI2b-7ztGbfrook2OxmH6e3FhORKOJ9OlZLDJ1TOuCCtETvo9Iqm4kgakIFGR-g4wiAge3A;dc_pre=CPGuou6j6pcDFeENhAgd2W4oeQ;src=11829995;type=produ0;cat=lenov0;rcb=3;ord=2266954039318;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2F;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Legion%20Tower%205i%20Gen%2010%20(Intel)%20%7C%20Extreme%20Gaming%20%26%20Streaming%20PC%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~123691370~123692835;epver=2;gap.gtb=2;dc_random=1793656688_uukGgshcbWVq4LocYnJCAK5wswbFGhtPlA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Fdesktops%2Flegion-desktops%2Flegion-t-series-towers%2Flenovo-legion-tower-5i-gen-10-intel%2Flen102g0009",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.lenovo.com",
+        "path": "/gemets/d/measurement/enhanced/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "ec_f",
+          "ec_mode",
+          "ecsid2",
+          "emd",
+          "eme",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gap.ch",
+          "gap.gtb",
+          "gcd",
+          "gcl_ctr",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "label",
+          "mt",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/gemets/d/measurement/enhanced/971455461/",
+        "pages": 1,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/youtubei/v1/player",
+        "query": [
+          "prettyPrint"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/youtubei/v1/player",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "rr5---sn-2on4v5-5b.googlevideo.com",
+        "path": "/videoplayback",
+        "query": [
+          "alr",
+          "c",
+          "cpn",
+          "cps",
+          "cver",
+          "ei",
+          "epbp",
+          "expire",
+          "fexp",
+          "fvip",
+          "id",
+          "initcwndbps",
+          "ip",
+          "keepalive",
+          "lsig",
+          "lsparams",
+          "met",
+          "mh",
+          "mm",
+          "mn",
+          "ms",
+          "mt",
+          "mv",
+          "mvi",
+          "n",
+          "ns",
+          "pl",
+          "requiressl",
+          "rms",
+          "rn",
+          "rqh",
+          "sabr",
+          "sig",
+          "source",
+          "sparams",
+          "spc",
+          "svpuc",
+          "xpc"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/vnd.yt-ump",
+        "sameSite": false,
+        "example": "https://rr5---sn-2on4v5-5b.googlevideo.com/videoplayback",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fonts.gstatic.com",
+        "path": "/s/i/youtube_fill_experimental/skip_previous/v6/24px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/skip_previous/v6/24px.svg",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fonts.gstatic.com",
+        "path": "/s/i/youtube_fill_experimental/skip_next/v7/24px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/skip_next/v7/24px.svg",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fonts.gstatic.com",
+        "path": "/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/api/stats/qoe",
+        "query": [
+          "afmt",
+          "afs",
+          "bat",
+          "bh",
+          "bwe",
+          "bwm",
+          "c",
+          "cat",
+          "cbr",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cver",
+          "docid",
+          "ei",
+          "el",
+          "event",
+          "fexp",
+          "fmt",
+          "ns",
+          "plid",
+          "qclc",
+          "seq",
+          "vfs",
+          "view",
+          "vis",
+          "vps"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/api/stats/qoe",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/youtubei/v1/next",
+        "query": [
+          "prettyPrint"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/youtubei/v1/next",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/api/stats/playback",
+        "query": [
+          "afmt",
+          "autoplay",
+          "c",
+          "cbr",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cr",
+          "cver",
+          "delay",
+          "docid",
+          "ei",
+          "el",
+          "epm",
+          "euri",
+          "fexp",
+          "fmt",
+          "fs",
+          "hl",
+          "inview",
+          "lact",
+          "len",
+          "list",
+          "mos",
+          "muted",
+          "ns",
+          "of",
+          "plid",
+          "referrer",
+          "rt",
+          "rtn",
+          "size",
+          "ver",
+          "vm",
+          "volume"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/api/stats/playback",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.youtube-nocookie.com",
+        "path": "/ptracking",
+        "query": [
+          "cpn",
+          "ei",
+          "html5",
+          "pltype",
+          "ptk",
+          "video_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/ptracking",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/youtubei/v1/log_event",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/api/stats/atr",
+        "query": [
+          "afmt",
+          "autoplay",
+          "c",
+          "cbr",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cr",
+          "cver",
+          "delay",
+          "docid",
+          "ei",
+          "el",
+          "epm",
+          "euri",
+          "fexp",
+          "fmt",
+          "fs",
+          "hl",
+          "lact",
+          "len",
+          "mos",
+          "muted",
+          "ns",
+          "plid",
+          "rt",
+          "ver",
+          "vm",
+          "volume"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/api/stats/atr",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "r1---sn-bvvbaxivnuxq5uu-vgq6.googlevideo.com",
+        "path": "/videogoodput",
+        "query": [
+          "cpn",
+          "expire",
+          "id",
+          "ip",
+          "key",
+          "mm",
+          "ms",
+          "pl",
+          "range",
+          "signature",
+          "source",
+          "sparams"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/octet-stream",
+        "sameSite": false,
+        "example": "https://r1---sn-bvvbaxivnuxq5uu-vgq6.googlevideo.com/videogoodput",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/cip/37530673481639042273966835895071378319&empty",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/cip/37530673481639042273966835895071378319&empty",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/api/stats/watchtime",
+        "query": [
+          "afmt",
+          "autoplay",
+          "c",
+          "cbr",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cr",
+          "cver",
+          "delay",
+          "docid",
+          "dtm",
+          "ei",
+          "el",
+          "et",
+          "euri",
+          "fmt",
+          "fs",
+          "hl",
+          "idpj",
+          "inview",
+          "lact",
+          "ldpj",
+          "len",
+          "list",
+          "muted",
+          "ns",
+          "of",
+          "plid",
+          "referrer",
+          "rt",
+          "rti",
+          "size",
+          "st",
+          "state",
+          "ver",
+          "vm",
+          "volume"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/api/stats/watchtime",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "rr1---sn-ojn4v5-55.googlevideo.com",
+        "path": "/videoplayback",
+        "query": [
+          "alr",
+          "c",
+          "cpn",
+          "cps",
+          "cver",
+          "ei",
+          "epbp",
+          "expire",
+          "fexp",
+          "fvip",
+          "id",
+          "initcwndbps",
+          "ip",
+          "keepalive",
+          "lsig",
+          "lsparams",
+          "met",
+          "mh",
+          "mm",
+          "mn",
+          "ms",
+          "mt",
+          "mv",
+          "mvi",
+          "n",
+          "ns",
+          "pl",
+          "requiressl",
+          "rms",
+          "rn",
+          "rqh",
+          "sabr",
+          "sig",
+          "source",
+          "sparams",
+          "spc",
+          "svpuc",
+          "xpc"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/vnd.yt-ump",
+        "sameSite": false,
+        "example": "https://rr1---sn-ojn4v5-55.googlevideo.com/videoplayback",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fie3vqlwyanjqjqacqde4aaaczvosb3f-plcrlk-6dda80954-clienttons-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://fie3vqlwyanjqjqacqde4aaaczvosb3f-plcrlk-6dda80954-clienttons-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "naojrgixhbw4i2xja5sq-plcrlk-2ec8ee51e-clientnsv4-s.akamaihd.net",
+        "path": "/eum/results.txt",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://naojrgixhbw4i2xja5sq-plcrlk-2ec8ee51e-clientnsv4-s.akamaihd.net/eum/results.txt",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "tr.snapchat.com",
+        "path": "/p",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://tr.snapchat.com/p",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "r1---sn-bvvbaxivnuxq5uu-5uae.googlevideo.com",
+        "path": "/videogoodput",
+        "query": [
+          "cpn",
+          "expire",
+          "id",
+          "ip",
+          "key",
+          "mm",
+          "ms",
+          "pl",
+          "range",
+          "signature",
+          "source",
+          "sparams"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/octet-stream",
+        "sameSite": false,
+        "example": "https://r1---sn-bvvbaxivnuxq5uu-5uae.googlevideo.com/videogoodput",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=allpa0;cat=lenov0;rcb=2;ord=1701034261423;npa=0;auiddc=1746638820.1793656680;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Legion%20%7C%20Reach%20Your%20Impossible%20%7C%20Lenovo%20US;u9=brandpage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776~123691370~123692834~123814945;epver=2;gap.gtb=2;dc_random=1793656682__yZmg8N-hFvCYlkOp4daBpi57mvYIz8vqw;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=lenov0;rcb=2;ord=1701034261423;npa=0;auiddc=1746638820.1793656680;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Legion%20%7C%20Reach%20Your%20Impossible%20%7C%20Lenovo%20US;u9=brandpage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776~123691370~123692834~123814945;epver=2;gap.gtb=2;dc_random=1793656682__yZmg8N-hFvCYlkOp4daBpi57mvYIz8vqw;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CJHWuOuj6pcDFeoOhAgdnWkNsg;src=11829995;type=allpa0;cat=lenov0;rcb=2;ord=1701034261423;npa=0;auiddc=1746638820.1793656680;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Legion%20%7C%20Reach%20Your%20Impossible%20%7C%20Lenovo%20US;u9=brandpage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776~123691370~123692834~123814945;epver=2;gap.gtb=2;dc_random=1793656682__yZmg8N-hFvCYlkOp4daBpi57mvYIz8vqw;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CJHWuOuj6pcDFeoOhAgdnWkNsg;src=11829995;type=allpa0;cat=lenov0;rcb=2;ord=1701034261423;npa=0;auiddc=1746638820.1793656680;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Legion%20%7C%20Reach%20Your%20Impossible%20%7C%20Lenovo%20US;u9=brandpage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776~123691370~123692834~123814945;epver=2;gap.gtb=2;dc_random=1793656682__yZmg8N-hFvCYlkOp4daBpi57mvYIz8vqw;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=11537059492939072314;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWuqZ_-0rA232si934f4oMhmyVaZvDprQ0Uevw;_dc_time=1793656682;cid=CAQS4QEAQM4h3KohUrgWMYjb9DV-hCFwUS4nlsq-ctn9adgk83EUq9ECWWXV5qyCF1kTNMlECRbnxBm3l9_ZmO9c1oHaCd7r2fk8vCB6Cw5draNzvqp_wLoFtJbHoGGwHwbij8Nxugu_1_n4qCQi7mtg6I2l8rgCRI67BYmpE0wHIMKiy83Dr1d-LHYaWYfjPseeeGHgyZbbr-l2hGNmN4AWzDXI3OuIqUQxEY-k_BOe7QwiL2YEZToPWZpsTaxWM3r9moTC3xamUtddHeHGoqbUM99tuySVIy_VimL_XiqsjMJ6D3k;eps=AHas8cDyLfS8G3HypDouIxkVNIrjQL7fVDgEzy4dXPt-PIpJ5oFkZ4wiB2d2mNVfBlbj34GirWps4blNg3GB-cMwPg2APi8th6Iy-aF62hk7R7PwFg;dc_pre=CJHWuOuj6pcDFeoOhAgdnWkNsg;src=11829995;type=allpa0;cat=lenov0;rcb=2;ord=1701034261423;npa=0;auiddc=1746638820.1793656680;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Legion%20%7C%20Reach%20Your%20Impossible%20%7C%20Lenovo%20US;u9=brandpage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776~123691370~123692834~123814945;epver=2;gap.gtb=2;dc_random=1793656682__yZmg8N-hFvCYlkOp4daBpi57mvYIz8vqw;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=11537059492939072314;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWuqZ_-0rA232si934f4oMhmyVaZvDprQ0Uevw;_dc_time=1793656682;cid=CAQS4QEAQM4h3KohUrgWMYjb9DV-hCFwUS4nlsq-ctn9adgk83EUq9ECWWXV5qyCF1kTNMlECRbnxBm3l9_ZmO9c1oHaCd7r2fk8vCB6Cw5draNzvqp_wLoFtJbHoGGwHwbij8Nxugu_1_n4qCQi7mtg6I2l8rgCRI67BYmpE0wHIMKiy83Dr1d-LHYaWYfjPseeeGHgyZbbr-l2hGNmN4AWzDXI3OuIqUQxEY-k_BOe7QwiL2YEZToPWZpsTaxWM3r9moTC3xamUtddHeHGoqbUM99tuySVIy_VimL_XiqsjMJ6D3k;eps=AHas8cDyLfS8G3HypDouIxkVNIrjQL7fVDgEzy4dXPt-PIpJ5oFkZ4wiB2d2mNVfBlbj34GirWps4blNg3GB-cMwPg2APi8th6Iy-aF62hk7R7PwFg;dc_pre=CJHWuOuj6pcDFeoOhAgdnWkNsg;src=11829995;type=allpa0;cat=lenov0;rcb=2;ord=1701034261423;npa=0;auiddc=1746638820.1793656680;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Lenovo%20Legion%20%7C%20Reach%20Your%20Impossible%20%7C%20Lenovo%20US;u9=brandpage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620776~123691370~123692834~123814945;epver=2;gap.gtb=2;dc_random=1793656682__yZmg8N-hFvCYlkOp4daBpi57mvYIz8vqw;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Flegion%2F",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bat.bing.com",
+        "path": "/p/conversions/c/j",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://bat.bing.com/p/conversions/c/j",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/inventory/front/query",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/inventory/front/query",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/get/cart/recommend/price",
+        "query": [
+          "mainCode",
+          "material"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/get/cart/recommend/price",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/product/modelOrderInfo/get",
+        "query": [
+          "productNumber"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/product/modelOrderInfo/get",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/api/ups/getDeliveryDate",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/api/ups/getDeliveryDate",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.lenovo.com",
+        "path": "/ssp/83F300BBUS:us",
+        "query": [
+          "t"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/ssp/83F300BBUS:us",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/user/identity/query",
+        "query": [
+          "leid",
+          "sourceType"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/user/identity/query",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "openapi.lenovo.com",
+        "path": "/us/en/payment/api/gateway.jhtm",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://openapi.lenovo.com/us/en/payment/api/gateway.jhtm",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "payments.braintree-api.com",
+        "path": "/graphql",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://payments.braintree-api.com/graphql",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "client-analytics.braintreegateway.com",
+        "path": "/2v84f8tj84r5dfzm",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://client-analytics.braintreegateway.com/2v84f8tj84r5dfzm",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.paypal.com",
+        "path": "/credit-presentment/experiments/hash",
+        "query": [
+          "client_id",
+          "device_id",
+          "disableSetCookie",
+          "features",
+          "integration_type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.paypal.com/credit-presentment/experiments/hash",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.paypal.com",
+        "path": "/xoplatform/logger/api/logger",
+        "query": [
+          "disableSetCookie"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.paypal.com/xoplatform/logger/api/logger",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=allpa0;cat=lenov0;rcb=10;ord=8910049357209;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Pro%205i%20Gen%2010%20(16%E2%80%9D%20Intel)%20%7C%2016-inch%20esports%20gaming%20laptop%20powered%20by%20Int;u9=pdp;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;gap.gtb=2;dc_random=1793656693_V1kB6wYBThE_iPw-ctntycuycQXz6sdA9w;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-pro-5i-gen-10-16-inch-intel%2F83f300bbus",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=lenov0;rcb=10;ord=8910049357209;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Pro%205i%20Gen%2010%20(16%E2%80%9D%20Intel)%20%7C%2016-inch%20esports%20gaming%20laptop%20powered%20by%20Int;u9=pdp;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;gap.gtb=2;dc_random=1793656693_V1kB6wYBThE_iPw-ctntycuycQXz6sdA9w;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-pro-5i-gen-10-16-inch-intel%2F83f300bbus",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=18184735824613253526;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWuimJZOLITMjRXXKY4ztZ-5CS7ZzizszWljgfZNWpBV3g;_dc_time=1793656693;cid=CAQS4QEAQM4h3L_Zx-cgNyzW13WwY2KuqF_G6ooGyXBXFzPp_XVA0a3z3icHN8R3gkSMBZnbXm54BnYGYt08H0cIMJp9WQ94speUjuNmwbfyjoQ98BiRrCAeGbcvM3IhVzeCEIgSlh-Cqz6VNw7tW0s1spenQoFDgJTescQ83kX0RueJxtIhUMAUpAvic5iiqGRIjX-CrNRET_IUB6Rk8DoS_mdD9od6X-B1gVb_Z0whBInObL9k3nraUSJl2rYjARfk2Hekov6o3KNV019EABpEoLDMpQ1a9kamwSyMJQzu2z3ZXfo;eps=AHas8cBerbWTbqySMfwrBMSJ11dgWwTZxJE8h4bFSzt9zwdqEk9alh0KJMrvj8B_cdCOVZuI6M2Xfc20P4A5cMOrMH-1nmFCBoDtW8JO2Y7PT4lP4Q;src=11829995;type=allpa0;cat=lenov0;rcb=10;ord=8910049357209;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Pro%205i%20Gen%2010%20(16%E2%80%9D%20Intel)%20%7C%2016-inch%20esports%20gaming%20laptop%20powered%20by%20Int;u9=pdp;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;gap.gtb=2;dc_random=1793656693_V1kB6wYBThE_iPw-ctntycuycQXz6sdA9w;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-pro-5i-gen-10-16-inch-intel%2F83f300bbus",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=18184735824613253526;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWuimJZOLITMjRXXKY4ztZ-5CS7ZzizszWljgfZNWpBV3g;_dc_time=1793656693;cid=CAQS4QEAQM4h3L_Zx-cgNyzW13WwY2KuqF_G6ooGyXBXFzPp_XVA0a3z3icHN8R3gkSMBZnbXm54BnYGYt08H0cIMJp9WQ94speUjuNmwbfyjoQ98BiRrCAeGbcvM3IhVzeCEIgSlh-Cqz6VNw7tW0s1spenQoFDgJTescQ83kX0RueJxtIhUMAUpAvic5iiqGRIjX-CrNRET_IUB6Rk8DoS_mdD9od6X-B1gVb_Z0whBInObL9k3nraUSJl2rYjARfk2Hekov6o3KNV019EABpEoLDMpQ1a9kamwSyMJQzu2z3ZXfo;eps=AHas8cBerbWTbqySMfwrBMSJ11dgWwTZxJE8h4bFSzt9zwdqEk9alh0KJMrvj8B_cdCOVZuI6M2Xfc20P4A5cMOrMH-1nmFCBoDtW8JO2Y7PT4lP4Q;src=11829995;type=allpa0;cat=lenov0;rcb=10;ord=8910049357209;npa=0;auiddc=90966213.1793656675;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Legion%20Pro%205i%20Gen%2010%20(16%E2%80%9D%20Intel)%20%7C%2016-inch%20esports%20gaming%20laptop%20powered%20by%20Int;u9=pdp;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814184;epver=2;gap.gtb=2;dc_random=1793656693_V1kB6wYBThE_iPw-ctntycuycQXz6sdA9w;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-pro-5i-gen-10-16-inch-intel%2F83f300bbus",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.paypal.com",
+        "path": "/credit-presentment/glog",
+        "query": [
+          "disableSetCookie",
+          "features"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.paypal.com/credit-presentment/glog",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ingest.quantummetric.com",
+        "path": "/resource-loader/lenovo/hashes",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ingest.quantummetric.com/resource-loader/lenovo/hashes",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/id",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/id",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=allpa0;cat=lenov0;rcb=13;ord=8864073234436;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_VZzFMjuRoYMiIdaalJJBju9d3cnQeA9RQg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=lenov0;rcb=13;ord=8864073234436;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_VZzFMjuRoYMiIdaalJJBju9d3cnQeA9RQg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=11829995;type=produ0;cat=lenov0;rcb=13;ord=7261695106722;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_dUIFWJOKJ9octCMIy9_D6KsMet1z0PRfBA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=11829995;type=produ0;cat=lenov0;rcb=13;ord=7261695106722;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_dUIFWJOKJ9octCMIy9_D6KsMet1z0PRfBA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=COGx8Pmj6pcDFU4MhAgdVkkUWA;src=11829995;type=allpa0;cat=lenov0;rcb=13;ord=8864073234436;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_VZzFMjuRoYMiIdaalJJBju9d3cnQeA9RQg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=COGx8Pmj6pcDFU4MhAgdVkkUWA;src=11829995;type=allpa0;cat=lenov0;rcb=13;ord=8864073234436;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_VZzFMjuRoYMiIdaalJJBju9d3cnQeA9RQg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CPiP8fmj6pcDFakNhAgdbo8gTA;src=11829995;type=produ0;cat=lenov0;rcb=13;ord=7261695106722;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_dUIFWJOKJ9octCMIy9_D6KsMet1z0PRfBA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CPiP8fmj6pcDFakNhAgdbo8gTA;src=11829995;type=produ0;cat=lenov0;rcb=13;ord=7261695106722;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_dUIFWJOKJ9octCMIy9_D6KsMet1z0PRfBA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.lenovo.com",
+        "path": "/gemets/as/d/ccm/conversion/{n}/",
+        "query": [
+          "_tu",
+          "_uip",
+          "async",
+          "auid",
+          "bg",
+          "category",
+          "cv",
+          "data",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "emd",
+          "eme",
+          "en",
+          "evjid",
+          "fmt",
+          "frm",
+          "fst",
+          "gap.ch",
+          "gap.gtb",
+          "gcd",
+          "gcl_ctr",
+          "gcs",
+          "gdid",
+          "gtb",
+          "gtm",
+          "gtm_ee",
+          "guid",
+          "hn",
+          "label",
+          "mt",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": true,
+        "example": "https://www.lenovo.com/gemets/as/d/ccm/conversion/971455461/",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=16106393788839048074;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWv3NOeKLYcV4rGsT2VMJ2vllLQaZuP7aVysHA;_dc_time=1793656713;cid=CAQS4QEAQM4h3Kbs81jQBhGgMPLS7i1rvaZ4z35QpnD_ZZNax0lyQrRXTq4VONaVI2B4lS1fGuueldVrojYO6MfFp278XMiYDBjCu5mcavMA3gxrd2PTOQTBogyF-1DBHrmjBLfgKRIN8rzKF1LcpmkzsO8e_Ipgje7iWt1eA9QXZ_P9HDZTO5kl571zjUuJMxo4-MMcpQKeWP-aM0IAJ_TOVN4CYUkboVdSOPOIkHi4MKSBxK4AytfV9prcG0ia6H8c74dJGRufyJuVtaRFN31vwU7nm6K_g9tBm6lYJ5UH3wqL4c8;eps=AHas8cCrM_IBjiIGcXD0CitsWyh6ZQxtHWNBOrbwJPXnDM38jDuy_vz0k3IRrjJnrEY5kx5Vfe4Pqbr6Z5OckFk80RMbmwwagjR5m3yux_6JTw2L9g;dc_pre=COGx8Pmj6pcDFU4MhAgdVkkUWA;src=11829995;type=allpa0;cat=lenov0;rcb=13;ord=8864073234436;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_VZzFMjuRoYMiIdaalJJBju9d3cnQeA9RQg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=16106393788839048074;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWv3NOeKLYcV4rGsT2VMJ2vllLQaZuP7aVysHA;_dc_time=1793656713;cid=CAQS4QEAQM4h3Kbs81jQBhGgMPLS7i1rvaZ4z35QpnD_ZZNax0lyQrRXTq4VONaVI2B4lS1fGuueldVrojYO6MfFp278XMiYDBjCu5mcavMA3gxrd2PTOQTBogyF-1DBHrmjBLfgKRIN8rzKF1LcpmkzsO8e_Ipgje7iWt1eA9QXZ_P9HDZTO5kl571zjUuJMxo4-MMcpQKeWP-aM0IAJ_TOVN4CYUkboVdSOPOIkHi4MKSBxK4AytfV9prcG0ia6H8c74dJGRufyJuVtaRFN31vwU7nm6K_g9tBm6lYJ5UH3wqL4c8;eps=AHas8cCrM_IBjiIGcXD0CitsWyh6ZQxtHWNBOrbwJPXnDM38jDuy_vz0k3IRrjJnrEY5kx5Vfe4Pqbr6Z5OckFk80RMbmwwagjR5m3yux_6JTw2L9g;dc_pre=COGx8Pmj6pcDFU4MhAgdVkkUWA;src=11829995;type=allpa0;cat=lenov0;rcb=13;ord=8864073234436;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u12=;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u16=;u17=us;u4=;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_VZzFMjuRoYMiIdaalJJBju9d3cnQeA9RQg;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=12183311260863845484;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsZUqLIO16o9uI-V2HDisp9cyWAI2keNeWeKA;_dc_time=1793656713;cid=CAQS4QEAQM4h3NuZO4ExGX3Xze7VbRB7qS894wpIZkomx3qDCymVWGzw26ykJT0AtiYxtPfiiSPkukL0fnxFLVWi8Mxmu-zgSanbFN7mhBnSvrhQsHeRRrf8Jk9tIG3Cg1utQcxQvEnmv6Vf6dhGCifGhMvLWtb-tnLjRQt1ROLuXOkycXfqakHc7IsB7VEmkM7VxoU8WZMk5w9dwY2DuH0yCkTzYF4lUqeKqrYXm08gm2pPioawoSYvlHe6GsjgRpvAeuc49Mv1o6EQuQUlWg9kugwW9ZLyr8JlBV2OVtbRu1YEbug;eps=AHas8cC2nmuVmJYfmeKvDvhV1xPwHnmnGnNxE7m4hofiVP0pmkt4DYVkLuiYqkx6BiwWpzHkCcJk2Z7VMvOdEuY1UsQuTWy7c-qEsGZWrGJaMVZFUQ;dc_pre=CPiP8fmj6pcDFakNhAgdbo8gTA;src=11829995;type=produ0;cat=lenov0;rcb=13;ord=7261695106722;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_dUIFWJOKJ9octCMIy9_D6KsMet1z0PRfBA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=12183311260863845484;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWsZUqLIO16o9uI-V2HDisp9cyWAI2keNeWeKA;_dc_time=1793656713;cid=CAQS4QEAQM4h3NuZO4ExGX3Xze7VbRB7qS894wpIZkomx3qDCymVWGzw26ykJT0AtiYxtPfiiSPkukL0fnxFLVWi8Mxmu-zgSanbFN7mhBnSvrhQsHeRRrf8Jk9tIG3Cg1utQcxQvEnmv6Vf6dhGCifGhMvLWtb-tnLjRQt1ROLuXOkycXfqakHc7IsB7VEmkM7VxoU8WZMk5w9dwY2DuH0yCkTzYF4lUqeKqrYXm08gm2pPioawoSYvlHe6GsjgRpvAeuc49Mv1o6EQuQUlWg9kugwW9ZLyr8JlBV2OVtbRu1YEbug;eps=AHas8cC2nmuVmJYfmeKvDvhV1xPwHnmnGnNxE7m4hofiVP0pmkt4DYVkLuiYqkx6BiwWpzHkCcJk2Z7VMvOdEuY1UsQuTWy7c-qEsGZWrGJaMVZFUQ;dc_pre=CPiP8fmj6pcDFakNhAgdbo8gTA;src=11829995;type=produ0;cat=lenov0;rcb=13;ord=7261695106722;npa=0;auiddc=1405006411.1793656672;u10=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7;u13=%5Bobject%20HTMLMetaElement%5D;u14=Guest;u15=;u16=;u17=us;u7=Yoga%20Slim%207x%20(14%22%20Snapdragon)%20%7C%20Lenovo%20US;u9=subseriespage;gdid=dNWVlNT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtb=2;gtm=45c92e6at0v9171075696za204zb888886641zd888886641xecxf4;gcs=G111;gcd=13n3n3n3n5l1;dma=0;dc_fmt=3;tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~121246026~121246034~123620776~123691370~123692836;epver=2;gap.gtb=2;dc_random=1793656713_dUIFWJOKJ9octCMIy9_D6KsMet1z0PRfBA;~oref=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Fyoga%2Fyoga-slim-series%2Flenovo-yoga-slim-7x-gen-11-14-inch-snapdragon%2Flen101y0066",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/log_event",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "us3-live.inside-graph.com",
+        "path": "/page",
+        "query": [
+          "_",
+          "acc"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://us3-live.inside-graph.com/page",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "digitalfeedback.us.confirmit.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "ap-ss.static.pub",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "c.evidon.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "s2.go-mpulse.net",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "j.6sc.co",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "sc-static.net",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "munchkin.marketo.net",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "us3-track.inside-graph.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "a2.adform.net",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "secure.quantserve.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "tr.snapchat.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "rules.quantcount.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "cl.qualaroo.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "aacdn.nagich.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "cdn.quantummetric.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "api.bluecore.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "www.redditstatic.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "gs.nmgassets.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "track.sv.rkdms.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "gs.wandzcdn.com",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "host": "us3-cdn.inside-graph.com",
+        "pages": 5,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "www.katapult.com",
+        "pages": 5,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "servedby.flashtalking.com",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "fm.flashtalking.com",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "cdn.flashtalking.com",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 3,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "paapi4325.d41.co",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "host": "cdn-0.d41.co",
+        "pages": 3,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "host": "colrep.sitelabweb.com",
+        "pages": 2,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "host": "j1-ofp.static.pub",
+        "pages": 2,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "unpkg.com",
+        "pages": 2,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 2,
+        "examples": [
+          "us-en-legion",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 2,
+        "examples": [
+          "us-en-legion",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "host": "lenovona500z.btttag.com",
+        "pages": 2,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      },
+      {
+        "host": "www.youtube-nocookie.com",
+        "pages": 1,
+        "examples": [
+          "us-en-legion"
+        ]
+      },
+      {
+        "host": "www.paypal.com",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "host": "js.braintreegateway.com",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "host": "www.paypalobjects.com",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "host": "static.doubleclick.net",
+        "pages": 1,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "vue",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "hint": "marketo-forms",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "hint": "aem-sites",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 6,
+        "examples": [
+          "index",
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.lenovo.com/us/en/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "commonHeaderSearch"
+        ],
+        "pages": 3,
+        "examples": [
+          "index",
+          "index",
+          "index"
+        ]
+      },
+      {
+        "action": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "commonHeaderSearch"
+        ],
+        "pages": 2,
+        "examples": [
+          "us-en-d-accessories-and-software-gaming-accessories",
+          "us-en-d-accessories-and-software-gaming-accessories"
+        ]
+      },
+      {
+        "action": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "commonHeaderSearch"
+        ],
+        "pages": 2,
+        "examples": [
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+          "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009"
+        ]
+      },
+      {
+        "action": "https://www.lenovo.com/us/en/legion/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "commonHeaderSearch"
+        ],
+        "pages": 2,
+        "examples": [
+          "us-en-legion",
+          "us-en-legion"
+        ]
+      },
+      {
+        "action": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "commonHeaderSearch"
+        ],
+        "pages": 2,
+        "examples": [
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+          "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+        ]
+      },
+      {
+        "action": "https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "commonHeaderSearch"
+        ],
+        "pages": 2,
+        "examples": [
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+          "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "recaptured",
+      "notes": "first pass: cookie strip + blank lazy tiles; re-run at --wait slow"
+    },
+    {
+      "slug": "us-en-ai-pcs",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "us-en-c-laptops-yoga-yoga-slim-series",
+      "verdict": "ok",
+      "notes": "tall white gap below banner is layout"
+    },
+    {
+      "slug": "us-en-d-accessories-and-software-gaming-accessories",
+      "verdict": "recaptured",
+      "notes": "SEO text block dark-on-dark in first pass; re-run at --wait slow"
+    },
+    {
+      "slug": "us-en-education-futureyou",
+      "verdict": "ok",
+      "notes": ""
+    },
+    {
+      "slug": "us-en-legion",
+      "verdict": "recaptured",
+      "notes": "cookie strip + unrendered video bands; re-run at --wait slow"
+    },
+    {
+      "slug": "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+      "verdict": "recaptured",
+      "notes": "lazy recommendation boxes above footer; re-run at --wait slow"
+    },
+    {
+      "slug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "verdict": "recaptured",
+      "notes": "cookie strip + lazy boxes; re-run at --wait slow"
+    },
+    {
+      "slug": "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+      "verdict": "recaptured",
+      "notes": "email-signup modal covered hero in first pass; gone after re-run (verified crop)"
+    }
+  ],
+  "siblingCandidates": []
+}

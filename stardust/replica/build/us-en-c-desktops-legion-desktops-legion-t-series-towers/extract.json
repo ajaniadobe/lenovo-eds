@@ -1,0 +1,453 @@
+{
+ "hero": {
+  "bg": {
+   "src": "//p1-ofp.static.pub//fes/cms/2026/05/28/6hto2qc5rqx6sneb4n08spoumjcdv6133511.jpg",
+   "alt": "Two Lenovo Legion T-Series towers with LED lighting, positioned side by side against a black background. "
+  },
+  "crumbs": [
+   [
+    "https://www.lenovo.com/us/en/",
+    "Home"
+   ],
+   [
+    "https://www.lenovo.com/us/en/desktops/",
+    "Desktops and All-in-Ones"
+   ],
+   [
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/",
+    "Legion Desktops"
+   ],
+   [
+    null,
+    "T Series Towers"
+   ]
+  ],
+  "logo": {
+   "src": "//p2-ofp.static.pub/fes/cms/2022/05/02/x1qso7dgehcwsnjixp2i7sszyunjqq781960.png",
+   "alt": "T Series Towers"
+  },
+  "name": "<p>T Series Towers</p>",
+  "title": "<p>Power, Unleashed</p>",
+  "desc": "<p>Lenovo Legion Towers are the pinnacle of engineering, balancing a refined chassis with customizable lighting and elite components. Featuring top-of-the-line processors and discrete graphics, these desktop powerhouses are built to deliver peak performance for gaming, streaming, and professional creation.</p>",
+  "cta": "View T Series Towers"
+ },
+ "blades": [
+  {
+   "cls": "series-blade2 opaque-area-position-right terminal-pc",
+   "bg": {
+    "src": "//p2-ofp.static.pub//fes/cms/2026/05/28/msilkjpf41x0dntwje3i8l6ieudm6r257577.jpg",
+    "alt": "Gaming PC with vibrant blue and red lighting, showcasing internal components of the Lenovo Legion T-Series. "
+   },
+   "logo": null,
+   "h": "Whisper-Quiet Performance",
+   "desc": "<p>These towers are the epitome of staying cool under pressure. Employing an innovative thermal architecture with streamlined air intake (and optional liquid cooling on some models), Lenovo Legion towers keep your CPU and GPU cool even in the most demanding sessions.</p>",
+   "sr": "open in new tab",
+   "cta": null
+  },
+  {
+   "cls": "series-blade2 opaque-area-position-left terminal-pc",
+   "bg": {
+    "src": "//p1-ofp.static.pub//fes/cms/2026/06/19/pc6rc7yliqsrj3wi0d1s8y0tz1nao5078445.jpg",
+    "alt": "Gaming desktop with RGB lighting and visible GeForce RTX graphics card, showcasing the Lenovo Legion Tower Series. "
+   },
+   "logo": null,
+   "h": "Your Power, Your Way",
+   "desc": "<p>Investing in a Legion Tower means staying ahead of the tech curve. With a tool-free side panel, you gain instant access to your tower’s inner components, so you can future-proof as your ambitions get bigger, whether that means more storage or a better GPU.</p>",
+   "sr": "open in new tab",
+   "cta": null
+  },
+  {
+   "cls": "series-blade2 opaque-area-position-right terminal-pc",
+   "bg": {
+    "src": "//p4-ofp.static.pub//fes/cms/2026/05/28/38rwwju621ovmwp90mvw2hf4zrgd3i914415.jpg",
+    "alt": "Three gamers excitedly using Lenovo Legion laptops, displaying vivid gaming visuals on screens. "
+   },
+   "logo": {
+    "src": "//p3-ofp.static.pub/fes/cms/2022/05/02/t3zip5do6elurja0y2yuji3lw0gwl4975811.png",
+    "alt": "Legion Ultimate Support"
+   },
+   "h": "Built to Keep You In-Game",
+   "desc": "<p>Upgrade to Legion Ultimate Support to stay in-game when it matters, with support from specialists who are gamers too. Skip the long wait and get straight to fixing what’s wrong. Remote or on-site, with parts replacement included, you’re covered whenever issues hit.</p>",
+   "sr": "open in new tab",
+   "cta": [
+    "https://www.lenovo.com/us/en/legion-support/",
+    "Learn More &gt;",
+    null,
+    null
+   ]
+  }
+ ],
+ "sub": [
+  "Legion Desktops  T Series",
+  "Towers"
+ ],
+ "facets": [
+  {
+   "name": "Graphics",
+   "tip": "more information about Graphics",
+   "items": [
+    {
+     "t": "NVIDIA RTX™ (4) ",
+     "hidden": null
+    }
+   ]
+  },
+  {
+   "name": "Processor",
+   "tip": "more information about Processor",
+   "items": [
+    {
+     "t": "All Intel Processors (3) ",
+     "hidden": null
+    },
+    {
+     "t": "Intel® Core™ Ultra 9 (2) ",
+     "hidden": null
+    },
+    {
+     "t": "Intel® Core™ Ultra 7 (3) ",
+     "hidden": null
+    },
+    {
+     "t": "All AMD Processors (1) ",
+     "hidden": true
+    },
+    {
+     "t": "AMD Ryzen™ 9 (1) ",
+     "hidden": true
+    },
+    {
+     "t": "AMD Ryzen™ 7 (1) ",
+     "hidden": true
+    }
+   ],
+   "more": "See More"
+  },
+  {
+   "name": "Memory",
+   "tip": "more information about Memory",
+   "items": [
+    {
+     "t": "32 GB (4) ",
+     "hidden": null
+    }
+   ]
+  },
+  {
+   "name": "Storage",
+   "tip": "more information about Storage",
+   "items": [
+    {
+     "t": "2 TB (3) ",
+     "hidden": null
+    },
+    {
+     "t": "1 TB (4) ",
+     "hidden": null
+    }
+   ]
+  },
+  {
+   "name": "Price",
+   "tip": "more information about Price",
+   "items": [
+    {
+     "t": "$2,000-$4,999.99 (4) ",
+     "hidden": null
+    }
+   ]
+  },
+  {
+   "name": "Sustainability",
+   "tip": "more information about Sustainability",
+   "items": [
+    {
+     "t": "CO2 Offset Service available (3) ",
+     "hidden": null
+    },
+    {
+     "t": "Contains sustainable material (1) ",
+     "hidden": null
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "code": "LEN102G0012",
+   "title": "Legion Tower 5i Gen 10 (Intel) Gaming Desktop",
+   "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel)-laptop-processor/len102g0012",
+   "rating": [
+    "4.6",
+    "(100)"
+   ],
+   "partial": "width: 60%;",
+   "img": {
+    "src": "https://p3-ofp.static.pub//fes/cms/2025/03/12/xj8fop7u8wph7z902hcfuoif7y6mpe014364.png?width=584&height=584",
+    "alt": "Built for extreme gaming & streaming, the Lenovo Legion Tower 5i Gen 10 (Intel) also comprises the power of Intel Core Ultra Processors."
+   },
+   "hover": {
+    "src": "https://p3-ofp.static.pub//fes/cms/2025/03/12/suswsk5dmz9urzjl29oc236ny7z1n9557500.png?width=584&height=584",
+    "alt": "Built for extreme gaming & streaming, the Lenovo Legion Tower 5i Gen 10 (Intel) also comprises the power of Intel Core Ultra Processors."
+   },
+   "starting": "Starting at",
+   "price": "$2,499.99",
+   "kp": "$80/week",
+   "earnSr": "Earn $75 from My Lenovo Rewards of Legion Tower 5i Gen 10 (Intel) Gaming Desktop, click to check more.",
+   "earn": "$75",
+   "features": [
+    "Intel<sup>®</sup> Core™ Ultra HX processors for extreme performance",
+    "Beyond-fast NVIDIA<sup>®</sup> GeForce RTX<sup>®</sup> graphics",
+    "Ultrafast connectivity, upgradeable memory &amp; storage"
+   ],
+   "imgBtn": "Go to the product details page of Built for extreme gaming & streaming, the Lenovo Legion Tower 5i Gen 10 (Intel) also comprises the power of Intel Core Ultra Processors.”",
+   "joinLabel": "Join My Lenovo Rewards Now to earn more of Legion Tower 5i Gen 10 (Intel) Gaming Desktop.",
+   "ratingLabel": "4.6 out of 5 stars,100 reviews.",
+   "ratingHref": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel)-laptop-processor/len102g0012#reviews",
+   "pop": [
+    [
+     "title",
+     "My Lenovo Rewards",
+     null
+    ],
+    [
+     "privilege01",
+     "• Exclusive savings",
+     null
+    ],
+    [
+     "privilege11",
+     "• Earn up to 9% back",
+     null
+    ],
+    [
+     "privilege21",
+     "• Free expedited shipping",
+     null
+    ],
+    [
+     "privilege31",
+     "• Join for free",
+     "javascript:void(0)"
+    ]
+   ],
+   "cta": [
+    "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel)-laptop-processor/len102g0012",
+    "View 2 Models",
+    null
+   ]
+  },
+  {
+   "code": "LEN102G0009",
+   "title": "Legion Tower 5i Gen 10 (Intel)",
+   "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+   "rating": [
+    "4.7",
+    "(91)"
+   ],
+   "partial": "width: 70%;",
+   "img": {
+    "src": "https://p4-ofp.static.pub//fes/cms/2024/11/26/1htugrkif8pwsdx2vkaahryntyrikl816979.png?width=584&height=584",
+    "alt": "Lenovo Legion Tower 5i Gen 10 (Intel) is built for extreme gaming & streaming with the power of Intel Core Ultra Processors."
+   },
+   "hover": {
+    "src": "https://p4-ofp.static.pub/ShareResource/na/subseries/gallery/lenovo-legion-tower-5i-g10-01.png?width=584&height=584",
+    "alt": "Lenovo Legion Tower 5i Gen 10 (Intel) is built for extreme gaming & streaming with the power of Intel Core Ultra Processors."
+   },
+   "starting": "Starting at",
+   "price": "$2,799.99",
+   "kp": "$90/week",
+   "earnSr": "Earn $84 from My Lenovo Rewards of Legion Tower 5i Gen 10 (Intel), click to check more.",
+   "earn": "$84",
+   "features": [
+    "Intel<sup>®</sup> Core™ Ultra processors for extreme performance",
+    "Beyond-fast NVIDIA<sup>®</sup> GeForce RTX<sup>®</sup> graphics",
+    "Ultrafast connectivity, upgradeable memory &amp; storage"
+   ],
+   "imgBtn": "Go to the product details page of Lenovo Legion Tower 5i Gen 10 (Intel) is built for extreme gaming & streaming with the power of Intel Core Ultra Processors.”",
+   "joinLabel": "Join My Lenovo Rewards Now to earn more of Legion Tower 5i Gen 10 (Intel).",
+   "ratingLabel": "4.7 out of 5 stars,91 reviews.",
+   "ratingHref": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009#reviews",
+   "pop": [
+    [
+     "title",
+     "My Lenovo Rewards",
+     null
+    ],
+    [
+     "privilege01",
+     "• Exclusive savings",
+     null
+    ],
+    [
+     "privilege11",
+     "• Earn up to 9% back",
+     null
+    ],
+    [
+     "privilege21",
+     "• Free expedited shipping",
+     null
+    ],
+    [
+     "privilege31",
+     "• Join for free",
+     "javascript:void(0)"
+    ]
+   ],
+   "cta": [
+    "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+    "View 2 Models",
+    null
+   ]
+  },
+  {
+   "code": "LEN102G0011",
+   "title": "Legion Tower 5a Gen 10 (30L AMD) Gaming Desktop",
+   "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l-amd/len102g0011",
+   "rating": [
+    "4.7",
+    "(135)"
+   ],
+   "partial": "width: 70%;",
+   "img": {
+    "src": "https://p4-ofp.static.pub//fes/cms/2025/02/10/dw50w4gybt6j7dg4jie0ud9wo6azg3759486.png?width=584&height=584",
+    "alt": "Front view of Lenovo Legion Tower 5 Gen 10 (30L AMD) tower, boasting ideal design & its power to achieve robust gaming performance."
+   },
+   "hover": {
+    "src": "https://p3-ofp.static.pub//fes/cms/2025/02/10/pr498so56u301fynn23uijzhil87lv400340.png?width=584&height=584",
+    "alt": "Front view of Lenovo Legion Tower 5 Gen 10 (30L AMD) tower, boasting ideal design & its power to achieve robust gaming performance."
+   },
+   "starting": "Starting at",
+   "price": "$2,849.99",
+   "kp": "$91/week",
+   "earnSr": "Earn $85 from My Lenovo Rewards of Legion Tower 5a Gen 10 (30L AMD) Gaming Desktop, click to check more.",
+   "earn": "$85",
+   "features": [
+    "Peak performance with AMD Ryzen™ processors &amp; NVIDIA<sup>®</sup> graphics",
+    "AI-powered audio, tool-free panel, ample storage &amp; memory",
+    "Optimized cooling with Legion Coldfront"
+   ],
+   "imgBtn": "Go to the product details page of Front view of Lenovo Legion Tower 5 Gen 10 (30L AMD) tower, boasting ideal design & its power to achieve robust gaming performance.”",
+   "joinLabel": "Join My Lenovo Rewards Now to earn more of Legion Tower 5a Gen 10 (30L AMD) Gaming Desktop.",
+   "ratingLabel": "4.7 out of 5 stars,135 reviews.",
+   "ratingHref": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l-amd/len102g0011#reviews",
+   "pop": [
+    [
+     "title",
+     "My Lenovo Rewards",
+     null
+    ],
+    [
+     "privilege01",
+     "• Exclusive savings",
+     null
+    ],
+    [
+     "privilege11",
+     "• Earn up to 9% back",
+     null
+    ],
+    [
+     "privilege21",
+     "• Free expedited shipping",
+     null
+    ],
+    [
+     "privilege31",
+     "• Join for free",
+     "javascript:void(0)"
+    ]
+   ],
+   "cta": [
+    "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l-amd/len102g0011",
+    "View 2 Models",
+    null
+   ]
+  },
+  {
+   "code": "LEN102G0010",
+   "title": "Legion Tower 7i Gen 10 (Intel)",
+   "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g0010",
+   "rating": [
+    "4.5",
+    "(232)"
+   ],
+   "partial": "width: 50%;",
+   "img": {
+    "src": "https://p3-ofp.static.pub//fes/cms/2024/11/27/diedutowbg29ro7au22vnpi64gl82m941657.png?width=584&height=584",
+    "alt": "Front view of the Lenovo Legion Tower 7i Gen 10, showcasing RGB-lit cooling fans behind a mesh panel."
+   },
+   "hover": {
+    "src": "https://p2-ofp.static.pub//fes/cms/2024/11/27/em8bpvjffmescc7mck5snjp1g73otp127407.png?width=584&height=584",
+    "alt": "Front view of the Lenovo Legion Tower 7i Gen 10, showcasing RGB-lit cooling fans behind a mesh panel."
+   },
+   "starting": "Starting at",
+   "price": "$3,349.99",
+   "kp": "$107/week",
+   "earnSr": "Earn $100 from My Lenovo Rewards of Legion Tower 7i Gen 10 (Intel), click to check more.",
+   "earn": "$100",
+   "features": [
+    "Competition-grade gaming power",
+    "Seamlessly upgradable with ultimate customization",
+    "Massive capacity SSD storage"
+   ],
+   "imgBtn": "Go to the product details page of Front view of the Lenovo Legion Tower 7i Gen 10, showcasing RGB-lit cooling fans behind a mesh panel.”",
+   "joinLabel": "Join My Lenovo Rewards Now to earn more of Legion Tower 7i Gen 10 (Intel).",
+   "ratingLabel": "4.5 out of 5 stars,232 reviews.",
+   "ratingHref": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g0010#reviews",
+   "pop": [
+    [
+     "title",
+     "My Lenovo Rewards",
+     null
+    ],
+    [
+     "privilege01",
+     "• Exclusive savings",
+     null
+    ],
+    [
+     "privilege11",
+     "• Earn up to 9% back",
+     null
+    ],
+    [
+     "privilege21",
+     "• Free expedited shipping",
+     null
+    ],
+    [
+     "privilege31",
+     "• Join for free",
+     "javascript:void(0)"
+    ]
+   ],
+   "cta": [
+    "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g0010",
+    "View 3 Models",
+    null
+   ]
+  }
+ ],
+ "footer": "Showing 1 - 4 of 4 Results",
+ "sortOpts": [
+  "Recommended",
+  "Price Low to High",
+  "Price High to Low",
+  "Best-Selling",
+  "Highest Saving by %",
+  "Highest Saving by $",
+  "Newest"
+ ],
+ "attrs": {
+  "compareInput": "<input type=\"checkbox\" aria-label=\"Compare Legion Tower 5i Gen 10 (Intel) Gaming Desktop Product Information Button\" class=\"\">",
+  "itemInput": "<input aria-label=\"NVIDIA RTX™4\" type=\"checkbox\" data-item=\"item_710_NVIDIA%20RTX%E2%84%A2\">",
+  "tip": "<button type=\"button\" class=\"tool-tip facets-tooltip-container pc-facet-tooltip\" aria-label=\"more information about Graphics\" aria-expanded=\"false\" aria-controls=\"tooltipmvzso29uhb8kiiim\"><span class=\"iconfont-tooltipIcon\"></span></button>",
+  "skip": "<button class=\"facet_filter_skip_product_list\" data-tkey=\"skip.to.product.list\">skip to product list</button>",
+  "popup": "<button aria-describedby=\"loyalty-price_LEN102G0012\" class=\"popup-activation\" aria-label=\"$75\" aria-haspopup=\"dialog\" aria-controls=\"tooltipmvzso3izrc80k8t6\">$75</button>",
+  "kLearn": "<a href=\"#\" class=\"katapult-price-calculator-learn-more btn-katapult-price-calculator\" data-tkey=\"katapult.learn.more\">Learn More</a>",
+  "upArrow": "<span class=\"upArrow\"></span>",
+  "collapse": "<div class=\"collapse_filters\" data-tkey=\"collapse.filters\">Collapse All</div>"
+ }
+}

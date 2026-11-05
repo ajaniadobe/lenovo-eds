@@ -1,0 +1,66 @@
+{
+ "units": {
+  "plan": {
+   "status": "done",
+   "kind": "plan",
+   "templates": [
+    "landing",
+    "campaign",
+    "listing",
+    "product"
+   ],
+   "pages": 10,
+   "startedAt": "2026-11-03T01:03:57Z",
+   "endedAt": "2026-11-03T01:04:16Z",
+   "verdict": "4 archetypes Path A, 6 siblings Path A' (campaign 2, listing 2, product 2) after their C-archetype units"
+  },
+  "archetypes": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "landing",
+    "campaign",
+    "listing",
+    "product"
+   ],
+   "pages": 4,
+   "startedAt": "2026-11-03T01:04:10Z",
+   "endedAt": "2026-11-03T01:04:16Z",
+   "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0"
+  },
+  "campaign": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "campaign"
+   ],
+   "pages": 2,
+   "startedAt": "2026-11-03T03:02:08.456983Z",
+   "endedAt": "2026-11-03T05:31:06.546Z",
+   "verdict": "2 siblings encoded from live snapshots (migrate render refused: no sibling source HTML); content-count acceptance passed"
+  },
+  "listing": {
+   "status": "running",
+   "kind": "render",
+   "templates": [
+    "listing"
+   ],
+   "pages": 2,
+   "startedAt": "2026-11-03T03:38:18.118Z"
+  },
+  "product": {
+   "status": "pending",
+   "kind": "render",
+   "templates": [
+    "product"
+   ],
+   "pages": 2
+  },
+  "report": {
+   "status": "pending",
+   "kind": "report",
+   "templates": [],
+   "pages": 10
+  }
+ }
+}
