@@ -1,0 +1,746 @@
+div.slot_content.slot_content_90b0dfe2sa0a0-41a6-9e67-a29aeb395bbc.slot_cls90b0dfe2sa0a0-41a6-9e67-a29aeb395bbc
+  meta
+  meta
+  link
+  div
+    div.container9999.cms_background_layout_color_714517a5-75dc-43b6-b49f-1c973d94ffa9
+      div.layout
+        div.cms_layoutBox_auto_height.layoutGroup.layout_content.layout_content_714517a5-75dc-43b6-b49f-1c973d94ffa9.clearfix
+          div.layout_content_style
+            style «.slot_cls714517a5-75dc-43b6-b49f-1c973d94ffa9:empty{height: 100px !important;}»
+          div.slot_content.slot_content_714517a5-75dc-43b6-b49f-1c973d94ffa9.slot_cls714517a5-75dc-43b6-b49f-1c973d94ffa9
+            div
+              div.pc_new_dlp.new_dlp_wapper
+                div
+                  div
+                    div
+                      div.al_unavailable_view
+                      h2.sub_header
+                        span.group_name «Legion Desktops  T Series»
+                        span.category_name «Towers»
+                    div.pc_new_dlp_wapper.dlp_wrap
+                      div.pc_content.flex
+                        section.pc_left_facets.indirectContentHidden
+                          button.facet_filter_skip_product_list «skip to product list»
+                          div.facet_filter
+                            div.product_filter_content
+                              div.filter_action_top
+                                div.filter_action_title «Filters»
+                                div.filter_action
+                                  div.collapse_filters «Collapse All»
+                              div.product_filter_list.hide-facet
+                                div.group-list-content
+                                  div.filter-list.facets-list
+                                    div.facets-name
+                                      div.flex
+                                        b «Graphics»
+                                      span.upArrow
+                                    div.positioned-tooltip
+                                      span.anchor-facet-name «Graphics»
+                                      div
+                                        button.tool-tip.facets-tooltip-container.pc-facet-tooltip
+                                          span.iconfont-tooltipIcon
+                                    div.facet-content-wrap
+                                      div.item-list
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «NVIDIA RTX™ (4)»
+                                  div.filter-list.facets-list
+                                    div.facets-name
+                                      div.flex
+                                        b «Processor»
+                                      span.upArrow
+                                    div.positioned-tooltip
+                                      span.anchor-facet-name «Processor»
+                                      div
+                                        button.tool-tip.facets-tooltip-container.pc-facet-tooltip
+                                          span.iconfont-tooltipIcon
+                                    div.facet-content-wrap
+                                      div.item-list
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «All Intel Processors (3)»
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «Intel® Core™ Ultra 9 (2)»
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «Intel® Core™ Ultra 7 (3)»
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «All AMD Processors (1)»
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «AMD Ryzen™ 9 (1)»
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «AMD Ryzen™ 7 (1)»
+                                        div.learn-more «See More»
+                                  div.filter-list.facets-list
+                                    div.facets-name
+                                      div.flex
+                                        b «Memory»
+                                      span.upArrow
+                                    div.positioned-tooltip
+                                      span.anchor-facet-name «Memory»
+                                      div
+                                        button.tool-tip.facets-tooltip-container.pc-facet-tooltip
+                                          span.iconfont-tooltipIcon
+                                    div.facet-content-wrap
+                                      div.item-list
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «32 GB (4)»
+                                  div.filter-list.facets-list
+                                    div.facets-name
+                                      div.flex
+                                        b «Storage»
+                                      span.upArrow
+                                    div.positioned-tooltip
+                                      span.anchor-facet-name «Storage»
+                                      div
+                                        button.tool-tip.facets-tooltip-container.pc-facet-tooltip
+                                          span.iconfont-tooltipIcon
+                                    div.facet-content-wrap
+                                      div.item-list
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «2 TB (3)»
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «1 TB (4)»
+                                  div.filter-list.facets-list
+                                    div.facets-name
+                                      div.flex
+                                        b «Price»
+                                      span.upArrow
+                                    div.positioned-tooltip
+                                      span.anchor-facet-name «Price»
+                                      div
+                                        button.tool-tip.facets-tooltip-container.pc-facet-tooltip
+                                          span.iconfont-tooltipIcon
+                                    div.facet-content-wrap
+                                      div.item-list
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «$2,000-$4,999.99 (4)»
+                                  div.filter-list.facets-list
+                                    div.facets-name
+                                      div.flex
+                                        b «Sustainability»
+                                      span.upArrow
+                                    div.positioned-tooltip
+                                      span.anchor-facet-name «Sustainability»
+                                      div
+                                        button.tool-tip.facets-tooltip-container.pc-facet-tooltip
+                                          span.iconfont-tooltipIcon
+                                    div.facet-content-wrap
+                                      div.item-list
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «CO2 Offset Service available (3)»
+                                        div.item-lists-group
+                                          div.item-lists-container
+                                            div.item-lists-left
+                                              label
+                                                input
+                                              div.items
+                                                span «Contains sustainable material (1)»
+                        section.pc_product_list
+                          div.query_view_wrap.load_show
+                            div.query_view.flex
+                              div.filter-no-selected.matching_results.facetCondition_wrap.fold
+                                div.tablet_facted.flex
+                                  div.matching_header
+                                    div.results
+                                      b.total «4»
+                                      i «Matching results»
+                                    button.clearAll.clearAllNone «Clear All»
+                                  div.flex.sortbtn.indirectContentHidden
+                                    button.sort.flex
+                                      span.text «Sort»
+                                      span
+                                        span.iconfont-arrows
+                                div.sr-only
+                              div.price_sort.flex.indirectContentHidden
+                                div.price_sort_select
+                                  div.select_item.default_select.flex
+                                    div.default_select_sortby
+                                      i «Sort by :»
+                                      span «Newest»
+                                    div.arrow.arrow-top
+                                  div.select_item.select_list
+                                    div.popup_arrow
+                                      span.popup_arrow_icon
+                                      div.drop-box
+                                    div.item.active
+                                      span «Recommended»
+                                    div.item
+                                      span «Price Low to High»
+                                    div.item
+                                      span «Price High to Low»
+                                    div.item
+                                      span «Best-Selling»
+                                    div.item
+                                      span «Highest Saving by %»
+                                    div.item
+                                      span «Highest Saving by $»
+                                    div.item
+                                      span «Newest»
+                          div.pc_group_content
+                            div.dlp_groups
+                              section.productCard_container.card-product-list.product-list-pc
+                                div.product_list
+                                  ul.product-group-list-pc.hide-more
+                                    li.product_item.product_wish_align.product_normal-pc.productCode_LEN102G0012
+                                      div.dlp-product-card.dlp-product-card-PC.align_card
+                                        div.merchandising_warp.indirectContentHidden.align-content
+                                          div.common-compare-container.common-compare-PC.indirectContentHidden
+                                            input
+                                            span.compare-text «Compare»
+                                          div.pc-merchandising_flag.merchandising_flag.indirectContentHidden.pc-merchandising_flag_LEN102G0012.compare_ai_sparkle_merch_flag
+                                        div.pc-copilotLabel-container.align-content
+                                          div.product_title.pc-product_title.pc-product_title_LEN102G0012.title-align-content
+                                            a.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel «Legion Tower 5i Gen 10 (Intel) Gaming Desktop»
+                                        div.rating-box.indirectContentHidden.align-content
+                                          div.card-rating-container.yellow-rating-style.card-rating-container_LEN102G0012.style-auto-gaming
+                                            div.card-review-inline
+                                              a.bv_main_container.bv_hover.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel
+                                                div.bv_stars_component_container
+                                                  div.bv_stars_button_container
+                                                    span.bv_stars_svg_no_wrap
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.gray-icon.star-icon
+                                                        div.star-icon.yellow-icon
+                                                div.number_box
+                                                  div.bv_averageRating_component_container
+                                                    div.bv_text «4.6»
+                                                  div.bv_numReviews_component_container
+                                                    div.bv_text «(100)»
+                                        div.pc-image-align-content.align-content
+                                          div.pc-card_product_image.v3card_product_image.m-product-image-PC.pc-card_product_image_LEN102G0012.pc-card_product_image_hover.card_product_image_hover
+                                            div.product_image_content
+                                              button.normal_image
+                                                img.image_focus src=https://p3-ofp.static.pub//fes/cms/2025/03/12/xj8fop7u8wph7z902hcfuoif7y6mpe014364.png?wid alt="Built for extreme gaming & streaming, the Lenovo Legion Tower 5i Gen 10 (Intel) also comprises the power of Intel Core Ultra Processors."
+                                              div.hover_image
+                                                a.lazy_href.hover_image_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel
+                                                  img.image_blur src=https://p3-ofp.static.pub//fes/cms/2025/03/12/suswsk5dmz9urzjl29oc236ny7z1n9557500.png?wid alt="Built for extreme gaming & streaming, the Lenovo Legion Tower 5i Gen 10 (Intel) also comprises the power of Intel Core Ultra Processors."
+                                                div.mask.flex
+                                                  div.heart
+                                                  div.see_detail
+                                                    button.iconfont-cameras.picture.productGalleryOverride
+                                                    button.iconfont-playVideo.video.productGalleryOverride
+                                        div.pc_fps_rating.indirectContentHidden.align-content
+                                        div.price-stack.price-stack-pc.indirectContentHidden.price-stack_LEN102G0012.style-auto-gaming.price-align-content.align-content
+                                          div.strike-through-price.strike-through-price-pc.style-auto-gaming
+                                          div.price-title-box.price-title-box-pc
+                                            span.starting-at-container.mini-price-label «Starting at»
+                                          div.price-collapse-align-content
+                                            div.collapse-container.price-saving-collapse-pc.style-auto-gaming
+                                              div.title.is-close
+                                                div.price-summary-info.style-auto-gaming.price-summary-info-pc
+                                                  span.price-title «$2,499.99»
+                                                  span.price-save-mt.price-save-pc
+                                                div.arrow-box
+                                              div.content-warp
+                                          div.price-lowest-align-content
+                                          div.katapult-box
+                                            div.katapult-price-calculator.katapult-wrapper-PC.v3-katapult-container.auto-gaming-style
+                                              div.katapult-content
+                                                div.katapult-price-calculator-logo
+                                                span.katapult-price-calculator-lease «Lease to own.»
+                                                span.katapult-price-calculator-pay «As low as»
+                                                span.katapult-price-calculator-price.btn-katapult-price-calculator «$80/week»
+                                                a.katapult-price-calculator-learn-more.btn-katapult-price-calculator href=# «Learn More»
+                                          div.financing-container-pc
+                                            div.loyalty-container.loyalty-container-MT.loyalty-reward-style.loyalty-bottom-line.style-auto-gaming.indirectContentHidden
+                                              section
+                                                span.rewards-text «My Lenovo Rewards»
+                                                span
+                                                section
+                                                  span
+                                                    span «Earn»
+                                                  span.le-popover-wrapper.le-popover-wrapper_screen.auto-gaming-style
+                                                    span
+                                                      span.loyalty-price-color
+                                                        span «Earn $75 from My Lenovo Rewards of Legion Tower 5i Gen 10 (Intel) Gaming Desktop, click to check more.»
+                                                        button.popup-activation «$75»
+                                                    div.le-popover.auto-gaming-style
+                                                      div.le-popover_body.loyalty-popup-body
+                                                        div.bubble
+                                                          p.title
+                                                            span «My Lenovo Rewards»
+                                                          p.privilege01 «• Exclusive savings»
+                                                          p.privilege11 «• Earn up to 9% back»
+                                                          p.privilege21 «• Free expedited shipping»
+                                                          p.privilege31 «•»
+                                                            a href=javascript:void(0) «Join for free»
+                                                      i.le-popover__arrow.le-popover__arrow-before
+                                                      i.le-popover__arrow.le-popover__arrow.le-popover__arrow-after
+                                                      i.le-popover__arrow-mask
+                                                        i
+                                                  span «in Rewards»
+                                                div.join-now
+                                                  a.lazy_href href=javascript:void(0) «Join Now!»
+                                          div.biz-description-container
+                                          div.card-eCoupon.card-eCoupon-pc
+                                        div.card-product-details.card-product-details-pc.desc-align-content.align-content
+                                          div.features_box.features_box-pc
+                                            div.features
+                                              div
+                                                ul
+                                                  li
+                                                    p «Intel Core™ Ultra HX processors for extreme performance»
+                                                      sup «®»
+                                                  li
+                                                    p «Beyond-fast NVIDIA GeForce RTX graphics»
+                                                      sup «®»
+                                                      sup «®»
+                                                  li
+                                                    p «Ultrafast connectivity, upgradeable memory & storage»
+                                        div.cta_container.pc-cta_container.indirectContentHidden.cta-align-content.align-content
+                                          div.pc-card-cta-wrapper.card-cta-wrapper.cta-wrapper.pc-cta-wrapper_LEN102G0012
+                                            span.ctaButton-capture
+                                              a.button-primary.blue.style-auto-gaming.cta-button.cta-button_subseries.product_cta_button href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel
+                                                span.text «View 2 Models»
+                                        div.inventory_container.indirectContentHidden.align-content
+                                    li.product_item.product_wish_align.product_normal-pc.productCode_LEN102G0009
+                                      div.dlp-product-card.dlp-product-card-PC.align_card
+                                        div.merchandising_warp.indirectContentHidden.align-content
+                                          div.common-compare-container.common-compare-PC.indirectContentHidden
+                                            input
+                                            span.compare-text «Compare»
+                                          div.pc-merchandising_flag.merchandising_flag.indirectContentHidden.pc-merchandising_flag_LEN102G0009.compare_ai_sparkle_merch_flag
+                                        div.pc-copilotLabel-container.align-content
+                                          div.product_title.pc-product_title.pc-product_title_LEN102G0009.title-align-content
+                                            a.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-int «Legion Tower 5i Gen 10 (Intel)»
+                                        div.rating-box.indirectContentHidden.align-content
+                                          div.card-rating-container.yellow-rating-style.card-rating-container_LEN102G0009.style-auto-gaming
+                                            div.card-review-inline
+                                              a.bv_main_container.bv_hover.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-int
+                                                div.bv_stars_component_container
+                                                  div.bv_stars_button_container
+                                                    span.bv_stars_svg_no_wrap
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.gray-icon.star-icon
+                                                        div.star-icon.yellow-icon
+                                                div.number_box
+                                                  div.bv_averageRating_component_container
+                                                    div.bv_text «4.7»
+                                                  div.bv_numReviews_component_container
+                                                    div.bv_text «(91)»
+                                        div.pc-image-align-content.align-content
+                                          div.pc-card_product_image.v3card_product_image.m-product-image-PC.pc-card_product_image_LEN102G0009.pc-card_product_image_hover.card_product_image_hover
+                                            div.product_image_content
+                                              button.normal_image
+                                                img.image_focus src=https://p4-ofp.static.pub//fes/cms/2024/11/26/1htugrkif8pwsdx2vkaahryntyrikl816979.png?wid alt="Lenovo Legion Tower 5i Gen 10 (Intel) is built for extreme gaming & streaming with the power of Intel Core Ultra Processors."
+                                              div.hover_image
+                                                a.lazy_href.hover_image_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-int
+                                                  img.image_blur src=https://p4-ofp.static.pub/ShareResource/na/subseries/gallery/lenovo-legion-tower-5i-g10-01 alt="Lenovo Legion Tower 5i Gen 10 (Intel) is built for extreme gaming & streaming with the power of Intel Core Ultra Processors."
+                                                div.mask.flex
+                                                  div.heart
+                                                  div.see_detail
+                                                    button.iconfont-cameras.picture.productGalleryOverride
+                                                    button.iconfont-playVideo.video.productGalleryOverride
+                                        div.pc_fps_rating.indirectContentHidden.align-content
+                                        div.price-stack.price-stack-pc.indirectContentHidden.price-stack_LEN102G0009.style-auto-gaming.price-align-content.align-content
+                                          div.strike-through-price.strike-through-price-pc.style-auto-gaming
+                                          div.price-title-box.price-title-box-pc
+                                            span.starting-at-container.mini-price-label «Starting at»
+                                          div.price-collapse-align-content
+                                            div.collapse-container.price-saving-collapse-pc.style-auto-gaming
+                                              div.title.is-close
+                                                div.price-summary-info.style-auto-gaming.price-summary-info-pc
+                                                  span.price-title «$2,799.99»
+                                                  span.price-save-mt.price-save-pc
+                                                div.arrow-box
+                                              div.content-warp
+                                          div.price-lowest-align-content
+                                          div.katapult-box
+                                            div.katapult-price-calculator.katapult-wrapper-PC.v3-katapult-container.auto-gaming-style
+                                              div.katapult-content
+                                                div.katapult-price-calculator-logo
+                                                span.katapult-price-calculator-lease «Lease to own.»
+                                                span.katapult-price-calculator-pay «As low as»
+                                                span.katapult-price-calculator-price.btn-katapult-price-calculator «$90/week»
+                                                a.katapult-price-calculator-learn-more.btn-katapult-price-calculator href=# «Learn More»
+                                          div.financing-container-pc
+                                            div.loyalty-container.loyalty-container-MT.loyalty-reward-style.loyalty-bottom-line.style-auto-gaming.indirectContentHidden
+                                              section
+                                                span.rewards-text «My Lenovo Rewards»
+                                                span
+                                                section
+                                                  span
+                                                    span «Earn»
+                                                  span.le-popover-wrapper.le-popover-wrapper_screen.auto-gaming-style
+                                                    span
+                                                      span.loyalty-price-color
+                                                        span «Earn $84 from My Lenovo Rewards of Legion Tower 5i Gen 10 (Intel), click to check more.»
+                                                        button.popup-activation «$84»
+                                                    div.le-popover.auto-gaming-style
+                                                      div.le-popover_body.loyalty-popup-body
+                                                        div.bubble
+                                                          p.title
+                                                            span «My Lenovo Rewards»
+                                                          p.privilege01 «• Exclusive savings»
+                                                          p.privilege11 «• Earn up to 9% back»
+                                                          p.privilege21 «• Free expedited shipping»
+                                                          p.privilege31 «•»
+                                                            a href=javascript:void(0) «Join for free»
+                                                      i.le-popover__arrow.le-popover__arrow-before
+                                                      i.le-popover__arrow.le-popover__arrow.le-popover__arrow-after
+                                                      i.le-popover__arrow-mask
+                                                        i
+                                                  span «in Rewards»
+                                                div.join-now
+                                                  a.lazy_href href=javascript:void(0) «Join Now!»
+                                          div.biz-description-container
+                                          div.card-eCoupon.card-eCoupon-pc
+                                        div.card-product-details.card-product-details-pc.desc-align-content.align-content
+                                          div.features_box.features_box-pc
+                                            div.features
+                                              div
+                                                ul
+                                                  li
+                                                    p «Intel Core™ Ultra processors for extreme performance»
+                                                      sup «®»
+                                                  li
+                                                    p «Beyond-fast NVIDIA GeForce RTX graphics»
+                                                      sup «®»
+                                                      sup «®»
+                                                  li
+                                                    p «Ultrafast connectivity, upgradeable memory & storage»
+                                        div.cta_container.pc-cta_container.indirectContentHidden.cta-align-content.align-content
+                                          div.pc-card-cta-wrapper.card-cta-wrapper.cta-wrapper.pc-cta-wrapper_LEN102G0009
+                                            span.ctaButton-capture
+                                              a.button-primary.blue.style-auto-gaming.cta-button.cta-button_subseries.product_cta_button href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-int
+                                                span.text «View 2 Models»
+                                        div.inventory_container.indirectContentHidden.align-content
+                                    li.product_item.product_wish_align.product_normal-pc.productCode_LEN102G0011
+                                      div.dlp-product-card.dlp-product-card-PC.align_card
+                                        div.merchandising_warp.indirectContentHidden.align-content
+                                          div.common-compare-container.common-compare-PC.indirectContentHidden
+                                            input
+                                            span.compare-text «Compare»
+                                          div.pc-merchandising_flag.merchandising_flag.indirectContentHidden.pc-merchandising_flag_LEN102G0011.compare_ai_sparkle_merch_flag
+                                        div.pc-copilotLabel-container.align-content
+                                          div.product_title.pc-product_title.pc-product_title_LEN102G0011.title-align-content
+                                            a.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l «Legion Tower 5a Gen 10 (30L AMD) Gaming Desktop»
+                                        div.rating-box.indirectContentHidden.align-content
+                                          div.card-rating-container.yellow-rating-style.card-rating-container_LEN102G0011.style-auto-gaming
+                                            div.card-review-inline
+                                              a.bv_main_container.bv_hover.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l
+                                                div.bv_stars_component_container
+                                                  div.bv_stars_button_container
+                                                    span.bv_stars_svg_no_wrap
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.gray-icon.star-icon
+                                                        div.star-icon.yellow-icon
+                                                div.number_box
+                                                  div.bv_averageRating_component_container
+                                                    div.bv_text «4.7»
+                                                  div.bv_numReviews_component_container
+                                                    div.bv_text «(135)»
+                                        div.pc-image-align-content.align-content
+                                          div.pc-card_product_image.v3card_product_image.m-product-image-PC.pc-card_product_image_LEN102G0011.pc-card_product_image_hover.card_product_image_hover
+                                            div.product_image_content
+                                              button.normal_image
+                                                img.image_focus src=https://p4-ofp.static.pub//fes/cms/2025/02/10/dw50w4gybt6j7dg4jie0ud9wo6azg3759486.png?wid alt="Front view of Lenovo Legion Tower 5 Gen 10 (30L AMD) tower, boasting ideal design & its power to achieve robust gaming performance."
+                                              div.hover_image
+                                                a.lazy_href.hover_image_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l
+                                                  img.image_blur src=https://p3-ofp.static.pub//fes/cms/2025/02/10/pr498so56u301fynn23uijzhil87lv400340.png?wid alt="Front view of Lenovo Legion Tower 5 Gen 10 (30L AMD) tower, boasting ideal design & its power to achieve robust gaming performance."
+                                                div.mask.flex
+                                                  div.heart
+                                                  div.see_detail
+                                                    button.iconfont-cameras.picture.productGalleryOverride
+                                                    button.iconfont-playVideo.video.productGalleryOverride
+                                        div.pc_fps_rating.indirectContentHidden.align-content
+                                        div.price-stack.price-stack-pc.indirectContentHidden.price-stack_LEN102G0011.style-auto-gaming.price-align-content.align-content
+                                          div.strike-through-price.strike-through-price-pc.style-auto-gaming
+                                          div.price-title-box.price-title-box-pc
+                                            span.starting-at-container.mini-price-label «Starting at»
+                                          div.price-collapse-align-content
+                                            div.collapse-container.price-saving-collapse-pc.style-auto-gaming
+                                              div.title.is-close
+                                                div.price-summary-info.style-auto-gaming.price-summary-info-pc
+                                                  span.price-title «$2,849.99»
+                                                  span.price-save-mt.price-save-pc
+                                                div.arrow-box
+                                              div.content-warp
+                                          div.price-lowest-align-content
+                                          div.katapult-box
+                                            div.katapult-price-calculator.katapult-wrapper-PC.v3-katapult-container.auto-gaming-style
+                                              div.katapult-content
+                                                div.katapult-price-calculator-logo
+                                                span.katapult-price-calculator-lease «Lease to own.»
+                                                span.katapult-price-calculator-pay «As low as»
+                                                span.katapult-price-calculator-price.btn-katapult-price-calculator «$91/week»
+                                                a.katapult-price-calculator-learn-more.btn-katapult-price-calculator href=# «Learn More»
+                                          div.financing-container-pc
+                                            div.loyalty-container.loyalty-container-MT.loyalty-reward-style.loyalty-bottom-line.style-auto-gaming.indirectContentHidden
+                                              section
+                                                span.rewards-text «My Lenovo Rewards»
+                                                span
+                                                section
+                                                  span
+                                                    span «Earn»
+                                                  span.le-popover-wrapper.le-popover-wrapper_screen.auto-gaming-style
+                                                    span
+                                                      span.loyalty-price-color
+                                                        span «Earn $85 from My Lenovo Rewards of Legion Tower 5a Gen 10 (30L AMD) Gaming Desktop, click to check more.»
+                                                        button.popup-activation «$85»
+                                                    div.le-popover.auto-gaming-style
+                                                      div.le-popover_body.loyalty-popup-body
+                                                        div.bubble
+                                                          p.title
+                                                            span «My Lenovo Rewards»
+                                                          p.privilege01 «• Exclusive savings»
+                                                          p.privilege11 «• Earn up to 9% back»
+                                                          p.privilege21 «• Free expedited shipping»
+                                                          p.privilege31 «•»
+                                                            a href=javascript:void(0) «Join for free»
+                                                      i.le-popover__arrow.le-popover__arrow-before
+                                                      i.le-popover__arrow.le-popover__arrow.le-popover__arrow-after
+                                                      i.le-popover__arrow-mask
+                                                        i
+                                                  span «in Rewards»
+                                                div.join-now
+                                                  a.lazy_href href=javascript:void(0) «Join Now!»
+                                          div.biz-description-container
+                                          div.card-eCoupon.card-eCoupon-pc
+                                        div.card-product-details.card-product-details-pc.desc-align-content.align-content
+                                          div.features_box.features_box-pc
+                                            div.features
+                                              div
+                                                ul
+                                                  li
+                                                    p «Peak performance with AMD Ryzen™ processors & NVIDIA graphics»
+                                                      sup «®»
+                                                  li
+                                                    p «AI-powered audio, tool-free panel, ample storage & memory»
+                                                  li
+                                                    p «Optimized cooling with Legion Coldfront»
+                                        div.cta_container.pc-cta_container.indirectContentHidden.cta-align-content.align-content
+                                          div.pc-card-cta-wrapper.card-cta-wrapper.cta-wrapper.pc-cta-wrapper_LEN102G0011
+                                            span.ctaButton-capture
+                                              a.button-primary.blue.style-auto-gaming.cta-button.cta-button_subseries.product_cta_button href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l
+                                                span.text «View 2 Models»
+                                        div.inventory_container.indirectContentHidden.align-content
+                                    li.product_item.product_wish_align.product_normal-pc.productCode_LEN102G0010
+                                      div.dlp-product-card.dlp-product-card-PC.align_card
+                                        div.merchandising_warp.indirectContentHidden.align-content
+                                          div.common-compare-container.common-compare-PC.indirectContentHidden
+                                            input
+                                            span.compare-text «Compare»
+                                          div.pc-merchandising_flag.merchandising_flag.indirectContentHidden.pc-merchandising_flag_LEN102G0010.compare_ai_sparkle_merch_flag
+                                        div.pc-copilotLabel-container.align-content
+                                          div.product_title.pc-product_title.pc-product_title_LEN102G0010.title-align-content
+                                            a.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g001 «Legion Tower 7i Gen 10 (Intel)»
+                                        div.rating-box.indirectContentHidden.align-content
+                                          div.card-rating-container.yellow-rating-style.card-rating-container_LEN102G0010.style-auto-gaming
+                                            div.card-review-inline
+                                              a.bv_main_container.bv_hover.lazy_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g001
+                                                div.bv_stars_component_container
+                                                  div.bv_stars_button_container
+                                                    span.bv_stars_svg_no_wrap
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.yellow-icon.star-icon
+                                                      div.star-icon-box
+                                                        div.gray-icon.star-icon
+                                                        div.star-icon.yellow-icon
+                                                div.number_box
+                                                  div.bv_averageRating_component_container
+                                                    div.bv_text «4.5»
+                                                  div.bv_numReviews_component_container
+                                                    div.bv_text «(232)»
+                                        div.pc-image-align-content.align-content
+                                          div.pc-card_product_image.v3card_product_image.m-product-image-PC.pc-card_product_image_LEN102G0010.pc-card_product_image_hover.card_product_image_hover
+                                            div.product_image_content
+                                              button.normal_image
+                                                img.image_focus src=https://p3-ofp.static.pub//fes/cms/2024/11/27/diedutowbg29ro7au22vnpi64gl82m941657.png?wid alt="Front view of the Lenovo Legion Tower 7i Gen 10, showcasing RGB-lit cooling fans behind a mesh panel."
+                                              div.hover_image
+                                                a.lazy_href.hover_image_href href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g001
+                                                  img.image_blur src=https://p2-ofp.static.pub//fes/cms/2024/11/27/em8bpvjffmescc7mck5snjp1g73otp127407.png?wid alt="Front view of the Lenovo Legion Tower 7i Gen 10, showcasing RGB-lit cooling fans behind a mesh panel."
+                                                div.mask.flex
+                                                  div.heart
+                                                  div.see_detail
+                                                    button.iconfont-cameras.picture.productGalleryOverride
+                                                    button.iconfont-playVideo.video.productGalleryOverride
+                                        div.pc_fps_rating.indirectContentHidden.align-content
+                                        div.price-stack.price-stack-pc.indirectContentHidden.price-stack_LEN102G0010.style-auto-gaming.price-align-content.align-content
+                                          div.strike-through-price.strike-through-price-pc.style-auto-gaming
+                                          div.price-title-box.price-title-box-pc
+                                            span.starting-at-container.mini-price-label «Starting at»
+                                          div.price-collapse-align-content
+                                            div.collapse-container.price-saving-collapse-pc.style-auto-gaming
+                                              div.title.is-close
+                                                div.price-summary-info.style-auto-gaming.price-summary-info-pc
+                                                  span.price-title «$3,349.99»
+                                                  span.price-save-mt.price-save-pc
+                                                div.arrow-box
+                                              div.content-warp
+                                          div.price-lowest-align-content
+                                          div.katapult-box
+                                            div.katapult-price-calculator.katapult-wrapper-PC.v3-katapult-container.auto-gaming-style
+                                              div.katapult-content
+                                                div.katapult-price-calculator-logo
+                                                span.katapult-price-calculator-lease «Lease to own.»
+                                                span.katapult-price-calculator-pay «As low as»
+                                                span.katapult-price-calculator-price.btn-katapult-price-calculator «$107/week»
+                                                a.katapult-price-calculator-learn-more.btn-katapult-price-calculator href=# «Learn More»
+                                          div.financing-container-pc
+                                            div.loyalty-container.loyalty-container-MT.loyalty-reward-style.loyalty-bottom-line.style-auto-gaming.indirectContentHidden
+                                              section
+                                                span.rewards-text «My Lenovo Rewards»
+                                                span
+                                                section
+                                                  span
+                                                    span «Earn»
+                                                  span.le-popover-wrapper.le-popover-wrapper_screen.auto-gaming-style
+                                                    span
+                                                      span.loyalty-price-color
+                                                        span «Earn $100 from My Lenovo Rewards of Legion Tower 7i Gen 10 (Intel), click to check more.»
+                                                        button.popup-activation «$100»
+                                                    div.le-popover.auto-gaming-style
+                                                      div.le-popover_body.loyalty-popup-body
+                                                        div.bubble
+                                                          p.title
+                                                            span «My Lenovo Rewards»
+                                                          p.privilege01 «• Exclusive savings»
+                                                          p.privilege11 «• Earn up to 9% back»
+                                                          p.privilege21 «• Free expedited shipping»
+                                                          p.privilege31 «•»
+                                                            a href=javascript:void(0) «Join for free»
+                                                      i.le-popover__arrow.le-popover__arrow-before
+                                                      i.le-popover__arrow.le-popover__arrow.le-popover__arrow-after
+                                                      i.le-popover__arrow-mask
+                                                        i
+                                                  span «in Rewards»
+                                                div.join-now
+                                                  a.lazy_href href=javascript:void(0) «Join Now!»
+                                          div.biz-description-container
+                                          div.card-eCoupon.card-eCoupon-pc
+                                        div.card-product-details.card-product-details-pc.desc-align-content.align-content
+                                          div.features_box.features_box-pc
+                                            div.features
+                                              div
+                                                ul
+                                                  li
+                                                    p «Competition-grade gaming power»
+                                                  li
+                                                    p «Seamlessly upgradable with ultimate customization»
+                                                  li
+                                                    p «Massive capacity SSD storage»
+                                        div.cta_container.pc-cta_container.indirectContentHidden.cta-align-content.align-content
+                                          div.pc-card-cta-wrapper.card-cta-wrapper.cta-wrapper.pc-cta-wrapper_LEN102G0010
+                                            span.ctaButton-capture
+                                              a.button-primary.blue.style-auto-gaming.cta-button.cta-button_subseries.product_cta_button href=/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g001
+                                                span.text «View 3 Models»
+                                        div.inventory_container.indirectContentHidden.align-content
+                          i
+                          section.skeleton_product_card.footer_skeleton.pc_footer_skeleton
+                            ul.skeleton_product
+                              li.shine
+                              li.shine
+                              li.shine
+                              li.shine
+                              li.shine
+                              li.shine
+                              li.shine
+                              li.shine
+                              li.shine
+                              li.shine
+                          div.pc_footer_page
+                            p.show
+                              span «Showing»
+                              span «1 -»
+                                span.page_size «4»
+                                span «of»
+                                span.total «4»
+                                span «Results»
+                    div.pc_loading
+                      div.center
+                        span.ouro
+                          span.iconfont-loading.anim
+                        div.txt «One moment please...»
+                div
+                  div.facetName «us_global_desktops_legion_t_series_towers»
+                  div.facetId «1122017b-c219-435e-8fb3-d4b69efefe9a»

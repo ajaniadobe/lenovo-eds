@@ -1,0 +1,186 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-03T01:05:07.586Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T01:05:07.586Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "index",
+    "us-en-ai-pcs",
+    "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+    "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus"
+  ],
+  "steps": [
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "merch-banner",
+          "edsBlockName": "merch-banner"
+        },
+        {
+          "id": "home-hero",
+          "edsBlockName": "home-hero"
+        },
+        {
+          "id": "card-grid",
+          "edsBlockName": "card-grid"
+        },
+        {
+          "id": "prompt",
+          "edsBlockName": "prompt"
+        },
+        {
+          "id": "rewards",
+          "edsBlockName": "rewards"
+        },
+        {
+          "id": "stories",
+          "edsBlockName": "stories"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "us-en-ai-pcs",
+      "path": "/us/en/ai-pcs",
+      "templateId": "us-en-ai-pcs",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "ai-hero",
+          "edsBlockName": "ai-hero"
+        },
+        {
+          "id": "ai-intro",
+          "edsBlockName": "ai-intro"
+        },
+        {
+          "id": "ai-feature",
+          "edsBlockName": "ai-feature"
+        },
+        {
+          "id": "ai-explore",
+          "edsBlockName": "ai-explore"
+        },
+        {
+          "id": "ai-cards",
+          "edsBlockName": "ai-cards"
+        },
+        {
+          "id": "ai-copilot",
+          "edsBlockName": "ai-copilot"
+        },
+        {
+          "id": "pilar-blade",
+          "edsBlockName": "pilar-blade"
+        },
+        {
+          "id": "ai-seo",
+          "edsBlockName": "ai-seo"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "merch-banner",
+          "edsBlockName": "merch-banner",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "path": "/us/en/c/desktops/legion-desktops/legion-t-series-towers",
+      "templateId": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "series-hero",
+          "edsBlockName": "series-hero"
+        },
+        {
+          "id": "series-blade",
+          "edsBlockName": "series-blade"
+        },
+        {
+          "id": "product-listing",
+          "edsBlockName": "product-listing"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "merch-banner",
+          "edsBlockName": "merch-banner",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "path": "/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+      "templateId": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "pdp-hero",
+          "edsBlockName": "pdp-hero"
+        },
+        {
+          "id": "pdp-tabs",
+          "edsBlockName": "pdp-tabs"
+        },
+        {
+          "id": "pdp-services",
+          "edsBlockName": "pdp-services"
+        },
+        {
+          "id": "blade",
+          "edsBlockName": "blade"
+        },
+        {
+          "id": "pdp-specs",
+          "edsBlockName": "pdp-specs"
+        },
+        {
+          "id": "pdp-ports",
+          "edsBlockName": "pdp-ports"
+        },
+        {
+          "id": "pdp-similar",
+          "edsBlockName": "pdp-similar"
+        },
+        {
+          "id": "pdp-reviews",
+          "edsBlockName": "pdp-reviews"
+        },
+        {
+          "id": "pdp-legal",
+          "edsBlockName": "pdp-legal"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "merch-banner",
+          "edsBlockName": "merch-banner",
+          "convertedBy": "index"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1069 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-03T01:06:41.169Z",
+  "input": "stardust/.work/dynamics/fresh/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.lenovo.com"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "https://assets.adobedtm.com/498114d772a9/e8f2dfe68a51/launch-51c0785ae79f.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "RUM: Akamai mPulse"
+ ],
+ "tagManagers": [
+  "Adobe Launch"
+ ],
+ "dataLayers": [
+  "adobeDataLayer",
+  "dataLayer",
+  "utag_data"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "rules": [
+   {
+    "id": "RL044d26d930bf4a559e88b2ef1ed0c5db",
+    "name": "Evidon : Button Top Line : Remove",
+    "paths": [],
+    "selectors": [
+     "#_evidon-banner"
+    ]
+   },
+   {
+    "id": "RL050fc8330fd54f10a80f0e1996bd48f1",
+    "name": "Scrape User Email - Shipping Details - EMEA",
+    "paths": [],
+    "selectors": [
+     "#checkoutButton"
+    ]
+   },
+   {
+    "id": "RL059f8369d76940b5a97faf42a2014067",
+    "name": "Evidon Consent Checker US Custom",
+    "paths": [],
+    "selectors": [
+     "#evidon-prefdiag-accept",
+     "#_evidon-banner-acceptbutton",
+     "#evidon-prefdiag-decline"
+    ]
+   },
+   {
+    "id": "RL1649c6efc2db4c8ca76eb38021e87c01",
+    "name": "Hashed email: Checkout",
+    "paths": [],
+    "selectors": [
+     "span.continue"
+    ]
+   },
+   {
+    "id": "RL17123546d9c2458686644fdc9e9b689b",
+    "name": "Third Party Pixel : CCPA : Evidon UCP : Mobile Close Btn",
+    "paths": [],
+    "selectors": [
+     "#_evh-ric-c"
+    ]
+   },
+   {
+    "id": "RL18387f81bc634ffda5141375d7609731",
+    "name": "Third Party Pixel : CCPA : Evidon UCP Suppression : US",
+    "paths": [],
+    "selectors": [
+     "#_evidon_banner"
+    ]
+   },
+   {
+    "id": "RL24e177b52de145a7ba342abc32710a58",
+    "name": "Marketing : LenovoPro Submit Capture: JP",
+    "paths": [],
+    "selectors": [
+     "#submit-buttom"
+    ]
+   },
+   {
+    "id": "RL37fda99381d54e209ec5f81e0a5d3b4a",
+    "name": "Marketing : APC Tele Rep : Global",
+    "paths": [],
+    "selectors": [
+     "div.tele_fixed_dialog"
+    ]
+   },
+   {
+    "id": "RL3a40b1d345804fd2a0fb6d2a3a59892a",
+    "name": "Third Party Pixel : CCPA : Evidon UCP Inject Cookie : US",
+    "paths": [],
+    "selectors": [
+     "#_evidon_banner"
+    ]
+   },
+   {
+    "id": "RL3ad95d5c5e34455f975ec09b9073ddb6",
+    "name": "Third Party Pixel : Twitter & Line : JP copy",
+    "paths": [],
+    "selectors": [
+     "#submit-buttom"
+    ]
+   },
+   {
+    "id": "RL3f71139a64a2425aa9df720745194695",
+    "name": "Facebook - JP - Request Call back",
+    "paths": [],
+    "selectors": [
+     "#submit-buttom"
+    ]
+   },
+   {
+    "id": "RL45bb7b2daa51424da110d9ed005560e0",
+    "name": "Floodlight - IN - AI Webcast",
+    "paths": [],
+    "selectors": [
+     ".mktoButtonWrap.mktoDownloadButton > button.cta-button__btn.primary"
+    ]
+   },
+   {
+    "id": "RL4879b8d6fb6a46c3aaa58293fd2117fc",
+    "name": "Target Tool Loaded - Global Mbox",
+    "paths": [
+     "/co/es|/nl/nl|/dk/da|/fi/fi|/se/sv|/be/fr|/be/nl|/no/no|/jp/|/in/en|/in/inpartners/instudentstore/en/|/gb/en|/ie/|/pl/pl|/ca/en|/au/en|/kr/ko|/mx/es|/lenovo-ovp/login.action|/nz/en|/sg/en|/my/en/|/de/de/|/fr/fr|/at/de/|/br/pt|/es/es|/it/it|/ch/de|/tw/zh|/hk/en|/cl/es|/ar/es|/store|/ch/en|/ch/fr|/pt/pt|/hk/zf|/th/en|/th/th|/pe/es|/us/|/smbaccount/gatekeeper/|/ca/|nz/lenovopro/en|au/lenovopro/en|gb/reference/en|/ph/en/|/nz/sharelenovo/nzsmb/en|/nz/edu|/au/edu|gb/lenovopro/en|/gb/edu/|de/lenovopro/de|fr/lenovopro/fr|/ch/lenovopro/|/be/lenovopro/|/at/lenovopro/de|/be/edu/|/fr/edu/|/de/edu/|/it/lenovopro|/es/lenovopro/|/hk/lenovopro/|hk/edu|sg/edu|my/edu|th/edu|jp/edu|kr/edu|/hk/zh|tw/edu|th/edu|ph/edu|sg/lenovopro|my/lenovopro|th/lenovopro|jp/lenovopro|kr/lenovopro|tw/lenovopro|th/lenovopro|ph/lenovopro|in/invipmembers|/in/lenovopro|/fr/reference/|/gb/reference/gbref/en/|/de/reference/deref/de/|/mx/reference/mxref/es/|/br/lenovopro/pt/|/public/en/cs-ai-hub.html|/global/en/cs-helix-ftv.html|/dk/lenovopro/da/|/se/lenovopro/sv/|/fi/lenovopro/fi/|/no/lenovopro/no/|/pt/lenovopro/pt/|/nl/lenovopro/nl/|/ar/arreference/|/cl/clreference/|/co/coreference/|/pe/pereference/|/mx/mxreference/|/br/brreference/"
+    ],
+    "selectors": []
+   },
+   {
+    "id": "RL4c4311c4dc3940ae98b30b4027bc01d5",
+    "name": "Scrape User Email - Shipping Details - Hybris",
+    "paths": [],
+    "selectors": [
+     ".checkoutui-im-continue-bn"
+    ]
+   },
+   {
+    "id": "RL501e8e8c11e94703afde5ac4e031fa3a",
+    "name": "Event Based Rule : Proceed to Checkout",
+    "paths": [],
+    "selectors": [
+     ".qa_ProceedToCheckout_Button"
+    ]
+   },
+   {
+    "id": "RL55f240b830374b44913b61e3ddd28cdb",
+    "name": "Analytics : Evidon Suppression Cookie : B2B",
+    "paths": [],
+    "selectors": [
+     "#evidon-prefdiag-accept",
+     "#_evidon-banner-acceptbutton,#_evidon-accept-button,#_evh-ric-c",
+     "#evidon-prefdiag-decline,#_evidon-barrier-declinebutton,#_evidon-decline-button,#RejectLink"
+    ]
+   },
+   {
+    "id": "RL66cf9007c70744bba61519bd36794a7b",
+    "name": "Marketing : Floodlight Checkout Start : JP",
+    "paths": [],
+    "selectors": [
+     ".delivery-submit-btn checkout-form-submit-btn"
+    ]
+   },
+   {
+    "id": "RL71d859fc6fd6414b9ce8ee40ea7a7f0e",
+    "name": "Third Party Pixel : Inside Chat : Powerfront Scroll Chat Hide : NA",
+    "paths": [],
+    "selectors": [
+     "#inside_liveChatTab > img"
+    ]
+   },
+   {
+    "id": "RL92558f9c889f44e8834454290dac2509",
+    "name": "Marketing : Gtag Registration : JP",
+    "paths": [],
+    "selectors": [
+     ".submit-msg.success-box .msg-text"
+    ]
+   },
+   {
+    "id": "RL96f99b64d8464ee299d24eb7d4d55486",
+    "name": "ConfirmIT : Commetarios : 404",
+    "paths": [],
+    "selectors": [
+     "#lenovoSurveyWidget"
+    ]
+   },
+   {
+    "id": "RL986ab5a37a1d454ead08cb47227e5c7b",
+    "name": "Third Party Pixel : Inside Chat : Powerfront : NA MT",
+    "paths": [],
+    "selectors": [
+     "#inside_liveChatTab > img",
+     "#compareDockContainer_chatNow_telium"
+    ]
+   },
+   {
+    "id": "RLa5c2d5b2ec4040c797bdc4589b926fce",
+    "name": "Wunderkind : Window Object - Add to Cart",
+    "paths": [],
+    "selectors": [
+     "#\\\\35 d4603963f4ae-457e-bcd4-493ba62fe341 > div.single_model_PDP > div.hero-container.single_model_PDP_container > div > div.single_model_PDP_container_main_right > div.mainContent > div.cta_btns > div.cta_container.pc-cta_container.indirectContentHidden.single_model_PDP_add_to_cart_wrapper > div > button",
+     "button.plus.accessibility_cart_to",
+     "button.minus.accessibility_cart_to",
+     "div.content_add",
+     "div.content_minus"
+    ]
+   },
+   {
+    "id": "RLaf6fa110e39840f68392561e69ca4f0b",
+    "name": "Analytics : Evidon Consent Interaction : Global",
+    "paths": [],
+    "selectors": [
+     "#evidon-prefdiag-accept",
+     "#_evidon-banner-acceptbutton,#_evidon-accept-button,#_evh-ric-c",
+     "#evidon-prefdiag-decline,#_evidon-barrier-declinebutton,#_evidon-decline-button,#RejectLink"
+    ]
+   },
+   {
+    "id": "RLb2143cd9238343499132cfe95105e45d",
+    "name": "Evidon : Consent : Checker Prod",
+    "paths": [],
+    "selectors": [
+     "#_evidon-barrier-declinebutton",
+     "#_evidon-banner-acceptbutton",
+     "##evidon-prefdiag-accept"
+    ]
+   },
+   {
+    "id": "RLb41cfa9272914a0b809ef20e21d0edcb",
+    "name": "EMEA: ISG New Popup Banner",
+    "paths": [],
+    "selectors": [
+     "#_evidon-banner-acceptbutton",
+     "#evidon-prefdiag-accept",
+     "#evidon-prefdiag-decline,#_evidon-barrier-declinebutton"
+    ]
+   },
+   {
+    "id": "RLbd0eb0f574424e62aedd948768ceca18",
+    "name": "Evidon Consent Suppression Cookie : BR",
+    "paths": [],
+    "selectors": [
+     "#evidon-prefdiag-accept",
+     "#_evidon-banner-acceptbutton,#_evidon-accept-button,#_evh-ric-c",
+     "#evidon-prefdiag-decline,#_evidon-barrier-declinebutton,#_evidon-decline-button,#RejectLink"
+    ]
+   },
+   {
+    "id": "RLcbc23e72fc6d420b9d3883cb4f7877cb",
+    "name": "Analytics : psref-link Link tracking",
+    "paths": [],
+    "selectors": [
+     ".psref-link"
+    ]
+   },
+   {
+    "id": "RLd40f7a76a8594341a6520ff67fef71db",
+    "name": "EqualWeb : NA : Form Focus",
+    "paths": [],
+    "selectors": [
+     "body"
+    ]
+   },
+   {
+    "id": "RLd48d5cdb98e146e79aff5a73575e72d3",
+    "name": "Evidon Consent Checker : Brazil",
+    "paths": [],
+    "selectors": [
+     "#evidon-prefdiag-accept",
+     "#_evidon-banner-acceptbutton",
+     "#evidon-prefdiag-decline"
+    ]
+   },
+   {
+    "id": "RLdd9fda1ee9d240c5ba5c7bd30b8f865d",
+    "name": "Scrape User Email - Shipping Details - Flash",
+    "paths": [
+     "/checkout.html"
+    ],
+    "selectors": [
+     ".toNext div[leclick='goPayment'],.save[data-tkey='Save']"
+    ]
+   },
+   {
+    "id": "RLed144f8ba8e1404bb541c41d0080f4a7",
+    "name": "Reddit - NA - Add to Cart",
+    "paths": [],
+    "selectors": [
+     "#\\\\35 d4603963f4ae-457e-bcd4-493ba62fe341 > div.single_model_PDP > div.hero-container.single_model_PDP_container > div > div.single_model_PDP_container_main_right > div.mainContent > div.cta_btns > div.cta_container.pc-cta_container.indirectContentHidden.single_model_PDP_add_to_cart_wrapper > div > button"
+    ]
+   },
+   {
+    "id": "RLed6dde662e9f43ae811de92ec50d0a78",
+    "name": "GA4 - JP - Server Storage - Request Call back",
+    "paths": [],
+    "selectors": [
+     ".submit-msg.success-box .msg-text"
+    ]
+   },
+   {
+    "id": "RLfe29b2e92e3d48c4b8a7458ada574819",
+    "name": "Evidon : Set Cookie on Reject : EMEA & BR",
+    "paths": [],
+    "selectors": [
+     "#_evidon-barrier-declinebutton",
+     "#evidon-prefdiag-decline"
+    ]
+   }
+  ],
+  "dataElements": [
+   {
+    "name": "Pinterest Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Qualaroo Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "html_customcode_listvalue_lmd",
+    "selectors": [
+     "meta[name=",
+     ".banner_content_desc .saved-price .price",
+     ".banner_content_desc .price_box .final-price"
+    ]
+   },
+   {
+    "name": "Target: getDecisionScopes_Cart mbox - FLASH",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "RS",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Quantum Metric Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Non Marketing Toggle",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Capture Product Name + Cart Page",
+    "selectors": [
+     "meta[key="
+    ]
+   },
+   {
+    "name": "GDPR Compliant Countries",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Country Code",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Async Library Counter",
+    "selectors": [
+     "script[src*="
+    ]
+   },
+   {
+    "name": "Bluecore Advertising Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Combined EMEA Inclusion Condition",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Evidon - Advertising (DOM)",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Consent Decline (e297)",
+    "selectors": [
+     ".evidon-prefdiag-subtitle>#prc-tp-cat-all-toggle>.evidon-switch-slider"
+    ]
+   },
+   {
+    "name": "Target : Flash Order Confirmation Parameters Update",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Combined EMEA Country Code",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Customecode Product Type",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Marketing Toggle",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target: getDecisionScopes-Product_Page&Order_Confirmation",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Evidon - Analytics (DOM)",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Customecode Saleprice",
+    "selectors": [
+     "meta[name=",
+     ".banner_content_desc .price_box .final-price"
+    ]
+   },
+   {
+    "name": "Target : Customcode Processor",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Cart Mbox Flash",
+    "selectors": [
+     ".tabbedBrowse-productListings li .dr-msg:contains(",
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : LISA Subseries Subseries+Cart",
+    "selectors": [
+     "meta[key="
+    ]
+   },
+   {
+    "name": "EMEA Inclusion Condition",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : EntityID TargetNew StoreID 2",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Category Affinity",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Teads Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Demandbase Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Appnexus Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Google Adwords Consent Rules",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Target : PID StoreID New",
+    "selectors": [
+     "meta[name=",
+     "meta[name=productid]"
+    ]
+   },
+   {
+    "name": "Target : Customcode Pageurl",
+    "selectors": [
+     "meta[name=",
+     "meta[name= "
+    ]
+   },
+   {
+    "name": "Wunderkind Consent Rules",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Linkedin Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Target : Capture Subseries + Cart Page",
+    "selectors": [
+     "meta[key="
+    ]
+   },
+   {
+    "name": "Movable Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Adform Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "EMEA Country Code",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Bazaarvoice Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "BTT Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Target : Marketing Bullets",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Evidon - US Condition",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Namogoo Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Default Consent Value",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Criteo Consent",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "WE Country Code",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "OMO Product view",
+    "selectors": [
+     "#product-sku"
+    ]
+   },
+   {
+    "name": "event 400-500 Object : Deals Page",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Bing Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Target : ProductType CustomCode",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Rating Average",
+    "selectors": [
+     "meta[name=",
+     ".banner_content_desc .rating-container",
+     ".hero-container .bv_main_container"
+    ]
+   },
+   {
+    "name": "Tiktok Consent Rule",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "Target : Customecode Lead Time",
+    "selectors": [
+     "meta[name=productname]",
+     "meta[name=Ship_date_"
+    ]
+   },
+   {
+    "name": "Target : Entity Name",
+    "selectors": [
+     "meta[name=",
+     ".product_summary",
+     ".product-name",
+     "h1.desktopHeader"
+    ]
+   },
+   {
+    "name": "Target : Customecode Saving Percentage",
+    "selectors": [
+     "meta[name=",
+     ".banner_content_desc .saved-price .price",
+     ".banner_content_desc .price_box .final-price"
+    ]
+   },
+   {
+    "name": "Target : Meta Productstatus 2",
+    "selectors": [
+     ".comingsoon-txt",
+     ".subComingSoonMsg",
+     "meta[name=",
+     ".marketing-status-flag",
+     ".stamp-wrapper .stamp-msg",
+     ".productStatus-models",
+     ".tabbedBrowse-productListing-container",
+     "#longscroll-singlesku .productStatus-models",
+     ".productStatus-single",
+     "#longscroll-singlesku .productStatus-single",
+     ".productStatus-deals",
+     ".cta-group-action.notifyMeBtn",
+     ".merch-tagLabel-ribbon.modelCust__ribbon.taglabel-font-sm",
+     "#product-details-variant-notavailable",
+     ".notPassDisplayRule-redirectMsg-content",
+     ".stock_message"
+    ]
+   },
+   {
+    "name": "Consent Acceptance (e296)",
+    "selectors": [
+     ".evidon-prefdiag-subtitle>#prc-tp-cat-all-toggle>.evidon-switch-slider"
+    ]
+   },
+   {
+    "name": "Facebook Consent Rules",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "View Content Product ID",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Meta Configtype 2",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "View Content Product Name",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Product Page & Order Confirmation Parameters Update",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target Global Profile Paramaters",
+    "selectors": [
+     ".productcartHeader"
+    ]
+   },
+   {
+    "name": "Target : Entity Value",
+    "selectors": [
+     "meta[name=",
+     ".banner_content_desc .price_box .final-price"
+    ]
+   },
+   {
+    "name": "Target : Customecode Categoryid",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "East EMEA Inclusion Condition",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target: getDecisionScopes_FLASH - Order Confirmation ",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Target : Entity Series",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "AT_BundleId",
+    "selectors": [
+     "meta[name="
+    ]
+   },
+   {
+    "name": "Microsoft Advertising Consent Rules",
+    "selectors": [
+     "meta[name=country]"
+    ]
+   },
+   {
+    "name": "ProductSubseriesID",
+    "selectors": [
+     "meta[name="
+    ]
+   }
+  ],
+  "library": "Adobe Launch",
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": {
+  "plugin": {
+   "name": "aem-martech",
+   "repo": "https://github.com/adobe-rnd/aem-martech.git",
+   "path": "plugins/martech",
+   "edge": "edge.adobedc.net",
+   "sdkDefaultConsent": "in",
+   "launchExtensions": [
+    "Adobe Client Data Layer"
+   ]
+  },
+  "config": {
+   "orgId": "F6171253512D2B8C0A490D45@AdobeOrg",
+   "datastreamId": null,
+   "alloyInstanceName": "alloy",
+   "edgeDomain": "s.lenovo.com",
+   "defaultConsent": "%Default Consent Value%",
+   "launchUrls": [
+    "https://assets.adobedtm.com/498114d772a9/e8f2dfe68a51/launch-51c0785ae79f.min.js"
+   ]
+  },
+  "candidates": {
+   "datastreamId": [
+    "4d1d889f-916f-480a-9e43-e9365be00eb6",
+    "2b931350-4eed-428d-ad63-e2530b4887a6",
+    "554c6682-f414-4757-b962-f2bf2c6deaea",
+    "388e4670-68ac-431a-95b3-25e4859b650d",
+    "d95b12fa-a7f4-4fca-adde-b279d45724ac",
+    "f8a8f77d-c31e-4b15-ad28-f5465a440c9e",
+    "6edd6c26-7c4b-4c12-9ab1-9562a2c256d0",
+    "ae0b8692-02ff-470a-8611-3a8365a3b01a",
+    "a969bed3-4c86-47a9-917a-ec923839e503",
+    "010ab03a-a56e-4ce6-9879-b8280fed3c6a",
+    "8a873c40-1e4d-4e28-bb03-8b02a9c1dcad",
+    "537b6877-f1d5-4798-9d26-50af6327e5a2",
+    "124301fc-1e51-4973-8b7c-104323edde34",
+    "c7f48d44-2642-4113-b78f-fe2ad3ee1e4b",
+    "bb4846cc-f5bc-47c5-9243-4fd454c923b2",
+    "cd930bb7-2dc6-4731-85ed-60770e4fa331",
+    "9c5ed078-2923-486d-a616-8692ddc419eb",
+    "0c4b5e8c-7864-4aae-be22-775d3e91eef1",
+    "9a8c725c-f16c-4f65-baf4-ffd5e22939d9",
+    "4b8a28b5-8a85-4d6c-ace7-70ce5204e64c",
+    "14d94ccf-f904-41b6-bf9f-f9be162d6f32",
+    "12d6f03f-5b85-48f8-bc9f-d6a1c4733ce1",
+    "3bd280b8-f75c-402e-99e9-4015fef7133b",
+    "a05c3222-b9b1-434f-9f49-2052927df7a7",
+    "ec89bdeb-5bda-4c33-b81c-deef20700afb",
+    "66a1caaa-0a52-4e10-a0bd-09a00c8b43e1",
+    "e2b18a8b-0643-4fc0-bd92-bb5c1fb5cf20",
+    "a9a0590f-16ff-4f0a-aefe-79c141f1f2bc",
+    "f403c102-c8fa-41b0-8d4e-11f503519b98",
+    "7297ce7f-5f1f-4dbd-b091-d8eaa1274d6f",
+    "a668e4cb-440d-442e-9810-0f2f08fa2323",
+    "4706f21c-8185-42ad-a9d0-ac80edc24865",
+    "4e4ee1e6-2acd-4e45-b150-a20e4b771638",
+    "91885884-1c62-4c43-afa3-5db08f9d024a",
+    "a24cb170-0303-41c3-b59d-2ad7a5379dd8",
+    "bb8120ee-a965-48df-b5bf-732f4e5679d9",
+    "3a79c3c5-b8de-42b0-82cb-45837965036b",
+    "f7517502-4a5a-4f0b-92b0-ca786843eaef",
+    "56f36c81-7352-453d-b55b-e48485a15543",
+    "f1d77388-8758-49d9-8baa-ee923195d014",
+    "c1054590-07ae-46a1-933f-02b13a024384",
+    "1db24e92-f675-4e2e-abf3-115234af934f",
+    "03f71fa4-7421-4fed-9c26-d4e85458ff4b",
+    "ad55f78b-774a-47ef-9887-fcce77f92ed0",
+    "e0cc93ce-bd6f-41f7-81f6-4e992231d162",
+    "d395203e-ad6c-45d6-b693-20229181a9bf",
+    "5040d2fe-825f-4d47-8bc5-162ff5a0b2d2",
+    "40072901-7bda-4f62-9b17-6b86fb04ad4c",
+    "ec240c5f-7351-4841-9e3a-5e52a9a9d19f",
+    "fd90cf0b-4aeb-48e1-b7e3-2975306f0227",
+    "77b6e338-9c76-4bdc-a726-da82aa57513c",
+    "c5430585-bf39-4bd9-b122-899b3439516a",
+    "e24c8247-2add-499b-8a61-0dc157a05bc6",
+    "3c0668da-6ecb-4964-a914-7a45e1f0f04d",
+    "0ca2f2ad-18f3-451a-ba8d-58282fe549ed",
+    "ff0e2d4c-216a-4145-8927-20254420ad67",
+    "ec616ecd-b5f5-48ae-a4ed-a88518f9526f",
+    "0a229079-ba25-4393-9d48-b4c7fe13a7f6",
+    "a484605c-6201-41da-b5da-82dae626cf18",
+    "594b8d8c-1713-487e-af14-0040015bcf16",
+    "29f7a4f8-387e-4aba-a8bb-3c077c8cf30d",
+    "73dba40c-3102-4f57-ba63-ad4a374569ed",
+    "b9529dac-19dd-4678-b307-f5566746e79c",
+    "379c21e7-ed6e-4285-922a-343f8d1f79a9",
+    "8412680c-fdcd-433a-80aa-f001e3c06541",
+    "bcb136ed-07f7-4495-aabc-6afb0a888897",
+    "9b890bef-3d36-474f-bd58-0bc86030642a",
+    "7437d77f-64b5-4656-b128-7871aab2c035",
+    "ece29877-1351-44ad-97f3-811beec644cb",
+    "bb356c9d-2eb5-4139-9fdc-88a49dfd3af0",
+    "2ec4e54f-83da-405c-815b-8a2bfde4d8b4",
+    "c43d2788-0902-4e9a-b183-df60148c299b",
+    "12aa2818-667b-4512-9393-40ef6b409f6e",
+    "8930bfcc-03a2-486c-a276-2a6aac6d76c1",
+    "9a6e59e3-f04b-4c4c-87ab-00e8aa7de188",
+    "9c05e2dc-34be-4e82-bc95-07ecc82cc7b5",
+    "8de6aa90-98ee-496b-bd93-7cadee9be6af",
+    "b2cd4750-836f-4b12-9bee-69bdc38e8dda",
+    "30f6746d-eed7-4a12-8f51-3bc9371405d8",
+    "b9f4d170-efc9-42b1-b703-6e11c6ec34bb",
+    "8ea13981-0cc8-4546-aa99-5a661e0ef646",
+    "cdcdf0fe-1702-4b64-9800-1502c4cb6ecf",
+    "b2879597-a953-45a0-9c47-d03e3242dac3",
+    "e52f311a-2e91-4802-a66f-324428bffd3f",
+    "29592a1e-9bc7-4dac-96d7-a14cda22787b",
+    "1a541520-8de7-4958-a609-8c52b6bccce0",
+    "4c87ff16-b600-4a5c-9749-a37eff6ff561",
+    "cda85cc1-8fed-4e83-8869-73e2ca7efef1",
+    "5e6f37e5-55c4-4f1f-aafa-bc0ee975425d",
+    "8d4b309f-fbd4-4db4-b435-fbeb6123b655",
+    "e41d8f7b-372f-433e-af5b-98e65a4963a0",
+    "3f257cf7-5ca6-4227-98c1-5cef25468fa4",
+    "af8dd479-4249-4d9c-b3ce-9acb4ca7301c",
+    "21ee36d9-2cb2-4b18-952e-f326491a4c36",
+    "7f96f030-1dcd-49b5-a89a-ca4900790685",
+    "40bdbbe3-3793-4680-ada0-190b8916d3b6",
+    "36b26de8-8964-4714-882d-fd66f013387e",
+    "c70d14aa-3c92-4232-8cff-fa5657cf0ce3",
+    "9832675e-998e-444a-b062-4a047597ad60",
+    "d2821896-04b9-4ecb-82b3-a4936ccd849f",
+    "282deb44-1a0e-4661-8069-73a487c21bd8",
+    "0e3e935f-efc8-450c-b99b-3b4fce354113",
+    "d563d4d9-44a9-4a2b-aca6-dc757ccc4cc3"
+   ],
+   "stagingDatastreamId": [
+    "4d1d889f-916f-480a-9e43-e9365be00eb6",
+    "2b931350-4eed-428d-ad63-e2530b4887a6",
+    "554c6682-f414-4757-b962-f2bf2c6deaea",
+    "388e4670-68ac-431a-95b3-25e4859b650d",
+    "d95b12fa-a7f4-4fca-adde-b279d45724ac",
+    "f8a8f77d-c31e-4b15-ad28-f5465a440c9e",
+    "6edd6c26-7c4b-4c12-9ab1-9562a2c256d0",
+    "ae0b8692-02ff-470a-8611-3a8365a3b01a",
+    "a969bed3-4c86-47a9-917a-ec923839e503",
+    "010ab03a-a56e-4ce6-9879-b8280fed3c6a",
+    "8a873c40-1e4d-4e28-bb03-8b02a9c1dcad",
+    "537b6877-f1d5-4798-9d26-50af6327e5a2",
+    "124301fc-1e51-4973-8b7c-104323edde34",
+    "c7f48d44-2642-4113-b78f-fe2ad3ee1e4b",
+    "bb4846cc-f5bc-47c5-9243-4fd454c923b2",
+    "cd930bb7-2dc6-4731-85ed-60770e4fa331",
+    "9c5ed078-2923-486d-a616-8692ddc419eb",
+    "0c4b5e8c-7864-4aae-be22-775d3e91eef1",
+    "9a8c725c-f16c-4f65-baf4-ffd5e22939d9",
+    "4b8a28b5-8a85-4d6c-ace7-70ce5204e64c",
+    "14d94ccf-f904-41b6-bf9f-f9be162d6f32",
+    "12d6f03f-5b85-48f8-bc9f-d6a1c4733ce1",
+    "3bd280b8-f75c-402e-99e9-4015fef7133b",
+    "a05c3222-b9b1-434f-9f49-2052927df7a7",
+    "ec89bdeb-5bda-4c33-b81c-deef20700afb",
+    "66a1caaa-0a52-4e10-a0bd-09a00c8b43e1",
+    "e2b18a8b-0643-4fc0-bd92-bb5c1fb5cf20",
+    "a9a0590f-16ff-4f0a-aefe-79c141f1f2bc",
+    "f403c102-c8fa-41b0-8d4e-11f503519b98",
+    "7297ce7f-5f1f-4dbd-b091-d8eaa1274d6f",
+    "a668e4cb-440d-442e-9810-0f2f08fa2323",
+    "4706f21c-8185-42ad-a9d0-ac80edc24865",
+    "4e4ee1e6-2acd-4e45-b150-a20e4b771638",
+    "91885884-1c62-4c43-afa3-5db08f9d024a",
+    "a24cb170-0303-41c3-b59d-2ad7a5379dd8",
+    "bb8120ee-a965-48df-b5bf-732f4e5679d9",
+    "3a79c3c5-b8de-42b0-82cb-45837965036b",
+    "f7517502-4a5a-4f0b-92b0-ca786843eaef",
+    "56f36c81-7352-453d-b55b-e48485a15543",
+    "f1d77388-8758-49d9-8baa-ee923195d014",
+    "c1054590-07ae-46a1-933f-02b13a024384",
+    "1db24e92-f675-4e2e-abf3-115234af934f",
+    "03f71fa4-7421-4fed-9c26-d4e85458ff4b",
+    "ad55f78b-774a-47ef-9887-fcce77f92ed0",
+    "e0cc93ce-bd6f-41f7-81f6-4e992231d162",
+    "d395203e-ad6c-45d6-b693-20229181a9bf",
+    "5040d2fe-825f-4d47-8bc5-162ff5a0b2d2",
+    "40072901-7bda-4f62-9b17-6b86fb04ad4c",
+    "ec240c5f-7351-4841-9e3a-5e52a9a9d19f",
+    "fd90cf0b-4aeb-48e1-b7e3-2975306f0227",
+    "77b6e338-9c76-4bdc-a726-da82aa57513c",
+    "c5430585-bf39-4bd9-b122-899b3439516a",
+    "e24c8247-2add-499b-8a61-0dc157a05bc6",
+    "3c0668da-6ecb-4964-a914-7a45e1f0f04d",
+    "0ca2f2ad-18f3-451a-ba8d-58282fe549ed",
+    "ff0e2d4c-216a-4145-8927-20254420ad67",
+    "ec616ecd-b5f5-48ae-a4ed-a88518f9526f",
+    "0a229079-ba25-4393-9d48-b4c7fe13a7f6",
+    "a484605c-6201-41da-b5da-82dae626cf18",
+    "594b8d8c-1713-487e-af14-0040015bcf16",
+    "29f7a4f8-387e-4aba-a8bb-3c077c8cf30d",
+    "73dba40c-3102-4f57-ba63-ad4a374569ed",
+    "b9529dac-19dd-4678-b307-f5566746e79c",
+    "379c21e7-ed6e-4285-922a-343f8d1f79a9",
+    "8412680c-fdcd-433a-80aa-f001e3c06541",
+    "bcb136ed-07f7-4495-aabc-6afb0a888897",
+    "9b890bef-3d36-474f-bd58-0bc86030642a",
+    "7437d77f-64b5-4656-b128-7871aab2c035",
+    "ece29877-1351-44ad-97f3-811beec644cb",
+    "bb356c9d-2eb5-4139-9fdc-88a49dfd3af0",
+    "2ec4e54f-83da-405c-815b-8a2bfde4d8b4",
+    "c43d2788-0902-4e9a-b183-df60148c299b",
+    "12aa2818-667b-4512-9393-40ef6b409f6e",
+    "8930bfcc-03a2-486c-a276-2a6aac6d76c1",
+    "9a6e59e3-f04b-4c4c-87ab-00e8aa7de188",
+    "9c05e2dc-34be-4e82-bc95-07ecc82cc7b5",
+    "8de6aa90-98ee-496b-bd93-7cadee9be6af",
+    "b2cd4750-836f-4b12-9bee-69bdc38e8dda",
+    "30f6746d-eed7-4a12-8f51-3bc9371405d8",
+    "b9f4d170-efc9-42b1-b703-6e11c6ec34bb",
+    "8ea13981-0cc8-4546-aa99-5a661e0ef646",
+    "cdcdf0fe-1702-4b64-9800-1502c4cb6ecf",
+    "b2879597-a953-45a0-9c47-d03e3242dac3",
+    "e52f311a-2e91-4802-a66f-324428bffd3f",
+    "29592a1e-9bc7-4dac-96d7-a14cda22787b",
+    "1a541520-8de7-4958-a609-8c52b6bccce0",
+    "4c87ff16-b600-4a5c-9749-a37eff6ff561",
+    "cda85cc1-8fed-4e83-8869-73e2ca7efef1",
+    "5e6f37e5-55c4-4f1f-aafa-bc0ee975425d",
+    "8d4b309f-fbd4-4db4-b435-fbeb6123b655",
+    "e41d8f7b-372f-433e-af5b-98e65a4963a0",
+    "3f257cf7-5ca6-4227-98c1-5cef25468fa4",
+    "af8dd479-4249-4d9c-b3ce-9acb4ca7301c",
+    "21ee36d9-2cb2-4b18-952e-f326491a4c36",
+    "7f96f030-1dcd-49b5-a89a-ca4900790685",
+    "40bdbbe3-3793-4680-ada0-190b8916d3b6",
+    "36b26de8-8964-4714-882d-fd66f013387e",
+    "c70d14aa-3c92-4232-8cff-fa5657cf0ce3",
+    "9832675e-998e-444a-b062-4a047597ad60",
+    "d2821896-04b9-4ecb-82b3-a4936ccd849f",
+    "282deb44-1a0e-4661-8069-73a487c21bd8",
+    "0e3e935f-efc8-450c-b99b-3b4fce354113",
+    "d563d4d9-44a9-4a2b-aca6-dc757ccc4cc3"
+   ]
+  },
+  "extension": {
+   "version": "2.38.0",
+   "selfHostable": true,
+   "library": "managed"
+  },
+  "missingExtensions": [
+   "Adobe Client Data Layer"
+  ],
+  "category": null,
+  "enabled": false
+ },
+ "target": {
+  "atjs": null,
+  "webSdk": {
+   "renderRules": [
+    {
+     "id": "RL4879b8d6fb6a46c3aaa58293fd2117fc",
+     "name": "Target Tool Loaded - Global Mbox"
+    },
+    {
+     "id": "RL8dc4865b16144e9e9addf5102c011857",
+     "name": "Page Load : Product View : All Sites (Hybris)"
+    },
+    {
+     "id": "RLe6319d3bfb8d41a2b9af74eb5aee0f2c",
+     "name": "Page Load : Purchase : All Sites"
+    }
+   ],
+   "prehiding": false
+  },
+  "enabled": false
+ }
+}

@@ -1,0 +1,242 @@
+/* pdp-specs — tech specs table + warnings band */
+/* stylelint-disable no-descending-specificity -- cascade order ported from the gated prototype */
+main .section.pdp-specs-container {
+  margin-top: 47px;
+  background: #000;
+  color: #fff;
+}
+
+.pdp-specs {
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pdp-specs p,
+.pdp-specs ul {
+  margin: 0;
+}
+
+.pdp-specs img {
+  max-width: none;
+}
+
+.pdp-specs sup {
+  font-size: 0.83em;
+  vertical-align: super;
+}
+
+.pdp-specs .pdp-specs-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 16px 80px;
+}
+
+.pdp-specs .pdp-specs-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 124px;
+  border-top: 1px solid #ccc;
+}
+
+.pdp-specs .pdp-specs-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.pdp-specs :is(.pdp-specs-title, .spec-block-title) :is(h1, h2, h3, h4) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.pdp-specs .collapse {
+  width: 47px;
+  height: 47px;
+  padding: 0;
+  border: 2px solid #0ff;
+  border-radius: 50%;
+  background: none;
+  cursor: pointer;
+}
+
+.pdp-specs .spec-block-title {
+  height: 44px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pdp-specs .spec-lines {
+  margin: 16px 0;
+}
+
+.pdp-specs .spec-line {
+  display: flex;
+  border-top: 1px solid #ccc;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pdp-specs .spec-label {
+  flex: 0 0 33%;
+  padding: 17px 0 19px;
+  border-right: 1px solid #ccc;
+  font-weight: 700;
+}
+
+.pdp-specs .spec-value {
+  flex: 1;
+  padding: 17px 20px 19px;
+}
+
+.pdp-specs .spec-value p {
+  margin-bottom: 8px;
+}
+
+.pdp-specs .spec-value p:last-child {
+  margin-bottom: 0;
+}
+
+.pdp-specs .spec-value p:has(> a) + p {
+  margin-top: 40px;
+}
+
+.pdp-specs .spec-value p + ul {
+  margin-top: 16px;
+}
+
+.pdp-specs .spec-value ul + p {
+  margin-top: 32px;
+}
+
+.pdp-specs .spec-value ul {
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.pdp-specs .spec-value li {
+  margin-bottom: 8px;
+}
+
+.pdp-specs .spec-value a {
+  color: #0ff;
+  text-decoration: none;
+}
+
+.pdp-specs .spec-value em {
+  font-size: 14px;
+  font-style: normal;
+}
+
+.pdp-specs .spec-value picture,
+.pdp-specs .spec-value img {
+  display: inline-block;
+  width: 43px;
+  height: 51px;
+  vertical-align: middle;
+}
+
+.pdp-specs .pdp-specs-disc {
+  padding: 0 0 20px;
+  border-top: 1px solid #ccc;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.pdp-specs .pdp-merch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 103px;
+  background: #000;
+}
+
+.pdp-specs .pdp-merch p {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pdp-specs .pdp-merch img {
+  width: 44px;
+  height: 50px;
+}
+
+@media (width <= 1023px) {
+  .pdp-specs .spec-label {
+    flex-basis: 128px;
+    padding-right: 8px;
+  }
+
+  .pdp-specs .spec-value {
+    min-width: 0;
+    padding: 17px 20px 19px 0;
+    overflow-wrap: anywhere;
+  }
+
+  /* live 360: rows start right under the group title; the group closes with 32px */
+  .pdp-specs .spec-lines {
+    margin: 0 0 32px;
+  }
+
+  .pdp-specs .pdp-merch {
+    height: 105px;
+  }
+
+  main .section.pdp-specs-container {
+    margin-top: 97px;
+  }
+}
+
+/* ---------- light (white series page palette; generated from the dark rules) ---------- */
+main .section.pdp-specs-container:has(.pdp-specs.light) {
+  background: #f5f5f5;
+  color: #000;
+}
+
+.pdp-specs.light .pdp-specs-head {
+  border-top: 1px solid #c7c7c7;
+}
+
+.pdp-specs.light .collapse {
+  border: 2px solid #294e95;
+}
+
+.pdp-specs.light .spec-line {
+  border-top: 1px solid #c7c7c7;
+}
+
+.pdp-specs.light .spec-label {
+  border-right: 1px solid #c7c7c7;
+}
+
+.pdp-specs.light .spec-value a {
+  color: #294e95;
+}
+
+.pdp-specs.light .pdp-specs-disc {
+  border-top: 1px solid #c7c7c7;
+}
+
+.pdp-specs.light .pdp-merch {
+  background: #fff;
+}
+
+/* light series (live): a labelled port list ("Left:") opens 24px under its label */
+.pdp-specs.light .spec-value p + ul {
+  margin-top: 24px;
+}
+
+/* series pages (black tower, light Yoga) at 360: free-text notes under a value list run 14/25 (live) */
+@media (width <= 1023px) {
+  .pdp-specs:is(.black, .light) .spec-value > ul + p:not(:has(strong, a, img, picture)) {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}

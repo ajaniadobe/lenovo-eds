@@ -1,0 +1,2004 @@
+{
+ "source": "http://127.0.0.1:8841/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "merchandizingBanner",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Unbeatable deals on PCs & tech. If it´s badged, it´s Black Friday priced."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Black Friday Deal Days!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Shop Now >",
+     "href": "/us/en/d/deals/doorbusters/?IPromoID=LEN944203"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "For price matching, extra deals, or help budgeting, call a Sales Specialist. 1‑855‑253‑6686."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn More",
+     "href": "/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Earn 3%-9% in rewards and get free expedited delivery on select products."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "My Lenovo Rewards!"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Join for Free >",
+     "href": "https://account.lenovo.com/us/en/account/rewards/?IPromoID=LEN775755"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Lease-to-own today with Katapult. Get started with an initial lease payment as low as $1! *"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn More >",
+     "href": "/us/en/landingpage/lenovo-financing-options/?IPromoID=LEN771093"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "New Lenovo Pro members get $100 off first order of $1,000+, exclusive savings & 1:1 tech support."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Shopping for a business?"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn More >",
+     "href": "/us/en/business/benefits/?PromoID=LEN818484"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Currently displaying item 1 of 5"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.merchandizingItem",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "home-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "A New Vision for AI"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "At Innovation World 2026, Lenovo unveils groundbreaking technology that embodies its vision of Smarter AI for all."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://www.lenovo.com/innovationworld"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Join Lenovo Pro for Business"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Gain instant access to our exclusive business store and the business-critical tools you need to succeed – whether you're a start-up or mature business, new members save an extra $100 off first purchase of $1,000+."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Sign Up Now",
+     "href": "https://www.lenovo.com/us/en/business/benefits"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Smarter AI for What’s Next"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Step into a world where AI is seamless and transformative. Explore Lenovo’s comprehensive AI solutions across smart devices, hybrid infrastructure, data and services."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Discover Hybrid AI Solutions",
+     "href": "https://www.lenovo.com/us/en/ai"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Modernize for What's Next"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Build a modern infrastructure foundation designed to support enterprise AI workloads."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Read Press Release",
+     "href": "https://go.lenovo.com/modernize-infrastructure"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn More",
+     "href": "https://www.lenovo.com/us/en/servers-storage/solutions/infrastructure-virtualization/"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "The smarter choice for power"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Copilot+ PCs are the fastest, most intelligent Windows PCs ever."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Shop Now",
+     "href": "https://www.lenovo.com/us/en/p/laptops/ideapad/ideapad-slim-series/lenovo-ideapad-slim-3x-gen-10-15-inch-snapdragon/len101i0120"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn More",
+     "href": "https://www.lenovo.com/copilot-plus-pc/"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.home-hero__slide",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 4,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "card-grid",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "PCs & Tablets",
+     "href": "https://www.lenovo.com/us/en/pc"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Servers & Storage",
+     "href": "https://www.lenovo.com/us/en/servers-storage/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Services",
+     "href": "https://www.lenovo.com/us/en/services/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Monitors",
+     "href": "https://www.lenovo.com/us/en/d/accessories-and-monitors/monitors/monitor-buying-guide/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Accessories & Software",
+     "href": "https://www.lenovo.com/us/en/accessories-and-software/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Support",
+     "href": "https://www.lenovo.com/us/en/contact/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Deals",
+     "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cat-card",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "prompt",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Discover How Lenovo Can Help You"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Safeguard against cyber threats"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Safeguard against cyber threats"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Save on Lenovo products"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Save on Lenovo products"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Increase workforce productivity"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Increase workforce productivity"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Unlock next-gen gaming experiences"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Unlock next-gen gaming experiences"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Lower energy costs"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Adapt quickly to changing needs"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Work and play smarter with AI PCs"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Work and play smarter with AI PCs"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Empower a future-ready workforce"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Empower a future-ready workforce"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Create without limits with AI"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Safeguard against cyber threats"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Save on Lenovo products"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Increase workforce productivity"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Unlock next-gen gaming experiences"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Lower energy costs"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Adapt quickly to changing needs"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Work and play smarter with AI PCs"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Empower a future-ready workforce"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Create without limits with AI"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Start Over"
+    },
+    {
+     "role": "eyebrow",
+     "order": 26,
+     "text": "Users like you started their path here:"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Lenovo Security Services, simplified"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Lenovo Security Services, simplified"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Play Video"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Cybersecurity"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Protect against escalating threats and attacks."
+    },
+    {
+     "role": "heading",
+     "order": 33,
+     "text": "Managed Detection & Response"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Detect and stay ahead of real-time threats."
+    },
+    {
+     "role": "heading",
+     "order": 35,
+     "text": "ThinkShield"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Get hardware, software, and supply chain security to fight threats at every level."
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Exclusive Weekly Deals on Laptops, Accessories, and Tech"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Shop Now",
+     "href": "https://www.lenovo.com/us/en/d/deals/doorbusters"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Exclusive Weekly Deals on Laptops, Accessories, and Tech"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Shop Now",
+     "href": "https://www.lenovo.com/us/en/d/deals/doorbusters"
+    },
+    {
+     "role": "heading",
+     "order": 41,
+     "text": "Student & Teacher Discounts"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Save 5% on the gear you need to excel in school."
+    },
+    {
+     "role": "heading",
+     "order": 43,
+     "text": "Lenovo Pro for Business"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Exclusive benefits and tools designed to help your business grow."
+    },
+    {
+     "role": "heading",
+     "order": 45,
+     "text": "Certified Refurbished Devices"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Enjoy the same quality, security, and performance in our refurbished devices."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Digital Workplace Solutions – the workplace of the future is here"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Digital Workplace Solutions – the workplace of the future is here"
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Collaboration & Productivity"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Explore solutions designed to boost teamwork and streamline workflows."
+    },
+    {
+     "role": "heading",
+     "order": 51,
+     "text": "Care of One™"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Create hyper-personalized experiences that boosts satisfaction and productivity."
+    },
+    {
+     "role": "heading",
+     "order": 53,
+     "text": "Reinventing Workforce Productivity"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Get the latest insights and best practices."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Lenovo Legion – Reach Your Impossible"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Lenovo Legion – Reach Your Impossible"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Play Video"
+    },
+    {
+     "role": "heading",
+     "order": 59,
+     "text": "Lenovo Legion"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Lead your squad to victory with devices that let you game from anywhere."
+    },
+    {
+     "role": "heading",
+     "order": 61,
+     "text": "Gaming Accessories"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Elevate your gaming experience with the right equipment to clinch victory."
+    },
+    {
+     "role": "heading",
+     "order": 63,
+     "text": "Gaming Monitors"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Get in the game with superior resolution and high refresh rates."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Neptune® Liquid Cooling in action"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Neptune® Liquid Cooling in action"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Play Video"
+    },
+    {
+     "role": "heading",
+     "order": 69,
+     "text": "Energy Efficient Computing"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Reduce power use in data centers and operate more efficiently."
+    },
+    {
+     "role": "heading",
+     "order": 71,
+     "text": "TruScale Infrastructure as a Service"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Right-size your infrastructure to enhance your energy efficiency."
+    },
+    {
+     "role": "heading",
+     "order": 73,
+     "text": "ThinkPad"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Get energy-efficient laptops that are always up for the job."
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "TruScale Device as a Service – Smarter delivers a user experience that matters"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "TruScale Device as a Service – Smarter delivers a user experience that matters"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Play Video"
+    },
+    {
+     "role": "heading",
+     "order": 79,
+     "text": "Hybrid AI Servers"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Accelerate time to value with high-performing, AI-ready servers."
+    },
+    {
+     "role": "heading",
+     "order": 81,
+     "text": "Managed Services"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Tap a team of experts for proactively monitor, manage, and resolve IT issues."
+    },
+    {
+     "role": "heading",
+     "order": 83,
+     "text": "AI Adoption & Change Management"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Ensure your organization and people embrace – and thrive – with AI."
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "The AI PC from Lenovo"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "The AI PC from Lenovo"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Play Video"
+    },
+    {
+     "role": "heading",
+     "order": 89,
+     "text": "Copilot+ PCs"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Go further with brilliant AI features and powerful performance."
+    },
+    {
+     "role": "heading",
+     "order": 91,
+     "text": "AI Applications for Lenovo Devices"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Enjoy unparalleled capabilities and cutting-edge features."
+    },
+    {
+     "role": "heading",
+     "order": 93,
+     "text": "PCs for Creators"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Get performance and customizations to power your creative journey."
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Lenovo’s Agentic AI Solution"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Lenovo’s Agentic AI Solution"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Play Video"
+    },
+    {
+     "role": "heading",
+     "order": 99,
+     "text": "AI Services"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Earn your ROI from AI with speed, ease, and expertise."
+    },
+    {
+     "role": "heading",
+     "order": 101,
+     "text": "Hybrid AI Advantage"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Increase productivity and agility across personal, enterprise, and public clouds."
+    },
+    {
+     "role": "heading",
+     "order": 103,
+     "text": "Hybrid Cloud Infrastructure"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "Modernize your apps and data in a secure, sustainable, and agile environment."
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "The Lenovo Aura Edition AI PC imagined with Intel"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Play Video"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "The Lenovo Aura Edition AI PC imagined with Intel"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Play Video"
+    },
+    {
+     "role": "heading",
+     "order": 109,
+     "text": "AI PCs for Business"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Get unprecedented personalization, productivity, and security."
+    },
+    {
+     "role": "heading",
+     "order": 111,
+     "text": "High Performance Computing"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Solve the world's biggest problems with powerful supercomputing capabilities."
+    },
+    {
+     "role": "heading",
+     "order": 113,
+     "text": "AI Applications for Lenovo Devices"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "Enjoy unparalleled capabilities and cutting-edge features."
+    }
+   ],
+   "imgCount": 48,
+   "editableTexts": 74,
+   "repeats": [
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "BUTTON.prompt__btn",
+     "count": 15,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "BUTTON.prompt__btn",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.prompt-result",
+     "count": 9,
+     "unit": {
+      "headings": 3,
+      "ctas": 3,
+      "imgs": 5,
+      "textRuns": 10
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "card-grid",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Powering Global Events & Partnerships"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "From CES to FIFA, Lenovo puts AI at the heart of the world’s greatest events."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Lenovo Tech World @ CES"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "In January 2026, Lenovo took over Las Vegas’ iconic Sphere to reveal our biggest AI news."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Lenovo & Formula 1®"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "See how Lenovo fuels F1® with data-driven innovation for fans around the world."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Lenovo & FIFA"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Lenovo and FIFA bring immersive football to stadiums, screens, and your device."
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.img-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "card-grid",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "A Global Technology Powerhouse"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Leading Innovator Worldwide"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "We power dedicated teams, cutting-edge technology, and global reach to help the world transform more efficiently, reliably, and safely."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Read our story",
+     "href": "https://www.lenovo.com/us/en/about/"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "What We Do"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "We integrate hardware, software, cloud, and AI into one seamless approach, helping businesses connect every layer of their technology."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Explore smarter solutions",
+     "href": "https://www.lenovo.com/us/en/solutions/ai"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Corporate Responsibility"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We set the bar high for our environmental, social, and governance goals, and innovate ways to help other companies achieve theirs."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "See our impact",
+     "href": "https://www.lenovo.com/us/en/about/our-impact/"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Lenovo Cares"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "We empower communities through STEM education and access to technology."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Power change",
+     "href": "https://www.lenovo.com/us/en/about/foundation/?IPromoID=LEN388588"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.icon-card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "card-grid",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fueling What’s Next"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Delivering innovative, end-to-end solutions that drive progress responsibly."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Hybrid AI Solutions"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Explore our one-stop shop for all your AI needs."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Neptune® Liquid Cooling"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Power AI and HPC workloads without compromise."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Hybrid Cloud"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Modernize across your entire IT environment."
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Hybrid AI Servers"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Accelerate and scale AI solutions efficiently while protecting your data."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Digital Workplace Solutions"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Empower more personalized and productive employee experiences."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "TruScale"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Simplify your transformation with a scalable and cost-effective solution."
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Services"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Unlock enterprise value with tailored services."
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Sustainability"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Accelerate and scale AI solutions efficiently while protecting your data."
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 18,
+   "repeats": [
+    {
+     "unitSelector": "DIV.img-card",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "card-grid",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Browse Devices Built to Help You Go Further"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Business"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Get one-on-one tech support, save with exclusive benefits, and more."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Student"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Get smarter technology to make the grade and save 5% with your student ID."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Gaming"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Take your gaming to the next level and beyond."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Creator"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Unleash your imagination with powerful technology."
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.img-card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "rewards",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Earn up to 9% back in rewards on Lenovo.com and Lenovo Pro purchases. Redeem points for savings, exclusive offers, and member-only perks year-round."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Join Free",
+     "href": "https://account.lenovo.com/us/en/account/rewards/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn More",
+     "href": "https://www.lenovo.com/us/en/rewards/"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "No minimum spend"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Redeem on future Lenovo purchases"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Free expedited delivery for members"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Bonus rewards for birthdays & events"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "PICTURE.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "card-grid",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Exclusive Promotions & Resources"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "From business benefits to clearance savings, discover smarter ways to shop Lenovo."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Weekly Deals"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Save on limited-time offers across laptops, accessories, and more."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Browse deals",
+     "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Lenovo Pro for Business"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Get exclusive benefits and tools designed to help your business grow."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Grow smarter",
+     "href": "https://www.lenovo.com/us/en/business/benefits"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Lenovo Discount Program"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Select customers can access exclusive, additional savings every day through our discount programs."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Start saving",
+     "href": "https://www.lenovo.com/us/en/discount-programs/"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Lenovo Outlet Store"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Shop new and certified refurbished items. Act fast, limited stock!"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Shop the Outlet",
+     "href": "https://www.lenovo.com/us/outletus/en/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.icon-card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "stories",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Lenovo Innovation in Action"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Read more success stories",
+     "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Formula 1"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "DreamWorks Animation"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Madison Square Garden"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Dallas Cowboys"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Lenovo Center & Carolina Hurricanes"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Doctors Without Borders"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "The Winning Formula"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Discover how Lenovo devices and IT infrastructure support the breakneck pace of innovation in the world’s most popular motorsport."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn More",
+     "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/formula-1"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "The impact"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "“Lenovo's very much a one-stop shop for us, which is fantastic. We not only get amazing technology but also access to some of the best techies and expertise to help us build solutions.”"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Chris Roberts"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "IT Director, Formula 1"
+    },
+    {
+     "role": "eyebrow",
+     "order": 15,
+     "text": "HOW THEY DID IT"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Asset Recovery Services (ARS)"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "ThinkSystem Servers"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Edge Devices"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Motorola Mobile Devices"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "22"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Grand Prix races supported worldwide"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "1M+"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Data points generated by each car"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "100M+"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Global audience"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "Creativity Unleashed at DreamWorks Animation"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Lenovo's workstations and patented Neptune® Liquid Cooling technology enable DreamWorks’ artists and filmmakers to bring their imaginations to life."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "See How",
+     "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/dreamworks-animation"
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "The impact"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "“Lenovo's servers and their workstations are some of the best technology on the planet. They have given us and our filmmakers an incredible boost of computational power.”"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Kate Swanborg"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "SVP, Technology Communications & Strategic Alliances, DreamWorks Animation"
+    },
+    {
+     "role": "eyebrow",
+     "order": 33,
+     "text": "How they did it"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "High Performance Computing (HPC)"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Neptune® Liquid Cooling technology"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Lenovo workstations"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Professional Services"
+    },
+    {
+     "role": "heading",
+     "order": 38,
+     "text": "300M"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Computational hours rendered per film"
+    },
+    {
+     "role": "heading",
+     "order": 40,
+     "text": "$480M"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Earned on Puss in Boots: The Last Wish"
+    },
+    {
+     "role": "heading",
+     "order": 42,
+     "text": "25"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "#1 Box office hits"
+    },
+    {
+     "role": "heading",
+     "order": 44,
+     "text": "Helping Small Businesses Score Big"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "We’re helping the MSG Family of Companies launch initiatives focused on small businesses and community organizations through programming with the New York Knicks and the Christmas Spectacular Starring the Radio City Rockettes."
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Learn More",
+     "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/msge"
+    },
+    {
+     "role": "heading",
+     "order": 47,
+     "text": "The impact"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "“Together, we will both further our shared commitment of giving back in meaningful ways to the local communities we serve and drive significant value for our businesses through high-profile brand exposure opportunities.”"
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Jamaal Lesane"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Chief Operating Officer, MSG Sports"
+    },
+    {
+     "role": "eyebrow",
+     "order": 51,
+     "text": "How they did it"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Performance Computing (HPC)"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Motorola Razr Smartphones"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "ThinkSystem Servers & Storage"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Smart Collaboration Solutions"
+    },
+    {
+     "role": "heading",
+     "order": 56,
+     "text": "2024"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "When the multi-year partnership launched"
+    },
+    {
+     "role": "heading",
+     "order": 58,
+     "text": "$50,000"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Grand prize for a small business ad on MSG networks"
+    },
+    {
+     "role": "heading",
+     "order": 60,
+     "text": "10"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Local small businesses received technology upgrades"
+    },
+    {
+     "role": "heading",
+     "order": 62,
+     "text": "Tackling Success With Tech"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Discover how America's team is leveraging Lenovo's intelligent devices on and off the field to push the game of football forward."
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "See How",
+     "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/dallas-cowboys"
+    },
+    {
+     "role": "heading",
+     "order": 65,
+     "text": "The impact"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "“Having Lenovo handle the right machine builds for the right positions means those are things you just don’t have to worry about.”"
+    },
+    {
+     "role": "heading",
+     "order": 67,
+     "text": "Matt Messick"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "CIO, Dallas Cowboys"
+    },
+    {
+     "role": "eyebrow",
+     "order": 69,
+     "text": "How they did it"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Desktops & Tablets"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "ThinkPad Laptops"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "ThinkStations"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Collaboration Solutions"
+    },
+    {
+     "role": "heading",
+     "order": 74,
+     "text": "1st"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "NFL team to use computers"
+    },
+    {
+     "role": "heading",
+     "order": 76,
+     "text": "2023"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Lenovo named Dallas Cowboys Game Time hardware partner"
+    },
+    {
+     "role": "heading",
+     "order": 78,
+     "text": "#1"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Most valuable franchise in sports"
+    },
+    {
+     "role": "heading",
+     "order": 80,
+     "text": "Accelerating Game-changing Performance Analytics"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "When the Hurricanes upgraded its IT with hyperconverged infrastructure from Lenovo, it tripled the performance of key analytics workloads."
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "See The Action",
+     "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/carolina-hurricanes"
+    },
+    {
+     "role": "heading",
+     "order": 83,
+     "text": "The impact"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "“We can develop new insights into player performance faster and create new tools for strategizing about tactics. These insights also inform decisions around injury prevention and player recruitment.”"
+    },
+    {
+     "role": "heading",
+     "order": 85,
+     "text": "Glenn Johnson"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "CIO, Carolina Hurricanes"
+    },
+    {
+     "role": "eyebrow",
+     "order": 87,
+     "text": "How they did it"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "ThinkAgile VX Integrated Systems"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Premier Support Services"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "XClarity Management Software"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Lenovo Servers"
+    },
+    {
+     "role": "heading",
+     "order": 92,
+     "text": "3x"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Faster analytics"
+    },
+    {
+     "role": "heading",
+     "order": 94,
+     "text": "3.7"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Years to achieve ROI"
+    },
+    {
+     "role": "heading",
+     "order": 96,
+     "text": "2021"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Launched NHL Edge system to track puck and players"
+    },
+    {
+     "role": "heading",
+     "order": 98,
+     "text": "Delivering Critical IT in Extreme Conditions"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "With Lenovo edge servers and rugged ThinkPads, Doctors Without Borders runs portable data centers in the field, keeping teams connected where lives are on the line."
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "See The Solution",
+     "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/medecins-sans-frontieres-geneva/"
+    },
+    {
+     "role": "heading",
+     "order": 101,
+     "text": "The impact"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "“Our field kits operate as a small data center directly on the field. The Lenovo ThinkSystem SE350 keeps us online, even in the harshest conditions.”"
+    },
+    {
+     "role": "heading",
+     "order": 103,
+     "text": "Jean Patrick Dye"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "IT Field Coordinator, Doctors Without Borders"
+    },
+    {
+     "role": "eyebrow",
+     "order": 105,
+     "text": "How they did it"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "ThinkSystem SE350 Edge Server"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "Lenovo ThinkPad Laptops"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "ThinkPad P16v Gen 2 Mobile Workstation"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Lenovo Security Services"
+    },
+    {
+     "role": "heading",
+     "order": 110,
+     "text": "0-55°C"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Built to perform in extreme temperatures"
+    },
+    {
+     "role": "heading",
+     "order": 112,
+     "text": "50%"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Half the size of traditional servers."
+    },
+    {
+     "role": "heading",
+     "order": 114,
+     "text": "24/7"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Uninterrupted power and secure connectivity in the field"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 86,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tabs__panel",
+     "count": 6,
+     "unit": {
+      "headings": 6,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 18
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.tabs__tab",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

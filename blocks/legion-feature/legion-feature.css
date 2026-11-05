@@ -1,0 +1,152 @@
+/* legion-feature — live .blade-3-ft-pdt-le-go-gen-2 / .blade-3-ft-pdt-le-9i-gen-10 (1300–1500) */
+.legion-feature {
+  overflow-x: clip;
+  color: #fff;
+  font-family: var(--font-display);
+}
+
+.legion-feature .legion-feature-inner {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 500px;
+  margin-top: 72px;
+}
+
+.legion-feature .legion-feature-art {
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+
+.legion-feature .legion-feature-art img {
+  width: 800px;
+  max-width: none;
+  height: 500px;
+}
+
+.legion-feature .legion-feature-copy {
+  line-height: normal;
+  z-index: 1;
+  width: 35%;
+  padding: 32px;
+}
+
+.legion-feature .legion-feature-title {
+  margin-bottom: 18px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legion-feature .legion-feature-tagline {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.legion-feature .legion-feature-tagline strong {
+  font-weight: inherit;
+}
+
+.legion-feature .legion-feature-desc {
+  margin: 9px 0;
+  font-size: 18px;
+}
+
+.legion-feature .legion-feature-status em {
+  font-style: normal;
+}
+
+/* reverse: Legion 7a Gen 11 — copy left, laptops right, player art top-left */
+.legion-feature.reverse .legion-feature-inner {
+  justify-content: flex-start;
+  min-height: 700px;
+  margin-top: 0;
+}
+
+.legion-feature.reverse .legion-feature-art {
+  top: -5%;
+  right: 0;
+  left: auto;
+}
+
+.legion-feature.reverse .legion-feature-art img {
+  width: 950px;
+  height: 700px;
+}
+
+.legion-feature.reverse .legion-feature-accent {
+  position: absolute;
+  top: -20%;
+  left: 0;
+  z-index: 1;
+}
+
+.legion-feature.reverse .legion-feature-accent img {
+  width: auto;
+  height: 500px;
+}
+
+.legion-feature.reverse .legion-feature-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 30%;
+  margin: 72px 72px 72px 144px;
+}
+
+@media (width <= 992px) {
+  .legion-feature .legion-feature-inner,
+  .legion-feature.reverse .legion-feature-inner {
+    flex-direction: column;
+    margin-top: 18px;
+  }
+
+  .legion-feature .legion-feature-art,
+  .legion-feature.reverse .legion-feature-art {
+    position: static;
+  }
+
+  .legion-feature .legion-feature-art img,
+  .legion-feature.reverse .legion-feature-art img {
+    width: 100%;
+    height: auto;
+  }
+
+  .legion-feature .legion-feature-copy,
+  .legion-feature.reverse .legion-feature-copy {
+    width: 100%;
+    margin: 0;
+    padding: 32px;
+  }
+
+  .legion-feature .legion-feature-title {
+    margin-bottom: 13px;
+    font-size: 26px;
+  }
+
+  .legion-feature .legion-feature-tagline {
+    font-size: 20px;
+  }
+
+  .legion-feature.reverse .legion-feature-inner {
+    min-height: 1400px;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .legion-feature.reverse .legion-feature-accent {
+    top: -5%;
+    right: 0;
+    left: auto;
+  }
+
+  .legion-feature.reverse .legion-feature-art {
+    margin-top: 252px;
+    order: -1;
+  }
+
+  .legion-feature.reverse .legion-feature-art img {
+    margin-top: -120px;
+  }
+}

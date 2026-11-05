@@ -1,0 +1,789 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-02T23:36:43.931Z",
+    "urls": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+      "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      ".series-blade2",
+      ".blade-panel .product-logo img",
+      ".blade-panel .h-title",
+      ".blade-panel .product-desc",
+      ".blade-panel .product-btn",
+      "h2.sub_header",
+      ".pc_footer_page"
+    ],
+    "props": [
+      "height",
+      "width",
+      "marginBottom",
+      "minHeight"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": [
+      "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/ @360: horizontal overflow +346px (scrollWidth 706 > viewport 360)"
+    ]
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    ".series-blade2",
+    ".blade-panel .product-logo img",
+    ".blade-panel .h-title",
+    ".blade-panel .product-desc",
+    ".blade-panel .product-btn",
+    "h2.sub_header",
+    ".pc_footer_page"
+  ],
+  "root": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 706,
+        "scrollHeight": 7645,
+        "overflowX": 346
+      }
+    },
+    "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 7719,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/": {
+      "360": {
+        ".series-blade2": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 851,
+              "w": 360,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance These towers …",
+            "props": {
+              "height": "660px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "660px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 1511,
+              "w": 360,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Your Power, Your Way Investing in a Leg…",
+            "props": {
+              "height": "660px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "660px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 2171,
+              "w": 360,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Built to Keep You In-Game Upgrade to Le…",
+            "props": {
+              "height": "660px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "660px"
+            }
+          }
+        ],
+        ".blade-panel .product-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 75,
+              "y": 2256,
+              "w": 250,
+              "h": 56
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "56.4844px",
+              "width": "249.938px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            },
+            "img": {
+              "naturalWidth": 354,
+              "naturalHeight": 80,
+              "currentSrc": "https://p3-ofp.static.pub/fes/cms/2022/05/02/t3zip5do6elurja0y2yuji3lw0gwl4975811.png"
+            }
+          }
+        ],
+        ".blade-panel .h-title": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 945,
+              "w": 210,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance",
+            "props": {
+              "height": "68px",
+              "width": "210px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1619,
+              "w": 210,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Your Power, Your Way",
+            "props": {
+              "height": "68px",
+              "width": "210px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 2338,
+              "w": 250,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Built to Keep You In-Game",
+            "props": {
+              "height": "68px",
+              "width": "250px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          }
+        ],
+        ".blade-panel .product-desc": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1033,
+              "w": 210,
+              "h": 364
+            },
+            "visible": true,
+            "text": "These towers are the epitome of staying…",
+            "props": {
+              "height": "364px",
+              "width": "210px",
+              "marginBottom": "20px",
+              "minHeight": "auto"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1707,
+              "w": 210,
+              "h": 336
+            },
+            "visible": true,
+            "text": "Investing in a Legion Tower means stayi…",
+            "props": {
+              "height": "336px",
+              "width": "210px",
+              "marginBottom": "20px",
+              "minHeight": "auto"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 2426,
+              "w": 250,
+              "h": 280
+            },
+            "visible": true,
+            "text": "Upgrade to Legion Ultimate Support to s…",
+            "props": {
+              "height": "280px",
+              "width": "250px",
+              "marginBottom": "20px",
+              "minHeight": "auto"
+            }
+          }
+        ],
+        ".blade-panel .product-btn": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 75,
+              "y": 2726,
+              "w": 250,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Learn More >",
+            "props": {
+              "height": "20px",
+              "width": "250px",
+              "marginBottom": "0px",
+              "minHeight": "auto"
+            }
+          }
+        ],
+        "h2.sub_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2831,
+              "w": 360,
+              "h": 122
+            },
+            "visible": true,
+            "text": "Legion Desktops T Series Towers",
+            "props": {
+              "height": "122px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          }
+        ],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 5026,
+              "w": 358,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px",
+              "width": "358.469px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          }
+        ]
+      }
+    },
+    "http://localhost:8791/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html": {
+      "360": {
+        ".series-blade2": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 852,
+              "w": 360,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance These towers …",
+            "props": {
+              "height": "660px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "660px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 1512,
+              "w": 360,
+              "h": 660
+            },
+            "visible": true,
+            "text": "Your Power, Your Way Investing in a Leg…",
+            "props": {
+              "height": "660px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "660px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 2172,
+              "w": 360,
+              "h": 671
+            },
+            "visible": true,
+            "text": "Built to Keep You In-Game Upgrade to Le…",
+            "props": {
+              "height": "671px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "660px"
+            }
+          }
+        ],
+        ".blade-panel .product-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 75,
+              "y": 2247,
+              "w": 250,
+              "h": 70
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "height": "70px",
+              "width": "250px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            },
+            "img": {
+              "naturalWidth": 354,
+              "naturalHeight": 80,
+              "currentSrc": "https://p3-ofp.static.pub/fes/cms/2022/05/02/t3zip5do6elurja0y2yuji3lw0gwl4975811.png"
+            }
+          }
+        ],
+        ".blade-panel .h-title": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 946,
+              "w": 210,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Whisper-Quiet Performance",
+            "props": {
+              "height": "68px",
+              "width": "210px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1620,
+              "w": 210,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Your Power, Your Way",
+            "props": {
+              "height": "68px",
+              "width": "210px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 2342,
+              "w": 250,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Built to Keep You In-Game",
+            "props": {
+              "height": "68px",
+              "width": "250px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          }
+        ],
+        ".blade-panel .product-desc": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1034,
+              "w": 210,
+              "h": 364
+            },
+            "visible": true,
+            "text": "These towers are the epitome of staying…",
+            "props": {
+              "height": "364px",
+              "width": "210px",
+              "marginBottom": "20px",
+              "minHeight": "auto"
+            }
+          },
+          {
+            "index": 1,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 1708,
+              "w": 210,
+              "h": 336
+            },
+            "visible": true,
+            "text": "Investing in a Legion Tower means stayi…",
+            "props": {
+              "height": "336px",
+              "width": "210px",
+              "marginBottom": "20px",
+              "minHeight": "auto"
+            }
+          },
+          {
+            "index": 2,
+            "of": 3,
+            "rect": {
+              "x": 75,
+              "y": 2430,
+              "w": 250,
+              "h": 280
+            },
+            "visible": true,
+            "text": "Upgrade to Legion Ultimate Support to s…",
+            "props": {
+              "height": "280px",
+              "width": "250px",
+              "marginBottom": "20px",
+              "minHeight": "auto"
+            }
+          }
+        ],
+        ".blade-panel .product-btn": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 75,
+              "y": 2730,
+              "w": 250,
+              "h": 38
+            },
+            "visible": true,
+            "text": "Learn More >",
+            "props": {
+              "height": "38px",
+              "width": "250px",
+              "marginBottom": "0px",
+              "minHeight": "auto"
+            }
+          }
+        ],
+        "h2.sub_header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2843,
+              "w": 360,
+              "h": 122
+            },
+            "visible": true,
+            "text": "Legion Desktops T Series Towers",
+            "props": {
+              "height": "122px",
+              "width": "360px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          }
+        ],
+        ".pc_footer_page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 288,
+              "y": 5102,
+              "w": 358,
+              "h": 107
+            },
+            "visible": true,
+            "text": "Showing 1 - 4 of 4 Results",
+            "props": {
+              "height": "107px",
+              "width": "358.469px",
+              "marginBottom": "0px",
+              "minHeight": "0px"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "deltas": {
+    "360": {
+      ".series-blade2": {
+        "status": "ok",
+        "countA": 3,
+        "countB": 3,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 11
+            },
+            "props": {
+              "height": [
+                "660px",
+                "671px"
+              ]
+            }
+          }
+        ]
+      },
+      ".blade-panel .product-logo img": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": -9,
+              "dw": 0,
+              "dh": 14
+            },
+            "props": {
+              "height": [
+                "56.4844px",
+                "70px"
+              ],
+              "width": [
+                "249.938px",
+                "250px"
+              ]
+            }
+          }
+        ]
+      },
+      ".blade-panel .h-title": {
+        "status": "ok",
+        "countA": 3,
+        "countB": 3,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 4,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".blade-panel .product-desc": {
+        "status": "ok",
+        "countA": 3,
+        "countB": 3,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 1,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 4,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".blade-panel .product-btn": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 4,
+              "dw": 0,
+              "dh": 18
+            },
+            "props": {
+              "height": [
+                "20px",
+                "38px"
+              ]
+            }
+          }
+        ]
+      },
+      "h2.sub_header": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 12,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".pc_footer_page": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 76,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      }
+    }
+  },
+  "rootDeltas": {
+    "360": {
+      "scrollWidth": -346,
+      "scrollHeight": 74
+    }
+  }
+}

@@ -1,0 +1,182 @@
+/* category-carousel — live dx-brands-carousel (gaming accessories category strip) */
+.category-carousel {
+  position: relative;
+  height: 162px;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+}
+
+.category-carousel .category-carousel-bg,
+.category-carousel .category-carousel-bg > div {
+  position: absolute;
+  inset: 0;
+}
+
+.category-carousel .category-carousel-bg picture {
+  display: contents;
+}
+
+.category-carousel .category-carousel-bg img {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: fill;
+}
+
+.category-carousel .bg-mobile {
+  display: none;
+}
+
+.category-carousel .category-carousel-track {
+  position: relative;
+  z-index: 1;
+  padding: 24px 92px 0;
+}
+
+.category-carousel .category-carousel-viewport {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.category-carousel .category-carousel-viewport::-webkit-scrollbar {
+  display: none;
+}
+
+.category-carousel .category-carousel-list {
+  display: flex;
+  gap: 16px;
+}
+
+.category-carousel .category-tile {
+  position: relative;
+  display: flex;
+  flex: 0 0 calc((100% - 48px) / 4);
+  gap: 8px;
+  height: 114px;
+  padding: 14px 8px;
+  scroll-snap-align: start;
+}
+
+.category-carousel .category-tile-icon {
+  flex: none;
+  width: 66px;
+  height: 66px;
+  margin-left: 1px;
+}
+
+.category-carousel .category-tile-icon picture {
+  display: contents;
+}
+
+.category-carousel .category-tile-icon img {
+  width: 66px;
+  height: 66px;
+  border-radius: 12px 12px 0 0;
+  object-fit: contain;
+}
+
+.category-carousel .category-tile-body {
+  min-width: 0;
+  padding-top: 1px;
+}
+
+.category-carousel .category-tile-body :is(h1, h2, h3, h4) {
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.54px;
+}
+
+.category-carousel .category-tile-body p {
+  padding-right: 14px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+}
+
+/* the link covers the whole tile (live: transparent overlay link) */
+.category-carousel .category-tile-link:any-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  color: transparent;
+  font-size: 0;
+}
+
+.category-carousel :is(.category-carousel-prev, .category-carousel-next) {
+  position: absolute;
+  top: 61px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: #e4e4e4;
+  cursor: pointer;
+}
+
+.category-carousel :is(.category-carousel-prev, .category-carousel-next)::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 13px;
+  width: 9px;
+  height: 9px;
+  border: solid #171717;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg);
+}
+
+.category-carousel .category-carousel-prev {
+  left: 16px;
+}
+
+.category-carousel .category-carousel-prev::before {
+  left: 17px;
+  transform: rotate(-135deg);
+}
+
+.category-carousel .category-carousel-next {
+  right: 16px;
+}
+
+@media (width <= 767px) {
+  .category-carousel {
+    height: 200px;
+  }
+
+  .category-carousel .category-carousel-bg.has-mobile .bg-desktop {
+    display: none;
+  }
+
+  .category-carousel .category-carousel-bg.has-mobile .bg-mobile {
+    display: block;
+  }
+
+  .category-carousel .category-carousel-track {
+    padding: 24px 16px 0;
+  }
+
+  .category-carousel .category-tile {
+    flex-basis: 100%;
+    height: 96px;
+  }
+
+  .category-carousel :is(.category-carousel-prev, .category-carousel-next) {
+    top: 136px;
+  }
+
+  .category-carousel .category-carousel-prev {
+    left: 132px;
+  }
+
+  .category-carousel .category-carousel-next {
+    right: auto;
+    left: 188px;
+  }
+}

@@ -1,0 +1,1123 @@
+{
+  "source": "http://127.0.0.1:8863/us-en-ai-pcs-proposed.html",
+  "width": 1280,
+  "profile": "eds",
+  "sections": [
+    {
+      "section": "ai-hero",
+      "items": [
+        {
+          "role": "cta",
+          "order": 0,
+          "text": "Home",
+          "href": "https://www.lenovo.com"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": ">"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Explore AI PCs"
+        },
+        {
+          "role": "heading",
+          "order": 3,
+          "text": "Work Smarter with Lenovo AI PCs"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Learn how our innovative AI propels you further."
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-intro",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Smarter AI for You"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Lenovo AI PCs streamline and enhance your everyday tasks, making them simpler, quicker, and more enjoyable. That’s because we’ve created personalized solutions designed for you. Now it’s possible to have reliability, your security respected, and your potential to be limitless from a single partner. The smartest way forward is together."
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 2,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-feature",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Greater personalization"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Harness AI capabilities to streamline workflows, optimize performance, and enhance your user experience – all customized to be just the way you like it."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Experience the fastest, most intelligent Windows PC. With Copilot+PC you’re entering a new era of AI that gives you the power to unlock any idea, pursue any dream, and complete any task in ways that are more natural and intuitive than ever before."
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-feature",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Enhanced productivity"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Knock out more tasks throughout the workday with Al-driven content creation, predictive experiences, and intelligent decisioning."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Breathe new life into your ideas. Lenovo’s AI-powered creative assistants ensure you’re never staring at a blank page. With Lenovo’s Yogas, just express your ideas in words or drawings and let Lenovo Creator Zone produce a jumping off point to work from. No matter what your imagination is bringing to life, you’ll always enjoy the power of choice with our independent software vendors like Adobe Photoshop."
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-feature",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Bolstered protection"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Be in command of your data. Mount a digital defense with predictive and proactive security, fraud detection, and cyber-resiliency."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "Your data security isn’t just important, it’s everything. Lenovo AI PCs put a digital fortress around your digital life. Cutting-edge data protection from Lenovo ThinkShield security solutions plus Lenovo's Trusted AI Controller onboard the AI Core that’s integrated at the hardware level ensure your data remains invisible to unauthorized eyes. It’s your private data — keep it that way."
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 3,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-feature",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "From a partner you know"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Your AI journey is just that"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "—"
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "yours. As your digital partner, we’re committed to empowering you to embrace new possibilities."
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "We’ve spent years investing in AI consulting, design, devices, and a transparent supply chain to give you more choice and control. It’s a new computing era with AI, let’s explore it together."
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Smarter AI brings AI to your data where you need it most, so you have convenient solutions from the pocket to the cloud. With Lenovo, you're not just adopting AI; you're benefiting from a partnership built on reliability, customer-centric design, and the freedom to tailor your digital journey."
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 4,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-explore",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Explore how Lenovo AI PCs can help you"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Whether you’re a professional, creator, gamer, or student, there’s an AI PC that’s specially built to support everything you want to do."
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 2,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-cards",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "AI PCs for business"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "With the most comprehensive AI portfolio in the industry, Lenovo can power your seamless business transformation. Our powerful AI PCs offer the personalized experiences users want, plus the IT controls you need to safeguard your data security and privacy. Empower your employees to be their most productive and creative and unleash their full potential today."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Empower people with Lenovo’s AI PCs >",
+          "href": "https://www.lenovo.com/us/en/business/ai-laptops/"
+        },
+        {
+          "role": "cta",
+          "order": 3,
+          "text": "Shop Now >",
+          "href": "https://www.lenovo.com/us/en/laptops/results/?visibleDatas=698:ThinkPad,ThinkBook;13084:Copilot%2B%20PC,AI%20PC"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "AI PCs for business"
+        },
+        {
+          "role": "heading",
+          "order": 5,
+          "text": "AI PCs for creators"
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "Inspired by you and designed to maximize the creative process, Lenovo Yoga electrifies your capabilities with inventive form factors and intuitive ecosystems. Leap into a realm where limitations are a myth and speed through creative tasks with groundbreaking AI acceleration. The Yoga series combines unmatched efficiency and power to slash the time it takes to bring your vision to life."
+        },
+        {
+          "role": "cta",
+          "order": 7,
+          "text": "Innovate with Lenovo Yoga AI PCs >",
+          "href": "https://www.lenovo.com/us/en/creator/store/"
+        },
+        {
+          "role": "cta",
+          "order": 8,
+          "text": "Shop Now >",
+          "href": "https://www.lenovo.com/us/en/laptops/results/?visibleDatas=13084%3ACopilot%252B%2520PC%2CAI-Powered%2520Gaming%2520PCs%2CAI%2520PC%2CAI-Ready%2520Workstations%3B993%3ACreator"
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "AI PCs for creators"
+        },
+        {
+          "role": "heading",
+          "order": 10,
+          "text": "AI-powered PCs for gamers"
+        },
+        {
+          "role": "body",
+          "order": 11,
+          "text": "Embrace the dawn of a new computing era with Lenovo Legion's Extreme AI Engineering at its core. The latest Lenovo Legion laptop and desktop lineup is fueled by AI-accelerated CPUs and GPUs from Intel®, AMD, and NVIDIA engineered to deliver lightning-fast gaming, gaming content creation, STEM applications, and streamlined workflows. Push beyond conventional limits in gaming and creativity, and reach your impossible."
+        },
+        {
+          "role": "cta",
+          "order": 12,
+          "text": "Lead your squad to victory >",
+          "href": "https://www.lenovo.com/us/en/legion/"
+        },
+        {
+          "role": "cta",
+          "order": 13,
+          "text": "Shop Now >",
+          "href": "https://www.lenovo.com/us/en/laptops/results/?visibleDatas=13084%3AAI-Powered%2520Gaming"
+        },
+        {
+          "role": "body",
+          "order": 14,
+          "text": "AI-powered PCs for gamers"
+        },
+        {
+          "role": "heading",
+          "order": 15,
+          "text": "AI PCs for students"
+        },
+        {
+          "role": "body",
+          "order": 16,
+          "text": "Lenovo enables students with Smarter AI to pursue their passions and build a future we will all share. Our products are designed to deliver the performance, versatility, and support they need to keep pace with a changing world. From Smarter AI that enhances productivity to security built on environmentally friendly devices, we’re committed to accelerating learning that helps students build a brighter future."
+        },
+        {
+          "role": "cta",
+          "order": 17,
+          "text": "Experience next-level learning >",
+          "href": "https://www.lenovo.com/us/en/education/futureyou/"
+        },
+        {
+          "role": "cta",
+          "order": 18,
+          "text": "Shop Now >",
+          "href": "https://www.lenovo.com/us/en/laptops/results/?visibleDatas=13084%3ACopilot%252B%2520PC%2CAI%2520PC%3B993%3AStudent"
+        },
+        {
+          "role": "body",
+          "order": 19,
+          "text": "AI PCs for students"
+        }
+      ],
+      "imgCount": 4,
+      "editableTexts": 8,
+      "repeats": [
+        {
+          "unitSelector": "DIV.layouts_special_content",
+          "count": 2,
+          "unit": {
+            "headings": 2,
+            "ctas": 4,
+            "imgs": 2,
+            "textRuns": 10
+          },
+          "uniform": true
+        },
+        {
+          "unitSelector": "ARTICLE.vertical-default-pc",
+          "count": 2,
+          "unit": {
+            "headings": 1,
+            "ctas": 2,
+            "imgs": 1,
+            "textRuns": 5
+          },
+          "uniform": true
+        },
+        {
+          "unitSelector": "ARTICLE.vertical-default-pc",
+          "count": 2,
+          "unit": {
+            "headings": 1,
+            "ctas": 2,
+            "imgs": 1,
+            "textRuns": 5
+          },
+          "uniform": true
+        }
+      ],
+      "protoSection": "ai-cards",
+      "decodeTier": "reconstructive"
+    },
+    {
+      "section": "ai-copilot",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Discover the power of AI with Copilot+ PC in Windows"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Kickstart your Windows 11 experience with an AI-powered intelligent assistant that helps you stay focused while it performs the tasks you need to get done. Copilot+ PC in Windows equips your computer with the latest AI-powered features designed to help you be more efficient, productive, and creative. And with Copilot+ PCs like the Lenovo Thinkpad T14s and Yoga Slim 7x, a new AI era begins. The fastest, most intelligent Windows PCs ever."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "Discover Copilot+ PCs",
+          "href": "https://www.lenovo.com/us/en/copilot-plus-pc"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 2,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "pilar-blade",
+      "items": [
+        {
+          "role": "body",
+          "order": 0,
+          "text": "Transformational support with Premier Support Plus for Devices"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Support designed to join you on your AI journey whenever you need us 24/7/365"
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "By combining direct access to Lenovo’s accredited experts with proactive monitoring, predictive diagnostics, and preventative maintenance, issues are identified and addressed before they disrupt productivity, while layers of protection help safeguard your device investments."
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "The result: your AI PC performs optimally, making you and your business unstoppable."
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Learn More"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 4,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "template-slotted"
+    },
+    {
+      "section": "ai-seo",
+      "items": [
+        {
+          "role": "heading",
+          "order": 0,
+          "text": "Lenovo AI PCs: Smarter Computing Across Everyday Workflows"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Artificial intelligence (AI) is already changing everyday computing and common digital workflows. From everyday assistance to creative tools, AI continues to influence how technology is used while also creating and solutions. An important part of this new ecosystem is the AI PC. These personal computers are designed to support artificial intelligence applications locally on the device, bringing AI efficiency to your hands."
+        },
+        {
+          "role": "cta",
+          "order": 2,
+          "text": "new products",
+          "href": "/us/en/d/new-products/"
+        },
+        {
+          "role": "heading",
+          "order": 3,
+          "text": "4 Examples of what an AI PC can do for you:"
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Automate routine tasks like sorting messages, summarizing notes, and organizing content in supported apps."
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Keep your feeling responsive by adapting performance and power usage when you switch between heavy and light tasks."
+        },
+        {
+          "role": "cta",
+          "order": 6,
+          "text": "PC",
+          "href": "/us/en/pc/"
+        },
+        {
+          "role": "body",
+          "order": 7,
+          "text": "Enhance video calls in real time with clearer audio, background effects, and smarter camera framing in supported setups."
+        },
+        {
+          "role": "body",
+          "order": 8,
+          "text": "Speed up common creative edits like quick photo cleanup, background changes, and content enhancements in supported tools."
+        },
+        {
+          "role": "body",
+          "order": 9,
+          "text": "At Lenovo, AI is a key focus across our broad technology portfolio. Lenovo AI PCs are designed to enhance everyday workflows through AI-enabled hardware and system level capabilities. This overview outlines what an AI PC is, how it works, and how Lenovo AI PCs support different usage needs across and . Let’s dive into the key considerations for choosing one of our best AI PCs to suit your everyday computing needs."
+        },
+        {
+          "role": "cta",
+          "order": 10,
+          "text": "laptops",
+          "href": "/us/en/laptops/"
+        },
+        {
+          "role": "cta",
+          "order": 11,
+          "text": "desktops",
+          "href": "/us/en/desktops/"
+        },
+        {
+          "role": "heading",
+          "order": 12,
+          "text": "What is an AI PC and How it Works"
+        },
+        {
+          "role": "body",
+          "order": 13,
+          "text": "An AI PC is a personal computer designed to run certain artificial intelligence features directly on the system. Instead of sending all AI tasks to cloud services, an AI PC supports local processing for selected AI applications. This allows AI features to work as part of everyday computing, depending on software and system configuration."
+        },
+        {
+          "role": "body",
+          "order": 14,
+          "text": "An AI-powered PC includes components that are built to handle AI-related workloads efficiently. These components work together to process data, manage AI-enabled applications, and support system-level AI features during regular use."
+        },
+        {
+          "role": "heading",
+          "order": 15,
+          "text": "Core components that support these AI PC workloads include:"
+        },
+        {
+          "role": "body",
+          "order": 16,
+          "text": "Higher core/thread capacity and platform capabilities that coordinate AI tasks alongside everyday apps, especially when several workloads run at the same time."
+        },
+        {
+          "role": "body",
+          "order": 17,
+          "text": "CPU tuned for AI-assisted multitasking:"
+        },
+        {
+          "role": "body",
+          "order": 18,
+          "text": "Extending beyond graphics to accelerate AI-enabled creation, data processing, and in applications that support GPU acceleration."
+        },
+        {
+          "role": "body",
+          "order": 19,
+          "text": "GPU built for parallel compute:"
+        },
+        {
+          "role": "cta",
+          "order": 20,
+          "text": "hybrid AI workflows",
+          "href": "/us/en/servers-storage/solutions/ai/"
+        },
+        {
+          "role": "body",
+          "order": 21,
+          "text": "Dedicated to sustained on-device inference, keeping supported AI features running continuously and efficiently when those features are designed to run locally."
+        },
+        {
+          "role": "body",
+          "order": 22,
+          "text": "NPU:"
+        },
+        {
+          "role": "body",
+          "order": 23,
+          "text": "Reducing latency as models, assets, and large files load and update in the background during AI-enabled productivity or creative work."
+        },
+        {
+          "role": "body",
+          "order": 24,
+          "text": "High-bandwidth memory and fast solid-state storage (SSD):"
+        },
+        {
+          "role": "body",
+          "order": 25,
+          "text": "This design allows the AI computer to perform AI tasks alongside standard computing operations, without changing how users interact with their PC. Lenovo AI PCs are built to support on-device AI features across select laptops and desktops. Let’s dive deeper into Lenovo’s portfolio!"
+        },
+        {
+          "role": "heading",
+          "order": 26,
+          "text": "How Lenovo AI PCs Support Different Everyday Use Cases"
+        },
+        {
+          "role": "body",
+          "order": 27,
+          "text": "AI-enabled computing supports different routines depending on how and where a system is used. From portable setups to fixed workspaces, AI features appear across common PC form factors and daily workflows. Lenovo AI PCs reflect these usage patterns through laptop and desktop options built for everyday tasks. These systems support on-device AI capabilities alongside regular computing."
+        },
+        {
+          "role": "heading",
+          "order": 28,
+          "text": "Lenovo AI PCs fall into 3 main categories:"
+        },
+        {
+          "role": "body",
+          "order": 29,
+          "text": "Lenovo AI Laptops"
+        },
+        {
+          "role": "body",
+          "order": 30,
+          "text": "Lenovo Copilot + PCs"
+        },
+        {
+          "role": "body",
+          "order": 31,
+          "text": "Lenovo AI Desktop PCs"
+        },
+        {
+          "role": "body",
+          "order": 32,
+          "text": "Let's take a closer look at each of these categories."
+        },
+        {
+          "role": "heading",
+          "order": 33,
+          "text": "Lenovo AI Laptops for Flexible Daily Work"
+        },
+        {
+          "role": "body",
+          "order": 34,
+          "text": "Lenovo are designed to support flexible daily workflows where portability and on-device intelligence matter. For example, supported AI features such as live captions with translation and automatic camera framing can run continuously in the background. These features handle language processing and video framing directly on the device."
+        },
+        {
+          "role": "cta",
+          "order": 35,
+          "text": "AI laptops",
+          "href": "/us/en/business/ai-laptops/"
+        },
+        {
+          "role": "body",
+          "order": 36,
+          "text": "4 Main models that are available across Lenovo AI PC lineup include:"
+        },
+        {
+          "role": "body",
+          "order": 37,
+          "text": "Lenovo ThinkPad series"
+        },
+        {
+          "role": "body",
+          "order": 38,
+          "text": "Lenovo Yoga series"
+        },
+        {
+          "role": "body",
+          "order": 39,
+          "text": "Lenovo IdeaPad series"
+        },
+        {
+          "role": "cta",
+          "order": 40,
+          "text": "Lenovo Legion series",
+          "href": "/us/en/legion/"
+        },
+        {
+          "role": "body",
+          "order": 41,
+          "text": "Depending on configuration, these systems can include AI-enabled features such as workload-aware performance tuning, intelligent thermal management, and adaptive system behavior. Combined with on-device AI processing support, these capabilities support multitasking and longer sessions across different work locations."
+        },
+        {
+          "role": "body",
+          "order": 42,
+          "text": "For example, during a video call with multiple apps open, supported configurations such as workload-aware performance tuning and intelligent thermal management can adjust system behavior to manage heat and performance. This helps keep audio, video, and background tasks running smoothly during longer sessions."
+        },
+        {
+          "role": "heading",
+          "order": 43,
+          "text": "Lenovo Copilot+ PCs for AI-Enhanced Everyday Experiences"
+        },
+        {
+          "role": "body",
+          "order": 44,
+          "text": "are designed for everyday computing scenarios where on-device AI features are integrated into the system experience. These systems focus on running supported AI capabilities locally, depending on hardware configuration and support. This can include experiences such as real-time voice and video enhancements during calls while you continue working across everyday applications."
+        },
+        {
+          "role": "cta",
+          "order": 45,
+          "text": "Lenovo Copilot+ PCs",
+          "href": "/us/en/copilot-plus-pc/"
+        },
+        {
+          "role": "cta",
+          "order": 46,
+          "text": "operating system",
+          "href": "/us/en/glossary/operating-system/"
+        },
+        {
+          "role": "body",
+          "order": 47,
+          "text": "2 Main models that are available across Lenovo AI PC lineup include:"
+        },
+        {
+          "role": "body",
+          "order": 48,
+          "text": "Lenovo ThinkPad series"
+        },
+        {
+          "role": "body",
+          "order": 49,
+          "text": "Lenovo Yoga series"
+        },
+        {
+          "role": "body",
+          "order": 50,
+          "text": "Our AI PCs are suited for workflows that involve frequent interaction with content, applications, and system-level features across daily tasks. Availability of Copilot+ experiences varies by model, configuration, and software environment. If you are looking for a Lenovo AI PC for daily use, focus on the model’s NPU class and system configuration to match the Copilot+ PC experiences available in your software environment. This helps you choose your best PC for AI workloads based on everyday application use."
+        },
+        {
+          "role": "heading",
+          "order": 51,
+          "text": "Lenovo AI Desktop PCs for Fixed Workspaces"
+        },
+        {
+          "role": "body",
+          "order": 52,
+          "text": "Lenovo AI desktop PCs are designed for users who prefer a fixed workspace with additional performance. A desktop system used in an AI-enabled workspace can support advanced AI workloads, rendering and data driven applications. During these sessions, multiple applications, , and supported on-device intelligent features (requires NPU) can operate together."
+        },
+        {
+          "role": "cta",
+          "order": 53,
+          "text": "external displays",
+          "href": "/us/en/glossary/external-monitor/"
+        },
+        {
+          "role": "body",
+          "order": 54,
+          "text": "2 Main models that are available across Lenovo AI PC lineup include:"
+        },
+        {
+          "role": "body",
+          "order": 55,
+          "text": "Lenovo ThinkCentre series"
+        },
+        {
+          "role": "body",
+          "order": 56,
+          "text": "Lenovo ThinkStation series"
+        },
+        {
+          "role": "body",
+          "order": 57,
+          "text": "Depending on configuration, these AI desktop PCs can support local AI inference and AI-enabled applications that benefit from sustained performance. This can suit workflows such as experimenting with supported machine learning tools or running intelligent features continuously."
+        },
+        {
+          "role": "cta",
+          "order": 58,
+          "text": "workstation",
+          "href": "/us/en/workstations/"
+        },
+        {
+          "role": "heading",
+          "order": 59,
+          "text": "Understanding the Core Components of Lenovo AI PCs"
+        },
+        {
+          "role": "body",
+          "order": 60,
+          "text": "Lenovo AI PCs bring together dedicated AI processing and core system hardware to support on-device intelligent features in compatible software. Across laptops, Copilot+ PCs, and desktops, these building blocks help keep everyday computing moving while supported intelligent workloads run alongside regular tasks, based on configuration and software support. This can include studying with notes and research tabs open while supported on-device features assist with tasks such as transcription or language-related tools in compatible applications."
+        },
+        {
+          "role": "body",
+          "order": 61,
+          "text": "Let’s take a closer look at the core components and what each one contributes to your day-to-day experience."
+        },
+        {
+          "role": "heading",
+          "order": 62,
+          "text": "4 Core components used in Lenovo AI PCs are:"
+        },
+        {
+          "role": "heading",
+          "order": 63,
+          "text": "Neural Processing Unit (NPU)"
+        },
+        {
+          "role": "body",
+          "order": 64,
+          "text": "A is dedicated hardware designed to support on-device AI processing in AI PCs, including Lenovo AI PCs. It is optimized to efficiently handle specific intelligent workloads locally, helping reduce power consumption and reliance on cloud processing."
+        },
+        {
+          "role": "cta",
+          "order": 65,
+          "text": "Neural Processing Unit (NPU)",
+          "href": "/us/en/glossary/what-is-an-npu/"
+        },
+        {
+          "role": "body",
+          "order": 66,
+          "text": "In supported configurations with compatible software, the NPU can assist with audio, imaging, and language-related processing. This may include functions such as voice enhancement, background noise handling, camera effects, and other AI-enabled capabilities available in certain applications and experiences. The availability and behavior of these features depend on operating system support, drivers, and how individual applications implement AI functionality."
+        },
+        {
+          "role": "body",
+          "order": 67,
+          "text": "By processing these workloads directly on the device, the NPU supports consistent system responsiveness. This is especially relevant during everyday activities such as video calls, content creation, and multitasking when AI-enabled features are active."
+        },
+        {
+          "role": "heading",
+          "order": 68,
+          "text": "CPU and GPU Platforms"
+        },
+        {
+          "role": "body",
+          "order": 69,
+          "text": "The handles general computing tasks such as launching applications, managing system operations, and coordinating what runs when. It keeps everyday workflows organized across the system."
+        },
+        {
+          "role": "cta",
+          "order": 70,
+          "text": "CPU",
+          "href": "/us/en/glossary/what-is-cpu/"
+        },
+        {
+          "role": "body",
+          "order": 71,
+          "text": "The is built for parallel processing, which supports visual and content-heavy workloads. This can include effects, rendering, and media processing in compatible applications."
+        },
+        {
+          "role": "cta",
+          "order": 72,
+          "text": "GPU",
+          "href": "/us/en/glossary/what-is-gpu/"
+        },
+        {
+          "role": "body",
+          "order": 73,
+          "text": "In AI-capable configurations, the CPU, GPU, and NPU work together with defined roles. The CPU manages overall system activity, the GPU accelerates parallel and visual tasks, and the NPU supports compatible on-device AI features tied to audio, images, or language. Which processor is used depends on the application and software support, based on configuration."
+        },
+        {
+          "role": "heading",
+          "order": 74,
+          "text": "System Memory (RAM)"
+        },
+        {
+          "role": "body",
+          "order": 75,
+          "text": "affects how smoothly your system handles multiple tasks at the same time by keeping active applications and working data readily available. In AI-capable configurations, this becomes more important because AI-enabled features and background processes can run alongside your primary apps in supported software."
+        },
+        {
+          "role": "cta",
+          "order": 76,
+          "text": "RAM",
+          "href": "/us/en/glossary/what-is-ram/"
+        },
+        {
+          "role": "body",
+          "order": 77,
+          "text": "Higher memory configurations help during sessions that involve heavier multitasking, larger working files, or tools that keep intelligent features active during normal operation. With adequate RAM, switching between tasks is more fluid during sustained use."
+        },
+        {
+          "role": "heading",
+          "order": 78,
+          "text": "SSD Storage and Connectivity"
+        },
+        {
+          "role": "body",
+          "order": 79,
+          "text": "supports faster system startup, quicker application loading, and more responsive access to local files. This can be helpful when working with larger documents, media files, or projects that are opened frequently during everyday tasks. This can also support AI-enabled workflows where applications rely on fast access to local data during supported on-device processing."
+        },
+        {
+          "role": "cta",
+          "order": 80,
+          "text": "SSD storage",
+          "href": "/us/en/d/deals/ssd-drive-for-desktop/"
+        },
+        {
+          "role": "body",
+          "order": 81,
+          "text": "Connectivity helps the system fit into different setups at home, school, or a desk-based workspace. Depending on the model and configuration, Lenovo AI PCs include USB-A ports for accessories, for charging, data transfer, and display output, and for connecting external monitors."
+        },
+        {
+          "role": "cta",
+          "order": 82,
+          "text": "USB-C® ports",
+          "href": "/us/en/glossary/what-is-usb-c/"
+        },
+        {
+          "role": "cta",
+          "order": 83,
+          "text": "HDMI® ports",
+          "href": "/us/en/glossary/what-is-hdmi/"
+        },
+        {
+          "role": "heading",
+          "order": 84,
+          "text": "Explore Available Lenovo AI PCs and Get Started Now"
+        },
+        {
+          "role": "body",
+          "order": 85,
+          "text": "AI PCs are becoming a natural part of everyday computing as more tasks benefit from on-device AI processing. From portable systems to fixed desktop setups, AI-enabled computers support a wide range of use cases based on configuration and workload needs. Understanding how these AI-powered PCs work, the components involved, and how different form factors support daily routines helps clarify what to look for when comparing options."
+        },
+        {
+          "role": "body",
+          "order": 86,
+          "text": "Lenovo continues to expand its AI PC offerings across various laptops and desktops. Exploring available configurations and specifications on our website helps you choose a Lenovo AI PC that aligns with your everyday computing tasks."
+        },
+        {
+          "role": "body",
+          "order": 87,
+          "text": "Read More"
+        }
+      ],
+      "imgCount": 1,
+      "editableTexts": 53,
+      "repeats": [],
+      "protoSection": "container9999",
+      "decodeTier": "reconstructive"
+    },
+    {
+      "section": "faq-accordion",
+      "items": [
+        {
+          "role": "body",
+          "order": 0,
+          "text": "Which features should I look for in an AI PC?"
+        },
+        {
+          "role": "body",
+          "order": 1,
+          "text": "Key features when choosing an AI PC include on-device AI processing support, memory capacity, and storage speed. These elements affect how smoothly AI-enabled tasks run during everyday use. Processing capability also matters when applications rely on background AI activity. Lenovo AI PCs offer configurations across laptops and desktops that combine these elements, depending on model and setup. Together, these factors help you choose an AI PC that supports your daily workflows."
+        },
+        {
+          "role": "body",
+          "order": 2,
+          "text": "How does AI support daily tasks and applications on a PC?"
+        },
+        {
+          "role": "body",
+          "order": 3,
+          "text": "AI-enabled systems help manage background processes and system responsiveness during regular use. This can improve task continuity when switching between applications or handling multiple tools at once. These capabilities work quietly alongside common software as part of AI for PC functionality."
+        },
+        {
+          "role": "body",
+          "order": 4,
+          "text": "Can an AI computer run AI features without cloud connectivity?"
+        },
+        {
+          "role": "body",
+          "order": 5,
+          "text": "Some AI features are designed to operate directly on the system, depending on hardware and software support. When a device includes components for on-device processing, certain AI tasks may function without relying on constant cloud connectivity. This approach describes how an AI computer can support selected AI features as part of everyday use, based on configuration."
+        },
+        {
+          "role": "body",
+          "order": 6,
+          "text": "What Lenovo AI PCs are commonly used for work and multitasking workloads?"
+        },
+        {
+          "role": "body",
+          "order": 7,
+          "text": "Lenovo AI PCs commonly used for work and multitasking include systems across the , , ThinkCentre, and . These systems include features like intelligent cooling, adaptive performance, and workload-aware resource management. These features support smoother multitasking when running multiple applications during everyday work sessions, depending on configuration."
+        },
+        {
+          "role": "cta",
+          "order": 8,
+          "text": "ThinkPad",
+          "href": "https://www.lenovo.com/us/en/c/laptops/thinkpad/"
+        },
+        {
+          "role": "cta",
+          "order": 9,
+          "text": "IdeaPad",
+          "href": "https://www.lenovo.com/us/en/c/laptops/ideapad/"
+        },
+        {
+          "role": "cta",
+          "order": 10,
+          "text": "Yoga series",
+          "href": "https://www.lenovo.com/us/en/yoga/"
+        },
+        {
+          "role": "body",
+          "order": 11,
+          "text": "Is an AI-powered PC suitable for long work sessions?"
+        },
+        {
+          "role": "body",
+          "order": 12,
+          "text": "An AI-powered PC can support longer work sessions, depending on system configuration and the type of tasks involved. AI-enabled components can help manage background activity during extended use. This supports steadier system behavior when applications run for longer periods. The overall experience depends on how the AI PC is configured and how it is used throughout the day."
+        },
+        {
+          "role": "body",
+          "order": 13,
+          "text": "Does an AI PC desktop support multitasking across applications?"
+        },
+        {
+          "role": "body",
+          "order": 14,
+          "text": "An AI PC desktop can handle multitasking across applications when the system is built with sufficient processing resources. Desktop setups often support running several tools at once, such as browsers, productivity software, and background services. AI-enabled features can operate alongside these applications without interrupting regular use. How well multitasking performs on an AI desktop PC depends on the selected hardware and workload mix."
+        },
+        {
+          "role": "body",
+          "order": 15,
+          "text": "Can Lenovo AI PCs support Copilot+ PC experiences?"
+        },
+        {
+          "role": "body",
+          "order": 16,
+          "text": "Lenovo AI PCs that meet the Copilot+ PC hardware requirements can support Copilot+ PC experiences. Devices such as certain Lenovo , ThinkPad and with the appropriate AI-capable processors and NPUs are designed to run enhanced Copilot+ features. These features like intelligent search, “Click to Do”, and other AI-assisted tools, when available through Microsoft updates. Availability of these features may vary by device configuration, region, and software rollout. Check our website to confirm which Copilot+ features are supported on specific systems."
+        },
+        {
+          "role": "cta",
+          "order": 17,
+          "text": "ThinkCentre desktops",
+          "href": "https://www.lenovo.com/us/en/c/desktops/thinkcentre/"
+        },
+        {
+          "role": "cta",
+          "order": 18,
+          "text": "Yoga laptops",
+          "href": "https://www.lenovo.com/us/en/d/lenovo-yoga-laptops/"
+        },
+        {
+          "role": "body",
+          "order": 19,
+          "text": "What do I consider when choosing the PC for AI workloads?"
+        },
+        {
+          "role": "body",
+          "order": 20,
+          "text": "When choosing a system for AI workloads, it helps to review how the hardware supports on-device AI processing. Processing capability, memory size, and storage speed all influence how AI-enabled tasks run during everyday use. It is also useful to check whether the system includes dedicated AI acceleration components. Reviewing these factors helps to choose your best PC for AI based on your workloads."
+        },
+        {
+          "role": "body",
+          "order": 21,
+          "text": "Is an AI desktop PC suitable for development-related tasks?"
+        },
+        {
+          "role": "body",
+          "order": 22,
+          "text": "An AI PC desktop can support development-related tasks when the system is configured for sustained workloads. Development work often involves running editors, testing tools, and background processes at the same time. Desktop systems allow these tasks to run together over longer sessions. How effectively this works depends on the processing, memory, and AI acceleration available on the system."
+        },
+        {
+          "role": "body",
+          "order": 23,
+          "text": "What factors influence the AI PC price across configurations?"
+        },
+        {
+          "role": "body",
+          "order": 24,
+          "text": "Several factors influence how pricing varies across different configurations. These include the type of processor used, available AI acceleration components, memory capacity, and storage options. Display type and connectivity features can also affect overall cost. Together, these elements shape the AI PC price based on how the system is configured and intended to be used."
+        },
+        {
+          "role": "body",
+          "order": 25,
+          "text": "Does Lenovo provide AI desktop PCs for fixed workspaces?"
+        },
+        {
+          "role": "body",
+          "order": 26,
+          "text": "Yes, Lenovo provides various desktop systems designed for fixed workspaces that support AI-enabled workloads. These systems are commonly used in setups with external displays, connected devices, and longer usage periods. Support for AI features depends on the selected configuration and intended workload."
+        },
+        {
+          "role": "body",
+          "order": 27,
+          "text": "Are Lenovo AI laptops available for users who need portable AI capabilities?"
+        },
+        {
+          "role": "body",
+          "order": 28,
+          "text": "Lenovo offers various AI laptops designed for users who need portability alongside on-device AI capabilities. These systems are built for everyday tasks such as working on the move, studying, and handling content across applications. AI-enabled features operate as part of the system experience, depending on configuration and supported software. This makes Lenovo’s AI-powered laptops suitable for users who prefer flexible setups without relying on fixed workspaces."
+        },
+        {
+          "role": "body",
+          "order": 29,
+          "text": "How does storage speed impact AI workflows on a computer?"
+        },
+        {
+          "role": "body",
+          "order": 30,
+          "text": "Storage speed affects how quickly files, datasets, and applications load during AI-related tasks. Faster storage can reduce wait times when opening large files or switching between tools. This helps keep workflows moving during everyday use. Storage performance becomes an important factor when evaluating your best AI PC for AI-enabled workloads."
+        },
+        {
+          "role": "body",
+          "order": 31,
+          "text": "What makes a system suitable for AI-enabled computing?"
+        },
+        {
+          "role": "body",
+          "order": 32,
+          "text": "A system suitable for AI-enabled computing combines standard computing components with support for on-device AI tasks. This includes processors that can handle AI workloads, sufficient memory for multitasking, and hardware acceleration for supported AI features. When these elements work together, the system can manage AI-enabled applications as part of everyday use."
+        },
+        {
+          "role": "body",
+          "order": 33,
+          "text": "Does display resolution or monitor setup matter when using AI tools?"
+        },
+        {
+          "role": "body",
+          "order": 34,
+          "text": "Display setup influences how clearly you view timelines, tool panels, and detailed content. can support sharper text and clearer detail when working across multiple windows. A can also support better workspace organization during longer sessions. These factors help when choosing the best AI computer based on how you view and manage your creative tasks."
+        },
+        {
+          "role": "cta",
+          "order": 35,
+          "text": "Higher resolution",
+          "href": "https://www.lenovo.com/us/en/glossary/high-resolution/"
+        },
+        {
+          "role": "cta",
+          "order": 36,
+          "text": "dual-monitor setup",
+          "href": "https://www.lenovo.com/us/en/glossary/dual-monitor-buying-guide/"
+        },
+        {
+          "role": "body",
+          "order": 37,
+          "text": "Can an AI PC support creative tasks such as photo or video editing?"
+        },
+        {
+          "role": "body",
+          "order": 38,
+          "text": "An AI PC can support creative tasks such as photo or video editing, depending on the software used and the system configuration. Creative tasks often involve large files, layered editing, and background processing. Performance depends on processing capability, memory capacity, and storage speed. Some configurations also include AI acceleration that supports certain creative features inside compatible applications."
+        },
+        {
+          "role": "body",
+          "order": 39,
+          "text": "How do Lenovo AI-enabled features support everyday PC use?"
+        },
+        {
+          "role": "body",
+          "order": 40,
+          "text": "Lenovo AI-enabled features can include workload-aware performance tuning and intelligent thermal management, depending on configuration. These features adjust system behavior when workloads change during the day. This helps during multitasking, longer sessions, and app switching. Checking available AI-enabled features across Lenovo AI PCs helps you understand which systems align with your everyday use."
+        },
+        {
+          "role": "body",
+          "order": 41,
+          "text": "How does processor type influence AI performance on a PC?"
+        },
+        {
+          "role": "body",
+          "order": 42,
+          "text": "Processor type affects how AI-related tasks are distributed across the system. Some processors include dedicated AI acceleration, while others rely on the CPU or GPU for AI workloads. This influences how efficiently supported AI features run during everyday use. Performance varies based on processor design, supported workloads, and software optimization."
+        }
+      ],
+      "imgCount": 0,
+      "editableTexts": 18,
+      "repeats": [
+        {
+          "unitSelector": "ARTICLE.x-cms-ai-ofp-fe-2c-accordion__item",
+          "count": 18,
+          "unit": {
+            "headings": 0,
+            "ctas": 0,
+            "imgs": 0,
+            "textRuns": 2
+          },
+          "uniform": false
+        }
+      ],
+      "protoSection": "x-cms-ai-ofp-fe-2c-accordion",
+      "decodeTier": "reconstructive"
+    }
+  ]
+}

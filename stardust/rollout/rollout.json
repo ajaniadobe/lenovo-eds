@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T07:06:46.537Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.lenovo.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "b3b47bf7",
+      "ref": "main"
+    },
+    "liveHost": "main--b3b47bf7--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 6,
+    "discovered": 10,
+    "capped": true,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-03T14:14:25.113Z",
+    "pages": {
+      "total": 10,
+      "verified": 10,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 27,
+      "converted": 27,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

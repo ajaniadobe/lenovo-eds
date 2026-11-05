@@ -1,0 +1,147 @@
+/* ai-seo — live infoList SEO copy, collapsed (us-en-ai-pcs prototype § SEO) */
+.ai-seo {
+  position: relative;
+  padding: 44px 0 21px;
+  background: #f4f4f4;
+  color: #000;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.ai-seo .info-list {
+  max-width: 1920px;
+  padding: 0 145px;
+}
+
+.ai-seo .info-title :is(h1, h2, h3) {
+  padding: 0 0 18px;
+  font-family: var(--font-ui);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+}
+
+.ai-seo .less {
+  height: 80px;
+  overflow: hidden;
+}
+
+.ai-seo .less.open {
+  height: auto;
+}
+
+.ai-seo .seo-content {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.ai-seo .seo-content :is(p, ul, ol) {
+  margin-bottom: 16px;
+}
+
+.ai-seo .seo-content :is(h2, h3, h4) {
+  margin-bottom: 16px;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.ai-seo .seo-content ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.ai-seo .seo-content ol {
+  padding-left: 20px;
+  list-style: decimal;
+}
+
+.ai-seo .seo-content a:any-link {
+  color: #294e95;
+}
+
+.ai-seo .read-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  height: 40px;
+  margin: 0 10px 0 0;
+  color: #000;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.ai-seo .read-arrow {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url("read-more-arrow.png") center / contain no-repeat;
+}
+
+.ai-seo .read-more[aria-expanded="true"] .read-arrow {
+  transform: rotate(180deg);
+}
+
+@media (width <= 767px) {
+  .ai-seo {
+    padding: 40px 16px 30px;
+  }
+
+  .ai-seo .info-list {
+    padding: 0;
+  }
+
+  .ai-seo .info-title :is(h1, h2, h3) {
+    margin: 10px 0;
+    padding: 0 15px 27px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  /* 4 whole 22px lines (live: 85px, which cuts the 4th line by 3px — clip-probe TEXT CLIPPED) */
+  .ai-seo .less {
+    height: 88px;
+    padding: 0 15px;
+  }
+
+  .ai-seo .read-more {
+    height: 20px;
+    padding: 0 15px;
+    line-height: 20px;
+  }
+}
+
+/* variant legion — the legion brand page sets Montserrat on the same infoList */
+.ai-seo.legion,
+.ai-seo.legion .info-title :is(h1, h2, h3),
+.ai-seo.legion .seo-content :is(h2, h3, h4) {
+  font-family: var(--font-display);
+}
+
+.ai-seo.legion .seo-content {
+  color: #171717;
+  line-height: 20px;
+}
+
+@media (width <= 767px) {
+  /* live legion: the infoList is inset 16px on the black page ground */
+  .ai-seo.legion {
+    padding: 31px 0 30px;
+    border: solid #000;
+    border-width: 0 16px;
+  }
+
+  /* legion copy runs on 20px lines: 4 whole lines (88px cut the 5th line by 8px) */
+  .ai-seo.legion .less {
+    height: 80px;
+    margin-bottom: 6px;
+  }
+}

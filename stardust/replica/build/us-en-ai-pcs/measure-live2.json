@@ -1,0 +1,5080 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-02T23:10:14.996Z",
+    "urls": [
+      "https://www.lenovo.com/us/en/ai-pcs/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".top_masthead",
+      ".masthead:not(.top_masthead)",
+      ".nav_view",
+      ".merchandizingBanner",
+      ".merchandizingItem",
+      ".account-menu-masthead",
+      ".heroBgImage",
+      ".heroTitle .mobileOnly h1",
+      ".heroDesc .mobileOnly p",
+      ".heroContent",
+      "main.main_content > .container9999",
+      ".horizontal-default-pc",
+      ".vertical-default-pc",
+      ".vertical-default-image img",
+      ".ctaButton_link",
+      ".less",
+      ".x-cms-ai-ofp-fe-2c-accordion__label-text",
+      ".x-cms-ai-ofp-fe-2c-accordion__icon",
+      ".x-cms-ai-ofp-fe-2c-accordion__separator",
+      ".pilar_blade .background_img",
+      ".layouts_special_content_b19667f7c90f8-4931-ab67-192f07548277"
+    ],
+    "props": [
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "color",
+      "backgroundColor",
+      "padding",
+      "margin",
+      "borderTop",
+      "borderBottom",
+      "display",
+      "flexDirection",
+      "gap",
+      "objectFit",
+      "height"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": [
+      "https://www.lenovo.com/us/en/ai-pcs/ @360: horizontal overflow +346px (scrollWidth 706 > viewport 360)"
+    ]
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".top_masthead",
+    ".masthead:not(.top_masthead)",
+    ".nav_view",
+    ".merchandizingBanner",
+    ".merchandizingItem",
+    ".account-menu-masthead",
+    ".heroBgImage",
+    ".heroTitle .mobileOnly h1",
+    ".heroDesc .mobileOnly p",
+    ".heroContent",
+    "main.main_content > .container9999",
+    ".horizontal-default-pc",
+    ".vertical-default-pc",
+    ".vertical-default-image img",
+    ".ctaButton_link",
+    ".less",
+    ".x-cms-ai-ofp-fe-2c-accordion__label-text",
+    ".x-cms-ai-ofp-fe-2c-accordion__icon",
+    ".x-cms-ai-ofp-fe-2c-accordion__separator",
+    ".pilar_blade .background_img",
+    ".layouts_special_content_b19667f7c90f8-4931-ab67-192f07548277"
+  ],
+  "root": {
+    "https://www.lenovo.com/us/en/ai-pcs/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 706,
+        "scrollHeight": 21670,
+        "overflowX": 346
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 8624,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.lenovo.com/us/en/ai-pcs/": {
+      "360": {
+        ".top_masthead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 38
+            },
+            "visible": true,
+            "text": "Lenovo Pro Business Store",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(237, 237, 237)",
+              "padding": "0px 0px 0px 16px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "38px"
+            }
+          }
+        ],
+        ".masthead:not(.top_masthead)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 38,
+              "w": 360,
+              "h": 67
+            },
+            "visible": true,
+            "text": "skip to main content All Best business …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "padding": "19px 0px 0px 16px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "67px"
+            }
+          }
+        ],
+        ".nav_view": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 105,
+              "w": 360,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Artificial Intelligence Products Busine…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "padding": "16px 0px 0px 16px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "68px"
+            }
+          }
+        ],
+        ".merchandizingBanner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 229,
+              "w": 360,
+              "h": 73
+            },
+            "visible": true,
+            "text": "Black Friday Deal Days! Unbeatable deal…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(230, 244, 250)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "73px"
+            }
+          }
+        ],
+        ".merchandizingItem": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": -560,
+              "y": 237,
+              "w": 296,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Black Friday Deal Days! Unbeatable deal…",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "8px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "57px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": -264,
+              "y": 237,
+              "w": 296,
+              "h": 57
+            },
+            "visible": true,
+            "text": "For price matching, extra deals, or hel…",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "8px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "57px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 32,
+              "y": 237,
+              "w": 296,
+              "h": 57
+            },
+            "visible": true,
+            "text": "My Lenovo Rewards! Earn 3%-9% in reward…",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "8px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "57px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 328,
+              "y": 237,
+              "w": 296,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Lease-to-own today with Katapult. Get s…",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "8px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "57px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 624,
+              "y": 237,
+              "w": 296,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Shopping for a business? New Lenovo Pro…",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "8px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "57px"
+            }
+          }
+        ],
+        ".account-menu-masthead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "My Lenovo AccountKeep track of your wis…",
+            "props": {
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "10px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline-flex",
+              "flexDirection": "column",
+              "gap": "24px",
+              "objectFit": "fill",
+              "height": "558px"
+            }
+          }
+        ],
+        ".heroBgImage": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 302,
+              "w": 360,
+              "h": 600
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "600px"
+            },
+            "img": {
+              "naturalWidth": 1920,
+              "naturalHeight": 600,
+              "currentSrc": "https://p3-ofp.static.pub//fes/cms/2024/09/25/ag988e76rsen3zbnqsvrqcnull78af393408.png"
+            }
+          }
+        ],
+        ".heroTitle .mobileOnly h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 236,
+              "w": 66,
+              "h": 539
+            },
+            "visible": true,
+            "text": "Work Smarter with Lenovo AI PCs",
+            "props": {
+              "fontSize": "36px",
+              "fontWeight": "800",
+              "lineHeight": "normal",
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(255, 255, 255)",
+              "borderBottom": "0px none rgb(255, 255, 255)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "539px"
+            }
+          }
+        ],
+        ".heroDesc .mobileOnly p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 30,
+              "y": 795,
+              "w": 66,
+              "h": 154
+            },
+            "visible": true,
+            "text": "Learn how our innovative AI propels you…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "154px"
+            }
+          }
+        ],
+        ".heroContent": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 302,
+              "w": 360,
+              "h": 600
+            },
+            "visible": true,
+            "text": "Work Smarter with Lenovo AI PCs Learn h…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "600px"
+            }
+          }
+        ],
+        "main.main_content > .container9999": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 302,
+              "w": 360,
+              "h": 600
+            },
+            "visible": true,
+            "text": "Add To Cart Work Smarter with Lenovo AI…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "600px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 902,
+              "w": 360,
+              "h": 666
+            },
+            "visible": true,
+            "text": "Smarter AI for You Lenovo AI PCs stream…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "665.5px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 1568,
+              "w": 360,
+              "h": 1789
+            },
+            "visible": true,
+            "text": "Greater personalization Harness AI capa…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1789px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 3357,
+              "w": 360,
+              "h": 1938
+            },
+            "visible": true,
+            "text": "Enhanced productivity Knock out more ta…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1938px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 5295,
+              "w": 360,
+              "h": 1878
+            },
+            "visible": true,
+            "text": "Bolstered protection Be in command of y…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1878px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 7173,
+              "w": 360,
+              "h": 2090
+            },
+            "visible": true,
+            "text": "From a partner you know Your AI journey…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "2090px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 9263,
+              "w": 360,
+              "h": 442
+            },
+            "visible": true,
+            "text": "Explore how Lenovo AI PCs can help you …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "442px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 14619,
+              "w": 360,
+              "h": 1727
+            },
+            "visible": true,
+            "text": "Discover the power of AI with Copilot+ …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1727px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 16346,
+              "w": 360,
+              "h": 938
+            },
+            "visible": true,
+            "text": "Transformational support with Premier S…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "937.594px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 17284,
+              "w": 360,
+              "h": 1877
+            },
+            "visible": true,
+            "text": "Lenovo AI PCs: Smarter Computing Across…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1877px"
+            }
+          }
+        ],
+        ".horizontal-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 1608,
+              "w": 280,
+              "h": 1709
+            },
+            "visible": true,
+            "text": "Greater personalization Harness AI capa…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row-reverse",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1709px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3397,
+              "w": 280,
+              "h": 1858
+            },
+            "visible": true,
+            "text": "Enhanced productivity Knock out more ta…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1858px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 5335,
+              "w": 280,
+              "h": 1798
+            },
+            "visible": true,
+            "text": "Bolstered protection Be in command of y…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row-reverse",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1798px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 7213,
+              "w": 280,
+              "h": 2010
+            },
+            "visible": true,
+            "text": "From a partner you know Your AI journey…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "2010px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 14659,
+              "w": 280,
+              "h": 1647
+            },
+            "visible": true,
+            "text": "Discover the power of AI with Copilot+ …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1647px"
+            }
+          }
+        ],
+        ".vertical-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 1315,
+              "w": 360,
+              "h": 193
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "192.5px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 9745,
+              "w": 132,
+              "h": 2138
+            },
+            "visible": true,
+            "text": "AI PCs for business With the most compr…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "2138.25px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 188,
+              "y": 9745,
+              "w": 132,
+              "h": 2216
+            },
+            "visible": true,
+            "text": "AI PCs for creators Inspired by you and…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "2216.25px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 12041,
+              "w": 132,
+              "h": 2538
+            },
+            "visible": true,
+            "text": "AI-powered PCs for gamers Embrace the d…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "2538.25px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 188,
+              "y": 12041,
+              "w": 132,
+              "h": 2292
+            },
+            "visible": true,
+            "text": "AI PCs for students Lenovo enables stud…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "2292.25px"
+            }
+          }
+        ],
+        ".vertical-default-image img": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 1315,
+              "w": 360,
+              "h": 113
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "112.5px"
+            },
+            "img": {
+              "naturalWidth": 1920,
+              "naturalHeight": 600,
+              "currentSrc": "https://p1-ofp.static.pub//fes/cms/2024/08/19/j2yqqynpvfm53ju3nuz0fyfqw38429425650.png"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 9745,
+              "w": 132,
+              "h": 74
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "74.25px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p2-ofp.static.pub//fes/cms/2024/08/08/2hb1pl46fo3ol3crgyc51n4j7fx5wf512681.jpg"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 188,
+              "y": 9745,
+              "w": 132,
+              "h": 74
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "74.25px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p3-ofp.static.pub//fes/cms/2024/08/12/e4mugx39o60qs3p41l1a7e4wu5ydmf003825.jpg"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 12041,
+              "w": 132,
+              "h": 74
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "74.25px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p1-ofp.static.pub//fes/cms/2024/08/12/ak8vbsysk0nj9csa7pos3qf5769wfn495626.jpg"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 188,
+              "y": 12041,
+              "w": 132,
+              "h": 74
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "74.25px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p1-ofp.static.pub//fes/cms/2024/08/12/1x9706mrm5936c2u4clvo0k8x1nkqi291538.jpg"
+            }
+          }
+        ],
+        ".ctaButton_link": [
+          {
+            "index": 0,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 11625,
+              "w": 52,
+              "h": 154
+            },
+            "visible": true,
+            "text": "Empower people with Lenovo’s AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "154px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 11799,
+              "w": 52,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "44px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 8,
+            "rect": {
+              "x": 228,
+              "y": 11681,
+              "w": 52,
+              "h": 176
+            },
+            "visible": true,
+            "text": "Innovate with Lenovo Yoga AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 62, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(41, 62, 149)",
+              "borderBottom": "0px none rgb(41, 62, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "176px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 8,
+            "rect": {
+              "x": 228,
+              "y": 11877,
+              "w": 52,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "44px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 14343,
+              "w": 52,
+              "h": 132
+            },
+            "visible": true,
+            "text": "Lead your squad to victory >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "132px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 14495,
+              "w": 52,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "44px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 8,
+            "rect": {
+              "x": 228,
+              "y": 14097,
+              "w": 52,
+              "h": 132
+            },
+            "visible": true,
+            "text": "Experience next-level learning >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "132px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 8,
+            "rect": {
+              "x": 228,
+              "y": 14249,
+              "w": 52,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "44px"
+            }
+          }
+        ],
+        ".less": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 17451,
+              "w": 328,
+              "h": 85
+            },
+            "visible": true,
+            "text": "Artificial intelligence (AI) is already…",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px 15px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "85px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__label-text": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17627,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Which features should I look for in an …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17708,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "How does AI support daily tasks and app…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17789,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Can an AI computer run AI features with…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17870,
+              "w": 278,
+              "h": 72
+            },
+            "visible": true,
+            "text": "What Lenovo AI PCs are commonly used fo…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "72px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17975,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Is an AI-powered PC suitable for long w…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18056,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Does an AI PC desktop support multitask…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18137,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Can Lenovo AI PCs support Copilot+ PC e…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18218,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "What do I consider when choosing the PC…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18299,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Is an AI desktop PC suitable for develo…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18380,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "What factors influence the AI PC price …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18461,
+              "w": 278,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Does Lenovo provide AI desktop PCs for …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "48px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18542,
+              "w": 278,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Are Lenovo AI laptops available for use…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "72px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__icon": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 17627,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 17708,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 17789,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 17870,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 17975,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 18056,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 18137,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 18218,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 18299,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 18380,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 18461,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 302,
+              "y": 18542,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 18px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__separator": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17691,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17772,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17853,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 17958,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18039,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18120,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18201,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18282,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18363,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18444,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18525,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 24,
+              "y": 18630,
+              "w": 312,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          }
+        ],
+        ".pilar_blade .background_img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 17,
+              "y": 17056,
+              "w": 327,
+              "h": 228
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "227.594px"
+            },
+            "img": {
+              "naturalWidth": 1920,
+              "naturalHeight": 512,
+              "currentSrc": "https://p4-ofp.static.pub//fes/cms/2026/02/13/4nb321le9uon7ctmqmdnpbuhrxk5vf036004.jpg"
+            }
+          }
+        ],
+        ".layouts_special_content_b19667f7c90f8-4931-ab67-192f07548277": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 9745,
+              "w": 280,
+              "h": 2216
+            },
+            "visible": true,
+            "text": "AI PCs for business With the most compr…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "2216.25px"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".top_masthead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 38
+            },
+            "visible": true,
+            "text": "Lenovo Pro Business Store",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(237, 237, 237)",
+              "padding": "0px 0px 0px 16px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "38px"
+            }
+          }
+        ],
+        ".masthead:not(.top_masthead)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 38,
+              "w": 1440,
+              "h": 67
+            },
+            "visible": true,
+            "text": "skip to main content All | Sign In / Cr…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "padding": "19px 0px 0px 16px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "67px"
+            }
+          }
+        ],
+        ".nav_view": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 105,
+              "w": 1440,
+              "h": 55
+            },
+            "visible": true,
+            "text": "Artificial Intelligence Products Busine…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "padding": "16px 0px 0px 16px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "55px"
+            }
+          }
+        ],
+        ".merchandizingBanner": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 216,
+              "w": 1440,
+              "h": 68
+            },
+            "visible": true,
+            "text": "Black Friday Deal Days! Unbeatable deal…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgb(230, 244, 250)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "68px"
+            }
+          }
+        ],
+        ".merchandizingItem": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": -2640,
+              "y": 225,
+              "w": 1344,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Black Friday Deal Days! Unbeatable deal…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px 24px",
+              "margin": "9px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "50px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": -1296,
+              "y": 225,
+              "w": 1344,
+              "h": 50
+            },
+            "visible": true,
+            "text": "For price matching, extra deals, or hel…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px 24px",
+              "margin": "9px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "50px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 48,
+              "y": 225,
+              "w": 1344,
+              "h": 50
+            },
+            "visible": true,
+            "text": "My Lenovo Rewards! Earn 3%-9% in reward…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px 24px",
+              "margin": "9px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "50px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 1392,
+              "y": 225,
+              "w": 1344,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Lease-to-own today with Katapult. Get s…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px 24px",
+              "margin": "9px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "50px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 2736,
+              "y": 225,
+              "w": 1344,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Shopping for a business? New Lenovo Pro…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "19px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px 24px",
+              "margin": "9px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "50px"
+            }
+          }
+        ],
+        ".account-menu-masthead": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "My Lenovo AccountKeep track of your wis…",
+            "props": {
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "10px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline-flex",
+              "flexDirection": "column",
+              "gap": "24px",
+              "objectFit": "fill",
+              "height": "558px"
+            }
+          }
+        ],
+        ".heroBgImage": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 600
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "600px"
+            },
+            "img": {
+              "naturalWidth": 1920,
+              "naturalHeight": 600,
+              "currentSrc": "https://p3-ofp.static.pub//fes/cms/2024/09/25/ag988e76rsen3zbnqsvrqcnull78af393408.png"
+            }
+          }
+        ],
+        ".heroTitle .mobileOnly h1": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Work Smarter with Lenovo AI PCs",
+            "props": {
+              "fontSize": "36px",
+              "fontWeight": "800",
+              "lineHeight": "normal",
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(255, 255, 255)",
+              "borderBottom": "0px none rgb(255, 255, 255)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "auto"
+            }
+          }
+        ],
+        ".heroDesc .mobileOnly p": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Learn how our innovative AI propels you…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "auto"
+            }
+          }
+        ],
+        ".heroContent": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 600
+            },
+            "visible": true,
+            "text": "Work Smarter with Lenovo AI PCs Learn h…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "600px"
+            }
+          }
+        ],
+        "main.main_content > .container9999": [
+          {
+            "index": 0,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 600
+            },
+            "visible": true,
+            "text": "Add To Cart Home > Explore AI PCs Work …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "600px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 884,
+              "w": 1440,
+              "h": 757
+            },
+            "visible": true,
+            "text": "Smarter AI for You Lenovo AI PCs stream…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "757px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 1641,
+              "w": 1440,
+              "h": 455
+            },
+            "visible": true,
+            "text": "Greater personalization Harness AI capa…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "455px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 2096,
+              "w": 1440,
+              "h": 466
+            },
+            "visible": true,
+            "text": "Enhanced productivity Knock out more ta…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "466px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 2562,
+              "w": 1440,
+              "h": 466
+            },
+            "visible": true,
+            "text": "Bolstered protection Be in command of y…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "466px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 3028,
+              "w": 1440,
+              "h": 514
+            },
+            "visible": true,
+            "text": "From a partner you know Your AI journey…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "514px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 3542,
+              "w": 1440,
+              "h": 193
+            },
+            "visible": true,
+            "text": "Explore how Lenovo AI PCs can help you …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "193px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 5353,
+              "w": 1440,
+              "h": 460
+            },
+            "visible": true,
+            "text": "Discover the power of AI with Copilot+ …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "460px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 5813,
+              "w": 1440,
+              "h": 442
+            },
+            "visible": true,
+            "text": "Transformational support with Premier S…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "442px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 10,
+            "rect": {
+              "x": 0,
+              "y": 6255,
+              "w": 1440,
+              "h": 1384
+            },
+            "visible": true,
+            "text": "Lenovo AI PCs: Smarter Computing Across…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1384px"
+            }
+          }
+        ],
+        ".horizontal-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 1681,
+              "w": 1360,
+              "h": 375
+            },
+            "visible": true,
+            "text": "Greater personalization Harness AI capa…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row-reverse",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "375px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 2136,
+              "w": 1360,
+              "h": 386
+            },
+            "visible": true,
+            "text": "Enhanced productivity Knock out more ta…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "386px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 2602,
+              "w": 1360,
+              "h": 386
+            },
+            "visible": true,
+            "text": "Bolstered protection Be in command of y…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row-reverse",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "386px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3068,
+              "w": 1360,
+              "h": 434
+            },
+            "visible": true,
+            "text": "From a partner you know Your AI journey…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "434px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 5393,
+              "w": 1360,
+              "h": 380
+            },
+            "visible": true,
+            "text": "Discover the power of AI with Copilot+ …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "380px"
+            }
+          }
+        ],
+        ".vertical-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 120,
+              "y": 1126,
+              "w": 1200,
+              "h": 455
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "455px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3775,
+              "w": 672,
+              "h": 712
+            },
+            "visible": true,
+            "text": "AI PCs for business With the most compr…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "712px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 3775,
+              "w": 672,
+              "h": 724
+            },
+            "visible": true,
+            "text": "AI PCs for creators Inspired by you and…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "724px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 4579,
+              "w": 672,
+              "h": 734
+            },
+            "visible": true,
+            "text": "AI-powered PCs for gamers Embrace the d…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "734px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 4579,
+              "w": 672,
+              "h": 734
+            },
+            "visible": true,
+            "text": "AI PCs for students Lenovo enables stud…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "734px"
+            }
+          }
+        ],
+        ".vertical-default-image img": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 120,
+              "y": 1126,
+              "w": 1200,
+              "h": 375
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "375px"
+            },
+            "img": {
+              "naturalWidth": 1920,
+              "naturalHeight": 600,
+              "currentSrc": "https://p1-ofp.static.pub//fes/cms/2024/08/19/j2yqqynpvfm53ju3nuz0fyfqw38429425650.png"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3775,
+              "w": 672,
+              "h": 378
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "378px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p2-ofp.static.pub//fes/cms/2024/08/08/2hb1pl46fo3ol3crgyc51n4j7fx5wf512681.jpg"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 3775,
+              "w": 672,
+              "h": 378
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "378px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p3-ofp.static.pub//fes/cms/2024/08/12/e4mugx39o60qs3p41l1a7e4wu5ydmf003825.jpg"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 4579,
+              "w": 672,
+              "h": 378
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "378px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p1-ofp.static.pub//fes/cms/2024/08/12/ak8vbsysk0nj9csa7pos3qf5769wfn495626.jpg"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 4579,
+              "w": 672,
+              "h": 378
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "inline",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "378px"
+            },
+            "img": {
+              "naturalWidth": 848,
+              "naturalHeight": 477,
+              "currentSrc": "https://p1-ofp.static.pub//fes/cms/2024/08/12/1x9706mrm5936c2u4clvo0k8x1nkqi291538.jpg"
+            }
+          }
+        ],
+        ".ctaButton_link": [
+          {
+            "index": 0,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 4383,
+              "w": 313,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Empower people with Lenovo’s AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 4425,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 4395,
+              "w": 284,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Innovate with Lenovo Yoga AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 62, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(41, 62, 149)",
+              "borderBottom": "0px none rgb(41, 62, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 4437,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 5209,
+              "w": 226,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Lead your squad to victory >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 5251,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 5209,
+              "w": 255,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Experience next-level learning >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 5251,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "color": "rgb(41, 78, 149)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "10px 0px 0px",
+              "borderTop": "0px none rgb(41, 78, 149)",
+              "borderBottom": "0px none rgb(41, 78, 149)",
+              "display": "inline-block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "22px"
+            }
+          }
+        ],
+        ".less": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 145,
+              "y": 6356,
+              "w": 1150,
+              "h": 80
+            },
+            "visible": true,
+            "text": "Artificial intelligence (AI) is already…",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "80px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__label-text": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6561,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Which features should I look for in an …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6618,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "How does AI support daily tasks and app…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6675,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Can an AI computer run AI features with…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6732,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "What Lenovo AI PCs are commonly used fo…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6789,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Is an AI-powered PC suitable for long w…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6846,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Does an AI PC desktop support multitask…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6903,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Can Lenovo AI PCs support Copilot+ PC e…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6960,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "What do I consider when choosing the PC…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7017,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Is an AI desktop PC suitable for develo…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7074,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "What factors influence the AI PC price …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7131,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Does Lenovo provide AI desktop PCs for …",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7188,
+              "w": 1066,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Are Lenovo AI laptops available for use…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "0px none rgb(23, 23, 23)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__icon": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6561,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6618,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6675,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6732,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6789,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6846,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6903,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 6960,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 7017,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 7074,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 7131,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 1284,
+              "y": 7188,
+              "w": 16,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "16px",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px 12px 0px 0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "24px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__separator": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6601,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6658,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6715,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6772,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6829,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6886,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6943,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7000,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7057,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7114,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7171,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7228,
+              "w": 1184,
+              "h": 1
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(23, 23, 23)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(23, 23, 23)",
+              "borderBottom": "1px solid rgb(112, 112, 112)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "1px"
+            }
+          }
+        ],
+        ".pilar_blade .background_img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5813,
+              "w": 1440,
+              "h": 442
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "block",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "cover",
+              "height": "442px"
+            },
+            "img": {
+              "naturalWidth": 1920,
+              "naturalHeight": 512,
+              "currentSrc": "https://p4-ofp.static.pub//fes/cms/2026/02/13/4nb321le9uon7ctmqmdnpbuhrxk5vf036004.jpg"
+            }
+          }
+        ],
+        ".layouts_special_content_b19667f7c90f8-4931-ab67-192f07548277": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 3775,
+              "w": 1360,
+              "h": 724
+            },
+            "visible": true,
+            "text": "AI PCs for business With the most compr…",
+            "props": {
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "color": "rgb(0, 0, 0)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "padding": "0px",
+              "margin": "0px",
+              "borderTop": "0px none rgb(0, 0, 0)",
+              "borderBottom": "0px none rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "gap": "normal",
+              "objectFit": "fill",
+              "height": "724px"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

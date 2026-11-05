@@ -1,0 +1,99 @@
+/* pdp-tabs — sticky-less jump-link bar under the buy box */
+main .section.pdp-tabs-container {
+  background: #171717;
+}
+
+.pdp-tabs {
+  height: 57px;
+  padding: 0 20px;
+  overflow-x: auto;
+  border-bottom: 1px solid #4a5863;
+  background: #1c2126;
+  color: #fff;
+  font-family: var(--font-ui);
+  line-height: normal;
+  text-align: center;
+  scrollbar-width: none;
+}
+
+.pdp-tabs :is(h1, h2, h3, h4, h5, h6) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.pdp-tabs ul {
+  display: inline-flex;
+  gap: 73px;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pdp-tabs a {
+  display: inline-block;
+  padding: 17px 0 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: none;
+  translate: 0 1px;
+}
+
+.pdp-tabs strong {
+  font-weight: 400;
+}
+
+.pdp-tabs .is-active a {
+  padding-bottom: 16px;
+  border-bottom: 4px solid #0ff;
+  color: #0ff;
+}
+
+/* ---------- light (white series page palette; generated from the dark rules) ---------- */
+main .section.pdp-tabs-container:has(.pdp-tabs.light) {
+  background: #f8f8f8;
+}
+
+.pdp-tabs.light {
+  border-bottom: 1px solid #c7c7c7;
+  background: #f8f8f8;
+  color: #000;
+}
+
+.pdp-tabs.light a {
+  color: #000;
+}
+
+.pdp-tabs.light .is-active a {
+  border-bottom: 4px solid #294e95;
+  color: #294e95;
+}
+
+/* variant: series at 360 (live): links 44px apart, a second row carrying the scroll chevron */
+@media (width <= 1023px) {
+  .pdp-tabs.series {
+    height: 103px;
+  }
+
+  .pdp-tabs.series ul {
+    gap: 44px;
+  }
+
+  .pdp-tabs.series .pdp-tabs-inner::after {
+    content: "";
+    display: block;
+    width: 9px;
+    height: 9px;
+    margin: 18px 0 0 6px;
+    border: solid currentcolor;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg);
+  }
+}

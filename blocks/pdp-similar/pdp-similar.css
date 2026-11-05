@@ -1,0 +1,629 @@
+/* pdp-similar — compare similar products (static snapshot of the captured comparison) */
+/* stylelint-disable no-descending-specificity -- cascade order ported from the gated prototype */
+main .section.pdp-similar-container {
+  margin-top: 49px;
+  background: #171717;
+  color: #fff;
+}
+
+.pdp-similar {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 16px;
+  background: #000;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.pdp-similar p,
+.pdp-similar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pdp-similar img {
+  max-width: none;
+}
+
+.pdp-similar a {
+  color: inherit;
+}
+
+.pdp-similar button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+}
+
+.pdp-similar .eyebrow {
+  color: #0ff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.pdp-similar .sec-title {
+  margin-top: 4px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.pdp-similar .sec-title :is(h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.pdp-similar .sub {
+  margin-top: 12px;
+  color: rgb(255 255 255 / 80%);
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.pdp-similar .chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 764px;
+  margin: 16px auto 0;
+}
+
+.pdp-similar .chips ul {
+  display: contents;
+}
+
+.pdp-similar .chips li {
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  padding: 0 12px;
+  border-radius: 15px;
+  background: #474d51;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.pdp-similar .chips li.is-on {
+  position: relative;
+  box-sizing: border-box;
+  height: 35px;
+  padding-left: 26px;
+  border: 2px solid #0ff;
+  border-radius: 18px;
+  background: #000;
+  color: #0ff;
+}
+
+.pdp-similar .chips li.is-on::before {
+  content: "\2713";
+  position: absolute;
+  left: 10px;
+}
+
+.pdp-similar .chips strong {
+  font-weight: inherit;
+}
+
+.pdp-similar .select-all {
+  color: #0ff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.pdp-similar .sim-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.pdp-similar .sim {
+  position: relative;
+  box-sizing: border-box;
+  flex: 0 0 234px;
+  height: 953px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: #333f48;
+}
+
+.pdp-similar .sim.is-current {
+  background: #1c2126;
+}
+
+.pdp-similar .sim.sim-add {
+  background: #000;
+}
+
+.pdp-similar .sim-add-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding-top: 182px;
+  color: #0ff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.pdp-similar .sim-add .plus {
+  box-sizing: border-box;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #0ff;
+  border-radius: 50%;
+}
+
+.pdp-similar .sim-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 47px;
+  margin-top: 16px;
+  padding: 0 16px 0 32px;
+}
+
+.pdp-similar .sim-top .badge {
+  padding: 7px 15px 6px;
+  background: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+}
+
+.pdp-similar .sim-top .remove {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-left: auto;
+}
+
+.pdp-similar .sim-top .remove::before,
+.pdp-similar .sim-top .remove::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 7px;
+  width: 2px;
+  height: 18px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.pdp-similar .sim-top .remove::after {
+  transform: rotate(-45deg);
+}
+
+.pdp-similar .sim-title {
+  height: 66px;
+  margin-top: 16px;
+  padding: 0 16px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.pdp-similar .sim-title a {
+  text-decoration: none;
+}
+
+.pdp-similar .sim-rating {
+  height: 38px;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.pdp-similar .sim-rating a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+  text-decoration: none;
+}
+
+.pdp-similar .stars {
+  display: inline-flex;
+  gap: 1px;
+}
+
+.pdp-similar .star-box {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 1px;
+}
+
+.pdp-similar .star-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: url("https://p4-ofp.static.pub/fes/cms/2023/02/15/iyxntur2wscag0a4lek1rw7s5tk82e383786.svg") 0 0 / 16px 16px no-repeat;
+  filter: invert(100%);
+}
+
+.pdp-similar .star-icon.gray-icon {
+  background-image: url("https://p4-ofp.static.pub/fes/cms/2023/02/15/q5kfy9k5c9owr2yeitaxd3q4rj4pcd697562.svg");
+  filter: none;
+}
+
+.pdp-similar .yellow-icon[style*="width"] {
+  overflow: hidden;
+}
+
+.pdp-similar .sim-img {
+  display: flex;
+  justify-content: center;
+  height: 165px;
+  padding-top: 16px;
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+.pdp-similar .sim-img img {
+  width: 125px;
+  height: 125px;
+  object-fit: contain;
+}
+
+.pdp-similar .sim-price {
+  height: 48px;
+  padding: 0 16px;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.pdp-similar .sim-specs {
+  height: 406px;
+  padding: 0 16px;
+}
+
+.pdp-similar .sim-specs li {
+  padding-bottom: 16px;
+  border-top: 1px solid #5a6670;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.pdp-similar .sim-specs li[hidden] {
+  display: none;
+}
+
+.pdp-similar .sim-specs strong {
+  display: block;
+  padding-top: 17px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.pdp-similar .sim-shop {
+  display: flex;
+  justify-content: center;
+  height: 58px;
+}
+
+.pdp-similar .sim-shop a,
+.pdp-similar .sim-shop a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 46px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  color: #16191e;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pdp-similar .sim-compare {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin: 12px 0 0 16px;
+  padding: 8px;
+  background: #000;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.pdp-similar .sim-compare input {
+  margin: 0;
+}
+
+.pdp-similar .explore a,
+.pdp-similar .explore a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 174px;
+  height: 44px;
+  margin: 32px 0 0;
+  padding: 0;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background: none;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (width <= 1023px) {
+  main .section.pdp-similar-container {
+    margin-top: 48px;
+  }
+
+  /* live pins the squeezed comparison box at 3908px; the wrapped card rows run past it */
+  .pdp-similar {
+    box-sizing: border-box;
+    height: 3908px;
+    padding-bottom: 0;
+  }
+
+  .pdp-similar .chips {
+    max-width: 238px;
+  }
+
+  .pdp-similar .sim-list {
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 40px;
+  }
+
+  .pdp-similar .sim {
+    flex: 0 0 148px;
+    min-width: 0;
+    height: 1366px;
+  }
+
+  .pdp-similar .sim.sim-add {
+    height: 364px;
+  }
+
+  .pdp-similar .sim-add-inner {
+    padding-top: 137px;
+  }
+
+  .pdp-similar .sim-top {
+    align-items: flex-start;
+    height: 149px;
+    padding: 0 16px;
+  }
+
+  .pdp-similar .sim-title {
+    height: 110px;
+  }
+
+  .pdp-similar .sim-rating {
+    height: 57px;
+  }
+
+  .pdp-similar .sim-rating a {
+    flex-wrap: wrap;
+  }
+
+  .pdp-similar .sim-img {
+    height: 188px;
+  }
+
+  .pdp-similar .sim-img img {
+    width: 114px;
+  }
+
+  .pdp-similar .sim-price {
+    height: 80px;
+  }
+
+  .pdp-similar .sim-specs {
+    height: auto;
+  }
+}
+
+/* ---------- light (white series page palette; generated from the dark rules) ---------- */
+main .section.pdp-similar-container:has(.pdp-similar.light) {
+  background: #fff;
+  color: #000;
+}
+
+.pdp-similar.light {
+  background: #fff;
+}
+
+.pdp-similar.light .eyebrow {
+  color: #294e95;
+}
+
+.pdp-similar.light .sub {
+  color: #4e444e;
+}
+
+.pdp-similar.light .chips li {
+  background: #e1e1e1;
+}
+
+.pdp-similar.light .chips li.is-on {
+  border: 2px solid #294e95;
+  background: #fff;
+  color: #294e95;
+}
+
+.pdp-similar.light .select-all {
+  color: #294e95;
+}
+
+.pdp-similar.light .sim {
+  background: #fff;
+}
+
+.pdp-similar.light .sim.is-current {
+  background: #f8f8f8;
+}
+
+.pdp-similar.light .sim.sim-add {
+  background: #fff;
+}
+
+.pdp-similar.light .sim-add-inner {
+  color: #294e95;
+}
+
+.pdp-similar.light .sim-add .plus {
+  border: 2px solid #294e95;
+}
+
+.pdp-similar.light .sim-top .badge {
+  background: #fff;
+}
+
+.pdp-similar.light .sim-top .remove::before,
+.pdp-similar.light .sim-top .remove::after {
+  background: #000;
+}
+
+.pdp-similar.light .sim-specs li {
+  border-top: 1px solid #c7c7c7;
+}
+
+.pdp-similar.light .sim-shop a,
+.pdp-similar.light .sim-shop a.button {
+  background: #294e95;
+  color: #fff;
+}
+
+.pdp-similar.light .sim-compare {
+  background: #fff;
+}
+
+.pdp-similar.light .explore a,
+.pdp-similar.light .explore a.button {
+  border: 1px solid #000;
+  color: #000;
+}
+
+/* ---------- variant: series (series PDP — "Starting at" price, content-sized spec rows) ---------- */
+.pdp-similar.series .sim {
+  display: flex;
+  flex-direction: column;
+}
+
+.pdp-similar.series .sim-price {
+  height: auto;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.pdp-similar.series .sim-price strong {
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.pdp-similar.series .sim-specs {
+  flex: 1 0 auto;
+  height: auto;
+}
+
+/* series at 360 (live geometry): content-sized box, 148px tiles (light: no gutter), short top,
+   six-line titles, 165px picture, 23px energy row, wrapped price; light tiles 1122px, dark 1194px */
+@media (width <= 1023px) {
+  .pdp-similar.series {
+    height: auto;
+    padding-bottom: 51px;
+  }
+
+  .pdp-similar.series.light .sim-list {
+    column-gap: 0;
+  }
+
+  .pdp-similar.series .sim {
+    height: 1194px;
+  }
+
+  .pdp-similar.series.light .sim {
+    height: 1122px;
+  }
+
+  .pdp-similar.series .sim.sim-add {
+    height: 365px;
+  }
+
+  .pdp-similar.series .sim-top {
+    height: 47px;
+  }
+
+  .pdp-similar.series .sim-title {
+    height: 132px;
+  }
+
+  .pdp-similar.series .sim-img {
+    height: 165px;
+  }
+
+  .pdp-similar.series .sim-price {
+    height: 81px;
+    margin-top: 23px;
+  }
+
+  .pdp-similar.series .sim-shop {
+    height: 74px;
+  }
+
+  .pdp-similar.series .sim-compare {
+    margin-bottom: 20px;
+  }
+
+  /* dark tower: the "explore all" link sits 188px above the services band */
+  .pdp-similar.series:not(.light) {
+    padding-bottom: 96px;
+  }
+}
+
+/* black: the dark tower series page (live #000) */
+main .section.pdp-similar-container:has(.pdp-similar.black) {
+  background: #000;
+}
+
+/* light series desktop (live): spec rows run content-sized, "Shop Now" sits at the text edge
+   right under them, 867px tiles */
+@media (width >= 1024px) {
+  .pdp-similar.series.light .sim {
+    height: 867px;
+  }
+
+  .pdp-similar.series.light .sim-specs {
+    flex: 0 0 auto;
+  }
+
+  .pdp-similar.series.light .sim-shop {
+    justify-content: flex-start;
+    padding: 0 16px;
+  }
+}

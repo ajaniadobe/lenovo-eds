@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-7:checked ~ table .bp-page-7 { display: table-row-group; }
+  #bp-7:checked ~ .pager .bp-range-7 { display: inline; }
+  #bp-7:checked ~ .pager label[for="bp-7"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-8:checked ~ table .bp-page-8 { display: table-row-group; }
+  #bp-8:checked ~ .pager .bp-range-8 { display: inline; }
+  #bp-8:checked ~ .pager label[for="bp-8"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-9:checked ~ table .bp-page-9 { display: table-row-group; }
+  #bp-9:checked ~ .pager .bp-range-9 { display: inline; }
+  #bp-9:checked ~ .pager label[for="bp-9"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.lenovo.com/" target="_blank" rel="noopener">https://www.lenovo.com/</a><br>Preview site: <a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--b3b47bf7--aemcoder.aem.page/</a><br>Last updated: 2026-11-03 14:21 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 10 pages. 10 of 10 are published on the preview site; 10 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>10 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.lenovo.com/" target="_blank" rel="noopener">https://www.lenovo.com/</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/legion/" target="_blank" rel="noopener">https://www.lenovo.com/us/en/legion/</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/" target="_blank" rel="noopener">https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/d/accessories-and-software/gaming-accessories" target="_blank" rel="noopener">Gaming Accessories for PC &amp;amp; Console | Keyboards, Mice &amp;amp; Headsets | Lenovo US</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/ai-pcs/" target="_blank" rel="noopener">https://www.lenovo.com/us/en/ai-pcs/</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/education/futureyou/" target="_blank" rel="noopener">https://www.lenovo.com/us/en/education/futureyou/</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/education/futureyou" target="_blank" rel="noopener">us-en-education-futureyou</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/" target="_blank" rel="noopener">https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series" target="_blank" rel="noopener">Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/" target="_blank" rel="noopener">https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/desktops/legion-desktops/legion-t-series-towers" target="_blank" rel="noopener">Legion T Series | Power Unleased | Lenovo US</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009</a></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Campaign landing pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Category listings</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Product detail pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel" id="blocks-used">
+    <h2 class="spectrum-panel-header">Blocks used</h2>
+    <div class="panel-body">
+      <p>45 blocks in 111 variants across 10 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-7" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-8" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-9" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="30">blade<span class="block-pages">3 pages</span></td><td><span class="variant">cards</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-left</span><span class="variant">is-wide</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-left</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-right</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a> <span class="blocks-count">×5</span></td></tr>
+          <tr><td><span class="variant">stack</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">stack</span><span class="variant">text</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">cards</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">cols</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">cols</span><span class="variant">cols-3</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">cols</span><span class="variant">has-cap</span><span class="variant">is-offset</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">cols</span><span class="variant">has-cap</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">cols</span><span class="variant">is-offset</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">cols</span><span class="variant">is-offset</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">cols</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">stack</span><span class="variant">full</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-right</span><span class="variant">light</span><span class="variant">gap-20</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">stack</span><span class="variant">light</span><span class="variant">gap-20</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-left</span><span class="variant">light</span><span class="variant">gap-40</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-right</span><span class="variant">light</span><span class="variant">gap-70</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-left</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-left</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-right</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">split</span><span class="variant">is-media-right</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">slider</span><span class="variant">is-offset</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">slider</span><span class="variant">is-offset</span><span class="variant">light</span><span class="variant">tall-copy</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">slider</span><span class="variant">is-offset</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">stack</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">stack</span><span class="variant">video</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">stack</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">stack</span><span class="variant">text</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">pdp-hero<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">subseries</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">subseries</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">pdp-legal<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a>, <a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">pdp-ports<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">series</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">series</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">pdp-reviews<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">series</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">series</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="3">pdp-services<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">pdp-similar<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">series</span><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">series</span><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">pdp-specs<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">black</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">pdp-tabs<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus" target="_blank" rel="noopener">Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr><td><span class="variant">series</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">product-listing<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/desktops/legion-desktops/legion-t-series-towers" target="_blank" rel="noopener">Legion T Series | Power Unleased | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">has-wishlist</span><span class="variant">features-collapsed</span><span class="variant">has-view-toggle</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/d/accessories-and-software/gaming-accessories" target="_blank" rel="noopener">Gaming Accessories for PC &amp;amp; Console | Keyboards, Mice &amp;amp; Headsets | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">theme-light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series" target="_blank" rel="noopener">Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="2">ai-seo<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">legion</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">faq-accordion<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">dark</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">hero-banner<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/d/accessories-and-software/gaming-accessories" target="_blank" rel="noopener">Gaming Accessories for PC &amp;amp; Console | Keyboards, Mice &amp;amp; Headsets | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">is-center</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series" target="_blank" rel="noopener">Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">pdp-models<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009" target="_blank" rel="noopener">us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009</a></td></tr>
+          <tr><td><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr class="group"><td class="block" rowspan="6">series-blade<span class="block-pages">2 pages</span></td><td><span class="variant">is-left</span><span class="variant">is-overlay</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series" target="_blank" rel="noopener">Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">is-left</span><span class="variant">tone-grape</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series" target="_blank" rel="noopener">Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">is-left</span><span class="variant">tone-plum</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/desktops/legion-desktops/legion-t-series-towers" target="_blank" rel="noopener">Legion T Series | Power Unleased | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">is-right</span><span class="variant">tone-magenta</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series" target="_blank" rel="noopener">Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">is-right</span><span class="variant">tone-navy</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/desktops/legion-desktops/legion-t-series-towers" target="_blank" rel="noopener">Legion T Series | Power Unleased | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">is-right</span><span class="variant">tone-wine</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/desktops/legion-desktops/legion-t-series-towers" target="_blank" rel="noopener">Legion T Series | Power Unleased | Lenovo US</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block" rowspan="2">series-hero<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/desktops/legion-desktops/legion-t-series-towers" target="_blank" rel="noopener">Legion T Series | Power Unleased | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">is-split</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series" target="_blank" rel="noopener">Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">ai-cards<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">ai-copilot<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">ai-explore<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">ai-feature<span class="block-pages">1 page</span></td><td><span class="variant">blue</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">blue</span><span class="variant">reverse</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">pink</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block">ai-hero<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">ai-intro<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">card-grid<span class="block-pages">1 page</span></td><td><span class="variant">categories</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">icons</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">images</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a></td></tr>
+          <tr><td><span class="variant">rail</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block">category-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/d/accessories-and-software/gaming-accessories" target="_blank" rel="noopener">Gaming Accessories for PC &amp;amp; Console | Keyboards, Mice &amp;amp; Headsets | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">home-hero<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block">legion-banner<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block">legion-blade<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block">legion-cards<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">legion-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr><td><span class="variant">partner</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr><td><span class="variant">showcase</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr><td><span class="variant">showcase</span><span class="variant">tall</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr><td><span class="variant">space</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block">legion-ecosystem<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-7">
+          <tr class="group"><td class="block" rowspan="2">legion-feature<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr><td><span class="variant">reverse</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block">legion-headline<span class="block-pages">1 page</span></td><td><span class="variant">backdrop</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block">legion-hero<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block">legion-products<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/legion" target="_blank" rel="noopener">us-en-legion</a></td></tr>
+          <tr class="group"><td class="block">listing-faq<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/d/accessories-and-software/gaming-accessories" target="_blank" rel="noopener">Gaming Accessories for PC &amp;amp; Console | Keyboards, Mice &amp;amp; Headsets | Lenovo US</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-8">
+          <tr class="group"><td class="block">listing-seo<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/d/accessories-and-software/gaming-accessories" target="_blank" rel="noopener">Gaming Accessories for PC &amp;amp; Console | Keyboards, Mice &amp;amp; Headsets | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">merch-banner<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/education/futureyou" target="_blank" rel="noopener">us-en-education-futureyou</a></td></tr>
+          <tr class="group"><td class="block">pdp-accessories<span class="block-pages">1 page</span></td><td><span class="variant">light</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066" target="_blank" rel="noopener">us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066</a></td></tr>
+          <tr class="group"><td class="block">persona-cards<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/education/futureyou" target="_blank" rel="noopener">us-en-education-futureyou</a></td></tr>
+          <tr class="group"><td class="block">pilar-blade<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs" target="_blank" rel="noopener">Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-9">
+          <tr class="group"><td class="block">product-carousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/education/futureyou" target="_blank" rel="noopener">us-en-education-futureyou</a></td></tr>
+          <tr class="group"><td class="block">prompt<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">rewards<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">stories<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/" target="_blank" rel="noopener">Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US</a></td></tr>
+          <tr class="group"><td class="block">video-panel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--b3b47bf7--aemcoder.aem.page/us/en/education/futureyou" target="_blank" rel="noopener">us-en-education-futureyou</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 45</span><span class="bp-range bp-range-2">Blocks 6–10 of 45</span><span class="bp-range bp-range-3">Blocks 11–15 of 45</span><span class="bp-range bp-range-4">Blocks 16–20 of 45</span><span class="bp-range bp-range-5">Blocks 21–25 of 45</span><span class="bp-range bp-range-6">Blocks 26–30 of 45</span><span class="bp-range bp-range-7">Blocks 31–35 of 45</span><span class="bp-range bp-range-8">Blocks 36–40 of 45</span><span class="bp-range bp-range-9">Blocks 41–45 of 45</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label><label for="bp-7" class="spectrum-button spectrum-button--quiet">7</label><label for="bp-8" class="spectrum-button spectrum-button--quiet">8</label><label for="bp-9" class="spectrum-button spectrum-button--quiet">9</label></div></nav>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Analytics and tags <span class="spectrum-badge">Switched off</span></h2>
+    <div class="panel-body">
+      <p>We carried over 1 tag, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.lenovo.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Adobe Launch</td><td><code>launch-51c0785ae79f.min.js</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code>, <code>dataLayer</code>, <code>utag_data</code></td></tr>
+          <tr><td>Adobe Web SDK</td><td>Version 2.38.0</td></tr>
+          <tr><td>Adobe Target</td><td>Personalization through the Web SDK</td></tr>
+          <tr><td>Loaded by your tags</td><td>Akamai mPulse</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Adobe Launch library (0 data-layer fields used).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Check 33 rules that target the old page structure</strong> (CSS selectors or URLs), for example <code>Evidon : Button Top Line : Remove</code>, <code>Scrape User Email - Shipping Details - EMEA</code>, <code>Evidon Consent Checker US Custom</code> and 30 more.
+          <details><summary>Show all 33</summary><ul class="all"><li><code>Evidon : Button Top Line : Remove</code></li><li><code>Scrape User Email - Shipping Details - EMEA</code></li><li><code>Evidon Consent Checker US Custom</code></li><li><code>Hashed email: Checkout</code></li><li><code>Third Party Pixel : CCPA : Evidon UCP : Mobile Close Btn</code></li><li><code>Third Party Pixel : CCPA : Evidon UCP Suppression : US</code></li><li><code>Marketing : LenovoPro Submit Capture: JP</code></li><li><code>Marketing : APC Tele Rep : Global</code></li><li><code>Third Party Pixel : CCPA : Evidon UCP Inject Cookie : US</code></li><li><code>Third Party Pixel : Twitter &amp; Line : JP copy</code></li><li><code>Facebook - JP - Request Call back</code></li><li><code>Floodlight - IN - AI Webcast</code></li><li><code>Target Tool Loaded - Global Mbox</code></li><li><code>Scrape User Email - Shipping Details - Hybris</code></li><li><code>Event Based Rule : Proceed to Checkout</code></li><li><code>Analytics : Evidon Suppression Cookie : B2B</code></li><li><code>Marketing : Floodlight Checkout Start : JP</code></li><li><code>Third Party Pixel : Inside Chat : Powerfront Scroll Chat Hide : NA</code></li><li><code>Marketing : Gtag Registration : JP</code></li><li><code>ConfirmIT : Commetarios : 404</code></li><li><code>Third Party Pixel : Inside Chat : Powerfront : NA MT</code></li><li><code>Wunderkind : Window Object - Add to Cart</code></li><li><code>Analytics : Evidon Consent Interaction : Global</code></li><li><code>Evidon : Consent : Checker Prod</code></li><li><code>EMEA: ISG New Popup Banner</code></li><li><code>Evidon Consent Suppression Cookie : BR</code></li><li><code>Analytics : psref-link Link tracking</code></li><li><code>EqualWeb : NA : Form Focus</code></li><li><code>Evidon Consent Checker : Brazil</code></li><li><code>Scrape User Email - Shipping Details - Flash</code></li><li><code>Reddit - NA - Add to Cart</code></li><li><code>GA4 - JP - Server Storage - Request Call back</code></li><li><code>Evidon : Set Cookie on Reject : EMEA &amp; BR</code></li></ul></details></li>
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+        <li><strong>Pick one Web SDK datastream.</strong> Your tag setup chooses between 103 at runtime.</li>
+        <li><strong>Decide whether to keep personalization (Adobe Target).</strong> It holds the page back until its decisions arrive, so check page speed.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>The migration is complete: all ten pages are live on the new platform and match the current site closely on desktop and mobile. Links, redirects, search-engine data and interactive features have all been checked, and your analytics setup is carried over, ready to be switched on.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>The remaining steps are your business decisions, listed in the final report: switching on analytics and connecting search, prices, sign-up and checkout to your live systems.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

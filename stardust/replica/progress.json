@@ -1,0 +1,331 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "index",
+      "liveUrl": "https://www.lenovo.com/us/en/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/index.css"
+      ],
+      "js": "stardust/prototypes/canon.js",
+      "generator": "stardust/replica/build/index/gen.mjs (re-authors markup from a runtime DOM snapshot: stardust/.work/replica/index/live-dom-1440.html)",
+      "contentRoot": "main",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "2.39%",
+          "heightDelta": -4,
+          "contentDiff": "1 red / 4 yellow (all nondeterministic live state)",
+          "visualDiff": "advisory only",
+          "clip": 0,
+          "overflow": "ok (build scrollWidth 360; live itself overflows to 706)",
+          "verdict": "RESIDUAL",
+          "evidence": "stardust/replica/gates/index-360/*-final3.*"
+        },
+        "1440": {
+          "pixel": "0.33%",
+          "heightDelta": -2,
+          "contentDiff": "1 red / 3 yellow (all nondeterministic live state, see residuals)",
+          "visualDiff": "advisory only: lazy rail images 5-8 unloaded (mirrors live lazyload), empty prompt alpha imgs (mirror live)",
+          "clip": 0,
+          "overflow": "ok",
+          "units": "PASS (advisory families; boxes Δ≤1px)",
+          "verdict": "RESIDUAL",
+          "evidence": "stardust/replica/gates/index-1440/*-final4.*"
+        }
+      },
+      "capProbe": {
+        "verdict": "PASS",
+        "probeWidth": 2560,
+        "contentMaxWidth": "1440px (module)",
+        "promoCap": "1424px",
+        "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+      },
+      "residuals": [
+        {
+          "band": "content-diff (both widths)",
+          "what": "Neptune card icon: live computed mask-image = lenovo-icon-community (len-icon id collision on source) while the gated live capture paints the arrow-right chevron; build mirrors the painted chevron",
+          "class": "nondeterministic-live",
+          "permanent": true
+        },
+        {
+          "band": "header promo strip",
+          "what": "merchandizing banner autoplays; slide index / sr-only 'Currently displaying item N of 5' / prev-next aria-labels differ per live load (gated live.png shows slide 1)",
+          "class": "nondeterministic-live",
+          "permanent": true
+        },
+        {
+          "band": "header search",
+          "what": "typewriter placeholder experiment (Q28019/Q21379): live alternates placeholder vs aria-label and types sample queries ('Thin and lightweight laptop…','|'); build shows the empty field + cursor bar",
+          "class": "nondeterministic-live",
+          "permanent": true
+        },
+        {
+          "band": "360 y 750-1000 (10.9%)",
+          "what": "third-party fixed widgets on the live chunk-1 capture (inside.com 'Chat Now' tab, Lenovo survey 'Feedback' tab) are not replicated (martech, delivered via dynamics contract)",
+          "class": "third-party-overlay",
+          "permanent": true
+        },
+        {
+          "band": "360 header nav row",
+          "what": "live renders the desktop commonHeader at phone width (squeezed hyphenated nav columns, header overflows to 706px); build mirrors it clipped to the viewport; per-item widths differ by ~1px so hyphenation breaks differ slightly",
+          "class": "source-defect-mirrored",
+          "permanent": false
+        },
+        {
+          "band": "chrome-parity",
+          "what": "promo slide x offsets (autoplay position) and footer social icon Δw 2px; header mega-menus (second_view tier transitions on nav hover) fire live but their content is fetched on hover and was never captured — not implemented",
+          "class": "mixed",
+          "permanent": false
+        }
+      ],
+      "captureState": [
+        {
+          "element": "header promo strip (merchandizing banner)",
+          "frozenAs": "slide 1 (Black Friday)",
+          "restoreAtDelivery": "autoplay rotation (idle class mutations observed; 5000 ms assumed from the page's data-cmp-delay) — implemented in canon.js, pauses off-screen"
+        },
+        {
+          "element": "hero carousel",
+          "frozenAs": "slide 1 'A New Vision for AI'",
+          "restoreAtDelivery": "autoplay every 5000 ms (data-cmp-delay=5000) with progress-track fill; pause/play toggle — implemented in canon.js, pauses off-screen"
+        },
+        {
+          "element": "lazy images (category tiles, event cards, rails)",
+          "frozenAs": "loaded when intersecting; off-canvas rail items stay unloaded (alt-text boxes) exactly as live",
+          "restoreAtDelivery": "native lazy loading on EDS"
+        },
+        {
+          "element": "prompt group results (9 XFs)",
+          "frozenAs": "collapsed (height 0) — mirrored hidden",
+          "restoreAtDelivery": "prompt selection reveals results panel (implemented)"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "promo strip autoplay (idle class swaps)",
+          "hero autoplay + progress track (0.1 s width steps)",
+          "tabs switch on click",
+          "prompt selection (mixitup-selected)",
+          "card hover: link color #7a126b + image scale 1.0668 over 0.5 s ease-in-out",
+          "cta link hover color #e1251b",
+          "footer link hover color #294e95",
+          "header nav hover mega-menu (second_view tier transitions)"
+        ],
+        "implemented": [
+          "promo autoplay",
+          "hero autoplay + progress + pause/play",
+          "tabs (desktop tabs / 360 accordion order)",
+          "prompt selection + Start Over",
+          "card hover",
+          "cta link hover",
+          "footer link hover",
+          "lazy image load on intersect"
+        ],
+        "dead": [
+          "hero arrow click (no sampled change on live)",
+          "card-rail arrows (no sampled change on live)",
+          "cta-button__btn hover (no diff)",
+          "header nav_item hover style (no diff)"
+        ],
+        "notImplemented": [
+          "header mega-menus (content not captured)"
+        ],
+        "evidence": [
+          "stardust/replica/motion/index.json",
+          "stardust/replica/motion/index-build.json"
+        ]
+      },
+      "fonts": "Noto Sans files self-hosted as 'Lato' and 'Noto Sans' 400/700; Montserrat variable file declared as 400 + 700 faces (live loads only 400/700 so weight 600 renders 700); icomoon",
+      "canonNotes": [
+        "Home wraps nav.commonHeader + promo strip and footer.commonFooter INSIDE <main> (AEM flash-header/flash-footer XFs); other templates (e.g. ai-pcs) put the same nav.commonHeader before <main class='main_content'> and the footer after it",
+        "Header height differs: home nav block 160px (+68 promo = 228); every other captured template reports nav 216px with main starting at 284 — re-verify the canon header against ai-pcs before iterating",
+        "Footer height 985px on home/ai-pcs/legion/gaming-accessories, 1035px on several listing/product pages (extra footer row) — check per template",
+        "canon.js swaps the phone header variant at load (<=749px): expand toggles, 'Lenovo Pro Business Store' label, account label removed — mirrors live JS"
+      ]
+    },
+    "campaign": {
+      "archetype": "us-en-ai-pcs",
+      "liveUrl": "https://www.lenovo.com/us/en/ai-pcs/",
+      "prototype": "stardust/prototypes/us-en-ai-pcs-proposed.html",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "6.82%",
+          "heightDelta": -118,
+          "contentDiff": "3 🔴 · 5 🟡 (hidden duplicates / aria-label residuals)",
+          "visualDiff": "advisory only",
+          "clip": 1,
+          "overflow": "ok",
+          "verdict": "RESIDUAL (height Δ -118 > 8px; lean budget fix rounds exhausted)"
+        },
+        "1440": {
+          "pixel": "2.58%",
+          "heightDelta": -4,
+          "contentDiff": "iter1 --full: 21 🔴 (18 FAQ icon-glyph, fixed → U+E929 icomoon; 3 hidden-duplicate residuals) · 9 🟡 (partner subtitle spans + card sr-only titles fixed; hidden dupes residual)",
+          "visualDiff": "16 advisory (SEO h3 16px heading-face — live-identical)",
+          "clip": 0,
+          "overflow": "ok",
+          "verdict": "PASS (pixel/height); structural residual 3 🔴 hidden duplicates"
+        }
+      },
+      "capProbe": "deferred",
+      "residuals": [
+        "content-diff 🔴×3 (both widths): live renders the hero h1/description/breadcrumb three times (desktopOnly/mobileOnly/tabletOnly, two hidden per width) — prototype authors one responsive copy; hidden duplicates never paint.",
+        "content-diff 🟡: sr-only \"Add To Cart\" in hero (CMS junk a11y text) and sr-only duplicate of SEO first paragraph not replicated; aria-labels decorativeImage / Call to action / Learn More not carried.",
+        "360 height Δ -118px (build taller), hot bands 16000–17500: copilot h3 + segment cards/links in 52–100px-wide columns wrap differently (live word-break:break-word on narrow desktop columns), pilar-blade mobile card stack; needs a 360 measure round on .horizontal-default-content__title/.ctaButton_link/.overlay_card.",
+        "360 clip-probe Clipped 1: SEO copy inside collapsed .less (85px) cuts first paragraph 3px — live clips identically (collapsed Read More state).",
+        "Promo strip carousel shows slide 1; live rotation position at capture differed (chrome-parity Δx on promo items) — timing, not structure.",
+        "Live fixed \"Feedback / Need Help? Call\" bottom bar (viewport-fixed widget) not replicated — third-party/fixed chrome.",
+        "FAQ answers authored collapsed (hidden) — live collapsed initial state."
+      ],
+      "captureState": [
+        "Header promo strip: 5-slide rotator, static first slide",
+        "FAQ accordion: all 18 items collapsed",
+        "SEO infoList: collapsed (Read More)",
+        "Segment nav order observed Business|Student|Gaming|Creator at gate time (screenshot capture had Gaming first)"
+      ],
+      "motion": {
+        "observed": "deferred",
+        "implemented": [
+          "FAQ accordion toggle",
+          "SEO Read More toggle"
+        ],
+        "dead": []
+      }
+    },
+    "listing": {
+      "archetype": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "liveUrl": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+      "prototype": "stardust/prototypes/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html",
+      "css": "stardust/prototypes/us-en-c-desktops-legion-desktops-legion-t-series-towers.css",
+      "iterations": {
+        "360": 3,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "2.97%",
+          "heightDelta": -1,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (2 advisory: hidden facetName/facetId data nodes; hero desc/breadcrumb hidden by CSS vs removed on live)",
+          "visualDiff": "not run (lean budget)",
+          "clip": 0,
+          "overflow": "ok (live itself overflows to 706px; listing body in a hidden-scrollbar overflow-x:auto wrapper)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "1.16%",
+          "heightDelta": -2,
+          "contentDiff": "0 🔴 · 0 nothing-lost 🟡 (2 advisory: hidden facetName/facetId data nodes)",
+          "visualDiff": "not run (lean budget)",
+          "clip": 0,
+          "overflow": "ok",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": {
+        "verdict": "PASS",
+        "contentCap": "640 = 640",
+        "evidence": "stardust/replica/gates/us-en-c-desktops-legion-desktops-legion-t-series-towers-2560/cap-iter.json"
+      },
+      "residuals": [
+        "Footer −2px (canon footer, same as campaign) — 1440 Δh −2.",
+        "360: live renders the desktop (terminal-pc / pc DLP) layout at 360 because the instrument UA is desktop; live document overflows to 706px. Prototype mirrors the captured layout and wraps the listing body in an overflow-x:auto (scrollbar hidden) container so the build has no horizontal overflow — clip-probe reports 39 advisory X-CUT, 0 counted.",
+        "360: live product-card row 2 is JS-equalised short (price stack 167, details 249 → loyalty block overlaps the feature list) — frozen as captured; live card heights vary run to run (scrollHeight 7709 vs 7645 observed) — nondeterministic, permanent residual.",
+        "360 band 500–1000 ≈14%: third-party fixed Feedback/Call/Chat bar + 1px promo-strip height (canon) — not replicated (accepted class).",
+        "content-diff advisory: hidden facetName/facetId internal data nodes (us_global_desktops_legion_t_series_towers / GUID) not carried — not content.",
+        "content-presence 🟡 (0 🔴): 4 product-title links are role=heading tabindex=-1 anchors on live, authored as h3 > a (semantic upgrade); facet controls band-shifted by the side-by-side facets/products layout.",
+        "Gate instrument: live captures need --consent \"#_evh-ric-c\" (Evidon banner) and --dismiss \".bluecoreCloseButton\" (Bluecore email popup); without them the live capture is dimmed (35–42%)."
+      ],
+      "captureState": [
+        "Header promo strip: static first slide (canon)",
+        "Product grid: 4 hydrated cards replicated as captured (prices, Katapult lease, My Lenovo Rewards, ratings frozen; row heights frozen per breakpoint)",
+        "Sort select collapsed on \"Newest\"; Processor facet collapsed to 3 items + See More",
+        "Hover images, loyalty popovers, out-of-stock tip, loading overlay authored hidden",
+        "Segment nav order Gaming|Business|Student|Creator (as captured on this page)"
+      ],
+      "motion": {
+        "observed": "deferred",
+        "implemented": [
+          "hero CTA scrolls to product list",
+          "sort dropdown toggle",
+          "See More / See Less facet toggle",
+          "canon header behaviours"
+        ],
+        "dead": []
+      }
+    },
+    "product": {
+      "archetype": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "liveUrl": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+      "prototype": "stardust/prototypes/us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus-proposed.html",
+      "css": "stardust/prototypes/us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus.css",
+      "js": "stardust/prototypes/us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus.js",
+      "build": "stardust/replica/build/us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus/",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "12.89%",
+          "heightDelta": -53,
+          "contentDiff": "33 🔴 (24 role swaps: authored h3 for live body-text column titles; icon-font glyphs; similar img-link alt \"null\") · 83 nothing-lost 🟡 (swiper loop clones, sup-split fragments, hidden spec rows)",
+          "visualDiff": "not run (lean budget)",
+          "clip": 0,
+          "overflow": "ok (live document overflows to 746px; build 360)",
+          "verdict": "FAIL (residuals logged, lean cap reached)"
+        },
+        "1440": {
+          "pixel": "5.13%",
+          "heightDelta": -2,
+          "contentDiff": "10 🔴 (icon-font/inline-svg glyphs drawn in CSS, 2 role swaps, javascript:; title link) · 85 nothing-lost 🟡 (swiper loop clones, sup-split fragments)",
+          "visualDiff": "not run (lean budget)",
+          "clip": 0,
+          "overflow": "ok",
+          "verdict": "PASS (pixel/Δh/clip/overflow; content-diff residual classes logged)"
+        }
+      },
+      "capProbe": {
+        "verdict": "deferred",
+        "contentCap": "n/a"
+      },
+      "residuals": [
+        "360 pixel 12.89% / Δh −53: the live gate capture renders the 360 buy box 51px taller than its own DOM measure (live-360.html: hero 4691 vs stitched tabs at 5069 → 4742; reproduced on a re-capture), shifting every band below by ~51px; hero height pinned from the DOM measure. Lean cap (2 fix rounds) reached before re-pinning.",
+        "360: live serves its desktop components squeezed at 360 (accessory cards 82px wide with one-letter-per-line text, 4-up feature columns, narrow split blades); mirrored approximately, block heights pinned per breakpoint from live rects.",
+        "1440 first live capture was truncated (29028 vs 29208, footer cut) — retaken; final live 29208 vs build 29206.",
+        "PayPal message (iframe) and Katapult logo rendered as neutral placeholders (third-party iframe/asset not replicated).",
+        "Bazaarvoice reviews widget re-authored (snapshot, AI summary, ratings, media strip, filters, 3 reviews) with block heights pinned; review dates captured from the live dump.",
+        "content-diff residual classes: swiper loop clones (live duplicates slides ×2–3), text split by <sup> into fragments, icon-font / inline-svg glyphs redrawn in CSS, role upgrades (h2/h3 for live div/p titles), similar-products image links with alt \"null\" authored with the product title.",
+        "Gate instrument: needs --consent \"#_evh-ric-c\" --dismiss \".bluecoreCloseButton\" (as on the listing)."
+      ],
+      "captureState": [
+        "Live header: \"Artificial Intelligence\" active + AI tier-2 row (as captured on this page); segments Gaming|Business|Student|Creator",
+        "Buy box hydrated state replicated: FEATURED DEAL, $2,299.99 (Est Value $3,465.99, 33% off), Katapult $74/week, Rewards $137, delivery date, 4 discounted add-ons",
+        "Lazy sections replicated as loaded (services, tech specs, merch banner, ports, compare similar, reviews, legal)",
+        "Carousels frozen at their captured offset (blade_6 at −182px, blade_5 centred slide 2 at 1440 / slide at 0 at 360)",
+        "Popovers (Est Value, Rewards, Wishlist, Ask an Expert) authored hidden; Lenovo Pro / Education modals as closed <dialog>"
+      ],
+      "motion": {
+        "observed": "deferred",
+        "implemented": [
+          "gallery thumbnails swap the stage image",
+          "jump-tab active state",
+          "reviews tab toggle",
+          "offer links open Lenovo Pro / Education dialogs",
+          "legal disclosure accordion",
+          "canon header behaviours"
+        ],
+        "dead": []
+      },
+      "deliveryFollowUp": "360 hero/buy-box pin 4691→4742 px (live stitched capture draws buy box ~51 px taller); apply at C-archetype preview gate"
+    }
+  }
+}

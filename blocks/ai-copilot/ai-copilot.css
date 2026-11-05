@@ -1,0 +1,84 @@
+/* ai-copilot — live horizontal-default-pc on the Copilot gradient (us-en-ai-pcs § copilot) */
+.ai-copilot {
+  position: relative;
+  padding: 40px;
+  background: linear-gradient(90deg, #e8d3e2 0%, #e0d5e6 50%, #d5d8e7 100%);
+  color: #000;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.ai-copilot .copilot-pc {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ai-copilot.reverse .copilot-pc {
+  flex-direction: row-reverse;
+}
+
+.ai-copilot .copilot-image {
+  flex: 0 0 640px;
+  width: 640px;
+}
+
+.ai-copilot .copilot-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.ai-copilot .copilot-content {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 40px;
+  overflow-wrap: break-word;
+}
+
+.ai-copilot .copilot-title :is(h1, h2, h3, h4) {
+  font-family: var(--font-ui);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ai-copilot .copilot-body {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.ai-copilot .copilot-body p {
+  min-height: 22px;
+}
+
+.ai-copilot .copilot-actions p {
+  margin-top: 10px;
+}
+
+.ai-copilot .copilot-actions a:any-link,
+.ai-copilot .copilot-actions a.button:any-link {
+  display: inline-block;
+  padding: 13px 24px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  background: #fff;
+  color: var(--c-ink);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  white-space: normal;
+}
+
+@media (width <= 767px) {
+  .ai-copilot .copilot-image {
+    flex: 0 0 100px;
+    width: 100px;
+  }
+}

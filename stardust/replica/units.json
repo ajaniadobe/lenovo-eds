@@ -1,0 +1,93 @@
+{
+  "index-category-card": {
+    "origin": ".display-rows .len-card.card-bg-white",
+    "build": ".cat-cards .cat-card__box",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "unit boxes match (Δ0 at 1440); inner elements differ by modelling (build card IS the link; picture line box 106 vs 100) and lazy-image timing — advisory"
+  },
+  "index-event-card": {
+    "origin": ".experiencefragment .len-card",
+    "build": ".img-cards--3 .img-card > a",
+    "n": 3,
+    "required": false,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "unit boxes match (Δ0 at 1440); inner elements differ by modelling (build card IS the link; picture line box 106 vs 100) and lazy-image timing — advisory"
+  },
+  "index-icon-card": {
+    "origin": ".len-card__wrapper.d-flex.align-items-start",
+    "build": ".icon-card__inner",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "unit boxes match at 1440 (Δ≤1) and 360 (Δ≤1, fresh origin cache); off-canvas carousel cards read hidden on the build only — advisory"
+  },
+  "index-rail-card": {
+    "origin": ".display-carousel .len-card",
+    "build": ".img-cards--rail .img-card > a",
+    "n": 3,
+    "required": false,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "unit boxes match (Δ0 at 1440); inner elements differ by modelling (build card IS the link; picture line box 106 vs 100) and lazy-image timing — advisory"
+  },
+  "aipcs-segment-card": {
+    "origin": ".layouts_special_content .vertical-default-pc",
+    "build": ".ai-cards .vertical-default-pc",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "us-en-ai-pcs"
+    ],
+    "templates": [
+      "campaign"
+    ],
+    "note": "16:9 image + h3 28/700 + description + 2 ctaButton_link; boxes Δ0 at 1440"
+  },
+  "aipcs-text-image-row": {
+    "origin": ".horizontal-default-pc",
+    "build": ".horizontal-default-pc",
+    "n": 5,
+    "required": false,
+    "pages": [
+      "us-en-ai-pcs"
+    ],
+    "templates": [
+      "campaign"
+    ],
+    "note": "640px image + flex content, alternating row/row-reverse"
+  },
+  "aipcs-faq-item": {
+    "origin": ".x-cms-ai-ofp-fe-2c-accordion__item",
+    "build": ".x-cms-ai-ofp-fe-2c-accordion__item",
+    "n": 18,
+    "required": false,
+    "pages": [
+      "us-en-ai-pcs"
+    ],
+    "templates": [
+      "campaign"
+    ],
+    "note": "collapsed; 57px at 1440"
+  }
+}

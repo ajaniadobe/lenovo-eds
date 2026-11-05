@@ -1,0 +1,456 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T05:50:23.766Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T14:14:25.113Z",
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:3a03f200f38022e9c5b07089ebcbcf8c25bd12bc36c6275ce12b124f94da482b",
+        "sourceUrl": "https://www.lenovo.com/"
+      },
+      "blocks": [
+        "merch-banner",
+        "home-hero",
+        "card-grid",
+        "prompt",
+        "rewards",
+        "stories"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/",
+        "deployedAt": "2026-11-03T02:15:24.414Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.7,
+          "heightDelta": 2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": [
+              ".motion-carousel--one=.home-hero"
+            ]
+          },
+          "reasons": [],
+          "override": "source-drift",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-ai-pcs",
+      "path": "/us/en/ai-pcs",
+      "title": "Lenovo AI PCs: Smarter Computing for Everyday Workflows | Lenovo US",
+      "templateId": "us-en-ai-pcs",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/ai-pcs/index.html",
+        "metaJson": "stardust/migrated/us/en/ai-pcs/_meta.json",
+        "sourceHash": "sha256:b3aad5da98875df04cb5266848b2f32323611e13ed4007592857c2070dca6475",
+        "sourceUrl": "https://www.lenovo.com/us/en/ai-pcs/"
+      },
+      "blocks": [
+        "merch-banner",
+        "ai-hero",
+        "ai-intro",
+        "ai-feature",
+        "ai-explore",
+        "ai-cards",
+        "ai-copilot",
+        "pilar-blade",
+        "ai-seo",
+        "faq-accordion"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/ai-pcs",
+        "deployedAt": "2026-11-03T02:23:55.271Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.42,
+          "heightDelta": -131,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 18,
+            "missingButtons": 18,
+            "hiddenButtons": 0,
+            "findings": 56,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "path": "/us/en/c/desktops/legion-desktops/legion-t-series-towers",
+      "title": "Legion T Series | Power Unleased | Lenovo US",
+      "templateId": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/c/desktops/legion-desktops/legion-t-series-towers/index.html",
+        "metaJson": "stardust/migrated/us/en/c/desktops/legion-desktops/legion-t-series-towers/_meta.json",
+        "sourceHash": "sha256:44b72e81986c1be9fc293335529432c8506fd030ce4e73b607c4f62a300c10d9",
+        "sourceUrl": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/"
+      },
+      "blocks": [
+        "merch-banner",
+        "series-hero",
+        "series-blade",
+        "product-listing"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/c/desktops/legion-desktops/legion-t-series-towers",
+        "deployedAt": "2026-11-03T03:18:31.912Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.93,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 22,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-c-laptops-yoga-yoga-slim-series",
+      "path": "/us/en/c/laptops/yoga/yoga-slim-series",
+      "title": "Lenovo Yoga Slim laptops | Stylish, premium ultrathin laptops | Lenovo | Global Reference Store | Lenovo | Lenovo US",
+      "templateId": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/c/laptops/yoga/yoga-slim-series/index.html",
+        "metaJson": "stardust/migrated/us/en/c/laptops/yoga/yoga-slim-series/_meta.json",
+        "sourceHash": "sha256:3016fe2d8b009de582292757947bb562d567f6519b0dc675ddac062b994091e3",
+        "sourceUrl": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/"
+      },
+      "blocks": [
+        "series-hero",
+        "hero-banner",
+        "series-blade",
+        "product-listing"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/c/laptops/yoga/yoga-slim-series",
+        "deployedAt": "2026-11-03T05:50:27.212Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.15,
+          "heightDelta": -39,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 42,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-d-accessories-and-software-gaming-accessories",
+      "path": "/us/en/d/accessories-and-software/gaming-accessories",
+      "title": "Gaming Accessories for PC &amp; Console | Keyboards, Mice &amp; Headsets | Lenovo US",
+      "templateId": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/d/accessories-and-software/gaming-accessories/index.html",
+        "metaJson": "stardust/migrated/us/en/d/accessories-and-software/gaming-accessories/_meta.json",
+        "sourceHash": "sha256:385f0ede338715013a70f4fd4e75f00c4390830fb79a07cf6c7d62e8a22e10d8",
+        "sourceUrl": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/"
+      },
+      "blocks": [
+        "hero-banner",
+        "category-carousel",
+        "product-listing",
+        "listing-seo",
+        "listing-faq"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/d/accessories-and-software/gaming-accessories",
+        "deployedAt": "2026-11-03T05:50:27.270Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.44,
+          "heightDelta": -51,
+          "clipped": 0,
+          "content": {
+            "missing": 1,
+            "hidden": 0,
+            "controlState": 19,
+            "missingButtons": 21,
+            "hiddenButtons": 0,
+            "findings": 103,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 1 / HIDDEN 0 (+19 control state)"
+          ],
+          "override": "source-drift",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-education-futureyou",
+      "path": "/us/en/education/futureyou",
+      "title": "us-en-education-futureyou",
+      "templateId": "us-en-ai-pcs",
+      "source": {
+        "migratedHtml": "sibling-encode:us-en-education-futureyou",
+        "metaJson": null,
+        "sourceHash": "sha256:30b416130b454ae2fb45bf2927501bd7fb78f9c633666c82f1fc71ee51c50527"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/education/futureyou",
+        "deployedAt": "2026-11-03T09:23:47.131Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.23,
+          "heightDelta": 17,
+          "clipped": 3,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-legion",
+      "path": "/us/en/legion",
+      "title": "us-en-legion",
+      "templateId": "us-en-ai-pcs",
+      "source": {
+        "migratedHtml": "sibling-encode:us-en-legion",
+        "metaJson": null,
+        "sourceHash": "sha256:5dbe4f244cdaa06f3a910666d22d1694a9f1a593566cc1f2a7214970fda8aff4"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/legion",
+        "deployedAt": "2026-11-03T09:23:47.218Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.63,
+          "heightDelta": -78,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 24,
+            "hiddenButtons": 0,
+            "findings": 98,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+      "path": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+      "title": "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+      "templateId": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "source": {
+        "migratedHtml": "sibling-encode:us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+        "metaJson": null,
+        "sourceHash": "sha256:a015b43cdd54a21bc2d4197cd9b6fab47ee815714607e7d2e35dcd1b76e36043"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+        "deployedAt": "2026-11-03T09:23:47.302Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.48,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 33,
+            "hiddenButtons": 0,
+            "findings": 79,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "path": "/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+      "title": "Legion Pro 5i Gen 10 (16” Intel) | 16-inch esports gaming laptop powered by Intel® | 83F300BBUS | Lenovo US",
+      "templateId": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "source": {
+        "migratedHtml": "stardust/migrated/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus/index.html",
+        "metaJson": "stardust/migrated/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus/_meta.json",
+        "sourceHash": "sha256:b2284b34509f34e3c1222d480fdf9d557493e14b1df7d1434953aace2c6a04cf",
+        "sourceUrl": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+      },
+      "blocks": [
+        "merch-banner",
+        "pdp-hero",
+        "pdp-tabs",
+        "pdp-services",
+        "blade",
+        "pdp-specs",
+        "pdp-ports",
+        "pdp-similar",
+        "pdp-reviews",
+        "pdp-legal"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+        "deployedAt": "2026-11-03T05:34:52.674Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.67,
+          "heightDelta": -271,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 27,
+            "hiddenButtons": 0,
+            "findings": 84,
+            "variable": [
+              ".similar_products_container=.pdp-similar"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    },
+    {
+      "slug": "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+      "path": "/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+      "title": "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+      "templateId": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "source": {
+        "migratedHtml": "sibling-encode:us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+        "metaJson": null,
+        "sourceHash": "sha256:7126bc942c7ffc988394f089bdf1e28cf4bbdb226d3b71a5046d797d2861a38e"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--b3b47bf7--aemcoder.aem.page/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+        "deployedAt": "2026-11-03T09:23:47.381Z",
+        "verifiedAt": "2026-11-03T14:14:25.113Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.67,
+          "heightDelta": -11,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 1,
+            "missingButtons": 76,
+            "hiddenButtons": 0,
+            "findings": 150,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T14:01:43.400Z"
+        }
+      }
+    }
+  ]
+}

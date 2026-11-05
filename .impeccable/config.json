@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "lato",
+        "createdAt": "2026-11-02T23:08:48.173Z",
+        "reason": "replica flow: Lato (Noto Sans files) is lenovo.com's own captured brand face; design changes are forbidden outside the inconsistency register"
+      },
+      {
+        "rule": "overused-font",
+        "value": "montserrat",
+        "createdAt": "2026-11-02T23:08:48.183Z",
+        "reason": "replica flow: Montserrat is lenovo.com's own captured campaign face; design changes are forbidden outside the inconsistency register"
+      }
+    ]
+  }
+}

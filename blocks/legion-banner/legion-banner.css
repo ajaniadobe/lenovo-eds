@@ -1,0 +1,112 @@
+/* legion-banner — live #blade-6 (Lenovo LOQ) */
+.legion-banner {
+  position: relative;
+  max-width: 1920px;
+  height: 948px;
+  margin: auto;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-display);
+}
+
+.legion-banner .legion-banner-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.legion-banner .legion-banner-bg :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.legion-banner .legion-banner-bg img {
+  object-fit: cover;
+}
+
+.legion-banner .legion-banner-mobile {
+  display: none;
+}
+
+.legion-banner .legion-banner-content {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 30%;
+  margin: auto 5%;
+  transform: translateY(-50%);
+}
+
+.legion-banner .legion-banner-logo img {
+  width: 260px;
+}
+
+.legion-banner .legion-banner-title {
+  margin-top: 14px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.legion-banner .legion-banner-text {
+  margin: 9px 0;
+  font-size: 18px;
+}
+
+.legion-banner .legion-banner-actions {
+  margin-top: 40px;
+}
+
+.legion-banner a.legion-banner-cta:any-link {
+  display: inline-block;
+  padding: 17px 46px;
+  border: 1px solid #294e95;
+  border-radius: 4px;
+  background-color: #294e95;
+  color: #fff;
+  font: 600 16px/1em var(--font-display);
+}
+
+.legion-banner a.legion-banner-cta:hover {
+  background-color: #e3f2f9;
+  color: #294e95;
+}
+
+@media (width <= 1299px) {
+  .legion-banner {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #000;
+  }
+
+  .legion-banner .legion-banner-bg {
+    display: none;
+  }
+
+  .legion-banner .legion-banner-mobile {
+    display: block;
+    order: 2;
+  }
+
+  .legion-banner .legion-banner-mobile img {
+    width: 100%;
+  }
+
+  .legion-banner .legion-banner-content {
+    position: static;
+    width: 90%;
+    margin: 5%;
+    text-align: center;
+    transform: none;
+  }
+
+  .legion-banner .legion-banner-logo img {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .legion-banner .legion-banner-actions {
+    margin: 32px 0 16px;
+  }
+}

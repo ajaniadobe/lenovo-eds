@@ -1,0 +1,215 @@
+/* pdp-accessories — compatible accessories row (live geometry, light series page) */
+.pdp-accessories {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 16px 144px;
+  color: #000;
+  font-family: var(--font-ui);
+  line-height: normal;
+  text-align: center;
+}
+
+.pdp-accessories p,
+.pdp-accessories h2 {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.pdp-accessories a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pdp-accessories .acc-eyebrow {
+  margin-bottom: 4px;
+  color: #7a126b;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.pdp-accessories .acc-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.pdp-accessories .acc-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pdp-accessories .acc-item {
+  display: flex;
+  flex: 0 0 237px;
+  flex-direction: column;
+  align-items: center;
+  height: 645px;
+  padding: 52px 0 48px;
+}
+
+/* live name: 22px/normal (30px), five lines reserved */
+.pdp-accessories .acc-name {
+  height: 150px;
+  overflow: hidden;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.pdp-accessories .acc-rating {
+  box-sizing: border-box;
+  height: 26px;
+  margin-top: 12px;
+  padding-top: 4px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.pdp-accessories .stars {
+  display: inline-flex;
+  gap: 1px;
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+
+.pdp-accessories .star {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(90deg, #000 var(--fill), transparent var(--fill));
+  clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.pdp-accessories .acc-img {
+  height: 153px;
+  margin: 16px 0 20px;
+  line-height: 0;
+}
+
+.pdp-accessories .acc-img img {
+  max-width: 184px;
+  height: 148px;
+  object-fit: contain;
+}
+
+.pdp-accessories .acc-was {
+  margin-top: 12px;
+  color: #4e444e;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.pdp-accessories .acc-price {
+  margin-top: 8px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pdp-accessories .acc-save {
+  margin-top: 8px;
+  color: #285d50;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.pdp-accessories .acc-save em {
+  font-style: normal;
+}
+
+.pdp-accessories .acc-cart {
+  margin-top: auto;
+}
+
+.pdp-accessories .acc-cart p {
+  padding: 10px 19px;
+  border-radius: 4px;
+  background: #294e95;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.pdp-accessories .acc-all {
+  margin-top: 46px;
+}
+
+/* live see-all-button: 199 x 47, 16px/16px bold, 14px 15px padding */
+.pdp-accessories .acc-all a {
+  display: inline-block;
+  padding: 14.5px 15px;
+  border: 1px solid #294e95;
+  border-radius: 4px;
+  color: #294e95;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+/* live 360: 130px tiles 16px apart from x 32, the row runs past the viewport (not scrolled) */
+@media (width <= 1023px) {
+  .pdp-accessories {
+    padding: 96px 32px 144px;
+  }
+
+  .pdp-accessories .acc-list {
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  .pdp-accessories .acc-item {
+    flex: 0 0 130px;
+    height: 754px;
+  }
+
+  .pdp-accessories .acc-name {
+    height: 240px;
+  }
+
+  /* live 360: the stars sit on their own centred row above "4.5 (78)" */
+  .pdp-accessories .acc-rating {
+    height: 45px;
+    padding-top: 0;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .pdp-accessories .acc-rating .stars {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .pdp-accessories .acc-img img {
+    max-width: 130px;
+  }
+}
+
+/* authored links stay text: neutralise the foundation's auto-button styling */
+.pdp-accessories a.button:any-link {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: inherit;
+}
+
+.pdp-accessories .acc-all a.button:any-link {
+  display: inline-block;
+  padding: 14.5px 15px;
+  border: 1px solid #294e95;
+  border-radius: 4px;
+  color: #294e95;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}

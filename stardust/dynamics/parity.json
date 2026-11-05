@@ -1,0 +1,313 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-03T14:00:01.167Z"
+  },
+  "method": "curated rows of stardust/dynamic-features.md re-verified on the published aem.live origin; header/footer chrome as nav/footer documents, widgets client-side, commerce/search/forms interim link-outs or local capture, martech carried disabled",
+  "features": [
+    {
+      "id": "chrome-menus",
+      "feature": "header mega-menu, utility bar, mobile drawer",
+      "class": "M",
+      "pages": 10,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "53 header links, 21 disclosure toggles on every probed page",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "header nav a",
+          "min": 50
+        },
+        {
+          "type": "dom-count",
+          "path": "/us/en/legion",
+          "selector": ".header [aria-expanded]",
+          "min": 20
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "feature": "loyalty / price popovers (source aria-haspopup triggers)",
+      "class": "M",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "listing loyalty popover trigger x2 on the Yoga listing; INDpopupConfirm and pro-store popups not reached on the captured pages",
+      "owner": "confirm whether the Lenovo Pro store popup is wanted on the new host",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en/c/laptops/yoga/yoga-slim-series",
+          "selector": "[aria-haspopup=\"dialog\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "site-search",
+      "feature": "header search box",
+      "class": "S",
+      "pages": 10,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "search input on every page; submit goes to www.lenovo.com/us/en/search (link-out)",
+      "owner": "datasource: product search / suggest API (/us/en/ofp/search/*) is host-bound to www.lenovo.com",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "#common-header-search",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "carousels",
+      "feature": "home hero rotation, Legion sliders",
+      "class": "CR",
+      "pages": 10,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "home hero active slide rotates on a timer; legion carousels with arrows + dots",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".home-hero .is-active",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/us/en/legion",
+          "selector": ".legion-carousel",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "hero-video",
+      "feature": "Legion hero muted YouTube loop (restoreAtDelivery)",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "YouTube iframe injected after poster first paint",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/us/en/legion",
+          "iframeSelector": ".legion-hero-iframe",
+          "playbackHost": "youtube|googlevideo|ytimg"
+        }
+      ]
+    },
+    {
+      "id": "product-prices",
+      "feature": "live prices, model lists, delivery dates, spec APIs",
+      "class": "A",
+      "pages": 6,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "listing and product pages carry prices/models as captured",
+      "snapshot": "2026-11-02",
+      "owner": "product/price feed for the new host",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en/c/laptops/yoga/yoga-slim-series",
+          "selector": ".product-listing",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "commerce-cart-account",
+      "feature": "cart, sign-in/account, payments, Lenovo Pro store",
+      "class": "X",
+      "pages": 10,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "links point to the www.lenovo.com cart/account/checkout",
+      "owner": "auth + commerce on the new host",
+      "checks": []
+    },
+    {
+      "id": "listing-facets",
+      "feature": "category facets + product card controls",
+      "class": "F",
+      "pages": 3,
+      "disposition": "client-only",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "facet UI as captured; See More toggles client-side; product set static",
+      "owner": "product feed",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us/en/c/laptops/yoga/yoga-slim-series",
+          "selector": ".product-listing .card-see-more, .product-listing [aria-expanded]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "email-capture",
+      "feature": "footer newsletter sign-up",
+      "class": "F",
+      "pages": 10,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "email input on every page; empty and malformed input refused client-side; valid input shows a no-backend-connected message (no POST)",
+      "owner": "ESP endpoint (Bluecore)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "footer input[type=\"email\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "locale-switcher",
+      "feature": "country/locale selector",
+      "class": "I18N",
+      "pages": 10,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-business-decision",
+      "status": "interim",
+      "verifiedBy": "links to the source locale sites",
+      "owner": "locale scope",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "[class*=\"locale\"], [class*=\"country\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "runtime-embed",
+      "feature": "runtime-injected iframe (no src at capture)",
+      "class": "V",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-human-capture",
+      "status": "interim",
+      "verifiedBy": "omitted: not visible in the captured page",
+      "owner": "confirm the embed",
+      "checks": []
+    },
+    {
+      "id": "martech",
+      "feature": "Adobe Launch, Analytics/ECID, mPulse, ad pixels",
+      "class": "T/A",
+      "pages": 10,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-credential",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "scripts/martech.js ships with every contract route disabled; no tag host requested",
+      "owner": "enable the Launch route and consent model on the new host",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "assets.adobedtm.com",
+            "s.go-mpulse.net",
+            "c.go-mpulse.net"
+          ]
+        },
+        {
+          "type": "martech",
+          "path": "/us/en/legion",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "assets.adobedtm.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-layers",
+      "feature": "dataLayer, utag_data, adobeDataLayer",
+      "class": "A",
+      "pages": 10,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "consumed by Launch only; carried with the martech contract",
+      "checks": []
+    },
+    {
+      "id": "identity-apis",
+      "feature": "assign_cookie, identity, getOneId, Web SDK interact",
+      "class": "A",
+      "pages": 10,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-credential",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "rides on the martech contract (disabled)",
+      "owner": "identity endpoints on the new host",
+      "checks": []
+    },
+    {
+      "id": "cms-fragments",
+      "feature": "header/footer fragments",
+      "class": "A",
+      "pages": 10,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "nav/footer documents published live, noindex",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": "footer a",
+          "min": 20
+        }
+      ]
+    },
+    {
+      "id": "page-errors",
+      "feature": "no uncaught exceptions",
+      "class": "-",
+      "pages": 10,
+      "disposition": "-",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "all delivered paths",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/us/en/ai-pcs",
+            "/us/en/c/desktops/legion-desktops/legion-t-series-towers",
+            "/us/en/c/laptops/yoga/yoga-slim-series",
+            "/us/en/d/accessories-and-software/gaming-accessories",
+            "/us/en/education/futureyou",
+            "/us/en/legion",
+            "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+            "/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+            "/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066"
+          ]
+        }
+      ]
+    }
+  ]
+}

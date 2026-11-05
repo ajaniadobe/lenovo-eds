@@ -1,0 +1,1159 @@
+{
+  "name": "Lenovo US",
+  "colors": {
+    "white": "#ffffff",
+    "black": "#000000",
+    "text-secondary": "#3a3a3a",
+    "surface-dark": "#171717",
+    "surface-muted": "#e6e2e4",
+    "surface-slate": "#333f48",
+    "surface-tint": "#eaeef5",
+    "link-blue": "#294e95",
+    "brand-red": "#e1251b",
+    "accent-cyan": "#00ffff",
+    "border-grey": "#cccccc"
+  },
+  "typography": {
+    "headingFamily": "Lato",
+    "bodyFamily": "Lato",
+    "secondaryFamily": "Montserrat",
+    "sizes": [
+      72,
+      64,
+      60,
+      56,
+      48,
+      45,
+      44,
+      40,
+      36,
+      34,
+      32,
+      28,
+      26,
+      24,
+      22,
+      20,
+      18,
+      16,
+      14,
+      13,
+      12.8,
+      12
+    ]
+  },
+  "rounded": {
+    "sm": "4px",
+    "md": "12px",
+    "pill": "50%"
+  },
+  "extensions": {
+    "componentStyle": {
+      "buttons": "4px radius rectangles; dark/primary fills; Montserrat/Lato 16px",
+      "cards": "white cards, 4–12px radius, soft shadow rgba(0,0,0,.16) 0 8px 10px"
+    },
+    "motifs": {
+      "radius": {
+        "mode": "4px",
+        "areaMode": "12px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "4px",
+            "count": 901,
+            "area": 40277175,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#INDquickAccess > ul > li:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#INDquickAccess > ul > li:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#INDquickAccess > ul > li:nth-of-type(3) > button"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "#INDquickAccess > ul > li:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "#INDquickAccess > ul > li:nth-of-type(2) > button"
+              }
+            ]
+          },
+          {
+            "value": "12px",
+            "count": 795,
+            "area": 109225436,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#SearchBoxSingle"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#SearchBoxSingle > form"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "div:nth-of-type(1) > div:nth-of-type(1) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "#SearchBoxSingle"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "#SearchBoxSingle > form"
+              }
+            ]
+          },
+          {
+            "value": "3px",
+            "count": 585,
+            "area": 637671,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+                "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div > div > div > div > label > input"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+                "selector": "div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div > label > input"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+                "selector": "div:nth-of-type(2) > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > label > input"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > label > input"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "div > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > input"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 428,
+            "area": 348270,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#selectLogo"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#common_footer_id > ul > li:nth-of-type(1) > a"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#common_footer_id > ul > li:nth-of-type(2) > a"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#common_footer_id > div:nth-of-type(1) > ul > li:nth-of-type(1) > a"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#common_footer_id > div:nth-of-type(1) > ul > li:nth-of-type(2) > a"
+              }
+            ]
+          },
+          {
+            "value": "7px 7px 0px 0px",
+            "count": 135,
+            "area": 515305,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "nav > div:nth-of-type(4) > div > ul > li:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "nav > div:nth-of-type(4) > div > ul > li:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "nav > div:nth-of-type(4) > div > ul > li:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+                "selector": "nav > div:nth-of-type(4) > div > ul > li:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+                "selector": "nav > div:nth-of-type(4) > div > ul > li:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 110,
+            "area": 651817,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "section > div > ul > li:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > span"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "section > div > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div > span"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "section > div > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > span"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "section > div > ul:nth-of-type(2) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div > span"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "section > div > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > div > span"
+              }
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 103,
+            "area": 1593059,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > a"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 6px",
+            "count": 88,
+            "area": 21120,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > span:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "6px",
+            "count": 88,
+            "area": 435952,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "div:nth-of-type(8) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div"
+              }
+            ]
+          },
+          {
+            "value": "100px",
+            "count": 39,
+            "area": 259028,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > a"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "div > div:nth-of-type(2) > div > section > div:nth-of-type(2) > div:nth-of-type(4) > div > button"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "article > div > div > div:nth-of-type(3) > div > div > div > a"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/education/futureyou/",
+                "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3) > div > div > div > a"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/education/futureyou/",
+                "selector": "#bottom_left_box > a"
+              }
+            ]
+          },
+          {
+            "value": "12px 12px 0px 0px",
+            "count": 36,
+            "area": 156816,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "#Consoles > article > div:nth-of-type(1) > picture"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "#Consoles > article > div:nth-of-type(1) > picture > img"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "#dx-brands-carousel-container > div:nth-of-type(2) > div > div > div:nth-of-type(2) > article > div:nth-of-type(1) > picture"
+              }
+            ]
+          },
+          {
+            "value": "0px 6px 6px 0px",
+            "count": 20,
+            "area": 64688,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#lenovoSurveyWidget"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "#lenovoSurveyWidget"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+                "selector": "#lenovoSurveyWidget"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "#lenovoSurveyWidget"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "#lenovoSurveyWidget"
+              }
+            ]
+          },
+          {
+            "value": "10px 0px 0px 10px",
+            "count": 20,
+            "area": 51460,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "#SearchBoxSingle > form > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "#SearchBoxSingle > form > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+                "selector": "#SearchBoxSingle > form > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "#SearchBoxSingle > form > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "#SearchBoxSingle > form > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 18,
+            "area": 6640861,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(13) > div"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "div > div:nth-of-type(3) > div > div > div > div:nth-of-type(13) > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/",
+                "selector": "div:nth-of-type(2) > div > div:nth-of-type(3) > div > div > div > div:nth-of-type(18) > div"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "div > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(1) > img"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/ai-pcs/",
+                "selector": "main > div:nth-of-type(8) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "10px",
+            "count": 17,
+            "area": 4349124,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#hCarousel2 > div:nth-of-type(1) > div:nth-of-type(1) > div"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+                "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+                "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+                "selector": "div > div > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+                "selector": "div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "24px",
+            "count": 16,
+            "area": 4285368,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+                "selector": "div > section > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+                "selector": "div > section > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+                "selector": "div > section > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+                "selector": "div > section > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+                "selector": "div > section > div:nth-of-type(2) > div > div > div > div > div:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "50px",
+            "count": 13,
+            "area": 21499,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#hCarousel2 > div:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#hCarousel5 > div:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#leGoCarousel > div:nth-of-type(3)"
+              }
+            ]
+          },
+          {
+            "value": "5px",
+            "count": 12,
+            "area": 1815726,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "article > div > div > div:nth-of-type(3) > div > div > div > a"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "section:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(10) > div:nth-of-type(3) > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+                "selector": "section:nth-of-type(1) > div > div > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/education/futureyou/",
+                "selector": "div > div > div:nth-of-type(2) > div > div > section > div > div"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/education/futureyou/",
+                "selector": "div:nth-of-type(2) > div > div > section > div > div > div:nth-of-type(1) > div"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 6px 6px",
+            "count": 6,
+            "area": 1074150,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#hCarousel3 > div > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#lgCards > div:nth-of-type(1) > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#lgCards > div:nth-of-type(2) > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#lgCards > div:nth-of-type(3) > div:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 4,
+            "area": 493142,
+            "sources": [
+              {
+                "url": "https://www.lenovo.com/us/en/c/laptops/yoga/yoga-slim-series/",
+                "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(7) > div > div > div"
+              },
+              {
+                "url": "https://www.lenovo.com/us/en/legion/",
+                "selector": "#hCarousel4 > div:nth-of-type(1) > div:nth-of-type(2) > picture > img"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.16) 0px 8px 10px 0px",
+          "count": 132,
+          "sources": [
+            {
+              "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+              "selector": "div > section > div > ul:nth-of-type(1) > li:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+              "selector": "div > section > div > ul:nth-of-type(1) > li:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+              "selector": "div > section > div > ul:nth-of-type(2) > li:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+              "selector": "div > section > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+              "selector": "div > section > div > ul > li:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.3) 3px 3px 3px 0px",
+          "count": 88,
+          "sources": [
+            {
+              "url": "https://www.lenovo.com/us/en/legion/",
+              "selector": "div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > span:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "rgba(0, 0, 0, 0) 0px 0px 0px 1000px inset",
+          "count": 40,
+          "sources": [
+            {
+              "url": "https://www.lenovo.com/us/en/",
+              "selector": "#account"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/",
+              "selector": "#countrySelect > input"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/ai-pcs/",
+              "selector": "#account"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/ai-pcs/",
+              "selector": "#countrySelect > input"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+              "selector": "#account"
+            }
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgb(83, 83, 83) 50%, rgb(83, 83, 83) 100%)",
+          "count": 88,
+          "area": 21120,
+          "sources": [
+            {
+              "url": "https://www.lenovo.com/us/en/legion/",
+              "selector": "div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div > span:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(135deg, rgba(0, 0, 0, 0) 11px, rgb(42, 42, 42) 11px)",
+          "count": 88,
+          "area": 435952,
+          "sources": [
+            {
+              "url": "https://www.lenovo.com/us/en/legion/",
+              "selector": "div:nth-of-type(8) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(to right, rgb(246, 247, 248) 0px, rgb(237, 238, 241) 20%, rgb(246, 247, 248) 40%, rgb(246, 247, 248) 100%)",
+          "count": 6,
+          "area": 239847,
+          "sources": [
+            {
+              "url": "https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+              "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+              "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(4)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+              "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(5)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(to right, rgb(51, 63, 72) 0px, rgb(74, 88, 99) 20%, rgb(51, 63, 72) 40%, rgb(51, 63, 72) 100%)",
+          "count": 6,
+          "area": 237279,
+          "sources": [
+            {
+              "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+              "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+              "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(4)"
+            },
+            {
+              "url": "https://www.lenovo.com/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+              "selector": "div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(5)"
+            }
+          ]
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "A New Vision for AI",
+      "ctas": [
+        "Join Lenovo Pro Business Store",
+        "Shop Now",
+        "Learn More"
+      ],
+      "heroImage": null,
+      "heroMedium": null
+    },
+    "modules": [],
+    "fonts": [
+      {
+        "family": "Lato",
+        "weight": 400,
+        "path": "stardust/current/assets/fonts/NotoSans-Latin-Regular.woff2",
+        "src": "https://ap-img.static.pub/s/SystemFragment/globalResource/font/NotoSans-Latin-Regular.woff2",
+        "license": "OFL (Noto Sans served under the family name Lato)"
+      },
+      {
+        "family": "Lato",
+        "weight": 700,
+        "path": "stardust/current/assets/fonts/NotoSans-Latin-Bold.woff2",
+        "src": "https://ap-img.static.pub/s/SystemFragment/globalResource/font/NotoSans-Latin-Bold.woff2",
+        "license": "OFL"
+      },
+      {
+        "family": "Montserrat",
+        "weight": "variable",
+        "path": "stardust/current/assets/fonts/Montserrat-Latin.woff2",
+        "src": "https://ap-img.static.pub/s/SystemFragment/globalResource/font/Montserrat-Latin.woff2",
+        "license": "OFL"
+      }
+    ],
+    "iconFont": {
+      "family": "icomoon",
+      "path": "stardust/current/assets/fonts/icomoon.woff2"
+    },
+    "breakpoints": {
+      "containerMaxWidth": "1440px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1900,
+          "via": "other",
+          "selector": "div > div.layout > div.cms_layoutBox_auto_height.layoutGroup > div.slot_content",
+          "pages": [
+            "https://www.lenovo.com/us/en/ai-pcs/",
+            "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1840,
+          "via": "other",
+          "selector": "div > div.layout > div.cms_layoutBox_auto_height.layoutGroup > div.layout-title",
+          "pages": [
+            "https://www.lenovo.com/us/en/ai-pcs/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1712,
+          "via": "max-width",
+          "selector": "div.cms_layoutBox_auto_height.layoutGroup > div.slot_content > div > section.container.similar_products_container",
+          "pages": [
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1424,
+          "via": "max-width",
+          "selector": "div > section.x-cms-merchandizingbanner.merchandizingBannerCom > div.merchandizingBanner.flex > div.content.flex",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/ai-pcs/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1344,
+          "via": "max-width",
+          "selector": "div.len-hero-banner.len-hero-banner--carousel > div.len-hero-banner__wrapper.color > div > div",
+          "pages": [
+            "https://www.lenovo.com/us/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1280,
+          "via": "max-width",
+          "selector": "div.cms_layoutBox_auto_height.layoutGroup > div.slot_content > div > section.container.services_support_container",
+          "pages": [
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1100,
+          "via": "max-width",
+          "selector": "div.card-grid.len-container > div.card-grid__section-header > div.cmp-title.cta-right > div.cmp-title__wrapper",
+          "pages": [
+            "https://www.lenovo.com/us/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 917,
+          "via": "fixed",
+          "selector": "div.card-grid__section-header > div.cmp-title.cta-right > div.cmp-title__wrapper > h4.cmp-title__text",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 836,
+          "via": "fixed",
+          "selector": "div.specs-inner > div.specs-table > div.item > div.specs-table-td.spec_text",
+          "pages": [
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 800,
+          "via": "fixed",
+          "selector": "div.len-hero-banner__wrapper.color > div > div > div.landing-hero-media",
+          "pages": [
+            "https://www.lenovo.com/us/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 778,
+          "via": "fixed",
+          "selector": "div.item > div.specs-table-td.spec_text > ul > li",
+          "pages": [
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 720,
+          "via": "other",
+          "selector": "div.len-prompt-container.creative > div.len-prompt-container__bg-image > div.alpha-wrap > div.picture-tag.alpha-first",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 690,
+          "via": "fixed",
+          "selector": "#card-grid-fe59f2d5d1 > div.cmp-title__wrapper > h2.cmp-title__text",
+          "pages": [
+            "https://www.lenovo.com/us/en/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 640,
+          "via": "fixed",
+          "selector": "div.slot_content > div > section.series-blade2.opaque-area-position-right > article.blade-panel",
+          "pages": [
+            "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 610,
+          "via": "fixed",
+          "selector": "section.component-root.series-hero > article.series-hero--desktop.hero-rectangle-content > section.font-color-white.banner-container > div.wrap-left",
+          "pages": [
+            "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 578,
+          "via": "fixed",
+          "selector": "#section-header-f95a2fba3b > div.cmp-title__wrapper > h2.cmp-title__text",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 520,
+          "via": "fixed",
+          "selector": "div.len-hero-banner__wrapper.color > div > div > div",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 475,
+          "via": "fixed",
+          "selector": "div.content-wrapper > div.gallery-content > div.description > span",
+          "pages": [
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 449,
+          "via": "fixed",
+          "selector": "#tabbed-content-d2d2b8e98c > div.cmp-title__wrapper > h4.cmp-title__text",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 418,
+          "via": "fixed",
+          "selector": "#card-grid-80b6aadd3f > div.cmp-title__wrapper > h2.cmp-title__text",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 397,
+          "via": "fixed",
+          "selector": "div.gallery-content > div.headline > p > span",
+          "pages": [
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 376,
+          "via": "fixed",
+          "selector": "div > div > div > div.action",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 351,
+          "via": "fixed",
+          "selector": "div > div > form > div.visible-desktop",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 329,
+          "via": "fixed",
+          "selector": "div > div > form > div.visible-desktop",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 306,
+          "via": "fixed",
+          "selector": "div > div > div > div.action",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/ai-pcs/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 277,
+          "via": "fixed",
+          "selector": "div > div > form > div.visible-desktop",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/ai-pcs/",
+            "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 248,
+          "via": "fixed",
+          "selector": "div > div > div > div.action",
+          "pages": [
+            "https://www.lenovo.com/us/en/",
+            "https://www.lenovo.com/us/en/ai-pcs/",
+            "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.lenovo.com/us/en/",
+          "section": 0,
+          "selector": "main > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experiencefragment.aem-GridColumn",
+          "px": 1424
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/",
+          "section": 1,
+          "selector": "main > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1440
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/",
+          "section": 2,
+          "selector": "main > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.experiencefragment.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 0,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": null
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 1,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": 1840
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 2,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": null
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 3,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": null
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 4,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": null
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 5,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": 1900
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 6,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": null
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 7,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": 313
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 8,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": 255
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 9,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": 1900
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 10,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": 1920
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/ai-pcs/",
+          "section": 11,
+          "selector": "body.pc_httl.ui-terminal-pc > div.page_body > main.main_content > div",
+          "px": 1424
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+          "section": 0,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": 610
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+          "section": 1,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": 640
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+          "section": 2,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": 640
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+          "section": 3,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": 640
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+          "section": 4,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": 1920
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 0,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": 1920
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 1,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": null
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 2,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div.comp_lazyload",
+          "px": 1280
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 3,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div",
+          "px": 1920
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 4,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div.comp_lazyload",
+          "px": 1280
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 5,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div.comp_lazyload",
+          "px": 1920
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 6,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div.comp_lazyload",
+          "px": 1280
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 7,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div.comp_lazyload",
+          "px": 1712
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 8,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div.comp_lazyload",
+          "px": 1280
+        },
+        {
+          "url": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+          "section": 9,
+          "selector": "body.pc_httl.gaming-theme-black > div.page_body > main.main_content > div.comp_lazyload",
+          "px": 1424
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1440 (https://www.lenovo.com/us/en/), fluid (https://www.lenovo.com/us/en/ai-pcs/), 640 (https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/), fluid (https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus) — decide per template in the inconsistency register",
+        "module cap 1840px on a single section (div > div.layout > div.cms_layoutBox_auto_height.layoutGroup > div.layout-title, https://www.lenovo.com/us/en/ai-pcs/) — intent or mistake? register it",
+        "module cap 1712px on a single section (div.cms_layoutBox_auto_height.layoutGroup > div.slot_content > div > section.container.similar_products_container, https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-02T21:59:45.133Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.lenovo.com/us/en/",
+          "https://www.lenovo.com/us/en/ai-pcs/",
+          "https://www.lenovo.com/us/en/c/desktops/legion-desktops/legion-t-series-towers/",
+          "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus"
+        ]
+      }
+    }
+  }
+}

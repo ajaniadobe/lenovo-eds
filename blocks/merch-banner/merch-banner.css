@@ -1,0 +1,84 @@
+/* merch-banner — live section.merch-banner.ofp-merch-banner (education offer strip) */
+.merch-banner {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #d9c1d8;
+  color: #171717;
+  font-family: var(--font-body);
+}
+
+.merch-banner .merch-banner-content {
+  padding: 16px;
+}
+
+.merch-banner .merch-banner-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.merch-banner .merch-banner-logo img {
+  width: 108px;
+  height: 36px;
+}
+
+.merch-banner .merch-banner-text p {
+  margin-top: 8px;
+  color: #000;
+  font: 400 14px/18px var(--font-body);
+}
+
+.merch-banner a.merch-banner-button:any-link {
+  display: inline-block;
+  color: #171717;
+  font: 400 16px/24px var(--font-body);
+  letter-spacing: -0.16px;
+  text-decoration: underline;
+}
+
+@media (width >= 768px) {
+  .merch-banner .merch-banner-content {
+    margin: 0 80px;
+    padding: 24px 50px;
+  }
+
+  .merch-banner .merch-banner-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .merch-banner .merch-banner-logo {
+    margin-right: 48px;
+  }
+
+  .merch-banner .merch-banner-logo img {
+    width: 160px;
+    height: 53px;
+  }
+
+  .merch-banner .merch-banner-text p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .merch-banner .merch-banner-action {
+    margin-left: 24px;
+  }
+
+  .merch-banner a.merch-banner-button:any-link {
+    max-width: 325px;
+    padding: 13px 25px 13px 24px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    background-color: #000;
+    color: #fff;
+    font: 700 14px/20px var(--font-ui);
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+  }
+}

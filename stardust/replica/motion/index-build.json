@@ -1,0 +1,577 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".merchandizingBanner .nextInfoBtn",
+      "frames": [
+        {
+          "t": 12568.5,
+          "trackTransform": "matrix(1, 0, 0, 1, -1344, 0)",
+          "trackTransition": "transform 0.3s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12772.199999999255,
+          "trackTransform": "matrix(1, 0, 0, 1, -2587.1, 0)",
+          "trackTransition": "transform 0.3s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12979.099999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -2688, 0)",
+          "trackTransition": "transform 0.3s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13185,
+          "trackTransform": "matrix(1, 0, 0, 1, -2688, 0)",
+          "trackTransition": "transform 0.3s",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".home-hero .carousel-controls button[aria-label=\"Go to Next Slide\"]",
+      "frames": [
+        {
+          "t": 14199.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14405,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14611,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14817.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".card-rail button[aria-label=\"Next slide\"]",
+      "frames": [
+        {
+          "t": 15828.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16031.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16234.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16439.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".tabs__tab:nth-child(2)",
+      "frames": [
+        {
+          "t": 17459.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17666.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17871.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18076.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".prompt__list .prompt__btn.visible-desktop",
+      "frames": [
+        {
+          "t": 19093.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19302.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19513.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19719.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".img-card",
+      "changed": [
+        "a..color",
+        "img.img-card__bg.transform",
+        "img.img-card__bg.color",
+        "h3.img-card__title.color",
+        "span.len-icon-image.ic-arrow-right.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(23, 23, 23)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "color 0.2s"
+          },
+          {
+            "el": "img.img-card__bg",
+            "transform": "none",
+            "color": "rgb(23, 23, 23)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s ease-in-out"
+          },
+          {
+            "el": "h3.img-card__title",
+            "transform": "none",
+            "color": "rgb(23, 23, 23)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.len-icon-image.ic-arrow-right",
+            "transform": "none",
+            "color": "rgb(23, 23, 23)",
+            "background": "rgb(23, 23, 23)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(122, 18, 107)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "color 0.2s"
+          },
+          {
+            "el": "img.img-card__bg",
+            "transform": "matrix(1.04464, 0, 0, 1.04464, 0, 0)",
+            "color": "rgb(122, 18, 107)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s ease-in-out"
+          },
+          {
+            "el": "h3.img-card__title",
+            "transform": "none",
+            "color": "rgb(122, 18, 107)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.len-icon-image.ic-arrow-right",
+            "transform": "none",
+            "color": "rgb(122, 18, 107)",
+            "background": "rgb(23, 23, 23)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".cta-btn",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(122, 18, 107)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(122, 18, 107)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".commonHeader .nav_item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".cta-link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(23, 23, 23)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(23, 23, 23)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".commonFooter .pc_footer_nav li a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(58, 58, 58)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(41, 78, 149)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.merchandizingBanner > div.content > div.banner-carousel > div.swiper-wrapper > article.merchandizingItem.is-active"
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main > div.home-main > section.home-hero > div.home-hero__track > div.home-hero__slide.is-active"
+      }
+    ],
+    "idleClassMutationCount": 2
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.site-header > section.merchandizingBanner > div.content > div.banner-carousel > div.swiper-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > main > div.home-main > section.home-hero > div.home-hero__track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.site-header > section.merchandizingBanner > div.content > div.banner-carousel > div.swiper-wrapper",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > main > div.home-main > section.home-hero > div.home-hero__track",
+        "y": 342,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "section.card-grid > div.card-rail.card-rail--rows > div.card-grid__cards.img-cards.img-cards--3 > div.img-card > a",
+        "y": 2446,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.card-grid__cards.img-cards.img-cards--3 > div.img-card > a > picture > img.img-card__bg",
+        "y": 2446,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "section.card-grid > div.card-rail.card-rail--rows > div.card-grid__cards.img-cards.img-cards--3 > div.img-card > a",
+        "y": 208,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.card-grid__cards.img-cards.img-cards--3 > div.img-card > a > picture > img.img-card__bg",
+        "y": 208,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.merchandizingBanner > div.content > div.banner-carousel > div.swiper-wrapper > article.merchandizingItem.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main > div.home-main > section.home-hero > div.home-hero__track > div.home-hero__slide.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "section.merchandizingBanner > div.content > div.banner-carousel > div.swiper-wrapper > article.merchandizingItem.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main > div.home-main > section.home-hero > div.home-hero__track > div.home-hero__slide.is-active",
+        "y": 342
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.home-body > section.stories > div.tabs > ol.tabs__list > li.tabs__tab.is-active",
+        "y": 5560
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.home-main > div.home-body > section.stories > div.tabs > div.tabs__panel.is-active",
+        "y": 5560
+      },
+      {
+        "added": [
+          "is-selected"
+        ],
+        "el": "body > main > div.home-main > div.home-body > section.prompt.is-selected",
+        "y": 931
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.prompt__results > div.prompt__results-inner > div.prompt__results-actions > div.prompt__results-prompts > button.prompt__btn.is-active",
+        "y": 931
+      }
+    ]
+  }
+}

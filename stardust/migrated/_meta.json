@@ -1,0 +1,812 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "merch-banner",
+    "home-hero",
+    "card-grid",
+    "prompt",
+    "rewards",
+    "stories"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "site-header",
+    "merchandizingBanner",
+    "home-main",
+    "commonFooter",
+    "modal",
+    "modal",
+    "modal"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "83e665a70c7b",
+    "css": "adfe5e082664"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US",
+    "description": "Explore Lenovo laptops, desktops, tablets, monitors, pc accessories &amp; servers. Shop innovative tech designed for business, education, gaming &amp; everyday use.",
+    "canonical": "https://main--b3b47bf7--aemcoder.aem.page/",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Lenovo Official Site | Laptops, Desktop PCs, Tablets, Monitors | Lenovo US",
+    "description": "Explore Lenovo laptops, desktops, tablets, monitors, pc accessories &amp; servers. Shop innovative tech designed for business, education, gaming &amp; everyday use.",
+    "url": "https://main--b3b47bf7--aemcoder.aem.page/"
+  },
+  "migratedAt": "2026-11-03T01:04:00Z",
+  "designMdSha": "d94f9348909a",
+  "designJsonSha": "78d98805a1a6",
+  "sourceCurrentSha": "d70296398bad",
+  "sourceProposedSha": "c8270af07afd",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 39,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/lenovopro/en/smbaccount/gatekeeper/showpage",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/contact/sales-support/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/contact/sales-support/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/trackmyorder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/contact/order-support/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/?Redirect=False",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/account/home",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/account/order/list.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/account/rewards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/account/myprofile.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/account/wishlist/home",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/familyhub",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/rewards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/rewards/?IPromoID=LEN518571",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/cart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/pc/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/contact/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/student/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/gaming/store/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/creator/store/?IPromoID=LEN653911",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/d/deals/doorbusters/?IPromoID=LEN944203",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/d/deals/doorbusters/?IPromoID=LEN944203",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/shopping-faq/?IPromoID=LEN969249#wpc-payments-and-price-tab",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/landingpage/lenovo-financing-options/?IPromoID=LEN771093",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/landingpage/lenovo-financing-options/?IPromoID=LEN771093",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/business/benefits/?PromoID=LEN818484",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/business/benefits/?PromoID=LEN818484",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/innovationworld",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/infrastructure-virtualization/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/p/laptops/ideapad/ideapad-slim-series/lenovo-ideapad-slim-3x-gen-10-15-inch-snapdragon/len101i0120",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/copilot-plus-pc/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/pc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/accessories-and-monitors/monitors/monitor-buying-guide/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/accessories-and-software/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/contact/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/cybersecurity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/cybersecurity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/software/thinkshield/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/software/thinkshield/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/deals/doorbusters",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/deals/doorbusters",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/landingpage/students-and-teachers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/landingpage/students-and-teachers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/outletus/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/outletus/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/digital-workplace/collaboration-and-productivity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/digital-workplace/collaboration-and-productivity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/digital-workplace/care-of-one/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/digital-workplace/care-of-one/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/digital-workplace/work-reborn/workplace-productivity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/digital-workplace/work-reborn/workplace-productivity/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/legion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/legion/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/accessories-and-monitors/monitors/gaming-monitors/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/accessories-and-monitors/monitors/gaming-monitors/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/sustainability-solutions/energy-efficiency/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/sustainability-solutions/energy-efficiency/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/truscale-infrastructure-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/truscale-infrastructure-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/c/laptops/thinkpad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/c/laptops/thinkpad/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/c/servers-storage/servers/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/c/servers-storage/servers/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/truscale-infrastructure-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/truscale-infrastructure-services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/ai-services/ai-adoption/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/ai-services/ai-adoption/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/copilot-plus-pc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/copilot-plus-pc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/lenovo-ai-apps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/lenovo-ai-apps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/creator/store/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/creator/store/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/ai-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/ai-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/cloud-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/cloud-computing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/ai-laptops/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/ai-laptops/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/hpc/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/hpc/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/lenovo-ai-apps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/lenovo-ai-apps/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/sports-partners/formula1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/sports-partners/fifa/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/our-impact/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/foundation/?IPromoID=LEN388588",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/lenovo-hybrid-ai-advantage/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/neptune/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/solutions/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/c/servers-storage/servers/ai/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/digital-workplace/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/truscale/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/services/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/solutions/sustainability-solutions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/student/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/gaming/store/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/creator/store/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/rewards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/discount-programs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/outletus/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/formula-1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/dreamworks-animation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/msge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/dallas-cowboys",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/carolina-hurricanes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/case-studies-customer-success-stories/medecins-sans-frontieres-geneva/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us/en/privacy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/accessibility-statement/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/compliance/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/sustainability/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/compliance/recycling/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/locations/ebc-morrisville/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/about/foundation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/sports-partners/fifa/innovation/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/sports-partners/formula1/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/wfh/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/laptops",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/ai-laptops/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/desktops",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/workstations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/gaming/store/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/tablets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/servers-storage/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/accessories-and-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/faqs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/outletus/en/laptops/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/deals/doorbusters/?tabkey=Back%20to%20School",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/deals/lenovo-coupon-codes/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/security-console/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/d/windows-11-upgrade/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/landingpage/students-and-teachers/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/discount-programs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/business/benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/enterprisepro/benefits/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/rewards/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/landingpage/lenovo-financing-options",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/discount-programs/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/landingpage/promotions/affiliate/affiliate-program/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/landingpage/affinity/program/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/epp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/laptop-buying-guide/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/landingpage/reseller-locator/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/glossary/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/knowledgebase/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/server-buying-guide/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/contact/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/shopping-faq/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/shopping-faq/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/shopping-faq/#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/trackmyorder",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/registration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/privacy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/data-rights/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/us-privacy-notice/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/site-map/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/legal/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/privacy/external-submission-policy/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/us/en/terms-and-conditions/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.lenovo.com/anti-slavery-statement/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

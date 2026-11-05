@@ -1,0 +1,394 @@
+div.product-singlePdpHero
+  link
+  nav.breadcrumb_common_container.clearfix
+    ol.breadcrumb_list
+      li.breadcrumb_item
+        a.breadcrumb_link href=/us/en «Home»
+      li.breadcrumb_item
+        i.breadcrumb_separator «>»
+        a.breadcrumb_link href=/us/en/laptops/ «Laptops»
+      li.breadcrumb_item
+        i.breadcrumb_separator «>»
+        a.breadcrumb_link href=/us/en/c/laptops/legion-laptops/ «Legion»
+      li.breadcrumb_item
+        i.breadcrumb_separator «>»
+        a.breadcrumb_link href=/us/en/c/laptops/legion-laptops/legion-pro-series/ «Legion Pro Series»
+      li.breadcrumb_item
+        i.breadcrumb_separator «>»
+        a.breadcrumb_link href=/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/len10 «Legion Pro 5i Gen 10 (16″ Intel)»
+      li.breadcrumb_item
+        i.breadcrumb_separator «>»
+        span.breadcrumb_current «Legion Pro 5i Gen 10 Intel (16") with RTX 5070»
+  div.flash_pdp_hero
+    div.single_model_PDP
+      div.remove_min_height
+      div.hero-container.single_model_PDP_container
+        div.single_model_PDP_container_main
+          div.single_model_PDP_container_main_left
+            div.stick_container
+              div.gallery-container
+                ul.gallery-canvas
+                  li.canvas-item
+                    div.image-zoom.image-zoom__hq
+                      img src=https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png?wid alt=""
+                      button.top-right-expand
+                        span.iconfont-expand
+                    div.caption
+                div.gallery-bottom
+                  div.gallery-swiper-button-prev
+                  div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events
+                    div.swiper-wrapper
+                      div.swiper-slide.swiper-slide-duplicate
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Top-down view of Legion Pro 5i Gen 10 showing full-size keyboard and immersive display."
+                      div.swiper-slide.swiper-slide-duplicate
+                        img.gallery-image src=https://p2-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Underside view of Legion Pro 5i Gen 10 highlighting cooling vents and rubberized support feet."
+                      div.swiper-slide.swiper-slide-duplicate
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Side profile of Legion Pro 5i Gen 10 showing HDMI, USB-C, and Ethernet ports."
+                      div.swiper-slide.swiper-slide-duplicate
+                        img.gallery-image src=https://p3-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Rear view of Legion Pro 5i Gen 10 with closed lid and visible rear exhaust vents."
+                      div.swiper-slide.swiper-slide-duplicate.swiper-slide-prev
+                        div.gallery-video
+                          span.iconfont-playVideo
+                      div.swiper-slide.active.swiper-slide-active
+                        img.gallery-image src=https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png?wid alt=""
+                      div.swiper-slide.swiper-slide-next
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="A dream of every gamer, the Lenovo Legion Pro 5i Gen 10 – an official gaming PC of FIFAe."
+                      div.swiper-slide
+                        img.gallery-image src=https://p2-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Enjoy PureSight OLED Gaming Display on the Lenovo Legion Pro 5i Gen 10, the official gaming PC of FIFAe."
+                      div.swiper-slide
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Emphasizes Legion Pro 5i Gen 10’s connectivity options and TrueStrike keyboard layout."
+                      div.swiper-slide
+                        img.gallery-image src=https://p3-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Displays Legion Pro 5i Gen 10’s versatile side ports and high-refresh display in action."
+                      div.swiper-slide
+                        img.gallery-image src=https://p3-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Presents Legion Pro 5i Gen 10’s sleek chassis with modern styling and subtle Legion branding."
+                      div.swiper-slide
+                        img.gallery-image src=https://p1-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Highlights Legion Pro 5i Gen 10’s bottom vents and cooling grid for airflow optimization."
+                      div.swiper-slide
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Top-down view of Legion Pro 5i Gen 10 showing full-size keyboard and immersive display."
+                      div.swiper-slide
+                        img.gallery-image src=https://p2-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Underside view of Legion Pro 5i Gen 10 highlighting cooling vents and rubberized support feet."
+                      div.swiper-slide
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Side profile of Legion Pro 5i Gen 10 showing HDMI, USB-C, and Ethernet ports."
+                      div.swiper-slide
+                        img.gallery-image src=https://p3-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Rear view of Legion Pro 5i Gen 10 with closed lid and visible rear exhaust vents."
+                      div.swiper-slide.swiper-slide-duplicate-prev
+                        div.gallery-video
+                          span.iconfont-playVideo
+                      div.swiper-slide.active.swiper-slide-duplicate.swiper-slide-duplicate-active
+                        img.gallery-image src=https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png?wid alt=""
+                      div.swiper-slide.swiper-slide-duplicate.swiper-slide-duplicate-next
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="A dream of every gamer, the Lenovo Legion Pro 5i Gen 10 – an official gaming PC of FIFAe."
+                      div.swiper-slide.swiper-slide-duplicate
+                        img.gallery-image src=https://p2-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Enjoy PureSight OLED Gaming Display on the Lenovo Legion Pro 5i Gen 10, the official gaming PC of FIFAe."
+                      div.swiper-slide.swiper-slide-duplicate
+                        img.gallery-image src=https://p4-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Emphasizes Legion Pro 5i Gen 10’s connectivity options and TrueStrike keyboard layout."
+                      div.swiper-slide.swiper-slide-duplicate
+                        img.gallery-image src=https://p3-ofp.static.pub/ShareResource/na/test/subseries/gallery/lenovo-legion-pro-5i-gen alt="Displays Legion Pro 5i Gen 10’s versatile side ports and high-refresh display in action."
+                    span.swiper-notification
+                  div.gallery-swiper-button-next
+                  div.media-buttons
+          div.single_model_PDP_container_main_right
+            div
+              div.partner-icon-wrapper
+                a.second-icon.hide-click-events href=
+                  img src=https://p4-ofp.static.pub/ShareResource/ww/img/processor-logos/lenovo-intel-core-ultra-9-b alt="Intel-Core-Ultra-9"
+            div.mainContent
+              div.gift-label-container
+              div.pc-merchandising_flag.merchandising_flag.indirectContentHidden.pc-merchandising_flag_83F300BBUS
+                span.merchandising_flag_normal «FEATURED DEAL»
+              h1.product_summary «Legion Pro 5i Gen 10 Intel (16") with RTX 5070»
+              div.fps_review_container
+                div.pdp_fps_container
+                div.card-rating-container.yellow-rating-style.card-rating-container_83F300BBUS.style-auto-gaming.hero-rating
+                  div.card-review-inline
+                    a.bv_main_container.bv_hover href=#reviews
+                      div.bv_stars_component_container
+                        div.bv_stars_button_container
+                          span.bv_stars_svg_no_wrap
+                            div.star-icon-box
+                            div.star-icon-box
+                            div.star-icon-box
+                            div.star-icon-box
+                            div.star-icon-box
+                      div.number_box
+                        div.bv_averageRating_component_container
+                          div.bv_text «4.5»
+                        div.bv_numReviews_component_container
+                          div.bv_text «(573)»
+                span.q25614SVC.Subseries.Q25614ExpBIcon «100+ gamers made the switch, why not you?»
+                  span.icon
+              div.single_pdp_price_container
+                div.strike-through-price.strike-through-price-pc.style-auto-gaming
+                  span.web-price-label «Est Value»
+                  div.tooltipV2.style-auto-gaming
+                    div.tooltipV2-slot
+                      div.tooltipV2-slotWrapper
+                        span.iconfont-tooltipIcon.pop-icon-btn.btn-icon-image
+                    div.price-web-popup
+                      div.tooltipV2-content.bottom
+                        div.tooltipV2-contentWrapper
+                          section.stp-title «Est Value (Estimated Value)»
+                          section.stp-des «Estimated value is Lenovo’s estimate of product value based on industr»
+                        i
+                  del.price «$3,465.99»
+                div.price-title-box.price-title-box-pc
+                div.card-edu-label.hide-icon.style-auto-gaming
+                  div.collapse-container.price-saving-collapse-pc.style-auto-gaming.tablet
+                    div.title.is-close
+                      div.price-summary-info.style-auto-gaming.price-summary-info-pc
+                        span.price-title «$2,299.99»
+                        span.price-save-mt.price-save-pc
+                          span «33%  off»
+                      div.arrow-box
+                    div.content-warp
+                div.finance_container_pdp
+                div.loyalty_wrapper
+                div.katapult_container_pdp
+                  div.katapult-price-calculator.katapult-wrapper-MT.v3-katapult-container.auto-gaming-style
+                    div.katapult-content
+                      div.katapult-price-calculator-logo
+                      span.katapult-price-calculator-lease «Lease to own.»
+                      span.katapult-price-calculator-pay «As low as»
+                      span.katapult-price-calculator-price.btn-katapult-price-calculator «$74/week»
+                      a.katapult-price-calculator-learn-more.btn-katapult-price-calculator href=# «Learn More»
+                div.paypal_container_pdp
+                  div.card_paypal-wrapper.card_paypal-wrapper_83F300BBUS.auto-gaming-style
+                    div.card_pp-message_83F300BBUS
+                      span
+                        style «#zoid-paypal-message-uid_4b71ed36d8_mje6ntg6mte > iframe {
+           »
+                        iframe
+                        iframe
+                div.finance_container_pdp
+                div.loyalty_wrapper
+                  div.loyalty-container.loyalty-container-MT.loyalty-reward-style.style-auto-gaming.indirectContentHidden
+                    section
+                      span.rewards-text «My Lenovo Rewards»
+                      span
+                      section
+                        span
+                          span «Earn Double Rewards=»
+                        span.le-popover-wrapper.le-popover-wrapper_screen.auto-gaming-style
+                          span
+                            span.loyalty-price-color
+                          div.le-popover.auto-gaming-style
+                            div.le-popover_body.loyalty-popup-body
+                            i.le-popover__arrow.le-popover__arrow-before
+                            i.le-popover__arrow.le-popover__arrow.le-popover__arrow-after
+                            i.le-popover__arrow-mask
+                        span
+                      span.loyaltys-message «+ Free expedited delivery»
+                      div.join-now
+                        a.lazy_href href=javascript:void(0) «Join Now!»
+                div.card-eCoupon.card-eCoupon-pc
+              div.cta_btns
+                div.cta_container.pc-cta_container.indirectContentHidden.single_model_PDP_add_to_cart_wrapper
+                  div.pc-card-cta-wrapper.card-cta-wrapper.cta-wrapper.pc-cta-wrapper_83F300BBUS
+                    span.ctaButton-capture
+                      button.button-primary.blue.style-auto-gaming.cta-button.product_cta_button.mtm
+                        span.text «Add To Cart»
+                div.card-wish-container_83F300BBUS.wish_wrapper
+                  div.tooltipV2.style-auto-gaming.card-wish_popover.v3-wish_popover.newDesignWishListPopover
+                    div.tooltipV2-slot
+                      div.tooltipV2-slotWrapper
+                        div.card-wish-container.card-wish-container_83F300BBUS100006.wish-cursor
+                          div.card-heart-content.card-wish-open-btn
+                            span «Add to Wishlist»
+                            div.card-wish-btn.card-heart-icon
+                          div.content-text-container
+                            a.content-text href=
+                          div.card-wish-open-btn-default
+                    div.card-wish_popover.v3-wish_popover.newDesignWishListPopover
+                      div.tooltipV2-content.bottom
+                        div.tooltipV2-contentWrapper
+                          div.card-wish-pop-container.card-wish-pop-container_83F300BBUS.newDesign
+                            div.cd-wh-header-container.saveCardWishTitle
+                            div.cd-wh-list-container
+                        i
+                  div.sr-only
+                div.common-compare-container.common-compare-PC.indirectContentHidden
+                  input
+                  span.compare-text «Compare»
+              div.gift-container
+              div.inventory_wrapper
+              div.omo_container
+                div.ppa-wrapper
+              div.pickup_delivery_container
+                div.pickupAndDelivery-container.pickup-delivery-pdpHero.pickup-delivery-Pc.style-auto-gaming
+                  span.delivery-container.delivery-container-MT
+                    span.delivery-mr-5 «FREE»
+                    span.delivery-text.delivery-mr-5 «Delivery»
+                    span.delivery-mr-5 «Get it by Thu. Nov 05»
+              div.system_specs_container
+                p.text.one.Q26893-copy «Windows is fast, powerful & more secure than ever.»
+                p.text.two.Q26893-copy «Meet the computer you can talk to.»
+                div.specs_top
+                  div.specs_title «System Specs»
+                  div.view_all_models
+                    a.primary.interactive-link.lazy_href.view_all_link href=/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/len10 «View All  Models >»
+                div.specs_list.groups
+                  div.group_wrapper
+                    div.specs_group
+                      p «Performance»
+                    div.specs_line
+                    div.specs_item
+                      div.normal_specs
+                        div.tool_tip_item.flex
+                          div.item_name «Processor»
+                          button.tool-tip.icon
+                            span.iconfont-tooltipIcon
+                        div.item_content «Intel® Core™ Ultra 7 251HX Processor (E-cores up to 4.50 GHz P-cores u»
+                    div.specs_item
+                      div.normal_specs
+                        div.tool_tip_item.flex
+                          div.item_name «Operating System»
+                          button.tool-tip.icon
+                            span.iconfont-tooltipIcon
+                        div.item_content «Windows 11 Home 64»
+                    div.specs_item
+                      div.normal_specs
+                        div.tool_tip_item.flex
+                          div.item_name «Graphic Card»
+                          button.tool-tip.icon
+                            span.iconfont-tooltipIcon
+                        div.item_content «NVIDIA® GeForce RTX™ 5070 Laptop GPU 12GB GDDR7»
+                    div.specs_item
+                      div.normal_specs
+                        div.tool_tip_item.flex
+                          div.item_name «Memory»
+                          button.tool-tip.icon
+                            span.iconfont-tooltipIcon
+                        div.item_content «32 GB DDR5-5600MT/s (SODIMM)(2 x 16 GB)»
+                    div.specs_item
+                      div.normal_specs
+                        div.tool_tip_item.flex
+                          div.item_name «Storage»
+                          button.tool-tip.icon
+                            span.iconfont-tooltipIcon
+                        div.item_content «1 TB SSD M.2 2242 PCIe Gen4 TLC»
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «Battery»
+                        div.item_content «4 Cell Rechargeable Li-ion 80 Wh»
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «Camera»
+                        div.item_content «5MP with Dual Microphone and Privacy Shutter»
+                  div.group_wrapper
+                    div.specs_group
+                      p «Connectivity»
+                    div.specs_line
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «WIFI»
+                        div.item_content «Wi-Fi 7 2x2 BE 160MHz & Bluetooth® 5.4»
+                  div.group_wrapper
+                    div.specs_group
+                      p «Design»
+                    div.specs_line
+                    div.specs_item
+                      div.normal_specs
+                        div.tool_tip_item.flex
+                          div.item_name «Display»
+                          button.tool-tip.icon
+                            span.iconfont-tooltipIcon
+                        div.item_content «16" WQXGA (2560 x 1600), IPS, Anti-Glare, Non-Touch, HDR 400, 100%DCI-»
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «Keyboard»
+                        div.item_content «24zone RGB Backlit, Black - English (US)»
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «Color»
+                        div.item_content «Eclipse Black»
+                  div.group_wrapper
+                    div.specs_group «Others»
+                    div.specs_line
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «Add-ons»
+                        div.item_content «Xbox Game Pass»
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «AC Adapter / Power Supply»
+                        div.item_content «245W»
+                    div.specs_item
+                      div.normal_specs
+                        div.item_name «Warranty»
+                        div.item_content «1 Year Courier or Carry-in»
+                div.partNumber_wrapper
+                  div.part_number
+                    span.part_number_title «Part Number»
+                    span.part_number_content «: 83F300BBUS»
+                  div.popup.highlight-part-number
+                    div.triangle-before
+                    div.bubble
+                      p.headline «Ask an Expert»
+                      p.top-text.textbelow «Call our Sales Team at:»
+                      p.phone-number.textbelow «1-855-253-6686»
+                      p.bottom-text.textbelow «Mon-Fri 9am-5:30pm GMT»
+                    div.triangle-after
+              div.bottom_divider_line
+                div.product-offers.product-offers_pc
+                  div.product_offers_headline
+                    span «Product Offers»
+                  div.product-offers-content
+                    div.item.financeMessage
+                      div
+                        p.Q12482_content_business «Members Only»
+                          strong «Business Price:»
+                          img src=https://p2-ofp.static.pub/ShareResource/na/icons/16x16/icon-ui-lock-white.svg alt=""
+                          a.Q12482_joinlenovopro_save.Q12482_normal_content href= «Join Lenovo Pro & Save»
+                        p.Q12482_content_student «Verify & Save»
+                          strong «Student & Teachers Price:»
+                          img src=https://p2-ofp.static.pub/ShareResource/na/icons/16x16/icon-ui-verified-white.svg alt=""
+                          a.Q12482_LearnMore.Q12482_normal_content href= «Learn More»
+                    div.item.dealsBanner
+                      div.item_headline
+                        p
+                          strong «Save Now, Pay Later»
+                          img src=https://p4-ofp.static.pub/ShareResource/na/subseries/icons/lenovo-financing-xs-keyline-pur alt="financing white icon"
+                          a href=/us/en/landingpage/lenovo-financing-options?IPromoID=LEN508621 «Explore Now >»
+              div.bottom_divider_line.pdp_no_bottom_line
+                div.promotedOption.promotedOption_83F300BBUS.promotedOption-pdpHero
+                  div.promotedOption_title «Discounted Add-Ons»
+                  div.promotedOption_content
+                    div.promotedOption_list
+                      div.promotedOption_cont
+                        div.promotedOption_checkbox
+                          input.promotedOption_checkboxs.iconfont-check
+                        div.promotedOption_price «Add now for only ($69.99 if purchased separately)»
+                          span.promotedOption_summary «Lenovo Legion 17" Armored Backpack»
+                          span.promotedOption_purchasePrice «$49.99»
+                    div.promotedOption_list
+                      div.promotedOption_cont
+                        div.promotedOption_checkbox
+                          input.promotedOption_checkboxs.iconfont-check
+                        div.promotedOption_price «Add now for only ($89.99 if purchased separately)»
+                          span.promotedOption_summary «Lenovo Legion M600s Wireless Gaming Mouse»
+                          span.promotedOption_purchasePrice «$49.99»
+                    div.promotedOption_list
+                      div.promotedOption_cont
+                        div.promotedOption_checkbox
+                          input.promotedOption_checkboxs.iconfont-check
+                        div.promotedOption_price «Add now for only ($37.99 if purchased separately)»
+                          span.promotedOption_summary «NORTON 360 FOR GAMERS 3 Device, 1-Year Subscription»
+                          span.promotedOption_purchasePrice «$25.99»
+                  span.quick-view-origin-position
+              div.accessory_container.bottom_divider_line
+              div.hide_line
+    div.hero_shine_container
+      div.hero_shine_container_inner
+        div.shine_image
+          img src=https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png?wid alt=""
+        div.shine_down
+          div.shine_icon
+            div.partner-icon-wrapper.isMobile
+              a.hide-click-events.second-icon href=
+                img src=https://p4-ofp.static.pub/ShareResource/ww/img/processor-logos/lenovo-intel-core-ultra-9-b alt="Intel-Core-Ultra-9"
+          div.shine.shine_merchingflag
+          div.shine_name «Legion Pro 5i Gen 10 Intel (16") with RTX 5070»
+          div.shine.shine_rating
+          div.shine.shine_price
+          div.shine.shine_overview
+  div.ssr-debug-product-number «83F300BBUS»

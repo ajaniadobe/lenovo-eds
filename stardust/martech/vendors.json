@@ -1,0 +1,40 @@
+{
+ "pages": 4,
+ "vendors": [
+  {
+   "host": "www.lenovo.com",
+   "pages": 4,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": true
+  },
+  {
+   "host": "assets.adobedtm.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "ap-ss.static.pub",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "adobeDataLayer": 1,
+  "_satellite": 4
+ },
+ "cspHosts": [
+  "*.lenovo.com",
+  "lenovoeaastest.service-now.com",
+  "lenovoeaasdev.service-now.com",
+  "lenovoeaasstage.service-now.com",
+  "lenovoeaas.service-now.com"
+ ]
+}

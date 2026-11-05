@@ -1,0 +1,1208 @@
+/* pdp-hero — breadcrumb + gallery + buy box (ported from the product prototype) */
+/* stylelint-disable no-descending-specificity -- cascade order ported from the gated prototype */
+
+/* the product template paints the whole main area dark */
+main:has(.pdp-hero) {
+  background: #171717;
+}
+
+main .section.pdp-hero-container {
+  padding-top: 24px;
+  background: #171717;
+  color: #fff;
+}
+
+.pdp-hero {
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.pdp-hero p,
+.pdp-hero ul,
+.pdp-hero ol {
+  margin: 0;
+}
+
+.pdp-hero ul,
+.pdp-hero ol {
+  padding: 0;
+  list-style: none;
+}
+
+.pdp-hero img {
+  max-width: none;
+}
+
+.pdp-hero a {
+  color: inherit;
+}
+
+.pdp-hero button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* ---------- breadcrumb ---------- */
+.pdp-hero .pdp-crumbs {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 48px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.pdp-hero .pdp-crumbs ul,
+.pdp-hero .pdp-crumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pdp-hero .pdp-crumbs a {
+  text-decoration: none;
+}
+
+.pdp-hero .pdp-crumbs li + li::before {
+  content: ">";
+  display: inline-block;
+  width: 15px;
+  margin: 0 1px;
+  text-align: center;
+}
+
+.pdp-hero .pdp-crumbs li:last-child:not(:has(a)) {
+  font-weight: 700;
+}
+
+/* ---------- gallery ---------- */
+.pdp-hero .pdp-hero-box {
+  max-width: 1280px;
+  margin: 12px auto 0;
+  padding: 0 48px;
+  background: #171717;
+}
+
+.pdp-hero .pdp-hero-main {
+  display: flex;
+  gap: 16px;
+}
+
+.pdp-hero .pdp-gallery,
+.pdp-hero .pdp-buy {
+  flex: 0 0 calc(50% - 8px);
+  min-width: 0;
+}
+
+.pdp-hero .pdp-gallery-stage {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 584px;
+  margin: 0;
+}
+
+.pdp-hero .pdp-gallery-stage p {
+  line-height: 0;
+}
+
+.pdp-hero .pdp-gallery-stage img {
+  width: 576px;
+  height: 576px;
+  object-fit: contain;
+}
+
+.pdp-hero .pdp-gallery-rail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.pdp-hero .rail-btn {
+  position: relative;
+  flex: 0 0 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.pdp-hero .rail-btn::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 13px;
+  width: 8px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(135deg);
+}
+
+.pdp-hero .rail-btn-next::after {
+  left: 9px;
+  transform: rotate(-45deg);
+}
+
+.pdp-hero .rail-view {
+  width: 462px;
+  overflow: hidden;
+}
+
+.pdp-hero .rail {
+  display: flex;
+  gap: 8px;
+}
+
+.pdp-hero .thumb {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 60px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pdp-hero .thumb p {
+  line-height: 0;
+}
+
+.pdp-hero .thumb.is-active {
+  background: #3b3b3b;
+}
+
+.pdp-hero .thumb img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+
+/* ---------- buy box ---------- */
+.pdp-hero .pdp-buy {
+  position: relative;
+}
+
+.pdp-hero .pdp-buy-partner {
+  position: absolute;
+  top: -8px;
+  right: 48px;
+  line-height: 0;
+}
+
+.pdp-hero .pdp-buy-partner img {
+  width: 76px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.pdp-hero .pdp-buy-body {
+  padding: 105px 48px 48px;
+}
+
+.pdp-hero .flag p {
+  display: inline-block;
+  padding: 6px 11px 7px;
+  border-radius: 4px;
+  background: #f0c7bf;
+  color: #171717;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.pdp-hero .pdp-title {
+  margin-top: 8px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.pdp-hero .pdp-title :is(h1, h2) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.pdp-hero .pdp-rating {
+  display: flex;
+  align-items: center;
+  height: 29px;
+  margin-top: 8px;
+}
+
+.pdp-hero .pdp-rating a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 19px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.pdp-hero .stars {
+  display: inline-flex;
+  gap: 1px;
+}
+
+.pdp-hero .star-box {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+}
+
+.pdp-hero .star-box:last-child {
+  margin-right: 0;
+}
+
+.pdp-hero .star-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: url("https://p4-ofp.static.pub/fes/cms/2023/02/15/iyxntur2wscag0a4lek1rw7s5tk82e383786.svg") 0 0 / 20px 20px no-repeat;
+  filter: invert(100%);
+}
+
+.pdp-hero .star-icon.gray-icon {
+  background-image: url("https://p4-ofp.static.pub/fes/cms/2023/02/15/q5kfy9k5c9owr2yeitaxd3q4rj4pcd697562.svg");
+  filter: none;
+}
+
+.pdp-hero .yellow-icon[style*="width"] {
+  overflow: hidden;
+}
+
+.pdp-hero .switch-msg {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 35px;
+  margin-left: -4px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.pdp-hero .switch-msg .bag {
+  width: 24px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  transform: scale(0.6);
+}
+
+.pdp-hero .pdp-price {
+  padding-top: 42px;
+}
+
+.pdp-hero .pdp-price .est {
+  display: flex;
+  align-items: center;
+  height: 21px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.pdp-hero .pdp-price .est del {
+  margin-left: 19px;
+}
+
+.pdp-hero .pdp-price .now p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+  margin-top: 12px;
+  padding-bottom: 18px;
+}
+
+.pdp-hero .pdp-price .now strong {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pdp-hero .pdp-price .now em {
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #444d51;
+  color: #0ff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.pdp-hero .katapult {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 37px;
+  margin-top: 8px;
+  padding-bottom: 9px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.pdp-hero .katapult .k-logo {
+  flex: none;
+  width: 65px;
+  height: 16px;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.pdp-hero .katapult a {
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* the PayPal message iframe is absent from the gated live capture: reserve nothing */
+.pdp-hero .paypal {
+  display: none;
+  height: 31px;
+}
+
+.pdp-hero .paypal::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 16px;
+  margin-top: 6px;
+  border-radius: 2px;
+  background: #fff;
+  opacity: 0.85;
+}
+
+.pdp-hero .loyalty {
+  position: relative;
+  min-height: 73px;
+  padding: 13px 0;
+  border-top: 1px solid #3b3b3b;
+  border-bottom: 1px solid #3b3b3b;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.pdp-hero .le-popover {
+  position: absolute;
+  z-index: 5;
+  top: 100%;
+  left: 0;
+  padding: 12px 16px;
+  background: #202020;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.pdp-hero .loyalty em {
+  color: #0ff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.pdp-hero .loyalty a {
+  display: inline-block;
+  margin-left: 6px;
+  color: #0ff;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+.pdp-hero .pdp-ctas {
+  margin-top: 28px;
+}
+
+.pdp-hero .add-to-cart a,
+.pdp-hero .add-to-cart a.button,
+.pdp-hero .add-to-cart p:not(:has(a)) {
+  display: block;
+  box-sizing: border-box;
+  width: 286px;
+  max-width: 100%;
+  min-height: 48px;
+  margin: 0;
+  padding: 13px 10px 14px;
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  color: #171717;
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pdp-hero .add-to-cart strong {
+  font-weight: inherit;
+}
+
+.pdp-hero .pdp-ctas-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 36px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.pdp-hero .wish {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.pdp-hero .wish::before {
+  content: "\2661";
+  position: absolute;
+  inset: 0;
+  color: #fff;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.pdp-hero .compare {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 36px;
+  padding: 0 8px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.pdp-hero .compare input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.pdp-hero .delivery {
+  height: 55px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.pdp-hero .delivery strong {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.pdp-hero .sys-specs {
+  padding-top: 33px;
+  border-top: 1px solid #3b3b3b;
+}
+
+.pdp-hero .sys-specs .win {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.pdp-hero .sys-specs-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pdp-hero .sys-specs-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.pdp-hero :is(.sys-specs-title, .spec-group-name, .offers-title, .addons-title) :is(h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.pdp-hero .sys-specs-all {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.pdp-hero .sys-specs-all a {
+  text-decoration: none;
+}
+
+.pdp-hero .spec-group {
+  margin-top: 30px;
+}
+
+.pdp-hero .spec-group-name {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3b3b3b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.pdp-hero .spec-group ul {
+  margin: 0;
+  padding-top: 5px;
+}
+
+.pdp-hero .spec-group li {
+  margin-bottom: 16px;
+  color: #e6e2e4;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.pdp-hero .spec-group li:last-child {
+  margin-bottom: 0;
+}
+
+.pdp-hero .spec-group li strong {
+  display: block;
+  padding-bottom: 1px;
+  font-weight: 700;
+}
+
+.pdp-hero .part {
+  margin-top: 13px;
+  color: #aba8b1;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.pdp-hero .offers {
+  margin-top: 30px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+.pdp-hero :is(.offers-title, .addons-title) {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.pdp-hero .offer {
+  margin-top: 12px;
+  padding: 9px 24px;
+  background: #2a2a2a;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.pdp-hero .offer-finance li + li {
+  line-height: 17px;
+}
+
+.pdp-hero .offer.offer-deal {
+  margin-top: 8px;
+  padding: 15px 24px 16px;
+  line-height: 17px;
+}
+
+.pdp-hero .offer a {
+  text-decoration: none;
+}
+
+.pdp-hero .addons-title {
+  padding-top: 8px;
+  line-height: 26px;
+}
+
+.pdp-hero .addon-list {
+  padding-bottom: 37px;
+}
+
+.pdp-hero .addon-list ul {
+  margin-top: 12px;
+}
+
+.pdp-hero .addon-list li {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 55px;
+  margin-bottom: 8px;
+  padding: 10px 13px 9px 37px;
+  background: #2a2a2a;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.pdp-hero .addon-list input {
+  position: absolute;
+  top: 21px;
+  left: 13px;
+  width: 14px;
+  height: 14px;
+  margin: 0;
+}
+
+.pdp-hero .addon-list strong {
+  font-weight: 700;
+}
+
+.pdp-hero .addon-list em {
+  color: #0ff;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ---------- 360: the live squeezes its desktop components (mirrored as captured) ---------- */
+@media (width <= 1023px) {
+  .pdp-hero .pdp-hero-main {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .pdp-hero .pdp-gallery,
+  .pdp-hero .pdp-buy {
+    flex: none;
+  }
+
+  .pdp-hero .pdp-gallery-stage img {
+    width: 264px;
+    height: 264px;
+  }
+
+  .pdp-hero .rail-view {
+    width: 142px;
+  }
+
+  .pdp-hero .pdp-buy-partner {
+    top: -8px;
+    right: 0;
+  }
+
+  .pdp-hero .pdp-rating {
+    height: 48px;
+  }
+
+  .pdp-hero .pdp-rating a {
+    flex-wrap: wrap;
+    row-gap: 0;
+    width: 104px;
+  }
+
+  .pdp-hero .switch-msg {
+    display: none;
+  }
+
+  .pdp-hero .pdp-price .now p {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    height: 74px;
+    padding-bottom: 0;
+  }
+
+  /* live 360: the logo runs inline with the first lease line (two lines, 55px row) */
+  .pdp-hero .katapult {
+    display: block;
+    height: 55px;
+  }
+
+  .pdp-hero .katapult .k-logo {
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: -3px;
+  }
+
+  .pdp-hero .katapult p {
+    display: inline;
+    margin: 0;
+  }
+
+  .pdp-hero .add-to-cart a,
+  .pdp-hero .add-to-cart a.button,
+  .pdp-hero .add-to-cart p:not(:has(a)) {
+    width: 220px;
+    max-width: none;
+    min-height: 122px;
+    padding: 13px 98px 14px;
+    overflow-wrap: anywhere;
+  }
+
+  /* 360 buy box rows measured on the live DOM (rating box 64 + price pad 16) */
+  .pdp-hero .pdp-price {
+    padding-top: 31px;
+  }
+
+  /* the gated live 360 capture has no PayPal message row (session-dependent iframe) */
+  .pdp-hero .paypal {
+    display: none;
+  }
+
+  .pdp-hero .loyalty {
+    min-height: 130px;
+    padding-right: 24px;
+  }
+
+  .pdp-hero .delivery {
+    height: 77px;
+  }
+
+  .pdp-hero .sys-specs .win {
+    padding: 0 16px;
+  }
+
+  .pdp-hero .offer.offer-deal {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
+  .pdp-hero .addon-list li {
+    padding-right: 1px;
+  }
+}
+
+/* ---------- variant: subseries (series PDP — "Starting at" + View Models) ---------- */
+main .section.pdp-hero-container:has(.pdp-hero.subseries) {
+  background: #000;
+}
+
+main:has(.pdp-hero.subseries) {
+  background: #000;
+}
+
+.pdp-hero.subseries .pdp-badges {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  max-width: 1280px;
+  height: 76px;
+  margin: 0 auto;
+  padding: 7px 64px 0 0;
+}
+
+.pdp-hero.subseries .pdp-badges p {
+  line-height: 0;
+}
+
+.pdp-hero.subseries .pdp-badges img {
+  width: auto;
+  height: 60px;
+}
+
+.pdp-hero.subseries .pdp-hero-box {
+  margin-top: 0;
+  padding: 48px;
+  background: transparent;
+}
+
+.pdp-hero.subseries .pdp-hero-main {
+  align-items: flex-start;
+}
+
+.pdp-hero.subseries .pdp-gallery {
+  flex: 0 0 584px;
+}
+
+.pdp-hero.subseries .pdp-gallery-stage img {
+  width: 584px;
+  height: 584px;
+}
+
+.pdp-hero.subseries .pdp-gallery-rail {
+  justify-content: flex-start;
+  padding-left: 12px;
+}
+
+.pdp-hero.subseries .rail-view {
+  width: 464px;
+}
+
+.pdp-hero.subseries .pdp-buy-body {
+  flex: 0 0 584px;
+  min-width: 0;
+  padding: 48px;
+}
+
+/* a gallery with no partner rail space: the dark tower layout runs the buy column wider */
+.pdp-hero.subseries:not(.light) .pdp-hero-main {
+  margin-left: -104px;
+}
+
+.pdp-hero.subseries:not(.light) .pdp-buy-body {
+  flex-basis: 792px;
+}
+
+.pdp-hero.subseries .flag {
+  margin-bottom: 8px;
+}
+
+.pdp-hero.subseries .flag p {
+  padding: 7px 15px 6px;
+  border-radius: 0;
+  background: #7a126b;
+  color: #fff;
+  font-weight: 900;
+  line-height: 17px;
+}
+
+.pdp-hero.subseries .pdp-headline {
+  margin-bottom: 12px;
+  color: #0ff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.pdp-hero.subseries .pdp-title {
+  margin: 0 0 10px;
+}
+
+.pdp-hero.subseries .pdp-subtitle {
+  margin: -2px 0 16px;
+  color: #171717;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.pdp-hero.subseries .pdp-rating {
+  margin: 0 0 17px;
+}
+
+.pdp-hero.subseries .switch-msg {
+  height: 45px;
+  margin-top: -17px;
+}
+
+/* dark tower (live): the switch message runs 17px under the rating on desktop, and the first
+   overview bullet fits its 678px line (no wrap) */
+@media (width >= 1024px) {
+  .pdp-hero.subseries:not(.light) .switch-msg {
+    margin-top: 0;
+  }
+}
+
+.pdp-hero.subseries:not(.light) .pdp-overview ul {
+  margin-right: -12px;
+}
+
+/* light desktop (live): feature rows at least 29px tall, offers band 8px deeper */
+@media (width >= 1024px) {
+  .pdp-hero.subseries.light .pdp-feats li {
+    min-height: 29px;
+  }
+
+  .pdp-hero.subseries.light .offers {
+    padding-bottom: 8px;
+  }
+}
+
+.pdp-hero.subseries .pdp-from {
+  padding-bottom: 24px;
+}
+
+.pdp-hero.subseries .pdp-from p:first-child {
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.pdp-hero.subseries .pdp-from strong {
+  display: block;
+  height: 43px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.pdp-hero.subseries .pdp-view {
+  margin-bottom: 37px;
+}
+
+.pdp-hero.subseries .pdp-view a {
+  display: inline-block;
+  width: 150px;
+  padding: 14px 0 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: #fff;
+  color: #16191e;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pdp-hero.subseries .pdp-intro {
+  padding: 32px 0;
+  border-top: 1px solid #c7c7c7;
+  color: #171717;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.pdp-hero.subseries .pdp-overview {
+  padding-top: 37px;
+  border-top: 1px solid #3b3b3b;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.pdp-hero.subseries .pdp-overview p:empty {
+  height: 22px;
+}
+
+.pdp-hero.subseries .pdp-overview ul {
+  margin-top: 22px;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.pdp-hero.subseries .pdp-overview li {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.pdp-hero.subseries .pdp-feats {
+  margin-top: 37px;
+  padding-top: 37px;
+  border-top: 1px solid #c7c7c7;
+}
+
+.pdp-hero.subseries .pdp-feats ul {
+  display: grid;
+  grid-template-columns: 235px 235px;
+  gap: 18px;
+}
+
+.pdp-hero.subseries .pdp-feats li {
+  display: flex;
+  gap: 18px;
+  color: #4e444e;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pdp-hero.subseries .feat-icon {
+  flex: none;
+  width: 28px;
+  line-height: 0;
+}
+
+.pdp-hero.subseries .feat-icon img {
+  width: 28px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.pdp-hero.subseries .offers {
+  margin-top: 37px;
+  padding: 37px 0 0;
+  border-top: 1px solid #3b3b3b;
+  border-bottom: 0;
+}
+
+.pdp-hero.subseries .offers-title {
+  font-weight: 400;
+}
+
+.pdp-hero.subseries .offer {
+  margin-top: 12px;
+  padding: 8px 24px;
+  border-left: 3px solid #e1140a;
+  line-height: 22px;
+}
+
+.pdp-hero.subseries .offer.offer-deal {
+  padding: 15px 24px 16px;
+  border-left-color: #0ff;
+}
+
+/* ---------- variant: light (white series page) ---------- */
+main:has(.pdp-hero.light),
+main .section.pdp-hero-container:has(.pdp-hero.light) {
+  background: #fff;
+}
+
+.pdp-hero.light {
+  color: #000;
+}
+
+.pdp-hero.light .rail-btn::after {
+  border-color: #000;
+}
+
+.pdp-hero.light .thumb.is-active {
+  background: #f1f1f1;
+}
+
+.pdp-hero.light .pdp-headline {
+  color: #7a126b;
+}
+
+.pdp-hero.light .pdp-rating a {
+  color: #294e95;
+}
+
+.pdp-hero.light .pdp-rating strong {
+  color: #000;
+}
+
+.pdp-hero.light .star-icon {
+  filter: none;
+}
+
+.pdp-hero.light .pdp-from p:first-child,
+.pdp-hero.light .offers-title {
+  color: #4e444e;
+}
+
+.pdp-hero.light .pdp-view a {
+  background: #294e95;
+  color: #fff;
+}
+
+.pdp-hero.light .pdp-overview {
+  border-top: 0;
+}
+
+.pdp-hero.light .offers {
+  border-top-color: #c7c7c7;
+}
+
+.pdp-hero.light .offer {
+  background: #f5f5f5;
+  border-left-color: #e1140a;
+}
+
+.pdp-hero.light .offer.offer-deal {
+  border-left-color: #000;
+}
+
+.pdp-hero.light .offer a {
+  color: #294e95;
+}
+
+@media (width <= 1023px) {
+  /* live 360: the badge column sits in a 148px right rail (x 196), logos stacked 69px apart */
+  .pdp-hero.subseries .pdp-badges {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+    height: auto;
+    padding: 16px 16px 9px 203px;
+  }
+
+  .pdp-hero.subseries .pdp-badges p:empty {
+    display: none;
+  }
+
+  /* live 360 keeps the desktop row: gallery 124px, 16px gap, details column (light: x 122) */
+  .pdp-hero.subseries .pdp-hero-main {
+    flex-direction: row;
+    gap: 16px;
+    margin-left: -18px;
+  }
+
+  /* dark series: the details column starts at x -146 (gallery off-canvas at x -286) */
+  .pdp-hero.subseries:not(.light) .pdp-hero-main {
+    margin-left: -286px;
+  }
+
+  .pdp-hero.subseries .pdp-hero-box {
+    padding: 48px 0;
+  }
+
+  .pdp-hero.subseries .pdp-gallery {
+    flex: 0 0 124px;
+    overflow: hidden;
+  }
+
+  .pdp-hero.subseries .pdp-gallery-stage {
+    height: 584px;
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .pdp-hero.subseries .pdp-gallery-stage img {
+    width: 124px;
+    height: 124px;
+  }
+
+  .pdp-hero.subseries .pdp-gallery-rail {
+    display: none;
+  }
+
+  .pdp-hero.subseries .pdp-buy-body {
+    flex: 0 0 256px;
+    padding: 48px;
+  }
+
+  .pdp-hero.subseries:not(.light) .pdp-buy-body {
+    flex-basis: 792px;
+  }
+
+  /* the review link spans its column (live bv_main_container is column-wide) */
+  .pdp-hero.subseries .pdp-rating a {
+    flex: 1 1 auto;
+  }
+
+  /* light series 360 (live): the 160px title column breaks inside words */
+  .pdp-hero.subseries.light .pdp-title :is(h1, h2) {
+    overflow-wrap: anywhere;
+  }
+
+  /* dark tower 360 (live): stars and "4.7 (91)" stay on one 29px line, on-canvas */
+  .pdp-hero.subseries:not(.light) .pdp-rating {
+    height: 29px;
+  }
+
+  .pdp-hero.subseries:not(.light) .pdp-rating a {
+    flex-wrap: nowrap;
+    width: auto;
+  }
+
+  .pdp-hero.subseries .pdp-feats ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* authored links stay text: neutralise the foundation's auto-button styling */
+.pdp-hero.subseries a.button:any-link {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: inherit;
+}
+
+.pdp-hero.subseries .pdp-view a.button:any-link {
+  display: inline-block;
+  width: 150px;
+  padding: 14px 0 15px;
+  border-radius: 4px;
+  background: #fff;
+  color: #16191e;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pdp-hero.light .pdp-view a.button:any-link {
+  background: #294e95;
+  color: #fff;
+}

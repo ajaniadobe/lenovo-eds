@@ -1,0 +1,349 @@
+/* series-hero — live series-hero hero-rectangle-content (listing prototype § series hero) */
+.series-hero {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  background: #000;
+}
+
+.series-hero .banner-container {
+  position: relative;
+  display: flex;
+  min-height: 540px;
+  overflow: hidden;
+}
+
+.series-hero .series-hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.series-hero .series-hero-background picture {
+  display: contents;
+}
+
+.series-hero .series-hero-background img {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+}
+
+.series-hero .wrap-left {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  width: 610px;
+  padding: 20px 50px 34px 20px;
+}
+
+.series-hero .breadcrumbs {
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.series-hero .breadcrumbs :is(ul, ol) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.series-hero .breadcrumbs li {
+  position: relative;
+  display: inline-block;
+  padding-inline-end: 20px;
+}
+
+.series-hero .breadcrumbs li:has(a)::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  inset-inline-end: 8px;
+  width: 5px;
+  height: 5px;
+  border: solid currentcolor;
+  border-width: 0 1px 1px 0;
+  transform: rotate(-45deg);
+}
+
+.series-hero .breadcrumbs a:any-link {
+  color: #fff;
+}
+
+.series-hero .product-logo {
+  min-height: 50px;
+}
+
+.series-hero .product-logo picture {
+  display: contents;
+}
+
+.series-hero .product-logo img {
+  display: inline;
+  width: auto;
+  height: auto;
+  max-width: 250px;
+  max-height: 70px;
+}
+
+.series-hero .product-name {
+  margin-bottom: 20px;
+  line-height: 44px;
+}
+
+.series-hero .product-name :is(h1, h2, h3) {
+  font-family: var(--font-ui);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.series-hero .product-title {
+  margin-bottom: 20px;
+  line-height: 34px;
+}
+
+.series-hero .product-title :is(h2, h3, h4) {
+  font-family: var(--font-ui);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.series-hero .product-desc {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word;
+}
+
+.series-hero .hero-bottom-group {
+  margin-top: auto;
+}
+
+.series-hero .product-btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.series-hero .series-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 225px;
+  padding: 11px 24px;
+  border: 1px solid currentcolor;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.series-hero .series-hero-cta :is(strong, a:any-link) {
+  color: inherit;
+  font-weight: 700;
+}
+
+.series-hero .series-hero-cta:hover,
+.series-hero .series-hero-cta:focus-visible {
+  border-color: #000;
+  background: #fff;
+  color: #000;
+}
+
+@media (width <= 767px) {
+  .series-hero .banner-container {
+    display: block;
+    min-height: 549px;
+  }
+
+  .series-hero .wrap-left {
+    width: 100%;
+    min-height: 549px;
+    padding: 20px 10px 0;
+  }
+
+  .series-hero .breadcrumbs,
+  .series-hero .product-desc {
+    display: none;
+  }
+
+  .series-hero .product-logo img {
+    max-width: 170px;
+    max-height: 50px;
+  }
+
+  .series-hero .product-btn {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    margin-bottom: 20px;
+  }
+
+  .series-hero .series-hero-cta {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* ---------- is-split (live new-series-hero-banner, e.g. Yoga Slim series) ---------- */
+.series-hero.is-split .banner-container {
+  min-height: 502px;
+}
+
+.series-hero.is-split .wrap-left {
+  position: static;
+  width: 588px;
+  padding: 76px 0 32px 48px;
+}
+
+.series-hero.is-split .wrap-left > * {
+  position: relative;
+  z-index: 3;
+}
+
+.series-hero.is-split .breadcrumbs {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  margin: 0;
+  padding-top: 19px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.series-hero.is-split .breadcrumbs li {
+  padding-inline-end: 0;
+}
+
+.series-hero.is-split .breadcrumbs li:has(a)::after {
+  content: ">";
+  position: static;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 0 8px;
+  border: 0;
+  transform: none;
+}
+
+/* the live trail puts the first separator inside the Home link (authored "Home >") */
+.series-hero.is-split .breadcrumbs li:first-child {
+  padding-inline-end: 8px;
+}
+
+.series-hero.is-split .breadcrumbs li:first-child::after {
+  content: none;
+}
+
+.series-hero.is-split .product-logo {
+  height: 99px;
+  min-height: 0;
+}
+
+.series-hero.is-split .product-name {
+  margin-bottom: 24px;
+  line-height: 29px;
+}
+
+.series-hero.is-split .product-name :is(h1, h2, h3) {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.series-hero.is-split .product-desc {
+  margin-bottom: 26px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.series-hero.is-split .hero-bottom-group {
+  margin-top: 0;
+}
+
+.series-hero.is-split .product-btn {
+  margin: 0;
+}
+
+.series-hero.is-split .series-hero-cta {
+  min-width: 0;
+  height: 44px;
+  padding: 11px 26px;
+  border: 0;
+  border-radius: 100px;
+  background: #fff;
+  color: #171717;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.series-hero.is-split .series-hero-cta strong {
+  font-weight: 400;
+}
+
+.series-hero.is-split .series-hero-product {
+  position: absolute;
+  z-index: 2;
+  top: 76px;
+  left: 640px;
+  width: 700px;
+  height: 394px;
+}
+
+.series-hero.is-split .series-hero-product picture {
+  display: contents;
+}
+
+.series-hero.is-split .series-hero-product img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (width <= 767px) {
+  .series-hero.is-split .banner-container {
+    min-height: 554px;
+  }
+
+  .series-hero.is-split .wrap-left {
+    width: 100%;
+    min-height: 554px;
+    padding: 76px 48px 32px;
+  }
+
+  .series-hero.is-split .breadcrumbs,
+  .series-hero.is-split .product-desc {
+    display: block;
+  }
+
+  .series-hero.is-split .series-hero-product {
+    display: none;
+  }
+
+  .series-hero.is-split .product-btn {
+    align-items: flex-start;
+  }
+
+  .series-hero.is-split .series-hero-cta {
+    margin: 0;
+  }
+}

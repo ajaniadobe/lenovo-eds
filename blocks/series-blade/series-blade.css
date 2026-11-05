@@ -1,0 +1,206 @@
+/* series-blade — live series-blade2 (listing prototype § series-blade2) */
+.series-blade {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 660px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #efefef;
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+}
+
+.series-blade.is-left {
+  flex-direction: row-reverse;
+}
+
+.series-blade .blade-background {
+  position: relative;
+  flex: 1;
+  min-height: 660px;
+  background-color: #eee;
+}
+
+.series-blade .blade-background picture {
+  display: contents;
+}
+
+.series-blade .blade-background img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+}
+
+.series-blade .blade-panel {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 640px;
+  min-height: 660px;
+  padding: 75px;
+  background-color: #11184f;
+  color: #fff;
+}
+
+.series-blade.tone-plum .blade-panel {
+  background-color: #1e0013;
+}
+
+.series-blade.tone-wine .blade-panel {
+  background-color: #64131e;
+}
+
+.series-blade .product-logo {
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+
+.series-blade .product-logo picture {
+  display: contents;
+}
+
+.series-blade .product-logo img {
+  display: inline;
+  width: auto;
+  height: auto;
+  max-width: 250px;
+  max-height: 70px;
+}
+
+.series-blade .product-headline {
+  min-height: 32px;
+  margin-bottom: 20px;
+  line-height: 34px;
+}
+
+.series-blade .product-headline :is(h1, h2, h3, h4) {
+  font-family: var(--font-ui);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.series-blade .product-desc {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word;
+}
+
+.series-blade .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.series-blade .product-btn {
+  display: flex;
+  align-items: center;
+}
+
+.series-blade .product-btn a:any-link {
+  display: inline-block;
+  min-width: 225px;
+  color: #7fd4ec;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+
+/* ---------- sibling variants (listing cluster) ---------- */
+.series-blade.tone-magenta .blade-panel {
+  background-color: #7a126b;
+}
+
+.series-blade.tone-grape .blade-panel {
+  background-color: #4d144a;
+}
+
+/* a blank authored line before a footnote (live: empty <p> + small print) */
+.series-blade:is(.tone-magenta, .tone-grape) .product-desc p + p {
+  margin-top: 28px;
+  font-size: 13px;
+}
+
+/* is-overlay — live component-series-blade1: full-bleed image, translucent panel over it */
+.series-blade.is-overlay {
+  display: block;
+  min-height: 0;
+  background-color: #000;
+}
+
+.series-blade.is-overlay .blade-background {
+  position: absolute;
+  inset: 0;
+  min-height: 0;
+}
+
+.series-blade.is-overlay .blade-panel {
+  justify-content: flex-start;
+  min-height: 0;
+  background-color: rgb(0 0 0 / 75%);
+}
+
+.series-blade.is-overlay .product-logo {
+  margin-bottom: 25px;
+}
+
+.series-blade.is-overlay .product-desc p:first-child {
+  margin-bottom: 28px;
+}
+
+.series-blade.is-overlay .product-btn a:any-link {
+  min-width: 225px;
+  margin: 0 0 0 10px;
+  padding: 10px 24px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+}
+
+@media (width <= 767px) {
+  .series-blade:is(.tone-magenta, .tone-grape) .blade-background {
+    display: none;
+  }
+
+  .series-blade:is(.tone-magenta, .tone-grape) .blade-panel {
+    width: 100%;
+  }
+
+  .series-blade.is-overlay .blade-background {
+    position: relative;
+    height: 200px;
+  }
+
+  .series-blade.is-overlay .blade-panel {
+    width: 100%;
+    padding: 20px 20px 30px;
+    background-color: #000;
+  }
+
+  .series-blade.is-overlay .product-headline :is(h1, h2, h3, h4) {
+    line-height: 36px;
+  }
+
+  .series-blade.is-overlay .product-btn {
+    justify-content: center;
+  }
+}

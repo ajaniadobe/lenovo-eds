@@ -1,0 +1,18 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-03T14:20:27.869Z",
+ "source": "https://www.lenovo.com/",
+ "build": "https://main--b3b47bf7--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 0,
+  "decided": 0
+ },
+ "findings": []
+}

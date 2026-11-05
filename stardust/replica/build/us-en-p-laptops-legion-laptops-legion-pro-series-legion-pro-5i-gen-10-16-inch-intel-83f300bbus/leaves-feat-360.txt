@@ -1,0 +1,266 @@
+#0 feature-blade blade_2 feature-align-center [0,6550,360,359]
+  T span. [137,6595,86,27] 20/22/700/rgb(0,255,255) «GEAR UP»
+  T span. [101,6622,159,229] 36/45/700/rgb(255,255,255) «Build Your Ultimate Battlestation»
+#1 feature-blade blade_8 mediaClass [0,6981,360,3031]
+  BG background-image-container [16,6981,82,3031] https://p4-ofp.static.pub/ShareResource/na/subseries/carrousel/lenovo-legion-h600-headset.jpg
+  T span. [48,7014,18,238] 16/24/700/rgb(255,255,255) «LEGION HEADSETS»
+  T span. [48,7273,30,793] 48/56/700/rgb(255,255,255) «Sound Like a Pro.»
+  T p. [48,8086,18,1512] 16/24/400/rgb(255,255,255) «Immerse yourself in every battle with powerful audio and clear communication designed for competitive gaming.»
+  T a. [72,9937,38,32] 16/16/400/rgb(255,255,255) «Shop Now» href=https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/?visibleDatas=706%3AHeads
+  BG background-image-container [114,6981,82,3031] //p3-ofp.static.pub/ShareResource/na/subseries/carrousel/lenovo-legion-k500-rgb-keyboard.jpg
+  T span. [146,7014,18,310] 16/24/700/rgb(255,255,255) «LEGION KEYBOARDS»
+  T span. [146,7345,45,1073] 48/56/700/rgb(255,255,255) «Play Faster. Win More.»
+  T p. [146,8438,18,1440] 16/24/400/rgb(255,255,255) «Responsive switches and reliable performance built to keep up with every strategy and split-second decision.»
+  T a. [170,9937,38,32] 16/16/400/rgb(255,255,255) «Shop Now» href=https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/?visibleDatas=706%3AKeybo
+  BG background-image-container [213,6981,82,3031] https://p2-ofp.static.pub/ShareResource/na/subseries/carrousel/lenovo-legion-m410-mouse.jpg
+  T span. [245,7014,18,166] 16/24/700/rgb(255,255,255) «LEGION MICE»
+  T span. [245,7201,30,961] 48/56/700/rgb(255,255,255) «Every Click Counts.»
+  T p. [245,8182,18,1272] 16/24/400/rgb(255,255,255) «Precision tracking and customizable controls give you the confidence to make your next move count.»
+  T a. [269,9937,38,32] 16/16/400/rgb(255,255,255) «Shop Now» href=https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/?visibleDatas=706%3AMice%
+  BG background-image-container [311,6981,82,3031] //p3-ofp.static.pub/ShareResource/na/subseries/carrousel/lenovo-legion-backpack-gb500.jpg
+  T span. [343,7014,18,310] 16/24/700/rgb(255,255,255) «LEGION BACKPACKS»
+  T span. [343,7345,35,681] 48/56/700/rgb(255,255,255) «Gear Up and Go.»
+  T p. [343,8046,18,1152] 16/24/400/rgb(255,255,255) «Carry your Legion setup safely with storage and protection built for gaming on the move.»
+  T a. [367,9937,38,32] 16/16/400/rgb(255,255,255) «Shop Now» href=https://www.lenovo.com/us/en/d/accessories-and-software/gaming-accessories/?visibleDatas=706%3ABackp
+#2 feature-blade blade_2 mediaClass feature-align-center [0,10084,360,1313]
+  IMG  [0,10084,360,225] //p4-ofp.static.pub//fes/cms/2025/04/04/rn5pwhfi4izr7elaeyslg4lposqgm9537932.jpg alt="Highlights Legion Pro 5i Gen 10’s Intel Core Ultra power for smooth, responsive "
+  T div.media_caption_wrapper [0,10365,360,20] 12/20/400/rgb(230,226,228) «Monitor and laptop stand sold separately»
+  T span. [107,10449,58,27] 20/22/700/rgb(0,255,255) «INTEL»
+  T sup. [165,10444,14,23] 17/22/700/rgb(0,255,255) «®»
+  T span. [116,10449,137,71] 20/22/700/rgb(0,255,255) «CORE™ ULTRA PROCESSORS»
+  T span. [124,10520,113,285] 36/45/700/rgb(255,255,255) «That's The Power Of Intel® Inside»
+  T span. [102,10815,150,102] 18/24/400/rgba(255,255,255,0.8) «Experience next-level gaming and productivity with Intel»
+  T sup. [141,10889,12,20] 15/24/400/rgba(255,255,255,0.8) «®»
+  T span. [106,10893,151,456] 18/24/400/rgba(255,255,255,0.8) «Core™ Ultra processors. Enjoy ultra-smooth gameplay, seamless multitasking, and AI-accelerated creative tasks.»
+#3 feature-blade blade_6 mediaClass feature-align-center [0,11469,360,1029]
+  T span. [61,11520,72,27] 20/22/700/rgb(0,255,255) «NVIDIA»
+  T sup. [134,11516,14,23] 17/22/700/rgb(0,255,255) «®»
+  T span. [70,11520,229,49] 20/22/700/rgb(0,255,255) «GEFORCE RTX™ 50 SERIES LAPTOP GPU»
+  T span. [107,11567,146,89] 36/40/700/rgb(255,255,255) «Game Changer»
+  IMG  [16,11692,84,100] //p2-ofp.static.pub//fes/cms/2025/04/04/x2jwdfpjim6gumcb0bx6klm21cnpgw379704.jpg alt="Conveys Legion Pro 5i Gen 10’s powerful NVIDIA graphics for immersive, action-pa"
+  T span. [22,11814,72,49] 20/22/700/rgb(255,255,255) «NVIDIA DLSS 4»
+  T span. [16,11875,84,619] 14/24/400/rgb(255,255,255) «A suite of neural rendering technologies that uses AI to boost FPS, reduce latency, and improve image quality.»
+  IMG  [102,11692,101,100] //p2-ofp.static.pub//fes/cms/2025/04/04/gxkg5kz0yzbr86sno9wgizcjx0qg64497739.jpg alt="Showcases Legion Pro 5i Gen 10’s sleek design built for power, performance, and "
+  T span. [107,11817,91,22] 16/22/700/rgb(255,255,255) «Ray Tracing»
+  T span. [102,11853,101,144] 14/24/400/rgb(255,255,255) «Cinematic quality visuals at unprecedented speed, enabled by 4»
+  T sup. [136,11975,11,15] 12/24/400/rgb(255,255,255) «th»
+  T span. [107,11978,91,192] 14/24/400/rgb(255,255,255) «gen RT Cores and breakthrough neural rendering technologies accelerated with 5»
+  T sup. [152,12148,11,15] 12/24/400/rgb(255,255,255) «th»
+  T span. [109,12151,87,43] 14/24/400/rgb(255,255,255) «gen Tensor cores.»
+  IMG  [188,11692,105,100] //p4-ofp.static.pub//fes/cms/2025/04/04/4lzm6zn8r5w677pb6xoqdm7tn5lp5z183057.jpg alt="Highlights the Legion Pro 5i Gen 10’s immersive display for cinematic gaming and"
+  T span. [202,11814,77,49] 20/22/700/rgb(255,255,255) «NVIDIA Reflex 2»
+  T span. [188,11875,105,259] 14/24/400/rgb(255,255,255) «Reflex 2 with Frame Warp gives you the ultimate responsiveness, enhancing target acquisition, reaction time, a»
+  T span. [198,12163,84,67] 14/24/400/rgb(255,255,255) «*Accessories shown sold separately»
+  IMG  [274,11692,128,100] //p3-ofp.static.pub//fes/cms/2026/04/24/tkd1pp1xw01f9o91whh0g4e2uno0cr849968.jpg alt="A laptop with a glowing light bursting from the center suggests an immersive exp"
+  T div.headline [274,11817,128,44] 20/22/700/rgb(255,255,255) «Optimized Performance»
+  T div.description [274,11873,128,192] 14/24/400/rgb(255,255,255) «Designed from the ground up for maximum efficiency, delivering a massive leap in performance and battery life.»
+#4 feature-blade blade_1 mediaClass feature-align-left [0,12569,360,1235]
+  IMG  [130,12617,148,91] //p1-ofp.static.pub//fes/cms/2025/04/04/0b9ymdbf547mq3lw26utpel5nu4e3y312380.jpg alt="Demonstrates Legion Pro 5i Gen 10’s access to Xbox PC Game Pass for instant gami"
+  T div.media_caption_wrapper [130,12732,148,40] 12/20/400/rgb(230,226,228) «Accessories sold separately»
+  T span. [130,12822,136,454] 36/45/700/rgb(255,255,255) «Try Xbox Game Pass With Your Lenovo Legion/LOQ Device»
+  T p. [130,13286,148,216] 18/24/400/rgba(255,255,255,0.8) «Play Starfield, Palworld and 200+ more games on Lenovo Legion/LOQ devices with Xbox Game Pass. *»
+  T span. [130,13530,141,175] 14/24/400/rgba(255,255,255,0.8) «*Game catalogue varies over time, by region and device. Terms and conditions apply. See xbox.com/subscriptiont»
+#5 feature-blade blade_1 mediaClass feature-align-left [0,13876,360,1163]
+  IMG  [82,13924,148,91] //p2-ofp.static.pub//fes/cms/2025/04/04/19803ymizgklfeeb3oa48pm37uit0z785249.jpg alt="Highlights Legion Pro 5i Gen 10’s rear exhaust vents designed for optimal therma"
+  T div.media_caption_wrapper [82,14039,148,40] 12/20/400/rgb(230,226,228) «Accessories shown sold separately»
+  T span. [82,14124,110,49] 20/22/700/rgb(0,255,255) «LENOVO AI ENGINE+»
+  T span. [82,14173,140,184] 36/45/700/rgb(255,255,255) «Achieve Platinum Rank Faster»
+  T span. [82,14367,147,576] 18/24/400/rgba(255,255,255,0.8) «Lenovo AI Engine+ gives aspiring esports gamers the edge to win with real-time Scenario Detection for optimize»
+#6 feature-blade blade_6 mediaClass feature-align-center [0,15111,360,782]
+  T span. [52,15156,256,49] 20/22/700/rgb(0,255,255) «LENOVO PURESIGHT OLED GAMING DISPLAYS»
+  T span. [66,15203,229,129] 36/40/700/rgb(255,255,255) «Spot Enemies & Rank Up Faster»
+  IMG  [16,15368,115,90] //p1-ofp.static.pub//fes/cms/2025/04/04/elomux4olsv8lcej3lcyli0fuerwii018773.jpg alt="Showcases Legion Pro 5i Gen 10’s immersive performance for cinematic, high-fidel"
+  T span. [16,15480,115,71] 20/22/700/rgb(255,255,255) «Unmatched Gaming Clarity»
+  T span. [18,15563,111,163] 14/24/400/rgb(255,255,255) «Provides clarity and precision for fast-paced, competitive gaming with unmatched responsiveness.»
+  IMG  [102,15368,94,90] //p3-ofp.static.pub//fes/cms/2025/04/04/7dzdlhxhltgrmfqs8p148hjb1tf2bf480634.jpg alt="Highlights Legion Pro 5i Gen 10’s high refresh rate and seamless external displa"
+  T span. [102,15480,94,115] 20/22/700/rgb(255,255,255) «Sub-1ms Response Time & Smart FPS»
+  T span. [104,15607,89,259] 14/24/400/rgb(255,255,255) «Enables instant reactions and adjusts FPS for smooth, high-performance gameplay at <.5ms response times.»
+  IMG  [188,15368,105,90] //p3-ofp.static.pub//fes/cms/2025/04/04/pktpym0h1vk5suxqg8vbkdrf7b3kks128992.jpg alt="Demonstrates Legion Pro 5i Gen 10’s display clarity and performance under fast-p"
+  T span. [188,15480,105,115] 20/22/700/rgb(255,255,255) «Crystal-Clear Resolution & Superior Contrast»
+  T span. [189,15607,103,283] 14/24/400/rgb(255,255,255) «Spot hidden opponents in dark areas for a tactical advantage in any game with improved contrast ratio 1,000,00»
+  IMG  [274,15368,112,90] //p1-ofp.static.pub//fes/cms/2025/04/04/betsthd5nc2zk7hs4zyyfwd70263rn264473.jpg alt="Emphasizes Legion Pro 5i Gen 10’s RTX graphics for intense, competitive gaming v"
+  T span. [274,15480,112,71] 20/22/700/rgb(255,255,255) «Anti-Burn-In Technology»
+  T p. [274,15561,112,312] 14/24/400/rgb(255,255,255) «Prevents screen burn-in during long gaming sessions, ensuring lasting performance for those competitive marath»
+#7 feature-blade blade_2 mediaClass feature-align-center [0,15965,360,1424]
+  IMG  [0,15965,360,225] //p4-ofp.static.pub//fes/cms/2025/04/04/k2de31yuf65l2jdmbgovdvjap10gmh136165.jpg alt="Demonstrates Legion Pro 5i Gen 10’s advanced cooling for sustained high-performa"
+  T span. [116,16323,128,71] 20/22/700/rgb(0,255,255) «LEGION COLDFRONT: HYPER»
+  T span. [108,16394,144,409] 36/45/700/rgb(255,255,255) «Stay Cool, Play Silent, Take Control. Climb the Ranks.»
+  T span. [100,16813,161,528] 18/24/400/rgba(255,255,255,0.8) «Stay cool and quiet with turbo-charged fans and 3D copper heat pipes that redirect airflow. Use FN+Q to switch»
+#8 feature-blade blade_6 mediaClass feature-align-center [0,17461,360,751]
+  IMG  [-285,17509,85,100] //p4-ofp.static.pub//fes/cms/2025/04/04/iwuwzl8hsjko493q7mh3h8g28ekzcz106933.jpg alt="Highlights Legion Pro 5i Gen 10’s minimalist design paired with immersive displa"
+  T span. [-264,17634,43,22] 16/22/700/rgb(255,255,255) «FN+Q»
+  T span. [-285,17670,85,451] 14/24/400/rgb(255,255,255) «Effortlessly switch between Quiet, Balance, Performance or Extreme mode with this convenient key-combination t»
+  IMG  [-199,17509,85,100] //p4-ofp.static.pub//fes/cms/2025/04/04/djr8ngqwfud1ypau6i6s73pdw3l7nq487380.jpg alt="Showcases Legion Pro 5i Gen 10’s AI-tuned performance across Intel, NVIDIA, and "
+  T span. [-196,17631,79,93] 20/22/700/rgb(255,255,255) «Lenovo AI Engine+ Support»
+  T span. [-199,17736,85,355] 14/24/400/rgb(255,255,255) «Expanding from Balance Mode to Performance Mode, the Lenovo AI Engine+ tunes your fan systems for an improved »
+  IMG  [-113,17509,83,100] //p4-ofp.static.pub//fes/cms/2025/04/04/702ipgwak4qwqn8uk01n34perh14xq393692.jpg alt="Demonstrates Legion Pro 5i Gen 10’s upgradeable memory and advanced cooling layo"
+  T span. [-113,17631,83,93] 20/22/700/rgb(255,255,255) «Turbo-Charged Fan System»
+  T span. [-113,17736,82,355] 14/24/400/rgb(255,255,255) «3D-printed and engineered with laser-precision, these fans effectively grab cool air and direct it over key co»
+  IMG  [-27,17509,128,100] //p3-ofp.static.pub//fes/cms/2025/04/04/1aeyamrip43fssx2l54j98g0tsgeva318816.jpg alt="Reinforces Legion Pro 5i Gen 10’s premium build and expansive display ideal for "
+  T span. [-27,17631,128,93] 20/22/700/rgb(255,255,255) «High Performance Heat Pipes & Sinks»
+  T span. [-26,17736,126,187] 14/24/400/rgb(255,255,255) «Impressively robust copper heat pipes and aluminum heat sinks on key components keeps your system temps at rec»
+  IMG  [59,17509,89,100] //p1-ofp.static.pub//fes/cms/2025/04/04/k117fu72vs37ob0urfwbg6bxf1m30v573153.jpg alt="Illustrates Lenovo AI Engine+ optimizing Legion Pro 5i Gen 10 for peak performan"
+  T span. [62,17631,83,49] 20/22/700/rgb(255,255,255) «Acoustic AI Sync»
+  T span. [59,17692,89,307] 14/24/400/rgb(255,255,255) «Detects the sound energy over speakers or headphones then adjust fan speeds or execute a power limiter to impr»
+  IMG  [145,17509,99,100] //p3-ofp.static.pub//fes/cms/2025/04/04/apm7yy0uusglc1lfg32d0p1vdy229z968770.jpg alt="Emphasizes Legion Pro 5i Gen 10’s slim form factor with full-size keyboard for g"
+  T span. [145,17631,99,71] 20/22/700/rgb(255,255,255) «Legion Coldfront: Hyper»
+  T span. [145,17714,98,475] 14/24/400/rgb(255,255,255) «A combination of turbo-charged fans, massive 3D copper heat pipes, all vacuum-sealed for improved airflow with»
+  IMG  [231,17509,85,100] //p4-ofp.static.pub//fes/cms/2025/04/04/iwuwzl8hsjko493q7mh3h8g28ekzcz106933.jpg alt="Highlights Legion Pro 5i Gen 10’s minimalist design paired with immersive displa"
+  T span. [252,17634,43,22] 16/22/700/rgb(255,255,255) «FN+Q»
+  T span. [231,17670,85,451] 14/24/400/rgb(255,255,255) «Effortlessly switch between Quiet, Balance, Performance or Extreme mode with this convenient key-combination t»
+  IMG  [317,17509,85,100] //p4-ofp.static.pub//fes/cms/2025/04/04/djr8ngqwfud1ypau6i6s73pdw3l7nq487380.jpg alt="Showcases Legion Pro 5i Gen 10’s AI-tuned performance across Intel, NVIDIA, and "
+  T span. [320,17631,79,93] 20/22/700/rgb(255,255,255) «Lenovo AI Engine+ Support»
+  T span. [317,17736,85,355] 14/24/400/rgb(255,255,255) «Expanding from Balance Mode to Performance Mode, the Lenovo AI Engine+ tunes your fan systems for an improved »
+  IMG  [403,17509,83,100] //p4-ofp.static.pub//fes/cms/2025/04/04/702ipgwak4qwqn8uk01n34perh14xq393692.jpg alt="Demonstrates Legion Pro 5i Gen 10’s upgradeable memory and advanced cooling layo"
+  T span. [403,17631,83,93] 20/22/700/rgb(255,255,255) «Turbo-Charged Fan System»
+  T span. [403,17736,82,355] 14/24/400/rgb(255,255,255) «3D-printed and engineered with laser-precision, these fans effectively grab cool air and direct it over key co»
+  IMG  [489,17509,128,100] //p3-ofp.static.pub//fes/cms/2025/04/04/1aeyamrip43fssx2l54j98g0tsgeva318816.jpg alt="Reinforces Legion Pro 5i Gen 10’s premium build and expansive display ideal for "
+  T span. [489,17631,128,93] 20/22/700/rgb(255,255,255) «High Performance Heat Pipes & Sinks»
+  T span. [490,17736,126,187] 14/24/400/rgb(255,255,255) «Impressively robust copper heat pipes and aluminum heat sinks on key components keeps your system temps at rec»
+  IMG  [575,17509,89,100] //p1-ofp.static.pub//fes/cms/2025/04/04/k117fu72vs37ob0urfwbg6bxf1m30v573153.jpg alt="Illustrates Lenovo AI Engine+ optimizing Legion Pro 5i Gen 10 for peak performan"
+  T span. [578,17631,83,49] 20/22/700/rgb(255,255,255) «Acoustic AI Sync»
+  T span. [575,17692,89,307] 14/24/400/rgb(255,255,255) «Detects the sound energy over speakers or headphones then adjust fan speeds or execute a power limiter to impr»
+  IMG  [661,17509,99,100] //p3-ofp.static.pub//fes/cms/2025/04/04/apm7yy0uusglc1lfg32d0p1vdy229z968770.jpg alt="Emphasizes Legion Pro 5i Gen 10’s slim form factor with full-size keyboard for g"
+  T span. [661,17631,99,71] 20/22/700/rgb(255,255,255) «Legion Coldfront: Hyper»
+  T span. [661,17714,98,475] 14/24/400/rgb(255,255,255) «A combination of turbo-charged fans, massive 3D copper heat pipes, all vacuum-sealed for improved airflow with»
+  IMG  [747,17509,85,100] //p4-ofp.static.pub//fes/cms/2025/04/04/iwuwzl8hsjko493q7mh3h8g28ekzcz106933.jpg alt="Highlights Legion Pro 5i Gen 10’s minimalist design paired with immersive displa"
+  T span. [768,17634,43,22] 16/22/700/rgb(255,255,255) «FN+Q»
+  T span. [747,17670,85,451] 14/24/400/rgb(255,255,255) «Effortlessly switch between Quiet, Balance, Performance or Extreme mode with this convenient key-combination t»
+  IMG  [833,17509,85,100] //p4-ofp.static.pub//fes/cms/2025/04/04/djr8ngqwfud1ypau6i6s73pdw3l7nq487380.jpg alt="Showcases Legion Pro 5i Gen 10’s AI-tuned performance across Intel, NVIDIA, and "
+  T span. [836,17631,79,93] 20/22/700/rgb(255,255,255) «Lenovo AI Engine+ Support»
+  T span. [833,17736,85,355] 14/24/400/rgb(255,255,255) «Expanding from Balance Mode to Performance Mode, the Lenovo AI Engine+ tunes your fan systems for an improved »
+  IMG  [919,17509,83,100] //p4-ofp.static.pub//fes/cms/2025/04/04/702ipgwak4qwqn8uk01n34perh14xq393692.jpg alt="Demonstrates Legion Pro 5i Gen 10’s upgradeable memory and advanced cooling layo"
+  T span. [919,17631,83,93] 20/22/700/rgb(255,255,255) «Turbo-Charged Fan System»
+  T span. [919,17736,82,355] 14/24/400/rgb(255,255,255) «3D-printed and engineered with laser-precision, these fans effectively grab cool air and direct it over key co»
+  IMG  [1005,17509,128,100] //p3-ofp.static.pub//fes/cms/2025/04/04/1aeyamrip43fssx2l54j98g0tsgeva318816.jpg alt="Reinforces Legion Pro 5i Gen 10’s premium build and expansive display ideal for "
+  T span. [1005,17631,128,93] 20/22/700/rgb(255,255,255) «High Performance Heat Pipes & Sinks»
+  T span. [1006,17736,126,187] 14/24/400/rgb(255,255,255) «Impressively robust copper heat pipes and aluminum heat sinks on key components keeps your system temps at rec»
+  IMG  [1091,17509,89,100] //p1-ofp.static.pub//fes/cms/2025/04/04/k117fu72vs37ob0urfwbg6bxf1m30v573153.jpg alt="Illustrates Lenovo AI Engine+ optimizing Legion Pro 5i Gen 10 for peak performan"
+  T span. [1094,17631,83,49] 20/22/700/rgb(255,255,255) «Acoustic AI Sync»
+  T span. [1091,17692,89,307] 14/24/400/rgb(255,255,255) «Detects the sound energy over speakers or headphones then adjust fan speeds or execute a power limiter to impr»
+  IMG  [1177,17509,99,100] //p3-ofp.static.pub//fes/cms/2025/04/04/apm7yy0uusglc1lfg32d0p1vdy229z968770.jpg alt="Emphasizes Legion Pro 5i Gen 10’s slim form factor with full-size keyboard for g"
+  T span. [1177,17631,99,71] 20/22/700/rgb(255,255,255) «Legion Coldfront: Hyper»
+  T span. [1177,17714,98,475] 14/24/400/rgb(255,255,255) «A combination of turbo-charged fans, massive 3D copper heat pipes, all vacuum-sealed for improved airflow with»
+#9 feature-blade blade_2 mediaClass feature-align-center [0,18284,360,1157]
+  IMG  [0,18284,360,225] //p4-ofp.static.pub//fes/cms/2025/04/04/s8tkb32uqqo8h2orm06gk4mdyqtrpd054572.jpg alt="Highlights Legion Pro 5i Gen 10’s versatile design with full-size keyboard and e"
+  T div.media_caption_wrapper [0,18565,360,20] 12/20/400/rgb(230,226,228) «Accessories shown sold separately»
+  T span. [106,18647,149,184] 36/45/700/rgb(255,255,255) «Climb with Comfort & Style»
+  T span. [99,18841,161,552] 18/24/400/rgba(255,255,255,0.8) «The Legion Pro 5i keeps cool with massive rear vents, ensuring optimal airflow and comfort during gaming. Its »
+#10 feature-blade blade_6 mediaClass feature-align-center [0,19513,360,902]
+  T span. [76,19558,209,49] 20/22/700/rgb(0,255,255) «PEAK PERFORMANCE, COMFORT, & FOCUS»
+  T span. [90,19605,180,129] 36/40/700/rgb(255,255,255) «Intelligent esports Design»
+  IMG  [-285,19770,107,101] //p2-ofp.static.pub//fes/cms/2025/04/04/oprft72l7jmfz5o9oapj2ktyo8bpea626036.jpg alt="Showcases Legion Pro 5i Gen 10’s high-resolution display for sharp, cinematic ga"
+  T div.media_caption_wrapper [-285,19900,107,60] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+  T span. [-285,19960,107,115] 20/22/700/rgb(255,255,255) «Aggressive Design with Massive Vents»
+  T span. [-285,20087,107,211] 14/24/400/rgb(255,255,255) «Large rear vents optimize airflow, keeping your system cool and ensuring peak performance during intense gamin»
+  IMG  [-199,19770,102,101] //p4-ofp.static.pub//fes/cms/2025/04/04/i6zfis6d7plea9vops0qo8rthu8bve222346.jpg alt="Highlights Legion Pro 5i Gen 10’s customizable RGB keyboard for immersive gamepl"
+  T span. [-199,19960,102,93] 20/22/700/rgb(255,255,255) «Optimized Port & Airflow Layout»
+  T p. [-199,20063,102,216] 14/24/400/rgb(255,255,255) «Heat is directed out the back, keeping your keyboard, mouse, and hands cool for extended comfort.»
+  IMG  [-113,19770,93,101] //p4-ofp.static.pub//fes/cms/2025/04/04/tpn5yklkl02rkcb4yqljrz07838auh308561.jpg alt="Demonstrates Legion Pro 5i Gen 10’s full-size RGB keyboard optimized for gaming "
+  T span. [-113,19960,93,137] 20/22/700/rgb(255,255,255) «Eclipse Black with AI-Synced RGB Keyboard»
+  T span. [-111,20109,89,283] 14/24/400/rgb(255,255,255) «Sleek design with AI-powered RGB keyboard lighting, syncing effects with in-game action for a fully immersive »
+  IMG  [-27,19770,129,101] //p1-ofp.static.pub//fes/cms/2025/04/04/zfov3qtz6bqla0pbkhrekeb3ypr3nk919915.jpg alt="Illustrates Legion Pro 5i Gen 10’s versatile port selection for fast connectivit"
+  T div.media_caption_wrapper [-27,19900,129,40] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+  T span. [-27,19960,129,71] 20/22/700/rgb(255,255,255) «An Amazing Desktop Replacement»
+  T span. [-27,20043,129,139] 14/24/400/rgb(255,255,255) «Full speed 2.5G ethernet, HDMI 2.1, and more make this a gaming desktop that can go anywhere.»
+  IMG  [59,19770,96,101] //p4-ofp.static.pub//fes/cms/2025/04/04/bti3hwnu4znydc8f3f6zv6p8aysrew734133.jpg alt="Highlights Legion Pro 5i Gen 10’s rear cooling vents and iconic Legion branding."
+  T span. [65,19960,84,93] 20/22/700/rgb(255,255,255) «Game Smart & Save the World»
+  T span. [59,20065,96,283] 14/24/400/rgb(255,255,255) «Constructed with sustainable materials and eco-friendly packaging, balancing top-tier performance with environ»
+  IMG  [145,19770,107,101] //p2-ofp.static.pub//fes/cms/2025/04/04/oprft72l7jmfz5o9oapj2ktyo8bpea626036.jpg alt="Showcases Legion Pro 5i Gen 10’s high-resolution display for sharp, cinematic ga"
+  T div.media_caption_wrapper [145,19900,107,60] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+  T span. [145,19960,107,115] 20/22/700/rgb(255,255,255) «Aggressive Design with Massive Vents»
+  T span. [145,20087,107,211] 14/24/400/rgb(255,255,255) «Large rear vents optimize airflow, keeping your system cool and ensuring peak performance during intense gamin»
+  IMG  [231,19770,102,101] //p4-ofp.static.pub//fes/cms/2025/04/04/i6zfis6d7plea9vops0qo8rthu8bve222346.jpg alt="Highlights Legion Pro 5i Gen 10’s customizable RGB keyboard for immersive gamepl"
+  T span. [231,19960,102,93] 20/22/700/rgb(255,255,255) «Optimized Port & Airflow Layout»
+  T p. [231,20063,102,216] 14/24/400/rgb(255,255,255) «Heat is directed out the back, keeping your keyboard, mouse, and hands cool for extended comfort.»
+  IMG  [317,19770,93,101] //p4-ofp.static.pub//fes/cms/2025/04/04/tpn5yklkl02rkcb4yqljrz07838auh308561.jpg alt="Demonstrates Legion Pro 5i Gen 10’s full-size RGB keyboard optimized for gaming "
+  T span. [317,19960,93,137] 20/22/700/rgb(255,255,255) «Eclipse Black with AI-Synced RGB Keyboard»
+  T span. [319,20109,89,283] 14/24/400/rgb(255,255,255) «Sleek design with AI-powered RGB keyboard lighting, syncing effects with in-game action for a fully immersive »
+  IMG  [403,19770,129,101] //p1-ofp.static.pub//fes/cms/2025/04/04/zfov3qtz6bqla0pbkhrekeb3ypr3nk919915.jpg alt="Illustrates Legion Pro 5i Gen 10’s versatile port selection for fast connectivit"
+  T div.media_caption_wrapper [403,19900,129,40] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+  T span. [403,19960,129,71] 20/22/700/rgb(255,255,255) «An Amazing Desktop Replacement»
+  T span. [403,20043,129,139] 14/24/400/rgb(255,255,255) «Full speed 2.5G ethernet, HDMI 2.1, and more make this a gaming desktop that can go anywhere.»
+  IMG  [489,19770,96,101] //p4-ofp.static.pub//fes/cms/2025/04/04/bti3hwnu4znydc8f3f6zv6p8aysrew734133.jpg alt="Highlights Legion Pro 5i Gen 10’s rear cooling vents and iconic Legion branding."
+  T span. [495,19960,84,93] 20/22/700/rgb(255,255,255) «Game Smart & Save the World»
+  T span. [489,20065,96,283] 14/24/400/rgb(255,255,255) «Constructed with sustainable materials and eco-friendly packaging, balancing top-tier performance with environ»
+  IMG  [575,19770,107,101] //p2-ofp.static.pub//fes/cms/2025/04/04/oprft72l7jmfz5o9oapj2ktyo8bpea626036.jpg alt="Showcases Legion Pro 5i Gen 10’s high-resolution display for sharp, cinematic ga"
+  T div.media_caption_wrapper [575,19900,107,60] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+  T span. [575,19960,107,115] 20/22/700/rgb(255,255,255) «Aggressive Design with Massive Vents»
+  T span. [575,20087,107,211] 14/24/400/rgb(255,255,255) «Large rear vents optimize airflow, keeping your system cool and ensuring peak performance during intense gamin»
+  IMG  [661,19770,102,101] //p4-ofp.static.pub//fes/cms/2025/04/04/i6zfis6d7plea9vops0qo8rthu8bve222346.jpg alt="Highlights Legion Pro 5i Gen 10’s customizable RGB keyboard for immersive gamepl"
+  T span. [661,19960,102,93] 20/22/700/rgb(255,255,255) «Optimized Port & Airflow Layout»
+  T p. [661,20063,102,216] 14/24/400/rgb(255,255,255) «Heat is directed out the back, keeping your keyboard, mouse, and hands cool for extended comfort.»
+  IMG  [747,19770,93,101] //p4-ofp.static.pub//fes/cms/2025/04/04/tpn5yklkl02rkcb4yqljrz07838auh308561.jpg alt="Demonstrates Legion Pro 5i Gen 10’s full-size RGB keyboard optimized for gaming "
+  T span. [747,19960,93,137] 20/22/700/rgb(255,255,255) «Eclipse Black with AI-Synced RGB Keyboard»
+  T span. [749,20109,89,283] 14/24/400/rgb(255,255,255) «Sleek design with AI-powered RGB keyboard lighting, syncing effects with in-game action for a fully immersive »
+  IMG  [833,19770,129,101] //p1-ofp.static.pub//fes/cms/2025/04/04/zfov3qtz6bqla0pbkhrekeb3ypr3nk919915.jpg alt="Illustrates Legion Pro 5i Gen 10’s versatile port selection for fast connectivit"
+  T div.media_caption_wrapper [833,19900,129,40] 12/20/400/rgb(230,226,228) «*Accessories shown sold separately»
+  T span. [833,19960,129,71] 20/22/700/rgb(255,255,255) «An Amazing Desktop Replacement»
+  T span. [833,20043,129,139] 14/24/400/rgb(255,255,255) «Full speed 2.5G ethernet, HDMI 2.1, and more make this a gaming desktop that can go anywhere.»
+  IMG  [919,19770,96,101] //p4-ofp.static.pub//fes/cms/2025/04/04/bti3hwnu4znydc8f3f6zv6p8aysrew734133.jpg alt="Highlights Legion Pro 5i Gen 10’s rear cooling vents and iconic Legion branding."
+  T span. [925,19960,84,93] 20/22/700/rgb(255,255,255) «Game Smart & Save the World»
+  T span. [919,20065,96,283] 14/24/400/rgb(255,255,255) «Constructed with sustainable materials and eco-friendly packaging, balancing top-tier performance with environ»
+#11 feature-blade blade_6 mediaClass feature-align-center [0,20487,360,991]
+  IMG  [16,20535,107,100] //p1-ofp.static.pub//fes/cms/2025/04/04/0j71idltxh2p6xb7gwfr2qk09d6jxo080157.jpg alt="Highlights Legion Pro 5i Gen 10’s rear exhaust design for efficient heat dissipa"
+  T span. [16,20657,107,181] 20/22/700/rgb(255,255,255) «Nahimic by SteelSeries Audio for Games. AI-Powered Immersive 3D Audio.»
+  T span. [19,20850,102,499] 14/24/400/rgb(255,255,255) «Nahimic by SteelSeries leverages AI technology to deliver immersive 3D audio and tailored sound profiles, tran»
+  T span. [28,21378,84,67] 14/24/400/rgb(255,255,255) «*Accessories shown sold separately»
+  IMG  [131,20535,120,100] //p3-ofp.static.pub//fes/cms/2025/04/04/1d593zk23w7x3mxtcrx0uj74yrpfho793576.jpg alt="Demonstrates responsive input and visual flow on the Legion Pro 5i Gen 10’s RGB "
+  T span. [131,20657,120,115] 20/22/700/rgb(255,255,255) «Precision Keystrokes for the Competitive Edge»
+  T span. [132,20784,118,595] 14/24/400/rgb(255,255,255) «Master precision with the Legion TrueStrike keyboard—designed for competitive gamers needing instant responsiv»
+  T span. [149,21408,84,67] 14/24/400/rgb(255,255,255) «*Accessories shown sold separately»
+  IMG  [245,20535,128,100] //p1-ofp.static.pub//fes/cms/2025/04/04/fbdunpzo85wpa0artzqencd66wiy8p964085.jpg alt="Showcases Legion Pro 5i Gen 10’s high-refresh display and full-size keyboard for"
+  T span. [245,20657,128,93] 20/22/700/rgb(255,255,255) «Unleash Performance All Across Campus»
+  T span. [245,20762,128,547] 14/24/400/rgb(255,255,255) «Take your battlestation anywhere with the Legion Pro 5i, featuring up to 245W charging support, 80Whr battery »
+  T span. [254,21338,110,67] 14/24/400/rgb(255,255,255) «*140W USB-C AC adapter sold separately»
+#12 feature-blade blade_5 mediaClass feature-align-center [0,21550,360,690]
+  IMG  [-752,21892,360,308] //p2-ofp.static.pub//fes/cms/2025/04/04/j5s3on7iohz1zr77akkqwpn68q6z9p455261.jpg alt="Highlights Legion Pro 5i Gen 10 as the centerpiece of a full RGB-lit battlestati"
+  T span. [-732,21595,320,93] 36/44/700/rgb(255,255,255) «Designed For The Legion Ecosystem»
+  T span. [-751,21698,358,96] 18/24/400/rgba(255,255,255,0.8) «Binds all your Legion ecosystem devices in one portal for effortless setup and unification of settings across »
+  T span. [-678,21822,212,19] 14/24/400/rgba(255,255,255,0.8) «*Legion monitor sold separately»
+  IMG  [-376,21892,360,308] //p1-ofp.static.pub//fes/cms/2025/04/04/17m06d90k4gx9p0dsvdfan8zcjk21w516398.jpg alt="Showcases Legion Pro 5i Gen 10’s refined build with immersive display and robust"
+  T span. [-315,21603,238,49] 36/44/700/rgb(255,255,255) «Gaming Zone»
+  T span. [-372,21662,353,96] 18/24/400/rgba(255,255,255,0.8) «A suite of AI experiences. Game Coach for esports, Game Clip Master for Streamers and Game Companion for Stude»
+  IMG  [0,21892,360,308] //p4-ofp.static.pub//fes/cms/2025/04/04/6h2n10jxxs6t7a4iepmv3ul15586co845970.jpg alt="Demonstrates performance tuning and RGB control through Lenovo Vantage on Legion"
+  T span. [63,21603,235,93] 36/44/700/rgb(255,255,255) «Introducing Legion Space»
+  T p. [0,21706,360,72] 18/24/400/rgba(255,255,255,0.8) «Customize system settings, get exclusive deals and more in easy-to-use software suite.*»
+  T span. [63,21806,234,19] 14/24/400/rgba(255,255,255,0.8) «*Accessories shown sold separately»
+  IMG  [376,21892,360,308] //p2-ofp.static.pub//fes/cms/2025/04/04/j5s3on7iohz1zr77akkqwpn68q6z9p455261.jpg alt="Highlights Legion Pro 5i Gen 10 as the centerpiece of a full RGB-lit battlestati"
+  T span. [396,21595,320,93] 36/44/700/rgb(255,255,255) «Designed For The Legion Ecosystem»
+  T span. [377,21698,358,96] 18/24/400/rgba(255,255,255,0.8) «Binds all your Legion ecosystem devices in one portal for effortless setup and unification of settings across »
+  T span. [450,21822,212,19] 14/24/400/rgba(255,255,255,0.8) «*Legion monitor sold separately»
+  IMG  [752,21892,360,308] //p1-ofp.static.pub//fes/cms/2025/04/04/17m06d90k4gx9p0dsvdfan8zcjk21w516398.jpg alt="Showcases Legion Pro 5i Gen 10’s refined build with immersive display and robust"
+  T span. [813,21603,238,49] 36/44/700/rgb(255,255,255) «Gaming Zone»
+  T span. [756,21662,353,96] 18/24/400/rgba(255,255,255,0.8) «A suite of AI experiences. Game Coach for esports, Game Clip Master for Streamers and Game Companion for Stude»
+  IMG  [1128,21892,360,308] //p4-ofp.static.pub//fes/cms/2025/04/04/6h2n10jxxs6t7a4iepmv3ul15586co845970.jpg alt="Demonstrates performance tuning and RGB control through Lenovo Vantage on Legion"
+  T span. [1191,21603,235,93] 36/44/700/rgb(255,255,255) «Introducing Legion Space»
+  T p. [1128,21706,360,72] 18/24/400/rgba(255,255,255,0.8) «Customize system settings, get exclusive deals and more in easy-to-use software suite.*»
+  T span. [1191,21806,234,19] 14/24/400/rgba(255,255,255,0.8) «*Accessories shown sold separately»
+  IMG  [1504,21892,360,308] //p2-ofp.static.pub//fes/cms/2025/04/04/j5s3on7iohz1zr77akkqwpn68q6z9p455261.jpg alt="Highlights Legion Pro 5i Gen 10 as the centerpiece of a full RGB-lit battlestati"
+  T span. [1524,21595,320,93] 36/44/700/rgb(255,255,255) «Designed For The Legion Ecosystem»
+  T span. [1505,21698,358,96] 18/24/400/rgba(255,255,255,0.8) «Binds all your Legion ecosystem devices in one portal for effortless setup and unification of settings across »
+  T span. [1578,21822,212,19] 14/24/400/rgba(255,255,255,0.8) «*Legion monitor sold separately»
+  IMG  [1880,21892,360,308] //p1-ofp.static.pub//fes/cms/2025/04/04/17m06d90k4gx9p0dsvdfan8zcjk21w516398.jpg alt="Showcases Legion Pro 5i Gen 10’s refined build with immersive display and robust"
+  T span. [1941,21603,238,49] 36/44/700/rgb(255,255,255) «Gaming Zone»
+  T span. [1884,21662,353,96] 18/24/400/rgba(255,255,255,0.8) «A suite of AI experiences. Game Coach for esports, Game Clip Master for Streamers and Game Companion for Stude»
+  IMG  [2256,21892,360,308] //p4-ofp.static.pub//fes/cms/2025/04/04/6h2n10jxxs6t7a4iepmv3ul15586co845970.jpg alt="Demonstrates performance tuning and RGB control through Lenovo Vantage on Legion"
+  T span. [2319,21603,235,93] 36/44/700/rgb(255,255,255) «Introducing Legion Space»
+  T p. [2256,21706,360,72] 18/24/400/rgba(255,255,255,0.8) «Customize system settings, get exclusive deals and more in easy-to-use software suite.*»
+  T span. [2319,21806,234,19] 14/24/400/rgba(255,255,255,0.8) «*Accessories shown sold separately»
+#13 feature-blade blade_2 mediaClass feature-align-center [0,22312,360,385]
+  IMG  [0,22312,360,201] //p4-ofp.static.pub//fes/cms/2025/07/10/fmghrdoevszctmdfa9mgbvx50hpptt931286.jpg alt=""
+#14 feature-blade blade_1 mediaClass feature-align-left [0,22770,360,1185]
+  IMG  [130,22818,148,91] //p4-ofp.static.pub//fes/cms/2025/04/04/p0ji7le7q4crwc37zxxhtji8kr47hq161462.jpg alt="Legion Pro 5i Gen 10 in a floating left facing right position highlighting its R"
+  T div.media_caption_wrapper [130,22933,148,40] 12/20/400/rgb(230,226,228) «Accessories shown sold separately»
+  T span. [130,23023,134,274] 36/45/700/rgb(255,255,255) «Exceptional Ecosystem Experiences»
+  T span. [130,23307,144,552] 18/24/400/rgba(255,255,255,0.8) «The Legion ecosystem offers a unified design across PCs, handhelds, tablets, monitors, and software for a seam»
+#15 feature-blade blade_2 mediaClass feature-align-center [0,24027,360,596]
+  IMG  [0,24027,360,141] //p3-ofp.static.pub//fes/cms/2026/06/19/kq86e34lfiyuarf2t46b28f86m0ywc502028.jpg alt="Rear-angled laptop on an illuminated esports stage with EWC-inspired setup, emph"
+  T span. [129,24305,102,139] 36/45/700/rgb(255,255,255) «Claim Your Stage»
+  T span. [99,24454,161,120] 18/24/400/rgba(255,255,255,0.8) «Built for competitive players ready to level up at the Esports World Cup.»
+#16 feature-blade blade_1 mediaClass feature-align-left [0,24694,360,1062]
+  IMG  [82,24742,148,100] https://p1-ofp.static.pub/ShareResource/ww/img/products/sustainability/lenovo-product-feature-sustainability.jpg alt="Lenovo Product Feature Sustainability."
+  T span. [82,24888,144,71] 20/22/700/rgb(0,255,255) «CREDIBILITY & COLLABORATION»
+  T span. [82,24959,133,94] 36/45/700/rgb(255,255,255) «Sustainabilty»
+  T span. [82,25063,148,504] 18/24/400/rgba(255,255,255,0.8) «Our goal is to provide smarter technology that builds a brighter, more sustainable future for our customers, c»
+  T a.gallery-content-cta [82,25579,148,80] 18/20/700/rgb(0,255,255) «Learn more about our sustainability programs >» href=/us/en/sustainability-resources/?IPromoID=LEN638293

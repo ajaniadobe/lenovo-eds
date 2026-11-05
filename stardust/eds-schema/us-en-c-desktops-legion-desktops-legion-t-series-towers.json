@@ -1,0 +1,1032 @@
+{
+ "source": "http://127.0.0.1:8795/us-en-c-desktops-legion-desktops-legion-t-series-towers-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "series-hero",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "We're sorry,"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Products are temporarily unavailable."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Continue Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Home",
+     "href": "https://www.lenovo.com/us/en/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Desktops and All-in-Ones",
+     "href": "https://www.lenovo.com/us/en/desktops/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Legion Desktops",
+     "href": "https://www.lenovo.com/us/en/c/desktops/legion-desktops/"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "T Series Towers"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "T Series Towers"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Power, Unleashed"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Lenovo Legion Towers are the pinnacle of engineering, balancing a refined chassis with customizable lighting and elite components. Featuring top-of-the-line processors and discrete graphics, these desktop powerhouses are built to deliver peak performance for gaming, streaming, and professional creation."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "View T Series Towers"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "series-blade2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Whisper-Quiet Performance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "These towers are the epitome of staying cool under pressure. Employing an innovative thermal architecture with streamlined air intake (and optional liquid cooling on some models), Lenovo Legion towers keep your CPU and GPU cool even in the most demanding sessions."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "open in new tab"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "series-blade2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Your Power, Your Way"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Investing in a Legion Tower means staying ahead of the tech curve. With a tool-free side panel, you gain instant access to your tower’s inner components, so you can future-proof as your ambitions get bigger, whether that means more storage or a better GPU."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "open in new tab"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "series-blade2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Built to Keep You In-Game"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Upgrade to Legion Ultimate Support to stay in-game when it matters, with support from specialists who are gamers too. Skip the long wait and get straight to fixing what’s wrong. Remote or on-site, with parts replacement included, you’re covered whenever issues hit."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "open in new tab"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn More >",
+     "href": "https://www.lenovo.com/us/en/legion-support/"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "dlp",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Legion Desktops T Series"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Towers"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "skip to product list"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Filters"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Collapse All"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Graphics"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Graphics"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "NVIDIA RTX™ (4)"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Processor"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Processor"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "All Intel Processors (3)"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Intel® Core™ Ultra 9 (2)"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Intel® Core™ Ultra 7 (3)"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "All AMD Processors (1)"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "AMD Ryzen™ 9 (1)"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "AMD Ryzen™ 7 (1)"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "See More"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Memory"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Memory"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "32 GB (4)"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Storage"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Storage"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "2 TB (3)"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "1 TB (4)"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Price"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Price"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "$2,000-$4,999.99 (4)"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Sustainability"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Sustainability"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "CO2 Offset Service available (3)"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Contains sustainable material (1)"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Matching results"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Clear All"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Sort"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Sort by :"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Newest"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Recommended"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Price Low to High"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Price High to Low"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Best-Selling"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Highest Saving by %"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Highest Saving by $"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Newest"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Compare"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Legion Tower 5i Gen 10 (Intel) Gaming Desktop",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel)-laptop-processor/len102g0012"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "4.6"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "(100)"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Starting at"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "$2,499.99"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Lease to own."
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "As low as"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "$80/week"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Learn More",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Earn"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Earn $75 from My Lenovo Rewards of Legion Tower 5i Gen 10 (Intel) Gaming Desktop, click to check more."
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "$75"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "in Rewards"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "• Exclusive savings"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "• Earn up to 9% back"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "• Free expedited shipping"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "•"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Join for free",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Join Now!",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Intel Core™ Ultra HX processors for extreme performance"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Beyond-fast NVIDIA GeForce RTX graphics"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Ultrafast connectivity, upgradeable memory & storage"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "View 2 Models",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-5i-gen-10-(30l-intel)-laptop-processor/len102g0012"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Compare"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Legion Tower 5i Gen 10 (Intel)",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "4.7"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "(91)"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Starting at"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "$2,799.99"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Lease to own."
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "As low as"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "$90/week"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "Learn More",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Earn"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Earn $84 from My Lenovo Rewards of Legion Tower 5i Gen 10 (Intel), click to check more."
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "$84"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "in Rewards"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "• Exclusive savings"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "• Earn up to 9% back"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "• Free expedited shipping"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "•"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "Join for free",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "Join Now!",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Intel Core™ Ultra processors for extreme performance"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Beyond-fast NVIDIA GeForce RTX graphics"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Ultrafast connectivity, upgradeable memory & storage"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "View 2 Models",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Compare"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "Legion Tower 5a Gen 10 (30L AMD) Gaming Desktop",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l-amd/len102g0011"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "4.7"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "(135)"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Starting at"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "$2,849.99"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Lease to own."
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "As low as"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "$91/week"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "Learn More",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Earn"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "Earn $85 from My Lenovo Rewards of Legion Tower 5a Gen 10 (30L AMD) Gaming Desktop, click to check more."
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "$85"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "in Rewards"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "• Exclusive savings"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "• Earn up to 9% back"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "• Free expedited shipping"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "•"
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "Join for free",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 123,
+     "text": "Join Now!",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "Peak performance with AMD Ryzen™ processors & NVIDIA graphics"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "AI-powered audio, tool-free panel, ample storage & memory"
+    },
+    {
+     "role": "body",
+     "order": 127,
+     "text": "Optimized cooling with Legion Coldfront"
+    },
+    {
+     "role": "cta",
+     "order": 128,
+     "text": "View 2 Models",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5a-gen-10-30l-amd/len102g0011"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Compare"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "Legion Tower 7i Gen 10 (Intel)",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g0010"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "4.5"
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "(232)"
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "Starting at"
+    },
+    {
+     "role": "body",
+     "order": 134,
+     "text": "$3,349.99"
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "Lease to own."
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "As low as"
+    },
+    {
+     "role": "body",
+     "order": 137,
+     "text": "$107/week"
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "Learn More",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 140,
+     "text": "Earn"
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "Earn $100 from My Lenovo Rewards of Legion Tower 7i Gen 10 (Intel), click to check more."
+    },
+    {
+     "role": "body",
+     "order": 142,
+     "text": "$100"
+    },
+    {
+     "role": "body",
+     "order": 143,
+     "text": "in Rewards"
+    },
+    {
+     "role": "body",
+     "order": 144,
+     "text": "My Lenovo Rewards"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "• Exclusive savings"
+    },
+    {
+     "role": "body",
+     "order": 146,
+     "text": "• Earn up to 9% back"
+    },
+    {
+     "role": "body",
+     "order": 147,
+     "text": "• Free expedited shipping"
+    },
+    {
+     "role": "body",
+     "order": 148,
+     "text": "•"
+    },
+    {
+     "role": "cta",
+     "order": 149,
+     "text": "Join for free",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 150,
+     "text": "Join Now!",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 151,
+     "text": "Competition-grade gaming power"
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "Seamlessly upgradable with ultimate customization"
+    },
+    {
+     "role": "body",
+     "order": 153,
+     "text": "Massive capacity SSD storage"
+    },
+    {
+     "role": "cta",
+     "order": 154,
+     "text": "View 3 Models",
+     "href": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/legion-tower-7i-gen-10/len102g0010"
+    },
+    {
+     "role": "body",
+     "order": 155,
+     "text": "Showing"
+    },
+    {
+     "role": "body",
+     "order": 156,
+     "text": "1 -"
+    },
+    {
+     "role": "body",
+     "order": 157,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 158,
+     "text": "of"
+    },
+    {
+     "role": "body",
+     "order": 159,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 160,
+     "text": "Results"
+    },
+    {
+     "role": "body",
+     "order": 161,
+     "text": "One moment please..."
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.facets-list",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.product_item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 6,
+      "imgs": 2,
+      "textRuns": 29
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "SPAN.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

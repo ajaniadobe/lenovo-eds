@@ -1,0 +1,29 @@
+{
+  "/us/en/c/desktops/legion-desktops/legion-t-series-towers": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T03:18:16.638Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/c/laptops/yoga/yoga-slim-series": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T05:49:38.198Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/us/en/d/accessories-and-software/gaming-accessories": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T05:49:43.732Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

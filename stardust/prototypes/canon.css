@@ -1,0 +1,338 @@
+/* ==========================================================================
+   Lenovo US replica — canon layer (shared by every archetype prototype)
+   Fonts, tokens, base type, buttons, global header (nav.commonHeader:
+   utility bar / logo-search-account row / nav row / promo strip) and the
+   global footer (footer.commonFooter). Values lifted from the live
+   stylesheets (commonHeader bundle files.2026102814521838…css, AEM
+   clientlibs) and the computed-style census at 1440 / 360.
+   ========================================================================== */
+
+/* ---------- fonts (self-hosted, OFL) ---------- */
+/* live serves Noto Sans files under BOTH family names "Lato" and "Noto Sans" */
+@font-face { font-family: "Lato"; src: url("assets/fonts/NotoSans-Latin-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("assets/fonts/NotoSans-Latin-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Noto Sans"; src: url("assets/fonts/NotoSans-Latin-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Noto Sans"; src: url("assets/fonts/NotoSans-Latin-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+/* live loads Montserrat at 400 + 700 only: 600 resolves to the 700 face, 500 to 400 — mirror that */
+@font-face { font-family: "Montserrat"; src: url("assets/fonts/Montserrat-Latin.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Montserrat"; src: url("assets/fonts/Montserrat-Latin.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "icomoon"; src: url("assets/fonts/icomoon.woff2") format("woff2"); font-weight: normal; font-style: normal; font-display: block; }
+
+/* ---------- tokens ---------- */
+:root {
+  --font-body: "Noto Sans", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-ui: Lato, Helvetica, Arial, sans-serif;
+  --font-display: Montserrat, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --c-black: #000;
+  --c-ink: #171717;          /* rgb(23,23,23) */
+  --c-plum-ink: #1e0013;     /* rgb(30,0,19) headings */
+  --c-mauve: #4e444e;        /* rgb(78,68,78) nav text / eyebrows */
+  --c-purple: #7a126b;       /* rgb(122,18,107) primary button */
+  --c-red: #e1251b;          /* rgb(225,37,27) accent */
+  --c-gray-bg: #ededed;      /* utility bar, footer */
+  --c-line: #cccccc;
+  --c-line-soft: #e4e4e4;
+  --c-promo: #e6f4fa;        /* promo strip */
+  --c-hero: #f1e1ed;         /* home hero band */
+  --c-card-blue: #f2f5f9;
+  --c-footer-link: #3a3a3a;
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+  --radius-xl: 16px;
+}
+
+/* ---------- base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--c-black);
+  background: #fff;
+  max-width: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+main { display: block; }
+h1, h2, h3, h4, h5, h6, p, ul, ol, figure { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; border: 0; font-size: 12px; line-height: 18px; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer; }
+input { font: inherit; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+/* icon font (icomoon) — codepoints from the live census */
+[class^="iconfont-"], [class*=" iconfont-"] { font-family: icomoon !important; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; }
+.iconfont-accessibility::before { content: "\e905"; }
+.iconfont-account-white::before { content: "\e9bf"; }
+.iconfont-arrowDown::before { content: "\e91c"; }
+.iconfont-cart::before { content: "\e94d"; }
+.iconfont-contact-us-pc::before { content: "\e9c6"; }
+.iconfont-homehero-left-arrow::before { content: "\e926"; }
+.iconfont-homehero-right-arrow::before { content: "\e925"; }
+.iconfont-rewards::before { content: "\e992"; }
+
+/* mask icons (len-icon) — rehosted SVGs, painted with background-color */
+.len-icon-image { display: block; width: 16px; height: 16px; background-color: currentColor; -webkit-mask: var(--icon) center / contain no-repeat; mask: var(--icon) center / contain no-repeat; }
+.ic-ai { --icon: url("assets/icons/lenovo-icon-ai.svg"); }
+.ic-around-globe { --icon: url("assets/icons/lenovo-icon-around-globe.svg"); }
+.ic-arrow-down { --icon: url("assets/icons/lenovo-icon-arrow-down.svg"); }
+.ic-arrow-left { --icon: url("assets/icons/lenovo-icon-arrow-left.svg"); }
+.ic-arrow-right { --icon: url("assets/icons/lenovo-icon-arrow-right.svg"); }
+.ic-cares { --icon: url("assets/icons/lenovo-icon-cares.svg"); }
+.ic-cart { --icon: url("assets/icons/lenovo-icon-cart.svg"); }
+.ic-case { --icon: url("assets/icons/lenovo-icon-case.svg"); }
+.ic-close { --icon: url("assets/icons/lenovo-icon-close.svg"); }
+.ic-community { --icon: url("assets/icons/lenovo-icon-community.svg"); }
+.ic-contact-us { --icon: url("assets/icons/lenovo-icon-contact-us.svg"); }
+.ic-dashboard { --icon: url("assets/icons/lenovo-icon-dashboard.svg"); }
+.ic-data-center { --icon: url("assets/icons/lenovo-icon-data-center.svg"); }
+.ic-discount { --icon: url("assets/icons/lenovo-icon-discount.svg"); }
+.ic-innovation { --icon: url("assets/icons/lenovo-icon-innovation.svg"); }
+.ic-lock { --icon: url("assets/icons/lenovo-icon-lock.svg"); }
+.ic-pause { --icon: url("assets/icons/lenovo-icon-pause.svg"); }
+.ic-play { --icon: url("assets/icons/lenovo-icon-play.svg"); }
+.ic-products { --icon: url("assets/icons/lenovo-icon-products.svg"); }
+.ic-refresh { --icon: url("assets/icons/lenovo-icon-refresh.svg"); }
+.ic-server { --icon: url("assets/icons/lenovo-icon-server.svg"); }
+.ic-server-options { --icon: url("assets/icons/lenovo-icon-server-options.svg"); }
+.ic-smart-performance { --icon: url("assets/icons/lenovo-icon-smart-performance.svg"); }
+.ic-smartphone { --icon: url("assets/icons/lenovo-icon-smartphone.svg"); }
+.ic-storage { --icon: url("assets/icons/lenovo-icon-storage.svg"); }
+.ic-thinkpad-laptop { --icon: url("assets/icons/lenovo-icon-thinkpad-laptop.svg"); }
+.ic-tower { --icon: url("assets/icons/lenovo-icon-tower.svg"); }
+.ic-weekly-deals { --icon: url("assets/icons/lenovo-icon-weekly-deals.svg"); }
+.ic-workstations { --icon: url("assets/icons/lenovo-icon-workstations.svg"); }
+
+/* ---------- buttons (cta-button) ---------- */
+.cta-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: var(--font-display); font-size: 16px; font-weight: 600; line-height: 22.4px;
+  color: #fff; background: var(--c-purple);
+  border: 2px solid transparent; border-radius: var(--radius-m);
+  padding: 7px 16px; white-space: nowrap; cursor: pointer;
+}
+.cta-btn--lg { line-height: 25.6px; padding: 5px 24px; } /* hero CTAs: 40px tall */
+.cta-btn--sm { font-size: 14px; }
+.cta-link {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: var(--font-display); font-size: 16px; font-weight: 600; line-height: 22.4px;
+  color: var(--c-ink); text-decoration: underline; text-decoration-color: var(--c-red); text-underline-offset: 4px;
+  white-space: nowrap;
+}
+.icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; margin: 10px 0;
+  background: #fff; border: 1px solid var(--c-line-soft); border-radius: var(--radius-m);
+  color: #000;
+}
+
+/* ==========================================================================
+   HEADER — nav.commonHeader
+   ========================================================================== */
+.site-header { width: 100%; overflow-x: clip; }
+.commonHeader { position: relative; z-index: 1005; display: flex; flex-direction: column; background: #fff; line-height: normal; }
+.commonHeader .flex { display: flex; }
+.commonHeader .relative { position: relative; }
+
+/* utility bar */
+.commonHeader .top_masthead { display: flex; justify-content: space-between; align-items: center; height: 38px; padding: 0 0 0 16px; background: var(--c-gray-bg); }
+.commonHeader .top_masthead_container { display: flex; justify-content: space-between; align-items: flex-start; width: 100%; max-width: 1920px; margin: auto; padding: 6px 6px 0 16px; height: 100%; }
+.commonHeader .header_right { display: flex; margin-inline-start: auto; }
+.commonHeader .utility_nav { display: flex; height: 100%; font-family: var(--font-ui); font-size: 14px; }
+.commonHeader .utility_nav_item { display: flex; align-items: flex-start; height: 32px; padding: 4px 7px 0 12px; line-height: 19.6px; cursor: pointer; }
+.commonHeader .utility_nav_item_store_icon { display: flex; align-items: baseline; }
+.commonHeader .utility_nav_item_store_icon a { font-weight: 400; line-height: 14px; }
+.commonHeader .utility_nav_item_store_icon p { font-family: var(--font-ui); line-height: normal; }
+.commonHeader .utility_nav_item_store_icon strong { font-weight: 700; }
+.commonHeader .store_arrow { display: inline-block; width: 26px; height: 26px; padding: 0 7px 0 6px; margin-top: -9px; font-size: 14px; line-height: 14px; text-align: center; }
+.commonHeader .icon-picker-container.font-16 { font-size: 16px; line-height: 16px; display: inline-block; height: 20px; }
+.commonHeader .icon-picker-container.font-24 { font-size: 22.8px; }
+.commonHeader .utility_nav_item_icon { display: flex; justify-content: space-between; }
+.commonHeader .accessibilityIcon { position: absolute; font-size: 12px; opacity: 0; }
+.commonHeader .popover, .commonHeader .category_dialog, .commonHeader .clear-icon { display: none; }
+
+/* logo / search / account row */
+.commonHeader .masthead.main_masthead { display: flex; justify-content: space-between; align-items: center; height: 67px; max-width: 1920px; width: 100%; margin: auto; padding: 19px 0 0 16px; background: #fff; }
+.commonHeader .header_left { position: relative; display: flex; justify-content: space-between; align-items: flex-end; }
+.commonHeader .header_left .logo { display: block; height: 40px; margin-inline-end: 45px; background: #fff; }
+.commonHeader .header_left .logo img { height: 100%; width: auto; min-width: 120px; }
+.commonHeader .header_skip_main { position: absolute; left: -128px; top: auto; width: 1px; height: 1px; overflow: hidden; z-index: -999; font-weight: 400; background: #fff; text-align: center; }
+.commonHeader .search-box { display: flex; flex: 1; width: 723px; max-width: 733px; margin: 0 auto; }
+.commonHeader .searchbox_container { display: flex; align-items: center; position: relative; width: 100%; font-family: var(--font-ui); }
+.commonHeader .search { position: relative; width: 100%; height: 48px; background: #fff; border: 2px solid var(--c-ink); border-radius: 12px; }
+.commonHeader .search_view { display: flex; justify-content: space-between; align-items: center; height: 100%; border-radius: 12px; }
+.commonHeader .category_container { display: flex; align-items: center; height: 100%; max-width: 103px; padding: 0 4px 0 12px; background: var(--c-gray-bg); border-radius: 10px 0 0 10px; }
+.commonHeader .category_selected { max-width: 60px; overflow: hidden; white-space: nowrap; line-height: normal; }
+.commonHeader .arrow_container { display: flex; justify-content: center; align-items: center; width: 24px; height: 24px; }
+.commonHeader .category_dialog { display: none; }
+.commonHeader .input-wrapper { position: relative; flex: 1; height: 22px; }
+.commonHeader .input-wrapper input { display: block; width: 100%; height: 22px; padding: 0 0 0 10px; border: 0; outline: 0; background: transparent; font-weight: 400; line-height: 24px; }
+.commonHeader .search-placeholder { position: absolute; left: 12px; top: 2px; line-height: 18px; letter-spacing: .16px; color: #7a7a7a; white-space: nowrap; pointer-events: none; }
+.commonHeader .search-placeholder .cursor { display: inline-block; width: 1px; height: 16px; margin: 1px 0 0 2px; vertical-align: top; background: var(--c-ink); }
+.commonHeader .input-wrapper input::placeholder { color: transparent; }
+.commonHeader .active_icon { display: none !important; }
+.commonHeader .searchIcon { width: 35px; height: 30px; margin-right: 1px; background: url("assets/icons/search.svg") center / 24px 24px no-repeat; }
+.commonHeader .second_utility_list .utility_nav_item { height: 48px; padding: 8px 16px 0; align-items: center; }
+.commonHeader .second_utility_list .utility_nav_item_icon { align-items: center; height: 40px; padding: 0 0 5px; border-bottom: 4px solid #fff; line-height: 14px; }
+.commonHeader .second_utility_list a.utility_nav_item_icon { min-width: 24px; font-weight: 400; }
+.commonHeader .utility-content { display: flex; }
+.commonHeader .account-label { line-height: 24px; white-space: nowrap; font-size: 14px; }
+.commonHeader .second_utility_list .icon-picker-container { line-height: 24px; margin: 0 16px 0 0; white-space: nowrap; }
+.commonHeader .second_utility_list a .icon-picker-container { margin: 0; line-height: 22.8px; }
+
+/* nav row */
+.commonHeader .nav_view { position: relative; z-index: 995; display: flex; justify-content: space-between; max-width: 1920px; width: 100%; margin: auto; height: 55px; padding: 16px 0 0 16px; background: #fff; }
+.commonHeader .sup_nav { display: flex; margin-right: 20px; }
+.commonHeader .sup_nav .nav_item { position: relative; margin-right: 24px; line-height: 22.4px; }
+.commonHeader .sup_nav .nav_item:last-child { margin-right: 0; }
+.commonHeader .sup_nav a { display: inline-block; }
+.commonHeader .nav_item_title { font-family: var(--font-ui); }
+.commonHeader .sup_nav .text { position: relative; display: flex; align-items: flex-start; line-height: 24px; color: var(--c-mauve); border-bottom: 4px solid #fff; }
+.commonHeader .sup_nav .text p { font-family: var(--font-ui); font-weight: 400; line-height: normal; }
+.commonHeader .sup_nav .nav_expand { display: none; }
+.commonHeader .segment_nav_wrapper { max-width: 40%; }
+.commonHeader .segment_nav_container { display: flex; justify-content: flex-end; margin: 0 16px 9px 0; }
+.commonHeader .segmentItem { display: flex; font: 400 16px/24px var(--font-ui); }
+.commonHeader .segmentItem a.segmentItemLink { display: block; padding: 0 10px; line-height: 24px; color: var(--c-ink); border-inline-end: 2px solid #dbdbdb; }
+.commonHeader .segmentItem:last-child a.segmentItemLink { border-inline-end: none; padding-right: 0; }
+.commonHeader .segmentItem .text { position: relative; }
+.commonHeader .accessibilityIconSegment { position: relative; width: 0; }
+.commonHeader .segmentArrowIcon { position: absolute; top: 5px; right: 0; font-size: 12px; line-height: 12px; opacity: 0; }
+.commonHeader .segmentArrowIcon:focus-visible { opacity: 1; }
+
+/* site variant (non-home templates): header sits BEFORE <main class="main_content">,
+   active top-nav item + 56px tier-2 row (.second_view) → 216px (home stays 160 + promo) */
+.commonHeader--site .sup_nav .sup_nav_active .text { font-weight: 700; color: var(--c-ink); }
+.commonHeader--site .second_view { display: flex; align-items: center; height: 56px; padding: 0 16px; background: var(--c-gray-bg); }
+.commonHeader--site .second_list_ul { display: flex; gap: 24px; }
+.commonHeader--site .second_list_item { position: relative; font: 400 14px/20px var(--font-ui); color: var(--c-mauve); white-space: nowrap; }
+.commonHeader--site .tierThreeArrowIcon { position: absolute; opacity: 0; width: 0; overflow: hidden; }
+/* body.tpl-site — non-home templates render chrome in Lato 400 (home: Noto Sans 500) */
+body.tpl-site { font-family: var(--font-ui); font-weight: 400; }
+body.tpl-site .commonFooter { line-height: normal; }
+body.tpl-site .commonFooter .pc_footer_nav h2 { font-family: var(--font-ui); letter-spacing: normal; }
+body.tpl-site .commonFooter .email_label a { text-decoration: underline; }
+body.tpl-site .commonFooter .email_style label { line-height: normal; }
+.commonHeader--site .sup_nav .sup_nav_active .text { color: #000; }
+.commonHeader--site .second_list_item, .commonHeader--site .second_list_item a { line-height: 24px; }
+.commonHeader--site .second_list_item a { display: inline-block; padding: 7px 0; }
+/* promo strip (merchandizing banner) */
+.merchandizingBanner { position: relative; display: flex; justify-content: center; align-items: center; height: 68px; overflow: hidden; background: var(--c-promo); }
+.merchandizingBanner .content { position: relative; display: flex; justify-content: center; align-items: center; width: 100%; max-width: 1424px; height: 100%; }
+@media (min-width: 1280px) and (max-width: 1919px) { .merchandizingBanner .content { max-width: calc(100% - 96px); } }
+@media (min-width: 768px) and (max-width: 1279px) { .merchandizingBanner .content { max-width: calc(100% - 64px); } }
+.merchandizingBanner .banner-carousel { position: relative; width: 100%; height: 100%; overflow: hidden; text-align: center; }
+.merchandizingBanner .slideBtn { position: absolute; top: 22px; z-index: 3; display: flex; justify-content: center; align-items: center; width: 24px; height: 24px; font-size: 16px; }
+.merchandizingBanner .preInfoBtn { left: 0; }
+.merchandizingBanner .nextInfoBtn { right: 0; }
+.merchandizingBanner .swiper-wrapper { display: flex; height: 100%; transition: transform .3s ease; }
+.merchandizingBanner .merchandizingItem { position: relative; flex: 0 0 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 9px 0; padding: 0 24px; overflow: hidden; line-height: 19px; }
+.merchandizingBanner .carsouelLink { position: absolute; inset: 0; z-index: 1; }
+.merchandizingBanner .filterText { position: relative; z-index: 2; padding: 0 24px; }
+.merchandizingBanner .filterText p { font-weight: 400; }
+.merchandizingBanner .filterText a { position: relative; z-index: 2; }
+.merchandizingBanner strong { font-weight: 700; }
+
+/* ==========================================================================
+   FOOTER — footer.commonFooter
+   ========================================================================== */
+.commonFooter { background: var(--c-gray-bg); color: #000; overflow-x: clip; }
+.commonFooter .common_footer { max-width: 1920px; margin: 0 auto; padding: 18px 145px 50px; background: var(--c-gray-bg); }
+.commonFooter .footer_header { display: flex; justify-content: space-between; align-items: flex-end; }
+.commonFooter .title_label { line-height: 23px; }
+.commonFooter .email_label { font-size: 14px; }
+.commonFooter .email_label a { color: inherit; }
+.commonFooter .select_view { display: flex; justify-content: space-between; align-items: center; width: 300px; height: 45px; background: #fff; border: 1px solid #bcbcbc; border-radius: 4px; }
+.commonFooter .email_view { padding: 0 18px 0 15px; }
+.commonFooter .email_style { position: relative; display: flex; align-items: center; flex: 1; height: 43px; }
+.commonFooter .email_style label { font-size: 12px; line-height: 18px; color: #555; overflow: hidden; white-space: nowrap; }
+.commonFooter .email_style input { position: absolute; left: 0; top: 12px; width: 100%; height: 28px; border: 0; background: transparent; outline: 0; font-size: 13.33px; }
+.commonFooter .toggle_mask_icon { width: 24px; height: 43px; padding: 0 4px; font-size: 16px; color: var(--c-ink); }
+.commonFooter .footer_email { flex: 0 0 572px; width: 572px; }
+.commonFooter .social_icon { position: relative; top: 5px; display: flex; justify-content: center; flex: 1 1 auto; }
+.commonFooter .social_icon li { margin: 0 7.5px 8px; font-size: 15.2px; line-height: 21.28px; }
+.commonFooter .social_icon a { position: relative; display: block; border-radius: 50%; }
+.commonFooter .social_icon img { width: 30px; height: 30px; }
+.commonFooter .select_country { position: relative; width: 300px; }
+.commonFooter .country_view { padding: 7px 22px 8px 8px; position: relative; }
+.commonFooter .country_view .flag { width: 30px; height: 28px; border-radius: 50%; margin-right: 8px; }
+.commonFooter .country_view .country_input { flex: 1; border: 0; outline: 0; background: transparent; font-weight: 400; color: #000; padding: 0; text-transform: uppercase; }
+.commonFooter .country_view .select_arrow { width: 14px; height: 8px; background: url("assets/icons/select-arrow.jpg") center / contain no-repeat; }
+.commonFooter .software_download { display: flex; justify-content: space-between; align-items: center; width: 240px; margin-top: 26px; height: 33px; }
+.commonFooter .software_download a { position: relative; top: -3px; display: block; }
+.commonFooter .software_download a:first-child { margin-right: 18px; }
+.commonFooter .software_download img { width: 109px; height: 33px; object-fit: cover; }
+.commonFooter .pc_footer_nav { display: flex; justify-content: space-between; margin: 32px 0 20px; }
+.commonFooter .pc_footer_nav > .item { flex: 1 1 0; min-width: 0; margin-right: 20px; }
+.commonFooter .pc_footer_nav > .item:last-child { margin-right: 0; }
+.commonFooter .pc_footer_nav h2 { font-family: var(--font-display); font-size: 16px; font-weight: 400; line-height: 19px; letter-spacing: -.4px; padding: 0 5px; margin: 0 0 10px; }
+.commonFooter .pc_footer_nav li { font-size: 12.8px; font-weight: 400; line-height: 19px; padding: 0 5px; margin: 0 0 10px; }
+.commonFooter .pc_footer_nav li a:hover, .commonFooter .as-link:hover { color: #294e95; }
+.commonFooter .pc_footer_nav li a { display: inline-block; padding: 0 5px; line-height: 22px; color: var(--c-footer-link); }
+.commonFooter .copyright { padding-top: 2px; font-size: 12px; line-height: 28px; text-align: center; }
+.commonFooter .copyright .link a { position: relative; display: inline-block; padding-right: 8px; margin-right: 5px; color: #333; }
+.commonFooter .copyright .link a:not(:last-child)::after { content: ""; position: absolute; right: 0; top: 8px; width: 1px; height: 11.75px; background: #333; }
+.commonFooter .copyright .link a:last-child { padding-right: 0; margin-right: 0; }
+.commonFooter .mobile-only, .commonFooter .footer_mask { display: none; }
+.commonFooter .as-link { display: inline-block; padding: 0; margin-left: 5px; line-height: 22px; color: var(--c-footer-link); cursor: pointer; }
+.modal[hidden], [hidden] { display: none !important; }
+
+/* ==========================================================================
+   Mobile (≤ 749) — header + footer. The live site renders the commonHeader
+   with its desktop stylesheet at phone widths (JS swaps a few nodes, see
+   canon.js); geometry below is lifted from the 360 computed census.
+   Footer @media lifted from files.20260916074311175338.css (960 / 683).
+   ========================================================================== */
+@media (max-width: 749px) {
+  .commonHeader .main_masthead .header_left .logo img { min-width: 120px; width: 120px; }
+  .commonHeader .search-box { width: auto; min-width: 341px; flex: 0 0 341px; margin: 0; }
+  .commonHeader .main_masthead > .header_right { flex: 0 0 auto; margin-left: 0; }
+  .commonHeader .main_masthead { justify-content: flex-start; }
+  .commonHeader .nav_view { height: auto; min-height: 188px; }
+  .commonHeader .nav_view > div:first-child { flex: 1 1 auto; min-width: 0; }
+  .commonHeader .sup_nav { margin-right: 20px; }
+  .commonHeader .sup_nav .nav_item { flex: 0 1 auto; min-width: 0; }
+  .commonHeader .sup_nav .nav_expand_item { flex: none; }
+  .commonHeader .sup_nav .text { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: anywhere; }
+  .commonHeader .sup_nav .text p { font-size: 12.8px; }
+  .commonHeader .expand-icon { display: inline-block; width: 24px; height: 24px; font-size: 16px; line-height: 16px; text-align: center; transform: rotate(90deg); }
+  .commonHeader .segment_nav_wrapper { flex: 0 0 auto; }
+  .commonHeader .segment_nav_container .segmentItem:not(.segment-toggle) { display: none; }
+  .merchandizingBanner { height: 74px; }
+  .merchandizingBanner .content { margin: 0; max-width: none; min-height: 66px; padding: 0 16px; width: calc(100% - 64px); }
+  .merchandizingBanner .banner-carousel { margin: 0 -16px; width: calc(100% + 32px); }
+  .merchandizingBanner .slideBtn { top: 25px; }
+  .merchandizingBanner .merchandizingItem { margin: 8px 0; padding: 0; font-size: 12px; line-height: 14px; }
+  .merchandizingBanner .filterText { padding: 0 32px; }
+  .merchandizingBanner .filterText p, .merchandizingBanner .filterText { font-size: 12.8px; line-height: 14px; }
+}
+/* site variant ≤749: nav row keeps one 68px line; items shrink to min-content and run off-canvas (live) */
+@media (max-width: 749px) {
+  .commonHeader--site .nav_view { min-height: 0; height: 68px; overflow: hidden; }
+  .commonHeader--site .sup_nav .nav_item { flex: none; width: min-content; }
+  .commonHeader--site .sup_nav .nav_expand_item { width: auto; }
+  .commonHeader--site .sup_nav .text { hyphens: manual; -webkit-hyphens: manual; overflow-wrap: normal; }
+  .commonHeader--site .sup_nav .text p { font-size: 16px; line-height: 24px; }
+  .commonHeader--site .second_view { overflow: hidden; }
+}
+@media screen and (max-width: 960px) {
+  .commonFooter .common_footer { padding: 18px 0 50px; }
+  .commonFooter .footer_email { flex: 0 0 300px; width: 300px; }
+  .commonFooter .footer_header { min-height: 68px; }
+  .commonFooter .social_icon.desktop-only { display: none; }
+  .commonFooter .social_icon.mobile-only { display: flex; justify-content: left; margin: 18px 0 0; top: 0; }
+  .commonFooter .social_icon.mobile-only li { margin: 0 7.5px 8px; }
+  .commonFooter .select_country { flex: 0 0 300px; }
+}
+@media (max-width: 683px), (max-height: 384px) {
+  .commonFooter .pc_footer_nav h2 { font-size: 14px; letter-spacing: -.35px; }
+  .commonFooter .pc_footer_nav > .item { flex: 0 1 calc((100% - 100px) / 5); margin-right: 0; }
+  .commonFooter .pc_footer_nav li { font-size: 10px; }
+  .commonFooter .pc_footer_nav h2, .commonFooter .pc_footer_nav li a, .commonFooter .pc_footer_nav .as-link { overflow-wrap: anywhere; }
+}

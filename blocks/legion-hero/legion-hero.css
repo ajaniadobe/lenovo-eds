@@ -1,0 +1,190 @@
+/* legion-hero — live section.legion-hero (legion-brand style.min.css) */
+.legion-hero {
+  position: relative;
+  height: 920px;
+  overflow: hidden;
+  background-color: #000;
+  font-family: var(--font-display);
+}
+
+.legion-hero .legion-hero-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.legion-hero .legion-hero-media :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.legion-hero .legion-hero-media img {
+  object-fit: cover;
+}
+
+.legion-hero .legion-hero-iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100%, 163.6vh, 1636px);
+  height: max(100%, 56.25vw);
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+}
+
+.legion-hero .legion-hero-iframe.is-ready {
+  opacity: 1;
+}
+
+/* live: .legion-bg-video-content::after — transparent → black, 90% */
+.legion-hero .legion-hero-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #0000 0, #000 100%);
+  opacity: 0.9;
+}
+
+.legion-hero .legion-hero-video-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.legion-hero .legion-hero-content {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 32px 5%;
+}
+
+.legion-hero .legion-hero-logo img {
+  width: 400px;
+}
+
+.legion-hero .legion-hero-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.legion-hero .legion-hero-actions {
+  margin-top: 41px;
+}
+
+.legion-hero a.legion-hero-cta:any-link {
+  display: inline-block;
+  padding: 17px 46px;
+  border: 1px solid #294e95;
+  border-radius: 4px;
+  background-color: #294e95;
+  color: #fff;
+  font: 600 16px/1em var(--font-display);
+  text-align: center;
+}
+
+.legion-hero a.legion-hero-cta:hover {
+  border-color: #294e95;
+  background-color: #e3f2f9;
+  color: #294e95;
+}
+
+.legion-hero .legion-hero-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 2;
+}
+
+.legion-hero .legion-hero-badge img {
+  width: 263px;
+  height: 35px;
+}
+
+.legion-hero .legion-hero-badge-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.legion-hero .legion-hero-toggle {
+  position: absolute;
+  right: 2%;
+  bottom: 8%;
+  z-index: 3;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #2a2a2a;
+}
+
+.legion-hero .legion-hero-toggle::before,
+.legion-hero .legion-hero-toggle::after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  width: 4px;
+  height: 14px;
+  background: #fff;
+}
+
+.legion-hero .legion-hero-toggle::before {
+  left: 18px;
+}
+
+.legion-hero .legion-hero-toggle::after {
+  left: 26px;
+}
+
+.legion-hero .legion-hero-toggle.paused::after {
+  display: none;
+}
+
+.legion-hero .legion-hero-toggle.paused::before {
+  left: 19px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 13px solid #fff;
+  background: none;
+}
+
+.legion-hero .legion-hero-toggle:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+@media (width <= 992px) {
+  .legion-hero .legion-hero-content {
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+  }
+
+  .legion-hero .legion-hero-logo img {
+    width: 300px;
+    margin: 24px 0;
+  }
+
+  /* live .legion-hero-cta .btn: 19.2px block margins (CTA top 769px into the hero) */
+  .legion-hero .legion-hero-actions {
+    margin: 0 0 19px;
+  }
+}

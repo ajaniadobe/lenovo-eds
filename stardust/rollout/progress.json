@@ -1,0 +1,314 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "campaign",
+        "listing",
+        "product"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-03T01:07:16Z",
+      "blocks": 2,
+      "endedAt": "2026-11-03T01:53:51.407Z",
+      "gates": {
+        "360": {
+          "headerCrop": "3.27% whole band; 1.88% above rotating promo strip (slide frame at capture)",
+          "footerCrop": "3.32% (prototype 3.22%, inherited)"
+        },
+        "1440": {
+          "headerCrop": "1.08%",
+          "footerCrop": "2.57% (prototype 2.51%, inherited)"
+        },
+        "crop": "header 1440 PASS, 360 PASS above strip (strip = rotation capture-state)",
+        "chrome": "chrome-parity header residuals: promo carousel offsets, store-label granularity, typed search placeholder frame; footer: icon file renames only; header-contract recording pending (explorer over deadline) — chrome-compare at C-final"
+      },
+      "verdict": "foundation: nav+footer live, header hover popovers + hover tier-2 + click category list, fonts 4, martech scaffolded disabled, lint ok, merch-banner in-header"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T01:55:00.585Z",
+      "endedAt": "2026-11-03T03:00:18.332572Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "pixel": "1.70%",
+          "dh": 2
+        },
+        "1440": {
+          "pixel": "1.62%",
+          "dh": 0
+        },
+        "clip": 0,
+        "missing": 0,
+        "crop": "header/footer inherited from frozen foundation (1.08/2.57 at 1440)"
+      },
+      "verdict": "landing-archetype: page live /, blocks 5 (home-hero, card-grid, prompt, rewards, stories) + merch-banner, gate 1440 1.62% Δh 0 / 360 1.70% Δh 2, clip 0, missing 0; 360 one advisory 🟡 (tab-selected state), rounds 2"
+    },
+    "archetype-campaign": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T02:07:01.730Z",
+      "blocks": 9,
+      "endedAt": "2026-11-03T02:53:22.085Z",
+      "gates": {
+        "360": {
+          "pixel": "7.42%",
+          "dh": -131,
+          "dhPct": "0.6%"
+        },
+        "1440": {
+          "pixel": "7.39%",
+          "dh": 1
+        },
+        "crop": "hdr 1.73/3.70 (1.78 above promo strip), ftr 2.51/3.31 (inherited foundation)",
+        "chrome": "n/a"
+      },
+      "verdict": "campaign-archetype: page live /us/en/ai-pcs, blocks 9, gate 1440 7.39% Δh 1 / 360 7.42% Δh −131, clip 0, missing 0, crop hdr/ftr 1.73%/2.51% (1440), 3.70%/3.31% (360), rounds 1, requests 0"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T02:57:09.213788Z",
+      "endedAt": "2026-11-03T03:31:40.849758Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": "2.93%",
+          "dh": 1,
+          "headerCrop": "3.92% (1.73% above strip)",
+          "footerCrop": "2.40%"
+        },
+        "1440": {
+          "pixel": "1.31%",
+          "dh": 2,
+          "headerCrop": "2.42% (2.08% above promo strip)",
+          "footerCrop": "2.71%"
+        },
+        "clip": 0,
+        "missing": 0
+      },
+      "verdict": "listing-archetype: page live /us/en/c/desktops/legion-desktops/legion-t-series-towers, blocks 3 (series-hero, series-blade, product-listing), gate 1440 1.31% Δh 2 / 360 2.93% Δh 1, clip 0, missing 0, rounds 0, requests 2"
+    },
+    "archetype-product": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "product"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T01:55:00.585Z",
+      "note": "session 5: 3 fix rounds spent; 1440 PASS 7.18%; 360 11.83% Δh −323 (round 3, 5bd9691, likely the narrower pdp-specs label column — revert it toward round-2 10.87%). Gate 360 needs --state stardust/.work/rollout/product/state-gate.json; origin 360 kept as 3-add-on capture (session-dependent Xbox add-on). Coverage status deployed, not verified. Re-prototype decision or one revert round, then siblings (encoder notes in report: pdp-hero slots, pinned 360 heights need re-measure).",
+      "blocks": 9,
+      "gates": {
+        "360": {
+          "pixel": "8.67%",
+          "dh": -271,
+          "note": "origin capture truncated in footer; true Δ ~0.6%",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "7.18%",
+          "dh": -13,
+          "verdict": "PASS"
+        },
+        "clip": 0,
+        "missing": 0,
+        "cropHeader360": "5.19% (foundation request)"
+      },
+      "endedAt": "2026-11-03T06:09:31.966Z",
+      "verdict": "product-archetype: live, 1440 7.18%/360 8.67%, clip 0, missing 0, rounds 4, requests 1 (commits 43544be,1ce9f17)",
+      "siblingNotes": "pdp-hero slots vary (breadcrumb,gallery,badge,flag,title,rating,price,financing,rewards,specs,offers,addons); 17 blade rows; pdp-specs groups; pdp-ports; pdp-similar; pdp-reviews; per-page pinned 360 heights (.katapult,.loyalty,.rv-sum,.rv-filter,.rv-avg,.pdp-merch, specs margin) need re-measure"
+    },
+    "cluster-campaign": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-03T03:02:08.456983Z",
+      "note": "in flight at session 4 end: content/us/en/education/futureyou.html started (checkpointed WIP); legion not yet; scratch stardust/.work/rollout/campaign-cluster/ — resume per stardust/rollout/briefs/cluster-unit.md",
+      "endedAt": "2026-11-03T05:31:06.546Z",
+      "blocks": 15,
+      "gates": {
+        "futureyou": {
+          "360": {
+            "pixel": "6.19%",
+            "dh": 17
+          },
+          "1440": {
+            "pixel": "6.06%",
+            "dh": 16
+          },
+          "clip": "3 at 360 (origin parity, allowance)",
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "legion": {
+          "360": {
+            "pixel": "11.06%",
+            "dh": -44,
+            "clip": 1,
+            "missing": 0,
+            "verdict": "FAIL"
+          },
+          "1440": {
+            "pixel": "8.36%",
+            "dh": -38,
+            "verdict": "PASS"
+          },
+          "verdict": "RESIDUAL after fix pass (session 6, rounds 1-4: eba6b9e..00df558); 360 remaining: accessories/monitors rows +23px each (box row Montserrat + smaller gap so label wraps 2 lines); clip 1 matched on live but unidentified"
+        }
+      },
+      "verdict": "campaign-cluster: pages 2/2 live, blocks 15 (new 13), futureyou PASS 6.06%/6.19%; legion FAIL 23.67%/16.87% after 3 rounds (residual, re-visit at gate-all: revert round-3 price offset), requests 1"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-03T03:38:18.118Z",
+      "blocks": 7,
+      "gates": {
+        "yoga": {
+          "360": {
+            "pixel": "6.15%",
+            "dh": -39
+          },
+          "1440": {
+            "pixel": "3.12%",
+            "dh": -68
+          },
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        },
+        "gaming": {
+          "360": {
+            "pixel": "6.44%",
+            "dh": -51
+          },
+          "1440": {
+            "pixel": "8.77%",
+            "dh": 42
+          },
+          "clip": 0,
+          "missing": 0,
+          "verdict": "PASS"
+        }
+      },
+      "note": "session 6 finished; residual: 360 card height pinned 210px avg (live 195-219); gaming crop footer 2.51/3.22 = shared footer residual, header 360 3.91% likely promo strip",
+      "endedAt": "2026-11-03T06:17:09.335Z",
+      "verdict": "listing-cluster: pages 2/2 live, blocks 7 (new 4), worst 1440 8.77% / 360 6.44%, clip 0, missing 0, rounds 3, requests 0 (e356452,f626770)"
+    },
+    "cluster-product": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "product"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-03T06:15:00Z",
+      "note": "session 6: both siblings encoded+deployed (73f1803 new blocks pdp-models, pdp-accessories, subseries/light variants), round 1 fix 6236055 (content presence, reviews, similar/ports variants). Agent stopped for budget mid round 2 (uncommitted reviews-extractor work may sit in the tree under blocks/pdp-reviews or scratch stardust/.work/rollout/product-cluster/). Next: check git status, re-gate both PDPs both widths (bg log pc-regate), fix, verify coverage.",
+      "gates": {
+        "tower": {
+          "360": {
+            "pixel": "10.45%",
+            "dh": 48,
+            "clip": 0,
+            "missing": 1
+          },
+          "1440": {
+            "pixel": "16.71%",
+            "dh": -126,
+            "clip": 0,
+            "missing": 1
+          },
+          "verdict": "FAIL"
+        },
+        "yoga7x": {
+          "360": {
+            "pixel": "11.77%",
+            "dh": 238,
+            "clip": 0,
+            "missing": 1
+          },
+          "1440": {
+            "pixel": "10.85%",
+            "dh": -117,
+            "clip": 1,
+            "missing": 0
+          },
+          "verdict": "FAIL"
+        },
+        "rounds": 3
+      },
+      "endedAt": "2026-11-03T09:22:25.249Z",
+      "blocks": 11,
+      "verdict": "product-cluster: pages 2/2 live, blocks 11 (new 0), gate 1440 16.71% / 360 11.77% (worst), clip 1, missing 3, rounds 3 — RESIDUAL at round cap (yoga 10.85/11.77, tower 16.71/10.45); revisit at gate-all"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 10,
+      "startedAt": "2026-11-03T09:22:00Z",
+      "endedAt": "2026-11-03T10:15:05.973Z",
+      "gates": {
+        "360": {
+          "pass": 7,
+          "fail": 3,
+          "summary": "stardust/replica/gates/all-360/summary.json"
+        },
+        "1440": {
+          "pass": 8,
+          "fail": 2,
+          "summary": "stardust/replica/gates/all-1440/summary.json"
+        }
+      },
+      "verdict": "roster 10 pages, preview origin, captures reused: 7/10 PASS both widths; FAIL tower5i 16.71/10.45 (missing 1), yoga7x 10.85/11.77 (clip 1 @1440, missing 1 @360), legion 360 11.06 (clip 1)"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 10,
+      "startedAt": "2026-11-03T10:16:25.007Z",
+      "endedAt": "2026-11-03T13:56:17.356Z",
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "pass": 9,
+          "override": 1,
+          "delivered": 10,
+          "pixelOnlyPass": 10
+        },
+        "1440": {
+          "pass": 9,
+          "override": 1,
+          "delivered": 10,
+          "pixelOnlyPass": 10
+        }
+      },
+      "verdict": "final: requests R1 applied, R3 applied, R4 partial, R2 residual; legion 360 8.63%, yoga 5.8%/9.67%, tower 8.2%/8.48%; roster 10/10 delivered both widths (gaming-accessories source-drift override: live SEO copy changed after capture)"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+#0 component-root merch-banner ofp-merch-banner [0,21354,1440,103]
+  T span. [556,21407,234,27] 20/24/700/rgb(255,255,255) «Warnings & Disclosures»
+  IMG  [816,21378,44,50] https://p1-ofp.static.pub/ShareResource/na/icons/environment-and-sustainability/medium/lenovo-pfas-pure-light.svg alt=""
+#0 container ports_slots_container [96,21505,1248,1201]
+  T p.headline [112,21557,1216,42] 36/42/700/rgb(255,255,255) «Ports & Slots»
+  IMG no-headline [112,21639,1216,734] //p1-ofp.static.pub//fes/cms/2025/04/02/cf1jodmu4mntpgokp7zojxkzf27syl185442.jpg alt="Illustrates Legion Pro 5i Gen 10’s full suite of side ports for high-speed conne"
+  T span.num [112,22419,24,24] 14/17/700/rgba(255,255,255,0.8) «1»
+  T div.text [152,22422,548,17] 14/17/700/rgba(255,255,255,0.8) «Headphone / mic combo»
+  T span.num [112,22467,24,24] 14/17/700/rgba(255,255,255,0.8) «2»
+  T div.text [152,22470,548,17] 14/17/700/rgba(255,255,255,0.8) «USB-A (5Gb/s transfer rate)»
+  T span.num [112,22515,24,24] 14/17/700/rgba(255,255,255,0.8) «3»
+  T div.text [152,22518,548,17] 14/17/700/rgba(255,255,255,0.8) «USB-A (5Gb/s transfer rate)»
+  T span.num [112,22563,24,24] 14/17/700/rgba(255,255,255,0.8) «4»
+  T div.text [152,22566,548,17] 14/17/700/rgba(255,255,255,0.8) «Electronic eShutter Switch»
+  T span.num [112,22611,24,24] 14/17/700/rgba(255,255,255,0.8) «5»
+  T div.text [152,22614,548,17] 14/17/700/rgba(255,255,255,0.8) «RJ45 (Ethernet)»
+  T span.num [720,22419,24,24] 14/17/700/rgba(255,255,255,0.8) «6»
+  T div.text [760,22422,548,17] 14/17/700/rgba(255,255,255,0.8) «Power in»
+  T span.num [720,22467,24,24] 14/17/700/rgba(255,255,255,0.8) «7»
+  T div.text [760,22470,548,17] 14/17/700/rgba(255,255,255,0.8) «HDMI® 2.1»
+  T span.num [720,22515,24,24] 14/17/700/rgba(255,255,255,0.8) «8»
+  T div.text [760,22518,548,17] 14/17/700/rgba(255,255,255,0.8) «Thunderbolt™ 4 (40Gb/s, DP 2.1 40Gbps)»
+  T span.num [720,22563,24,24] 14/17/700/rgba(255,255,255,0.8) «9»
+  T div.text [760,22566,548,17] 14/17/700/rgba(255,255,255,0.8) «USB-C with PD (140W)»
+  T span.num [720,22611,24,24] 14/17/700/rgba(255,255,255,0.8) «10»
+  T div.text [760,22614,548,17] 14/17/700/rgba(255,255,255,0.8) «USB-A (10Gb/s, 5V2A)»
+#0 container similar_products_container similar_product_pdp [80,22851,1280,1386]
+  T p.pre-headline [96,22899,1248,22] 20/22/700/rgb(0,255,255) «Find the Perfect Fit»
+  T p.headline [96,22925,1248,42] 36/42/700/rgb(255,255,255) «Compare Similar Products»
+  T p.sub-headline [96,22979,1248,22] 18/22/400/rgba(255,255,255,0.8) «What specs do you want to compare?»
+  T button.chip [338,23017,104,35] 13/15/700/rgb(0,255,255)/rgb(0,0,0) «Processor»
+  T button.chip [454,23017,158,35] 13/15/700/rgb(0,255,255)/rgb(0,0,0) «Operating System»
+  T button.chip [624,23017,125,35] 13/15/700/rgb(0,255,255)/rgb(0,0,0) «Graphic Card»
+  T button.chip [760,23017,95,35] 13/15/700/rgb(0,255,255)/rgb(0,0,0) «Memory»
+  T button.chip [867,23019,71,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Storage»
+  T button.chip [951,23019,69,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Display»
+  T button.chip [1031,23019,71,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Camera»
+  T button.chip [363,23064,70,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Battery»
+  T button.chip [444,23064,194,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «AC Adapter / Power Supply»
+  T button.chip [650,23064,82,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Keyboard»
+  T button.chip [744,23064,51,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «WIFI»
+  T button.chip [807,23064,82,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Warranty»
+  T button.chip [901,23064,55,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Color»
+  T button.chip [969,23064,109,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Weight in Lbs»
+  T button.chip [637,23106,55,30] 13/15/700/rgb(255,255,255)/rgb(71,77,81) «Ports»
+  T button.select-all [704,23113,99,15] 13/15/700/rgb(0,255,255) «Select All Specs»
+  T span. [128,23192,148,17] 14/17/700/rgb(255,255,255) «CURRENTLY VIEWING»
+  T a.noline [97,23240,232,66] 18/22/700/rgb(255,255,255) «Legion Pro 5i Gen 10 Intel (16") with RTX 5070» href=javascript:;
+  T div.bv_text [202,23321,20,19] 14/19/400/rgb(255,255,255) «4.5»
+  T div.bv_text [227,23321,32,19] 14/19/400/rgb(255,255,255) «(573)»
+  IMG  [150,23360,125,125] https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png alt="null"
+  T div.final-price [113,23532,200,32] 26/32/400/rgb(255,255,255) «$2,299.99»
+  T p.title [97,23580,232,36] 16/19/700/rgb(255,255,255) «Processor»
+  T p.desc [97,23616,232,106] 14/18/400/rgb(255,255,255) «Intel® Core™ Ultra 7 251HX Processor (E-cores up to 4.50 GHz P-cores up to 5.10 GHz)»
+  T p.title [97,23722,232,36] 16/19/700/rgb(255,255,255) «Operating System»
+  T p.desc [97,23758,232,34] 14/18/400/rgb(255,255,255) «Windows 11 Home 64»
+  T p.title [97,23792,232,36] 16/19/700/rgb(255,255,255) «Graphic Card»
+  T p.desc [97,23828,232,70] 14/18/400/rgb(255,255,255) «NVIDIA® GeForce RTX™ 5070 Laptop GPU 12GB GDDR7»
+  T p.title [97,23898,232,36] 16/19/700/rgb(255,255,255) «Memory»
+  T p.desc [97,23934,232,52] 14/18/400/rgb(255,255,255) «32 GB DDR5-5600MT/s (SODIMM)(2 x 16 GB)»
+  T span.compare-text [142,24052,55,20] 13/20/400/rgb(255,255,255) «Compare»
+  T span. [398,23183,122,36] 14/17/900/rgb(255,255,255) «CUSTOM BUILD | Upgrade memory»
+  T a.noline [347,23240,232,66] 18/22/700/rgb(255,255,255) «Legion Pro 5i Gen 10 Intel (16") with RTX 5070 Ti» href=/us/en/p/83LUCTO1WWUS2
+  T div.bv_text [468,23321,20,19] 14/19/400/rgb(255,255,255) «4.5»
+  T div.bv_text [492,23321,32,19] 14/19/400/rgb(255,255,255) «(573)»
+  IMG  [408,23360,125,125] https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png alt="null"
+  T div.final-price [379,23532,184,32] 26/32/400/rgb(255,255,255) «$2,527.20»
+  T p.title [347,23580,232,36] 16/19/700/rgb(255,255,255) «Processor»
+  T p.desc [347,23616,232,106] 14/18/400/rgb(255,255,255) «Intel® Core™ Ultra 9 275HX Processor (E-cores up to 4.60 GHz P-cores up to 5.40 GHz)»
+  T p.title [347,23722,232,36] 16/19/700/rgb(255,255,255) «Operating System»
+  T p.desc [347,23758,232,34] 14/18/400/rgb(255,255,255) «Windows 11 Home 64»
+  T p.title [347,23792,232,36] 16/19/700/rgb(255,255,255) «Graphic Card»
+  T p.desc [347,23828,232,70] 14/18/400/rgb(255,255,255) «NVIDIA® GeForce RTX™ 5070 Ti Laptop GPU 12GB GDDR7»
+  T p.title [347,23898,232,36] 16/19/700/rgb(255,255,255) «Memory»
+  T p.desc [347,23934,232,52] 14/18/400/rgb(255,255,255) «16 GB DDR5-6400MT/s (CSODIMM)»
+  T a.noline [379,23986,130,46] 16/16/700/rgb(22,25,30)/rgb(255,255,255) «Shop Now» href=/us/en/p/83LUCTO1WWUS2
+  T span.compare-text [408,24052,55,20] 13/20/400/rgb(255,255,255) «Compare»
+  T a.noline [596,23240,232,66] 18/22/700/rgb(255,255,255) «Legion Pro 5i Gen 10 Intel (16") with RTX 5070 Ti» href=/us/en/p/83LU0007US
+  T div.bv_text [717,23321,20,19] 14/19/400/rgb(255,255,255) «4.5»
+  T div.bv_text [742,23321,32,19] 14/19/400/rgb(255,255,255) «(573)»
+  IMG  [658,23360,125,125] https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png alt="null"
+  T div.final-price [628,23532,184,32] 26/32/400/rgb(255,255,255) «$2,599.99»
+  T p.title [596,23580,232,36] 16/19/700/rgb(255,255,255) «Processor»
+  T p.desc [596,23616,232,106] 14/18/400/rgb(255,255,255) «Intel® Core™ Ultra 9 275HX Processor (E-cores up to 4.60 GHz P-cores up to 5.40 GHz)»
+  T p.title [596,23722,232,36] 16/19/700/rgb(255,255,255) «Operating System»
+  T p.desc [596,23758,232,34] 14/18/400/rgb(255,255,255) «Windows 11 Home 64»
+  T p.title [596,23792,232,36] 16/19/700/rgb(255,255,255) «Graphic Card»
+  T p.desc [596,23828,232,70] 14/18/400/rgb(255,255,255) «NVIDIA® GeForce RTX™ 5070 Ti Laptop GPU 12GB GDDR7»
+  T p.title [596,23898,232,36] 16/19/700/rgb(255,255,255) «Memory»
+  T p.desc [596,23934,232,52] 14/18/400/rgb(255,255,255) «32 GB DDR5-5600MT/s (SODIMM)(2 x 16 GB)»
+  T a.noline [628,23986,130,46] 16/16/700/rgb(22,25,30)/rgb(255,255,255) «Shop Now» href=/us/en/p/83LU0007US
+  T span.compare-text [657,24052,55,20] 13/20/400/rgb(255,255,255) «Compare»
+  T a.noline [846,23240,232,66] 18/22/700/rgb(255,255,255) «Legion Pro 5i Gen 10 Intel (16") with RTX 5060» href=/us/en/p/83NN0039US
+  T div.bv_text [967,23321,20,19] 14/19/400/rgb(255,255,255) «4.5»
+  T div.bv_text [992,23321,32,19] 14/19/400/rgb(255,255,255) «(573)»
+  IMG  [907,23360,125,125] https://p1-ofp.static.pub//fes/cms/2026/06/19/9pjj5j1vusktx06wrkex1579jvjh6y910022.png alt="null"
+  T div.final-price [878,23532,184,32] 26/32/400/rgb(255,255,255) «$1,649.99»
+  T p.title [846,23580,232,36] 16/19/700/rgb(255,255,255) «Processor»
+  T p.desc [846,23616,232,106] 14/18/400/rgb(255,255,255) «14th Generation Intel® Core™ i7-14650HX Processor (E-cores up to 3.70 GHz P-cores up to 5.20 GHz)»
+  T p.title [846,23722,232,36] 16/19/700/rgb(255,255,255) «Operating System»
+  T p.desc [846,23758,232,34] 14/18/400/rgb(255,255,255) «Windows 11 Home 64»
+  T p.title [846,23792,232,36] 16/19/700/rgb(255,255,255) «Graphic Card»
+  T p.desc [846,23828,232,70] 14/18/400/rgb(255,255,255) «NVIDIA® GeForce RTX™ 5060 Laptop GPU 8GB GDDR7»
+  T p.title [846,23898,232,36] 16/19/700/rgb(255,255,255) «Memory»
+  T p.desc [846,23934,232,52] 14/18/400/rgb(255,255,255) «16 GB DDR5-5600MT/s (SODIMM)»
+  T a.noline [878,23986,130,46] 16/16/700/rgb(22,25,30)/rgb(255,255,255) «Shop Now» href=/us/en/p/83NN0039US
+  T span.compare-text [907,24052,55,20] 13/20/400/rgb(255,255,255) «Compare»
+  T div.similar-compare-text [1122,23343,178,22] 18/22/700/rgb(0,255,255) «Add Similar Product»
+  T a.noline [633,24145,174,44] 16/16/700/rgb(255,255,255)/rgb(0,0,0) «Explore All Laptops» href=/us/en/laptops/

@@ -1,0 +1,2604 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-02T23:17:50.058Z",
+    "urls": [
+      "https://www.lenovo.com/us/en/ai-pcs/",
+      "http://localhost:8791/us-en-ai-pcs-proposed.html"
+    ],
+    "widths": [
+      1440
+    ],
+    "selectors": [
+      "main.main_content",
+      ".heroTextContent",
+      ".layout-title",
+      ".horizontal-default-pc",
+      ".horizontal-default-content__subtitle",
+      ".commonTextOne",
+      ".vertical-default-pc",
+      ".ai-cards .description",
+      ".ctaButton_link",
+      ".ctaButton_btn",
+      ".pilar_blade",
+      ".overlay_card",
+      ".overlay_description",
+      ".infoList",
+      ".less",
+      ".readMore",
+      ".x-cms-ai-ofp-fe-2c-accordion",
+      ".x-cms-ai-ofp-fe-2c-accordion__tab-label",
+      "footer.commonFooter"
+    ],
+    "props": [
+      "fontSize",
+      "lineHeight",
+      "padding",
+      "margin"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440
+  ],
+  "selectors": [
+    "main.main_content",
+    ".heroTextContent",
+    ".layout-title",
+    ".horizontal-default-pc",
+    ".horizontal-default-content__subtitle",
+    ".commonTextOne",
+    ".vertical-default-pc",
+    ".ai-cards .description",
+    ".ctaButton_link",
+    ".ctaButton_btn",
+    ".pilar_blade",
+    ".overlay_card",
+    ".overlay_description",
+    ".infoList",
+    ".less",
+    ".readMore",
+    ".x-cms-ai-ofp-fe-2c-accordion",
+    ".x-cms-ai-ofp-fe-2c-accordion__tab-label",
+    "footer.commonFooter"
+  ],
+  "root": {
+    "https://www.lenovo.com/us/en/ai-pcs/": {
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 8624,
+        "overflowX": 0
+      }
+    },
+    "http://localhost:8791/us-en-ai-pcs-proposed.html": {
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 8653,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.lenovo.com/us/en/ai-pcs/": {
+      "1440": {
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 7355
+            },
+            "visible": true,
+            "text": "Add To Cart Home > Explore AI PCs Work …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".heroTextContent": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 423,
+              "w": 504,
+              "h": 323
+            },
+            "visible": true,
+            "text": "Work Smarter with Lenovo AI PCs Learn h…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px 0px 0px 50px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".layout-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 120,
+              "y": 944,
+              "w": 1200,
+              "h": 182
+            },
+            "visible": true,
+            "text": "Smarter AI for You Lenovo AI PCs stream…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px 0px 40px",
+              "margin": "0px 120px"
+            }
+          }
+        ],
+        ".horizontal-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 1681,
+              "w": 1360,
+              "h": 375
+            },
+            "visible": true,
+            "text": "Greater personalization Harness AI capa…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 2136,
+              "w": 1360,
+              "h": 386
+            },
+            "visible": true,
+            "text": "Enhanced productivity Knock out more ta…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 2602,
+              "w": 1360,
+              "h": 386
+            },
+            "visible": true,
+            "text": "Bolstered protection Be in command of y…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3068,
+              "w": 1360,
+              "h": 434
+            },
+            "visible": true,
+            "text": "From a partner you know Your AI journey…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 5393,
+              "w": 1360,
+              "h": 380
+            },
+            "visible": true,
+            "text": "Discover the power of AI with Copilot+ …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".horizontal-default-content__subtitle": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 80,
+              "y": 1786,
+              "w": 640,
+              "h": 132
+            },
+            "visible": true,
+            "text": "Harness AI capabilities to streamline w…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px 0px 16px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 720,
+              "y": 2241,
+              "w": 640,
+              "h": 99
+            },
+            "visible": true,
+            "text": "Knock out more tasks throughout the wor…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px 0px 16px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 80,
+              "y": 2707,
+              "w": 640,
+              "h": 99
+            },
+            "visible": true,
+            "text": "Be in command of your data. Mount a dig…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px 0px 16px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 720,
+              "y": 3173,
+              "w": 640,
+              "h": 99
+            },
+            "visible": true,
+            "text": "Your AI journey is just that — yours. A…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px 0px 16px"
+            }
+          }
+        ],
+        ".commonTextOne": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 3582,
+              "w": 1360,
+              "h": 113
+            },
+            "visible": true,
+            "text": "Explore how Lenovo AI PCs can help you …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".vertical-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 120,
+              "y": 1126,
+              "w": 1200,
+              "h": 455
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3775,
+              "w": 672,
+              "h": 712
+            },
+            "visible": true,
+            "text": "AI PCs for business With the most compr…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 3775,
+              "w": 672,
+              "h": 724
+            },
+            "visible": true,
+            "text": "AI PCs for creators Inspired by you and…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 4579,
+              "w": 672,
+              "h": 734
+            },
+            "visible": true,
+            "text": "AI-powered PCs for gamers Embrace the d…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 4579,
+              "w": 672,
+              "h": 734
+            },
+            "visible": true,
+            "text": "AI PCs for students Lenovo enables stud…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".ai-cards .description": [],
+        ".ctaButton_link": [
+          {
+            "index": 0,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 4383,
+              "w": 313,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Empower people with Lenovo’s AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 4425,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 4395,
+              "w": 284,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Innovate with Lenovo Yoga AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 4437,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 5209,
+              "w": 226,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Lead your squad to victory >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 5251,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 5209,
+              "w": 255,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Experience next-level learning >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 5251,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          }
+        ],
+        ".ctaButton_btn": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 720,
+              "y": 5683,
+              "w": 213,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Discover Copilot+ PCs",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "13px 24px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".pilar_blade": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5813,
+              "w": 1440,
+              "h": 442
+            },
+            "visible": true,
+            "text": "Transformational support with Premier S…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".overlay_card": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 48,
+              "y": 5796,
+              "w": 740,
+              "h": 476
+            },
+            "visible": true,
+            "text": "Transformational support with Premier S…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "48px",
+              "margin": "-17px 48px"
+            }
+          }
+        ],
+        ".overlay_description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 96,
+              "y": 5940,
+              "w": 644,
+              "h": 220
+            },
+            "visible": true,
+            "text": "Support designed to join you on your AI…",
+            "props": {
+              "fontSize": "18px",
+              "lineHeight": "22px",
+              "padding": "0px",
+              "margin": "8px 0px 0px"
+            }
+          }
+        ],
+        ".infoList": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 6299,
+              "w": 1440,
+              "h": 177
+            },
+            "visible": true,
+            "text": "Lenovo AI PCs: Smarter Computing Across…",
+            "props": {
+              "fontSize": "12px",
+              "lineHeight": "normal",
+              "padding": "0px 145px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".less": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 145,
+              "y": 6356,
+              "w": 1150,
+              "h": 80
+            },
+            "visible": true,
+            "text": "Artificial intelligence (AI) is already…",
+            "props": {
+              "fontSize": "12px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".readMore": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 145,
+              "y": 6436,
+              "w": 98,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Read More",
+            "props": {
+              "fontSize": "14px",
+              "lineHeight": "17px",
+              "padding": "0px",
+              "margin": "0px 10px 0px 0px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 128,
+              "y": 6497,
+              "w": 1184,
+              "h": 1142
+            },
+            "visible": true,
+            "text": "Which features should I look for in an …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "48px 0px",
+              "margin": "0px 128px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__tab-label": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6545,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Which features should I look for in an …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6602,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "How does AI support daily tasks and app…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6659,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Can an AI computer run AI features with…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6716,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "What Lenovo AI PCs are commonly used fo…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6773,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Is an AI-powered PC suitable for long w…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6830,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Does an AI PC desktop support multitask…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6887,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Can Lenovo AI PCs support Copilot+ PC e…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6944,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "What do I consider when choosing the PC…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7001,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Is an AI desktop PC suitable for develo…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7058,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "What factors influence the AI PC price …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7115,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Does Lenovo provide AI desktop PCs for …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7172,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Are Lenovo AI laptops available for use…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7639,
+              "w": 1440,
+              "h": 985
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ]
+      }
+    },
+    "http://localhost:8791/us-en-ai-pcs-proposed.html": {
+      "1440": {
+        "main.main_content": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 284,
+              "w": 1440,
+              "h": 7386
+            },
+            "visible": true,
+            "text": "Home > Explore AI PCs Work Smarter with…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".heroTextContent": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 423,
+              "w": 504,
+              "h": 323
+            },
+            "visible": true,
+            "text": "Work Smarter with Lenovo AI PCs Learn h…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px 0px 0px 50px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".layout-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 120,
+              "y": 944,
+              "w": 1200,
+              "h": 182
+            },
+            "visible": true,
+            "text": "Smarter AI for You Lenovo AI PCs stream…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px 0px 40px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".horizontal-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 1681,
+              "w": 1360,
+              "h": 375
+            },
+            "visible": true,
+            "text": "Greater personalization Harness AI capa…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 2136,
+              "w": 1360,
+              "h": 386
+            },
+            "visible": true,
+            "text": "Enhanced productivity Knock out more ta…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 2602,
+              "w": 1360,
+              "h": 386
+            },
+            "visible": true,
+            "text": "Bolstered protection Be in command of y…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3068,
+              "w": 1360,
+              "h": 474
+            },
+            "visible": true,
+            "text": "From a partner you know Your AI journey…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 5418,
+              "w": 1360,
+              "h": 386
+            },
+            "visible": true,
+            "text": "Discover the power of AI with Copilot+ …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".horizontal-default-content__subtitle": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 80,
+              "y": 1786,
+              "w": 640,
+              "h": 132
+            },
+            "visible": true,
+            "text": "Harness AI capabilities to streamline w…",
+            "props": {
+              "fontSize": "24px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "16px 0px 0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 720,
+              "y": 2241,
+              "w": 640,
+              "h": 99
+            },
+            "visible": true,
+            "text": "Knock out more tasks throughout the wor…",
+            "props": {
+              "fontSize": "24px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "16px 0px 0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 80,
+              "y": 2707,
+              "w": 640,
+              "h": 99
+            },
+            "visible": true,
+            "text": "Be in command of your data. Mount a dig…",
+            "props": {
+              "fontSize": "24px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "16px 0px 0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 720,
+              "y": 3173,
+              "w": 640,
+              "h": 99
+            },
+            "visible": true,
+            "text": "Your AI journey is just that — yours. A…",
+            "props": {
+              "fontSize": "24px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "16px 0px 0px"
+            }
+          }
+        ],
+        ".commonTextOne": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 40,
+              "y": 3622,
+              "w": 1360,
+              "h": 98
+            },
+            "visible": true,
+            "text": "Explore how Lenovo AI PCs can help you …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".vertical-default-pc": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 120,
+              "y": 1126,
+              "w": 1200,
+              "h": 455
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 3800,
+              "w": 672,
+              "h": 712
+            },
+            "visible": true,
+            "text": "AI PCs for business With the most compr…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 3800,
+              "w": 672,
+              "h": 724
+            },
+            "visible": true,
+            "text": "AI PCs for creators Inspired by you and…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 40,
+              "y": 4604,
+              "w": 672,
+              "h": 734
+            },
+            "visible": true,
+            "text": "AI-powered PCs for gamers Embrace the d…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 728,
+              "y": 4604,
+              "w": 672,
+              "h": 734
+            },
+            "visible": true,
+            "text": "AI PCs for students Lenovo enables stud…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".ai-cards .description": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 80,
+              "y": 4272,
+              "w": 592,
+              "h": 110
+            },
+            "visible": true,
+            "text": "With the most comprehensive AI portfoli…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "22px",
+              "padding": "0px",
+              "margin": "16px 0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 4,
+            "rect": {
+              "x": 768,
+              "y": 4272,
+              "w": 592,
+              "h": 132
+            },
+            "visible": true,
+            "text": "Inspired by you and designed to maximiz…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "22px",
+              "padding": "0px",
+              "margin": "16px 0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 4,
+            "rect": {
+              "x": 80,
+              "y": 5076,
+              "w": 592,
+              "h": 132
+            },
+            "visible": true,
+            "text": "Embrace the dawn of a new computing era…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "22px",
+              "padding": "0px",
+              "margin": "16px 0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 4,
+            "rect": {
+              "x": 768,
+              "y": 5076,
+              "w": 592,
+              "h": 132
+            },
+            "visible": true,
+            "text": "Lenovo enables students with Smarter AI…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "22px",
+              "padding": "0px",
+              "margin": "16px 0px"
+            }
+          }
+        ],
+        ".ctaButton_link": [
+          {
+            "index": 0,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 4408,
+              "w": 313,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Empower people with Lenovo’s AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 4450,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 4420,
+              "w": 284,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Innovate with Lenovo Yoga AI PCs >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 4462,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 5234,
+              "w": 226,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Lead your squad to victory >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 8,
+            "rect": {
+              "x": 80,
+              "y": 5276,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 5234,
+              "w": 255,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Experience next-level learning >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 8,
+            "rect": {
+              "x": 768,
+              "y": 5276,
+              "w": 93,
+              "h": 22
+            },
+            "visible": true,
+            "text": "Shop Now >",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "10px 0px 0px"
+            }
+          }
+        ],
+        ".ctaButton_btn": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 720,
+              "y": 5714,
+              "w": 213,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Discover Copilot+ PCs",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "22px",
+              "padding": "13px 24px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".pilar_blade": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5827,
+              "w": 1440,
+              "h": 476
+            },
+            "visible": true,
+            "text": "Transformational support with Premier S…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".overlay_card": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 48,
+              "y": 5827,
+              "w": 740,
+              "h": 476
+            },
+            "visible": true,
+            "text": "Transformational support with Premier S…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "48px",
+              "margin": "-17px 48px"
+            }
+          }
+        ],
+        ".overlay_description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 96,
+              "y": 5971,
+              "w": 644,
+              "h": 220
+            },
+            "visible": true,
+            "text": "Support designed to join you on your AI…",
+            "props": {
+              "fontSize": "18px",
+              "lineHeight": "22px",
+              "padding": "0px",
+              "margin": "8px 0px 0px"
+            }
+          }
+        ],
+        ".infoList": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 145,
+              "y": 6330,
+              "w": 1150,
+              "h": 177
+            },
+            "visible": true,
+            "text": "Lenovo AI PCs: Smarter Computing Across…",
+            "props": {
+              "fontSize": "12px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".less": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 145,
+              "y": 6387,
+              "w": 1150,
+              "h": 80
+            },
+            "visible": true,
+            "text": "Artificial intelligence (AI) is already…",
+            "props": {
+              "fontSize": "12px",
+              "lineHeight": "normal",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        ".readMore": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 145,
+              "y": 6467,
+              "w": 93,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Read More",
+            "props": {
+              "fontSize": "14px",
+              "lineHeight": "17px",
+              "padding": "0px",
+              "margin": "0px 10px 0px 0px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 128,
+              "y": 6528,
+              "w": 1184,
+              "h": 1142
+            },
+            "visible": true,
+            "text": "Which features should I look for in an …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "normal",
+              "padding": "48px 0px",
+              "margin": "0px 128px"
+            }
+          }
+        ],
+        ".x-cms-ai-ofp-fe-2c-accordion__tab-label": [
+          {
+            "index": 0,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6576,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Which features should I look for in an …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 1,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6633,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "How does AI support daily tasks and app…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 2,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6690,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Can an AI computer run AI features with…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 3,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6747,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "What Lenovo AI PCs are commonly used fo…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 4,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6804,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Is an AI-powered PC suitable for long w…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 5,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6861,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Does an AI PC desktop support multitask…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 6,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6918,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Can Lenovo AI PCs support Copilot+ PC e…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 7,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 6975,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "What do I consider when choosing the PC…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 8,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7032,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Is an AI desktop PC suitable for develo…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 9,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7089,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "What factors influence the AI PC price …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 10,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7146,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Does Lenovo provide AI desktop PCs for …",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          },
+          {
+            "index": 11,
+            "of": 18,
+            "rect": {
+              "x": 128,
+              "y": 7203,
+              "w": 1184,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Are Lenovo AI laptops available for use…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "16px 0px",
+              "margin": "0px"
+            }
+          }
+        ],
+        "footer.commonFooter": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7670,
+              "w": 1440,
+              "h": 983
+            },
+            "visible": true,
+            "text": "Enter email to receive Lenovo marketing…",
+            "props": {
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "padding": "0px",
+              "margin": "0px"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "deltas": {
+    "1440": {
+      "main.main_content": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 31
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".heroTextContent": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".layout-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "margin": [
+                "0px 120px",
+                "0px"
+              ]
+            }
+          }
+        ]
+      },
+      ".horizontal-default-pc": {
+        "status": "ok",
+        "countA": 5,
+        "countB": 5,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 3,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 40
+            },
+            "props": {}
+          },
+          {
+            "index": 4,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 6
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".horizontal-default-content__subtitle": {
+        "status": "ok",
+        "countA": 4,
+        "countB": 4,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontSize": [
+                "16px",
+                "24px"
+              ],
+              "margin": [
+                "0px 0px 16px",
+                "16px 0px 0px"
+              ]
+            }
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontSize": [
+                "16px",
+                "24px"
+              ],
+              "margin": [
+                "0px 0px 16px",
+                "16px 0px 0px"
+              ]
+            }
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontSize": [
+                "16px",
+                "24px"
+              ],
+              "margin": [
+                "0px 0px 16px",
+                "16px 0px 0px"
+              ]
+            }
+          },
+          {
+            "index": 3,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontSize": [
+                "16px",
+                "24px"
+              ],
+              "margin": [
+                "0px 0px 16px",
+                "16px 0px 0px"
+              ]
+            }
+          }
+        ]
+      },
+      ".commonTextOne": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 40,
+              "dw": 0,
+              "dh": -15
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".vertical-default-pc": {
+        "status": "ok",
+        "countA": 5,
+        "countB": 5,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 3,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 4,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".ai-cards .description": {
+        "status": "missing-a",
+        "countA": 0,
+        "countB": 4,
+        "pairs": []
+      },
+      ".ctaButton_link": {
+        "status": "ok",
+        "countA": 8,
+        "countB": 8,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 3,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 4,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 5,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 6,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 7,
+            "rect": {
+              "dx": 0,
+              "dy": 25,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".ctaButton_btn": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "lineHeight": [
+                "normal",
+                "22px"
+              ]
+            }
+          }
+        ]
+      },
+      ".pilar_blade": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 14,
+              "dw": 0,
+              "dh": 34
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".overlay_card": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".overlay_description": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".infoList": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 145,
+              "dy": 31,
+              "dw": -290,
+              "dh": 0
+            },
+            "props": {
+              "padding": [
+                "0px 145px",
+                "0px"
+              ]
+            }
+          }
+        ]
+      },
+      ".less": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".readMore": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": -5,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".x-cms-ai-ofp-fe-2c-accordion": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".x-cms-ai-ofp-fe-2c-accordion__tab-label": {
+        "status": "ok",
+        "countA": 12,
+        "countB": 12,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 1,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 2,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 3,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 4,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 5,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 6,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 7,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 8,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 9,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 10,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          },
+          {
+            "index": 11,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "footer.commonFooter": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 31,
+              "dw": 0,
+              "dh": -2
+            },
+            "props": {
+              "lineHeight": [
+                "normal",
+                "24px"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rootDeltas": {
+    "1440": {
+      "scrollWidth": 0,
+      "scrollHeight": 29
+    }
+  }
+}

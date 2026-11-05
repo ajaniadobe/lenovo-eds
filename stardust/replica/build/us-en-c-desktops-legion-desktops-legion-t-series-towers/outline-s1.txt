@@ -1,0 +1,42 @@
+div.slot_content.slot_content_a0bd8fa3s420d-4d03-a7e5-dac125d4cb40.slot_clsa0bd8fa3s420d-4d03-a7e5-dac125d4cb40
+  div
+    section.component-root.series-hero
+      input
+      article.series-hero--desktop.hero-rectangle-content
+        section.banner
+          div.al_unavailable_tip
+            p.unavailable_text
+              span «We're sorry,»
+              span.group_name
+              span.category_name
+              span «Products are temporarily unavailable.»
+            button.unavailable_link «Continue Shopping»
+        section.font-color-white.banner-container
+          div.series-hero__background
+            img src=//p1-ofp.static.pub//fes/cms/2026/05/28/6hto2qc5rqx6sneb4n08spoumjcdv6133511.jpg alt="Two Lenovo Legion T-Series towers with LED lighting, positioned side by side against a black background. "
+          div.wrap-left
+            nav.breadcrumbs
+              ol
+                li
+                  a.breadcrumb href=https://www.lenovo.com/us/en/ «Home»
+                li
+                  a.breadcrumb href=https://www.lenovo.com/us/en/desktops/ «Desktops and All-in-Ones»
+                li
+                  a.breadcrumb href=https://www.lenovo.com/us/en/c/desktops/legion-desktops/ «Legion Desktops»
+                li
+                  span.breadcrumb-current-page «T Series Towers»
+            div.product-logo
+              img src=//p2-ofp.static.pub/fes/cms/2022/05/02/x1qso7dgehcwsnjixp2i7sszyunjqq781960.png alt="T Series Towers"
+            div.product-name
+              h3.h-name
+                p «T Series Towers»
+            div.product-title
+              h3.h-title
+                p «Power, Unleashed»
+            div.product-desc
+              p «Lenovo Legion Towers are the pinnacle of engineering, balancing a refined chassis with customizable lighting and elite components. Featuring top-of-the-line processors and discrete graphics, these des»
+            div.hero-bottom-group
+              div.product-btn
+                button.series-hero__cta.series-hero__cta--button
+                  span «View T Series Towers»
+          div.wrap-center

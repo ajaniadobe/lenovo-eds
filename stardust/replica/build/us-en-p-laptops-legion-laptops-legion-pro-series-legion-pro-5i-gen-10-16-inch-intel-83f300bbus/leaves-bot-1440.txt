@@ -1,0 +1,14 @@
+#0 AccessoryPageBottom pageBottom [0,27282,1440,941]
+  T span.title_headline [145,27338,383,17] 14/17/700/rgb(0,0,0) «Lenovo.com pricing, restrictions, warranties, and more»
+  IMG up [533,27337,18,18] //p1-ofp.static.pub/fes/cms/2021/03/19/whntzne4ljm1szoy1zezkz50xy07tn042152.png alt=""
+  T p. [145,27366,1150,44] 16/22/400/rgb(0,0,0) «Consumers Only: Lenovo.com sells and ships products to end-user customers only. Lenovo may cancel your order i»
+  T p. [145,27432,1150,44] 16/22/400/rgb(0,0,0) «Limits: Limit 5 per customer. Offers valid from Lenovo in the US only. Lenovo may increase or decrease these l»
+  T p. [145,27498,1150,110] 16/22/400/rgb(0,0,0) «Ship date: Shipping times listed are estimates based on production time and product availability. An estimated»
+  T p. [145,27630,1150,66] 16/22/400/rgb(0,0,0) «Same Day Shipping: Products ship within the same business day (excl. bank holidays and weekends) for orders wh»
+  T p. [145,27718,1150,66] 16/22/400/rgb(0,0,0) «Availability: Offers, prices, specifications and availability may change without notice. Lenovo will contact y»
+  T p. [145,27806,1150,44] 16/22/400/rgb(0,0,0) «General: Review key information provided by Microsoft that may apply to your system purchase, including detail»
+    A [214,27806,343,22] «Review key information provided by Microsoft» href=https://www.lenovo.com/us/lenovopro/en/windows-legal-information-lenovo-us/
+  T p. [145,27872,1150,110] 16/22/400/rgb(0,0,0) «Trademarks: IdeaPad, Lenovo, Lenovo Legion, ThinkPad, ThinkCentre, ThinkStation, Yoga, the Lenovo logo and the»
+  T p. [145,28004,1150,66] 16/22/400/rgb(0,0,0) «Warranty: For a copy of applicable warranties, write to: Lenovo Warranty Information, 1009 Think Place, Morris»
+  T p. [145,28092,1150,66] 16/22/400/rgb(0,0,0) «Battery: These systems do not support batteries that are not genuine Lenovo-made or authorized. Systems will c»
+  T p. [145,28180,1150,22] 16/22/400/rgb(0,0,0) «Pricing: Does not include tax, shipping and handling, or recycling fees. Reseller prices may vary.»

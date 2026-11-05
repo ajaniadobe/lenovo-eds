@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-11-03T14:20:47.988Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.lenovo.com/",
+    "liveHost": "main--b3b47bf7--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 7
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 3,
+    "optimised": 7
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-ai-pcs",
+      "path": "/us/en/ai-pcs",
+      "stage": "optimised",
+      "templateId": "us-en-ai-pcs",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "path": "/us/en/c/desktops/legion-desktops/legion-t-series-towers",
+      "stage": "optimised",
+      "templateId": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-c-laptops-yoga-yoga-slim-series",
+      "path": "/us/en/c/laptops/yoga/yoga-slim-series",
+      "stage": "deployed",
+      "templateId": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-d-accessories-and-software-gaming-accessories",
+      "path": "/us/en/d/accessories-and-software/gaming-accessories",
+      "stage": "optimised",
+      "templateId": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-education-futureyou",
+      "path": "/us/en/education/futureyou",
+      "stage": "optimised",
+      "templateId": "us-en-ai-pcs",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-legion",
+      "path": "/us/en/legion",
+      "stage": "optimised",
+      "templateId": "us-en-ai-pcs",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-p-desktops-legion-desktops-legion-t-series-towers-lenovo-legion-tower-5i-gen-10-intel-len102g0009",
+      "path": "/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009",
+      "stage": "optimised",
+      "templateId": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "path": "/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus",
+      "stage": "deployed",
+      "templateId": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-p-laptops-yoga-yoga-slim-series-lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon-len101y0066",
+      "path": "/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066",
+      "stage": "optimised",
+      "templateId": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-ai-pcs",
+      "archetype": "us-en-ai-pcs",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 3
+      }
+    },
+    {
+      "id": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "archetype": "us-en-c-desktops-legion-desktops-legion-t-series-towers",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "archetype": "us-en-p-laptops-legion-laptops-legion-pro-series-legion-pro-5i-gen-10-16-inch-intel-83f300bbus",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 2
+      }
+    }
+  ],
+  "blocks": {
+    "total": 27,
+    "converted": 27
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      49,
+      94
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 4
+    },
+    "byAutofix": {}
+  }
+}

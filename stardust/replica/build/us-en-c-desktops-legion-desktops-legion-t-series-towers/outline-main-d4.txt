@@ -1,0 +1,26 @@
+main.main_content
+  div.container9999.cms_background_layout_color_a0bd8fa3s420d-4d03-a7e5-dac125d4cb40
+    div.layout
+      div.cms_layoutBox_auto_height.layoutGroup.layout_content.layout_content_a0bd8fa3s420d-4d03-a7e5-dac125d4cb40.clearfix
+        div.layout_content_style
+        div.slot_content.slot_content_a0bd8fa3s420d-4d03-a7e5-dac125d4cb40.slot_clsa0bd8fa3s420d-4d03-a7e5-dac125d4cb40
+  div.container9999.cms_background_layout_color_c0d8347as4d28-4b70-98db-226700d8bdfb
+    div.layout
+      div.cms_layoutBox_auto_height.layoutGroup.layout_content.layout_content_c0d8347as4d28-4b70-98db-226700d8bdfb.clearfix
+        div.layout_content_style
+        div.slot_content.slot_content_c0d8347as4d28-4b70-98db-226700d8bdfb.slot_clsc0d8347as4d28-4b70-98db-226700d8bdfb
+  div.container9999.cms_background_layout_color_e66f546fs8640-4db6-a305-0b044a865bba
+    div.layout
+      div.cms_layoutBox_auto_height.layoutGroup.layout_content.layout_content_e66f546fs8640-4db6-a305-0b044a865bba.clearfix
+        div.layout_content_style
+        div.slot_content.slot_content_e66f546fs8640-4db6-a305-0b044a865bba.slot_clse66f546fs8640-4db6-a305-0b044a865bba
+  div.container9999.cms_background_layout_color_0a3964e9s4098-46d9-9749-3b83a3aefb7b
+    div.layout
+      div.cms_layoutBox_auto_height.layoutGroup.layout_content.layout_content_0a3964e9s4098-46d9-9749-3b83a3aefb7b.clearfix
+        div.layout_content_style
+        div.slot_content.slot_content_0a3964e9s4098-46d9-9749-3b83a3aefb7b.slot_cls0a3964e9s4098-46d9-9749-3b83a3aefb7b
+  div.container9999.cms_background_layout_color_90b0dfe2sa0a0-41a6-9e67-a29aeb395bbc
+    div.layout
+      div.cms_layoutBox_auto_height.layoutGroup.layout_content.layout_content_90b0dfe2sa0a0-41a6-9e67-a29aeb395bbc.clearfix
+        div.layout_content_style
+        div.slot_content.slot_content_90b0dfe2sa0a0-41a6-9e67-a29aeb395bbc.slot_cls90b0dfe2sa0a0-41a6-9e67-a29aeb395bbc

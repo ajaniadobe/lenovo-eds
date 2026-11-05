@@ -1,0 +1,13 @@
+# source	destination — D-site: source paths that change on EDS (trailing slash dropped; source root /us/en/ → /)
+/us/en/	/
+/us/en	/
+/index.html	/
+/us/en/ai-pcs/	/us/en/ai-pcs
+/us/en/c/desktops/legion-desktops/legion-t-series-towers/	/us/en/c/desktops/legion-desktops/legion-t-series-towers
+/us/en/c/laptops/yoga/yoga-slim-series/	/us/en/c/laptops/yoga/yoga-slim-series
+/us/en/d/accessories-and-software/gaming-accessories/	/us/en/d/accessories-and-software/gaming-accessories
+/us/en/education/futureyou/	/us/en/education/futureyou
+/us/en/legion/	/us/en/legion
+/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009/	/us/en/p/desktops/legion-desktops/legion-t-series-towers/lenovo-legion-tower-5i-gen-10-intel/len102g0009
+/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus/	/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f300bbus
+/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066/	/us/en/p/laptops/yoga/yoga-slim-series/lenovo-yoga-slim-7x-gen-11-14-inch-snapdragon/len101y0066

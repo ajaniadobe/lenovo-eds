@@ -1,0 +1,3365 @@
+{
+  "url": "https://www.lenovo.com/us/en/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".merchandizingBanner .nextInfoBtn",
+      "frames": [
+        {
+          "t": 22393.099999999627,
+          "trackTransform": "matrix(1, 0, 0, 1, -5376, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22600.300000000745,
+          "trackTransform": "matrix(1, 0, 0, 1, -5376, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22815.700000001118,
+          "trackTransform": "matrix(1, 0, 0, 1, -5376, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23043,
+          "trackTransform": "matrix(1, 0, 0, 1, -5376, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".cmp-carousel .motion-carousel-controls-bar button[aria-label=\"Go to Next Slide\"]",
+      "frames": [
+        {
+          "t": 24130.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24335.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24539.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 24745.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".card-grid__wrapper button[aria-label=\"Next slide\"]",
+      "frames": [
+        {
+          "t": 25863.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26073,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26325.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26552.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".len-tabs__tab:nth-child(2)",
+      "frames": [
+        {
+          "t": 27705.700000001118,
+          "trackTransform": "matrix(1, 0, 0, 1, -5376, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 27916.5,
+          "trackTransform": "matrix(1, 0, 0, 1, -5376, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 28120.800000000745,
+          "trackTransform": "matrix(1, 0, 0, 1, -5376, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 28332.900000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".len-prompt-container__actions-group-list-btn.visible-desktop button",
+      "frames": [
+        {
+          "t": 29507.200000001118,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 29745.200000001118,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 29966.200000001118,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 30171.400000000373,
+          "trackTransform": "matrix(1, 0, 0, 1, 0, 0)",
+          "trackTransition": "all",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".len-card",
+      "changed": [
+        "a.cta-anchor-query-param.color",
+        "img.lazy.entered.transform",
+        "img.lazy.entered.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.cta-anchor-query-param",
+            "transform": "none",
+            "color": "rgb(23, 23, 23)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.lazy.entered",
+            "transform": "none",
+            "color": "rgb(23, 23, 23)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s ease-in-out"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.cta-anchor-query-param",
+            "transform": "none",
+            "color": "rgb(122, 18, 107)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.lazy.entered",
+            "transform": "matrix(1.06679, 0, 0, 1.06679, 0, 0)",
+            "color": "rgb(122, 18, 107)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s ease-in-out"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".cta-button__btn",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(122, 18, 107)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(122, 18, 107)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".commonHeader .nav_item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.lazy_href",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.lazy_href",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "span.iconfont-arrowDown",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".cta-button__link",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(23, 23, 23)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(225, 37, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".commonFooter .pc_footer_nav li a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(58, 58, 58)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(41, 78, 149)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active"
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.swiper-slide-next"
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active"
+      }
+    ],
+    "idleClassMutationCount": 4
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "width",
+        "el": "html > body.page.basicpage.Q28018ExpC > a.lenovoSurveyWidget-left.lenovoSurveySuppress > div > span.lenovoFeedbackText",
+        "y": 400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 342,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 5560,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "width",
+        "el": "div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.motion-carousel-progress-bar > div.motion-carousel-progress-track",
+        "y": 931,
+        "dur": "0.1s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.len-prompt-container__results-render--exp > div.len-prompt-xf-path > div.len-prompt-container__results-content > div.len-prompt-results > div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_unlock_next_gen_gaming_experiences_master",
+        "y": 931,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.len-prompt-container__results-render--exp > div.len-prompt-xf-path > div.len-prompt-container__results-content > div.len-prompt-results > div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_unlock_next_gen_gaming_experiences_master",
+        "y": 931,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.len-prompt-container__results-render--exp > div.len-prompt-xf-path > div.len-prompt-container__results-content > div.len-prompt-results > div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_safeguard_against_cyber_threats_master",
+        "y": 931,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.len-prompt-container__results-render--exp > div.len-prompt-xf-path > div.len-prompt-container__results-content > div.len-prompt-results > div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_safeguard_against_cyber_threats_master",
+        "y": 931,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-73619679E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 550,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-73619679E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 208,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "left",
+        "el": "nav.commonHeader > div.flex.nav_view > div > ul.sup_nav > li.normal_nav_item.nav_item",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "background-color",
+        "el": "nav.commonHeader > div.flex.nav_view > div > ul.sup_nav > li.normal_nav_item.nav_item",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "width",
+        "el": "nav.commonHeader > div.flex.nav_view > div > ul.sup_nav > li.normal_nav_item.nav_item",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "left",
+        "el": "nav.commonHeader > div.flex.nav_view > div > ul.sup_nav > li.normal_nav_item.nav_item",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "background-color",
+        "el": "nav.commonHeader > div.flex.nav_view > div > ul.sup_nav > li.normal_nav_item.nav_item",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "width",
+        "el": "nav.commonHeader > div.flex.nav_view > div > ul.sup_nav > li.normal_nav_item.nav_item",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-from.tier-leave-active",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-active.tier-leave-to",
+        "y": 190,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "lenovoSurveySuppress"
+        ],
+        "el": "html > body.page.basicpage.Q28018ExpC > a.lenovoSurveyWidget-left.lenovoSurveySuppress",
+        "y": 400
+      },
+      {
+        "added": [
+          "mixitup-ready"
+        ],
+        "el": "div.custom-container__wrapper.-no-mobile > div > div.prompt-group.base-component.section > div.len-prompt > div.len-prompt-container.creative.mixitup-ready",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-73619679E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-73619679E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-73619679E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-96567089E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-96567089E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-96567089E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-758519278E9.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-758519278E9.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-758519278E9.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-707519945E9.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-707519945E9.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-707519945E9.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-04851167E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-04851167E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-04851167E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-88644097E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-88644097E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-88644097E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-72893519E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-72893519E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-72893519E8.len-image--middle > picture > img.lazy.entered.loading",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-prompt-container.creative.mixitup-ready > div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-prompt-container.creative.mixitup-ready > div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-prompt-container.creative.mixitup-ready > div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-707519945E9.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-707519945E9.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-04851167E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-04851167E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-73619679E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-73619679E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-758519278E9.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-758519278E9.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-96567089E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-96567089E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-prompt-container.creative.mixitup-ready > div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-prompt-container.creative.mixitup-ready > div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-88644097E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-88644097E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-72893519E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__asset > div.len-card__asset-image > div.picture-tag.len-image__wrapper-72893519E8.len-image--middle > picture > img.lazy.entered.loaded",
+        "y": 400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-prompt-container__bg-image.len-prompt-container__bg-image--main > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.cmp-carousel__item--active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 1200
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-485342379E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-485342379E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-485342379E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-99642064E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-99642064E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-99642064E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-845408674E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-845408674E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-845408674E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-485342379E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-485342379E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-99642064E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-99642064E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-845408674E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-845408674E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 1200
+      },
+      {
+        "added": [
+          "display-rows"
+        ],
+        "el": "div > div.len-card-grid.section > div.card-grid.card-grid__04308714E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-rows",
+        "y": 2000
+      },
+      {
+        "added": [
+          "display-rows"
+        ],
+        "el": "div > div.len-card-grid.section > div.card-grid.card-grid__04308714E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-rows",
+        "y": 2000
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-04834406E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-04834406E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-04834406E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-41725101E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-41725101E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-41725101E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-75406688E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-75406688E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-75406688E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-57382089E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-57382089E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-57382089E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-04834406E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-04834406E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__31559201E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-41725101E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-41725101E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__31559201E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-75406688E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-75406688E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__31559201E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-57382089E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-57382089E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 2400
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__31559201E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 2400
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-65251498E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-65251498E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-65251498E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-769622239E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-769622239E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-769622239E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-11993481E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-11993481E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-11993481E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-016235066E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-016235066E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-016235066E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-769622239E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-769622239E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__357670982E9.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-65251498E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-65251498E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__357670982E9.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 3200
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__357670982E9.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-11993481E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-11993481E8 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "embla__lazy-load--has-loaded"
+        ],
+        "el": "div.len-card-grid.section > div.card-grid.card-grid__357670982E9.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-carousel > div.len-card-item.section.embla__lazy-load--has-loaded",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-016235066E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-card__bg-image.image > div.picture-tag > div.picture-tag.len-image__wrapper-016235066E9 > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 3200
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.content-package-banner > div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.content-package-banner > div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.content-package-banner > div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "entered",
+          "loading"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loading"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-first > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.alpha-wrap > div.picture-tag.alpha-second > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.content-package-banner > div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "loaded"
+        ],
+        "el": "div.content-package-banner > div.len-content-package-banner-bg-image.len-hero-banner__wrapper-bg-image--main.creative > div.picture-tag > picture.bg-image > img.bg-image.lazy.entered",
+        "y": 4000
+      },
+      {
+        "added": [
+          "display-rows"
+        ],
+        "el": "div > div.len-card-grid.section > div.card-grid.card-grid__98404219E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-rows",
+        "y": 4400
+      },
+      {
+        "added": [
+          "display-rows"
+        ],
+        "el": "div > div.len-card-grid.section > div.card-grid.card-grid__98404219E8.len-container > div.card-grid__wrapper.motion-carousel.embla > div.card-grid__cards.display-rows",
+        "y": 4400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.swiper-slide-next",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "visible-pause-button"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.motion-carousel-controls-bar > div.cta-button__wrap.cta-button__.motion-carousel-btn",
+        "y": 342
+      },
+      {
+        "added": [
+          "entered"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 342
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.cmp-carousel__item--active",
+        "y": 5560
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 5560
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 5560
+      },
+      {
+        "added": [
+          "len-tabs__tabpanel--active"
+        ],
+        "el": "div.custom-container__wrapper.-no-mobile > div > div.tabs.panelcontainer.section > div.len-tabs > div.len-tabs__tabpanel.len-tabs__tabpanel--active",
+        "y": 5560
+      },
+      {
+        "added": [
+          "len-tabs__tab--active"
+        ],
+        "el": "div.tabs.panelcontainer.section > div.len-tabs > div.vertical-tab-content-group > ol.len-tabs__tablist > li.len-tabs__tab.len-tabs__tab--active",
+        "y": 5560
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 5560
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.swiper-slide-next",
+        "y": 5560
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 5560
+      },
+      {
+        "added": [
+          "mixitup-selected"
+        ],
+        "el": "div.custom-container__wrapper.-no-mobile > div > div.prompt-group.base-component.section > div.len-prompt > div.len-prompt-container.creative.mixitup-ready",
+        "y": 931
+      },
+      {
+        "added": [
+          "mixitup-control-active"
+        ],
+        "el": "div.len-prompt-container__actions-group-list > form.len-prompt-container__actions-group-list-actions > div.len-prompt-container__actions-group-list-btn.visible-desktop > div.cta-button__wrap.cta-button__.prompt-btn > button.cta.cta-button__004416995E9.cta-button__btn",
+        "y": 931
+      },
+      {
+        "added": [
+          "mixitup-control-active"
+        ],
+        "el": "div.len-prompt-container__actions-group-list > form.len-prompt-container__actions-group-list-actions > div.len-prompt-container__actions-group-list-btn.visible-mobile > div.cta-button__wrap.cta-button__.prompt-btn > button.cta.cta-button__004416995E9.cta-button__btn",
+        "y": 931
+      },
+      {
+        "added": [
+          "prompt__lazy-load--has-loaded"
+        ],
+        "el": "div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_safeguard_against_cyber_threats_master > div.len-prompt-container__results-content--media > div.picture-tag > picture.bg-image > img.bg-image.lazy.prompt__lazy-load--has-loaded",
+        "y": 931
+      },
+      {
+        "added": [
+          "prompt__lazy-load--has-loaded"
+        ],
+        "el": "div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_increase_workforce_productivity_master > div.len-prompt-container__results-content--media > div.picture-tag > picture.bg-image > img.bg-image.lazy.prompt__lazy-load--has-loaded",
+        "y": 931
+      },
+      {
+        "added": [
+          "prompt__lazy-load--has-loaded"
+        ],
+        "el": "div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_lower_energy_costs_master > div.len-prompt-container__results-content--media > div.picture-tag > picture.bg-image > img.bg-image.lazy.prompt__lazy-load--has-loaded",
+        "y": 931
+      },
+      {
+        "added": [
+          "prompt__lazy-load--has-loaded"
+        ],
+        "el": "div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_create_without_limits_with_ai_master > div.len-prompt-container__results-content--media > div.picture-tag > picture.bg-image > img.bg-image.lazy.prompt__lazy-load--has-loaded",
+        "y": 931
+      },
+      {
+        "added": [
+          "prompt__lazy-load--has-loaded"
+        ],
+        "el": "div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_adapt_quickly_to_changing_needs__master > div.len-prompt-container__results-content--media > div.picture-tag > picture.bg-image > img.bg-image.lazy.prompt__lazy-load--has-loaded",
+        "y": 931
+      },
+      {
+        "added": [
+          "prompt__lazy-load--has-loaded"
+        ],
+        "el": "div.len-prompt-container__results-content--media-container.mix._content_experience_fragments_lenovo_site_www_en_site_helix_prompts_empower_a_future_ready_workforce_master > div.len-prompt-container__results-content--media > div.picture-tag > picture.bg-image > img.bg-image.lazy.prompt__lazy-load--has-loaded",
+        "y": 931
+      },
+      {
+        "added": [
+          "tier-enter-to"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-enter-active.tier-enter-to",
+        "y": 0
+      },
+      {
+        "added": [
+          "tier-enter-to"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-enter-active.tier-enter-to",
+        "y": 0
+      },
+      {
+        "added": [
+          "tier-leave-from",
+          "tier-leave-active"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-from.tier-leave-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "tier-leave-from",
+          "tier-leave-active"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-from.tier-leave-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "tier-leave-from",
+          "tier-leave-active"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-from.tier-leave-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "tier-leave-active"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-from.tier-leave-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "tier-leave-to"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-active.tier-leave-to",
+        "y": 190
+      },
+      {
+        "added": [
+          "tier-leave-to"
+        ],
+        "el": "div.cms_layoutBox_auto_height.layoutGroup.layout_content > div.slot_content.slot_content_f15b958a-505e-4216-99f4-70db85d165fc.slot_clsf15b958a-505e-4216-99f4-70db85d165fc > div > nav.commonHeader > div.second_view.tier-leave-active.tier-leave-to",
+        "y": 190
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.cmp-carousel__item--active",
+        "y": 190
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 190
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 190
+      },
+      {
+        "added": [
+          "entered"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 190
+      },
+      {
+        "added": [
+          "entered"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 190
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 7164
+      },
+      {
+        "added": [
+          "exited"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.carousel.panelcontainer.aem-GridColumn > div.cmp-carousel.embla.motion-carousel > div.cmp-carousel__content.embla__container.motion-carousel-container > div.lazy.cmp-carousel__item.embla__slide",
+        "y": 7164
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 7164
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 7164
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.swiper-slide-next",
+        "y": 7164
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.merchandizingBanner.flex > div.content.flex.carsoueltrue > div.banner-carousel.swiper.swiper-backface-hidden > div.swiper-wrapper > article.swiper-slide.merchandizingItem.active",
+        "y": 7164
+      }
+    ]
+  }
+}

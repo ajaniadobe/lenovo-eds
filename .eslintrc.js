@@ -1,5 +1,7 @@
 module.exports = {
   root: true,
+  // stardust/ holds migration tooling + captured/prototype assets (never served, see .hlxignore)
+  ignorePatterns: ['stardust/'],
   extends: 'airbnb-base',
   env: {
     browser: true,

@@ -1,0 +1,234 @@
+/* faq-accordion — live x-cms-ai-ofp-fe-2c-accordion (us-en-ai-pcs prototype § FAQ) */
+.faq-accordion {
+  width: 100%;
+  max-width: 1424px;
+  margin: 0 auto;
+  color: var(--c-ink);
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: normal;
+  /* stylelint-disable-next-line declaration-property-value-keyword-no-deprecated */
+  word-break: break-word; /* live main_content value */
+}
+
+.faq-accordion .faq-mobile-separator,
+.faq-accordion .faq-separator {
+  border-bottom: 1px solid #707070;
+}
+
+.faq-accordion .faq-mobile-separator {
+  display: none;
+}
+
+.faq-accordion .faq-list {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.faq-accordion .faq-item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.faq-accordion .faq-tab-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 324px;
+  padding: 16px 0;
+  color: inherit;
+  font: 400 16px/24px "Noto Sans", noto-sans-fallback, arial, sans-serif;
+  text-align: start;
+  cursor: pointer;
+}
+
+.faq-accordion .faq-label-text {
+  width: 90%;
+}
+
+.faq-accordion .faq-label-text :is(p, h2, h3, h4) {
+  font: inherit;
+  color: inherit;
+}
+
+.faq-accordion .faq-icon {
+  display: inline-flex;
+  flex: 0 0 16px;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  min-height: 24px;
+  margin-inline-end: 12px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.faq-accordion .faq-icon::before {
+  content: "\e929";
+  font-family: icomoon, sans-serif;
+  font-weight: 400;
+}
+
+.faq-accordion .faq-icon[aria-expanded="true"]::before {
+  content: "\2212";
+}
+
+.faq-accordion .faq-content {
+  padding: 0 40px 16px 0;
+}
+
+.faq-accordion .faq-content a:any-link {
+  color: #294e95;
+  text-decoration: underline;
+}
+
+@media (width >= 1280px) {
+  .faq-accordion {
+    padding: 48px 0;
+  }
+}
+
+@media (width >= 1280px) and (width <= 1919px) {
+  .faq-accordion {
+    max-width: 1184px;
+  }
+}
+
+@media (width >= 768px) and (width <= 1279px) {
+  .faq-accordion .faq-container {
+    padding: 48px;
+  }
+}
+
+@media (width <= 767px) {
+  .faq-accordion .faq-container {
+    padding: 24px;
+  }
+
+  .faq-accordion .faq-mobile-separator {
+    display: block;
+  }
+
+  .faq-accordion .faq-tab-label {
+    min-width: 0;
+  }
+
+  .faq-accordion .faq-icon {
+    margin-inline-end: 18px;
+  }
+}
+
+/* ---------- variant dark — live legion FAQ (widgets-title groups + type1-accordion) ---------- */
+.faq-accordion.dark {
+  max-width: none;
+  padding: 0 32px 32px;
+  background: #000;
+  color: #fff;
+  font-family: var(--font-display);
+}
+
+.faq-accordion.dark .faq-container {
+  padding: 0;
+}
+
+.faq-accordion.dark .faq-list {
+  margin: 0;
+}
+
+.faq-accordion.dark .faq-group-title {
+  padding: 48px 16px 22px;
+}
+
+.faq-accordion.dark .faq-group-title h2 {
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+}
+
+.faq-accordion.dark .faq-tab-label {
+  align-items: center;
+  min-height: 114px;
+  padding: 0;
+  font: 700 16px/22px var(--font-display);
+}
+
+.faq-accordion.dark .faq-icon {
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  margin: 0 -2px 0 0;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.faq-accordion.dark .faq-icon::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  margin-top: -6px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.faq-accordion.dark .faq-icon[aria-expanded="true"]::before {
+  content: "";
+  margin-top: 6px;
+  transform: rotate(225deg);
+}
+
+.faq-accordion.dark .faq-content {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.faq-accordion.dark .faq-content :is(p, li) {
+  margin-bottom: 8px;
+}
+
+.faq-accordion.dark .faq-content ul {
+  padding-left: 24px;
+  list-style: disc;
+}
+
+.faq-accordion.dark .faq-content a:any-link {
+  color: #0ff;
+}
+
+.faq-accordion.dark .faq-separator {
+  border-bottom-color: #8a8a8a;
+}
+
+.faq-accordion.dark .faq-mobile-separator {
+  display: none;
+}
+
+@media (width <= 767px) {
+  .faq-accordion.dark {
+    padding: 0 16px 24px;
+  }
+
+  /* live ≤767: 105px group titles; items are 32px padding + 18/18 question lines (min 111px) */
+  .faq-accordion.dark .faq-group-title {
+    padding: 40px 0 33px;
+  }
+
+  .faq-accordion.dark .faq-tab-label {
+    min-height: 111px;
+    padding: 32px 0;
+  }
+
+  .faq-accordion.dark .faq-label-text {
+    width: 229px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
